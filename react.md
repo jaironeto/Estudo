@@ -1,3 +1,5 @@
+https://imgur.com/a/FhGfj4J
+
 # <GET-STARTED-COMEÇO-RAPIDO>
 # Tutorial: Tic-Tac-Toe
 # Thinking in React

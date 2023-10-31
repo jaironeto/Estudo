@@ -65,56 +65,53 @@ O estudo das funções se embasa não na exelencia da rápida obtenção, mas em
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3AMatrizes-->
 
 # <MDN-Blocos-de-construção-JavaScript>
-# [OK] Tomando decisões em seu código – condicionais
-<!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Tomando+decis%C3%B5es+em+seu+c%C3%B3digo+%E2%80%93+condicionais%27#-->
-# [OK] Código em loop
+# [completed] Tomando decisões em seu código – condicionais
+<!--https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals-->
+# [completed] Código em loop
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27C%C3%B3digo+em+loop%27#-->
-# [OK] Funções — blocos de código reutilizáveis
+# [completed] Funções — blocos de código reutilizáveis
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Fun%C3%A7%C3%B5es+%E2%80%94+blocos+de+c%C3%B3digo+reutiliz%C3%A1veis%27#-->
-# [OK] Crie sua própria função
+# [completed] Crie sua própria função
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Crie+sua+pr%C3%B3pria+fun%C3%A7%C3%A3o%27#-->
-# [OK] Valores de retorno da função
+# [completed] Valores de retorno da função
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Valores+de+retorno+da+fun%C3%A7%C3%A3o%27#-->
-# [OK] Introdução aos eventos
+# [completed] Introdução aos eventos
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Introdu%C3%A7%C3%A3o+aos+eventos%27#-->
 
 # <MDN-Apresentando-objetos-JavaScript>
-# [OK] Noções básicas de objetos JavaScript
+# [completed] Noções básicas de objetos JavaScript
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27No%C3%A7%C3%B5es+b%C3%A1sicas+de+objetos+JavaScript%27#-->
-# [OK] Protótipos de objetos
+# [completed] Protótipos de objetos
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Prot%C3%B3tipos+de+objetos%27#-->
-# [OK] Programação orientada a objetos
+# [completed] Programação orientada a objetos
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Programa%C3%A7%C3%A3o+orientada+a+objetos%27#-->
-# [OK] Classes em JavaScript
+# [completed] Classes em JavaScript
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Classes+em+JavaScript%27#-->
 # [NOW-NOT] Trabalhando com JSON
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Trabalhando+com+JSON%27#-->
 
 # <MDN-JavaScript-assíncrono>
-# [OK] Apresentando JavaScript assíncrono
+# [completed] Apresentando JavaScript assíncrono
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Apresentando+JavaScript+ass%C3%ADncrono%27#-->
-# [OK] Como usar promessas
+# [completed] Como usar promessas
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Como+usar+promessas%27#-->
-# [OK] Como implementar uma API baseada em promessas
+# [completed] Como implementar uma API baseada em promessas
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Como+implementar+uma+API+baseada+em+promessas%27#-->
-# [NOT] Apresentando trabalhadores
+# [completed] Apresentando trabalhadores
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Apresentando+trabalhadores%27#-->
 
-
-**************************************** ORGANIZAR **************************************
-
 # <MDN-Guia-JavaScript>
-# [OK] Gramática e tipos
+# [completed] Gramática e tipos
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Gram%C3%A1tica+e+tipos%27#-->
-# [OK] Fluxo de controle e tratamento de erros
+# [completed] Fluxo de controle e tratamento de erros
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Fluxo+de+controle+e+tratamento+de+erros%27#-->
-# [OK] Loops e iteração
+# [completed] Loops e iteração
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Loops+e+itera%C3%A7%C3%A3o%27#-->
-# [OK] Funções
+# [completed] Funções
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3AFun%C3%A7%C3%B5es#-->
-# [OK] Expressões e operadores
+# [completed] Expressões e operadores
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Express%C3%B5es+e+operadores%27#-->
-# [OK] Formatação de texto
+# [completed] Formatação de texto
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Formata%C3%A7%C3%A3o+de+texto%27#-->
 # [OK] Coleções indexadas
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Cole%C3%A7%C3%B5es+indexadas%27#-->
