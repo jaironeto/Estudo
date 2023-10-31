@@ -113,21 +113,21 @@ O estudo das funções se embasa não na exelencia da rápida obtenção, mas em
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Express%C3%B5es+e+operadores%27#-->
 # [completed] Formatação de texto
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Formata%C3%A7%C3%A3o+de+texto%27#-->
-# [OK] Coleções indexadas
+# [completed] Coleções indexadas
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Cole%C3%A7%C3%B5es+indexadas%27#-->
-# [OK] Coleções codificadas
+# [completed] Coleções codificadas
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Cole%C3%A7%C3%B5es+codificadas%27#-->
-# [OK] Trabalhando com objetos
+# [completed] Trabalhando com objetos
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Trabalhando+com+objetos%27#-->
-# [OK] Usando classes
+# [completed] Usando classes
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Usando+classes%27#-->
-# [OK] Usando promessas
+# [completed] Usando promessas
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Usando+promessas%27#-->
-# [NOW] Iteradores e geradores
+# [completed] Iteradores e geradores
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27Iteradores+e+geradores%27#-->
-# [NOW] Metaprogramação
+# [completed] Metaprogramação
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3AMetaprograma%C3%A7%C3%A3o#-->
-# [NOW] Módulos JavaScript
+# [completed] Módulos JavaScript
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AJavaScript+tag%3A%27M%C3%B3dulos+JavaScript%27#-->
 
 # <MDN-Intermediário>

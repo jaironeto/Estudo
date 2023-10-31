@@ -22,4 +22,4 @@ https://react.dev/learn/writing-markup-with-jsx
 ```
 ```
 
-.javascriptex
+.javascriptmo
