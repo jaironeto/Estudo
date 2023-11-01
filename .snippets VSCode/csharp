@@ -1,0 +1,712 @@
+{
+/*****************************************************************************************/
+																// C#
+/*****************************************************************************************/
+
+	" ": {
+	"prefix": ".csharp conceitos basico | estrutura do programa",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/kHgQnVM.png)",
+		"",
+		"![Descrição da imagem](https://imgur.com/tcBN8I7.png)",
+		"",
+		"![Descrição da imagem](https://imgur.com/28kSNEF.png)",
+		"```",
+		],
+	"description": "11/23\n\rVisão geral\n\rMétodo Principal\n\rInstruções de nível superior"
+	},
+
+	"  ": {
+	"prefix": ".csharp conceitos basico | sistema de tipos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/mPR5bs9.png)",
+		"```",
+		],
+	"description": "Visao Geral"
+	},
+
+	"                       ": {
+	"prefix": ".csharp conceitos basico | sistema de tipos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/namespaces",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/Afm0tBE.png)",
+		"```",
+		],
+	"description": "Namespace"
+	},
+
+	"                        ": {
+	"prefix": ".csharp conceitos basico | sistema de tipos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/classes",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/wIw6SX8.png)",
+		"```",
+		],
+	"description": "Classe"
+	},
+
+	"                         ": {
+	"prefix": ".csharp conceitos basico | sistema de tipos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/records",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/ib3QfL7.png)",
+		"```",
+		],
+	"description": "Registro"
+	},
+
+	"                          ": {
+	"prefix": ".csharp conceitos basico | sistema de tipos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/interfaces",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/aAxDO1v.png)",
+		"```",
+		],
+	"description": "Interface"
+	},
+
+	"                           ": {
+	"prefix": ".csharp conceitos basico | sistema de tipos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/generics",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/UDD0292.png)",
+		"```",
+		],
+	"description": "Generico"
+	},
+
+	"                            ": {
+	"prefix": ".csharp conceitos basico | sistema de tipos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/anonymous-types",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/vswYauz.png)",
+		"```",
+		],
+	"description": "Tipos anonimo"
+	},
+
+	"                             ": {
+	"prefix": ".csharp conceitos basico | programacao orientada a objeto",
+		"body": [
+			"```",
+			"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/object-oriented/",
+			"```",
+			"```",
+			"![Descrição da imagem](https://imgur.com/D0j8H2b.png)",
+			"```",
+		],
+	"description": "Classes, structs e registro"
+	},
+
+	"                               ": {
+	"prefix": ".csharp conceitos basico | programacao orientada a objeto",
+		"body": [
+			"```",
+			"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/object-oriented/objects",
+			"```",
+			"```",
+			"![Descrição da imagem](https://imgur.com/ZAPZrPM.png)",
+			"```",
+		],
+	"description": "Objeto"
+	},
+
+	"                                ": {
+	"prefix": ".csharp conceitos basico | programacao orientada a objeto",
+		"body": [
+			"```",
+			"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/object-oriented/inheritance",
+			"```",
+			"```",
+			"![Descrição da imagem](https://imgur.com/8iHOpyh.png)",
+			"```",
+		],
+	"description": "Herança"
+	},
+
+	"                              ": {
+	"prefix": ".csharp conceitos basico | programacao orientada a objeto",
+		"body": [
+			"```",
+			"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/object-oriented/polymorphism",
+			"```",
+			"```",
+			"![Descrição da imagem](https://imgur.com/IU4N4E9.png)",
+			"```",
+			],
+	"description": "Polimorfismo"
+	},
+
+	"                                 ": {
+	"prefix": ".csharp conceitos basico | excecoes e erros",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/ngHNjBc.png)",
+		"```",
+		],
+	"description": "Visão geral"
+	},
+
+	"                                  ": {
+	"prefix": ".csharp conceitos basico | excecoes e erros",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/using-exceptions",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/wPxrsoq.png)",
+		"```",
+		],
+	"description": "Usar exceções"
+	},
+
+	"                                   ": {
+	"prefix": ".csharp conceitos basico | excecoes e erros",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/exception-handling",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/7vAKpfa.png)",
+		"```",
+		],
+	"description": "Tratamento de exceções"
+	},
+
+	"                                    ": {
+	"prefix": ".csharp conceitos basico | excecoes e erros",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/creating-and-throwing-exceptions",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/vwhaKUj.png)",
+		"```",
+		],
+	"description": "Criação e lançamento de exceções"
+	},
+	"                                     ": {
+	"prefix": ".csharp conceitos basico | excecoes e erros",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/compiler-generated-exceptions",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/sntZxrP.png)",
+		"```",
+		],
+	"description": "Exceções geradas pelo compilador"
+	},
+
+	"                                      ": {
+	"prefix": ".csharp conceitos basico | estilo de codificacao",
+		"body": [
+			"```",
+			"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/coding-style/identifier-names",
+			"```",
+			"```",
+			"![Descrição da imagem](https://imgur.com/lPPtb5n.png)",
+			"```",
+		],
+	"description": "Nomes de identificadores"
+	},
+
+	"                                       ": {
+	"prefix": ".csharp conceitos basico | estilo de codificacao",
+		"body": [
+			"```",
+			"- https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/coding-style/coding-conventions",
+			"```",
+			"```",
+			"![Descrição da imagem](https://imgur.com/TMuhLZq.png)",
+			"```",
+		],
+	"description": "Convenções de codificação"
+	},
+
+	"                                        ": {
+	"prefix": ".csharp conceitos de c# | metodos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/methods",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/kNap1GT.png)",
+		"```",
+		],
+	"description": "Metodos"
+	},
+
+	"                                         ": {
+	"prefix": ".csharp conceitos de c# | propriedades",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/properties",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/9QqF78Y.png)",
+		"```",
+		],
+	"description": "Propriedades"
+	},
+
+	"                                          ": {
+	"prefix": ".csharp conceitos de c# | indexadores",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/indexers",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/DNxGwvX.png)",
+		"```",
+		],
+	"description": "indexadores"
+	},
+
+	"                                           ": {
+	"prefix": ".csharp conceitos de c# | iterators",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/iterators",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/tazpS6i.png)",
+		"```",
+		],
+	"description": "iterators"
+	},
+
+	"                                            ": {
+	"prefix": ".csharp conceitos de c# | delegados e eventos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/delegates-overview",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/wt1f9e3.png)",
+		"```",
+		],
+	"description": "Introdução a Delegados"
+	},
+
+	"                                             ": {
+	"prefix": ".csharp conceitos de c# | delegados e eventos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/delegate-class",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/GwdzEIH.png)",
+		"```",
+		],
+	"description": "System.Delegate e a palavra-chave delegado"
+	},
+
+	"                                              ": {
+	"prefix": ".csharp conceitos de c# | delegados e eventos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/delegates-strongly-typed",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/zJHCW3U.png)",
+		"```",
+		],
+	"description": "Delegados Fortemente Tipados"
+	},
+
+	"                                               ": {
+	"prefix": ".csharp conceitos de c# | delegados e eventos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/events-overview",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/IMP0sgr.png)",
+		"```",
+		],
+	"description": "Introdução a eventos"
+	},
+
+	"                                                ": {
+	"prefix": ".csharp conceitos de c# | delegados e eventos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/event-pattern",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/QhQydVR.png)",
+		"```",
+		],
+	"description": "Padrões de evento .NET padrão"
+	},
+
+	"                                                 ": {
+	"prefix": ".csharp conceitos de c# | delegados e eventos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/modern-events",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/rSD9oD5.png)",
+		"```",
+		],
+	"description": "Padrão de Evento .NET Atualizado"
+	},
+
+	"                                                  ": {
+	"prefix": ".csharp conceitos de c# | delegados e eventos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/distinguish-delegates-events",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/UpAlopi.png)",
+		"```",
+		],
+	"description": "Distinção entre Delegados e Eventos"
+	},
+
+	"                                                   ": {
+	"prefix": ".csharp guia de programacao| interfaces",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/interfaces/explicit-interface-implementation",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/KLbmc8o.png)",
+		"```",
+		],
+	"description": "Implementação de interface explícita"
+	},
+
+	"                                                    ": {
+	"prefix": ".csharp guia de programacao | interfaces",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/interfaces/how-to-explicitly-implement-interface-members",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/GCapppr.png)",
+		"```",
+		],
+	"description": "Como implementar membros de interface explicitamente"
+	},
+
+	"                                                     ": {
+	"prefix": ".csharp guia de programacao | interfaces",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/interfaces/how-to-explicitly-implement-members-of-two-interfaces",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/Lha8Wrq.png)",
+		"```",
+		],
+	"description": "Como implementar membros de duas interfaces explicitamente"
+	},
+
+	"                                                      ": {
+	"prefix": ".csharp guia de programacao | cadeias de caracteres",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/strings/",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/FOFmwIb.png)",
+		"```",
+	 ],
+	"description": "Programando com cadeias de caracteres"
+	},
+
+	"                                                       ": {
+	"prefix": ".csharp guia de programacao | cadeias de caracteres",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/strings/how-to-determine-whether-a-string-represents-a-numeric-value",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/xpMsTGQ.png)",
+		"```",
+		],
+	"description": "Como determinar se uma cadeia de caracteres representa um valor numérico"
+	},
+
+	"                                                        ": {
+	"prefix": ".csharp guia de programacao | instrucoes expressoes e igualdade",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/statements-expressions-operators/statements",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/w15SXth.png)",
+		"```",
+		],
+	"description": "Visao geral"
+	},
+
+	"                                                         ": {
+	"prefix": ".csharp guia de programacao | instrucoes expressoes e igualdade",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/blY3Hvm.png)",
+		"```",
+		],
+	"description": "Membros aptos para expressao"
+	},
+
+	"                                                          ": {
+	"prefix": ".csharp guia de programacao | instrucoes expressoes e igualdade",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/statements-expressions-operators/equality-comparisons",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/ySvWIJH.png)",
+		"```",
+		],
+	"description": "Comparações de igualdade"
+	},
+
+	"                                                           ": {
+	"prefix": ".csharp guia de programacao | instrucoes expressoes e igualdade",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/statements-expressions-operators/how-to-define-value-equality-for-a-type",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/tLD2J4E.png)",
+		"```",
+		],
+	"description": "Como definir a igualdade de valor para um tipo"
+	},
+
+	"                                                            ": {
+	"prefix": ".csharp guia de programacao | instrucoes expressoes e igualdade",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/statements-expressions-operators/how-to-test-for-reference-equality-identity",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/pPhLkB0.png)",
+		"```",
+		],
+	"description": "Como testar a igualdade de referência (identidade)"
+	},
+
+	"   ": {
+	"prefix": ".csharp guia de programacao | genericos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/generic-type-parameters",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/wTAUnfr.png)",
+		"```",
+		],
+	"description": "Parametros de tipo generico"
+	},
+
+	"    ": {
+	"prefix": ".csharp guia de programacao | genericos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/a684LtY.png)",
+		"```",
+		],
+	"description": "Restricoes a parametros de tipo"
+	},
+
+	"     ": {
+	"prefix": ".csharp guia de programacao | genericos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/generic-classes",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/G2BuWcU.png)",
+		"```",
+		],
+	"description": "Classes genéricas"
+	},
+
+	"      ": {
+	"prefix": ".csharp guia de programacao | genericos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/generic-interfaces",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/pKg9HrY.png)",
+		"```",
+		],
+	"description": "Interfaces genéricas"
+	},
+
+	"       ": {
+	"prefix": ".csharp guia de programacao | genericos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/generic-methods",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/8WzeeWj.png)",
+		"```",
+		],
+	"description": "Métodos genéricos"
+	},
+
+	"        ": {
+	"prefix": ".csharp guia de programacao | genericos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/generics-and-arrays",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/xvVekwI.png)",
+		"```",
+		],
+	"description": "Genéricos e matrizes"
+	},
+
+	"         ": {
+	"prefix": ".csharp guia de programacao | genericos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/generic-delegates",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/53duklJ.png)",
+		"```",
+		],
+	"description": "Delegados genéricos"
+	},
+
+	"          ": {
+	"prefix": ".csharp guia de programacao | genericos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/differences-between-cpp-templates-and-csharp-generics",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/DkXG6mT.png)",
+		"```",
+		],
+	"description": "Diferenças entre modelos C++ e genéricos C#"
+	},
+
+	"           ": {
+	"prefix": ".csharp guia de programacao | genericos",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/generics-in-the-run-time",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/5SXy3uh.png)",
+		"```",
+		],
+	"description": "Genéricos em tempo de execução"
+	},
+
+	"            ": {
+	"prefix": ".csharp guia de programacao | indexadores",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/indexers/",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/tXXfOGr.png)",
+		"```",
+		],
+	"description": "Visão geral"
+	},
+
+	"             ": {
+	"prefix": ".csharp guia de programacao | indexadores",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/indexers/using-indexers",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/ppnYpok.png)",
+		"```",
+		],
+	"description": "Usando indexadores"
+	},
+
+	"              ": {
+	"prefix": ".csharp guia de programacao | indexadores",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/indexers/indexers-in-interfaces",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/MEtaHq0.png)",
+		"```",
+		],
+	"description": "Indexadores em interfaces"
+	},
+
+	"               ": {
+	"prefix": ".csharp guia de programacao | indexadores",
+		"body": [
+		"```",
+		"- https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/indexers/comparison-between-properties-and-indexers",
+		"```",
+		"```",
+		"![Descrição da imagem](https://imgur.com/q4GsulX.png)",
+		"```",
+		],
+	"description": "Comparação entre propriedades e indexadores"
+	},
+
+	/*"zzzzz": {
+	prefix": ".csharp guia de programacao | ",
+		"body": [
+		.
+		"```",
+		"- zzzz",
+		"```",
+		"```",
+		"![Descrição da imagem](zzz)",
+		"```",
+		.
+		],
+	"description": ""
+	},*/
+}

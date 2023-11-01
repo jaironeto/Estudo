@@ -214,11 +214,11 @@
 # (NOT] Matrizes
 # [completed] Cadeias de caracteres
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3ACadeia-de-caracteres#-->
-# [NOT] Indexadores
+# [completed] Indexadores
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3AIndexadores#-->
 # [NOT] Eventos
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3AEventos#-->
-# [NOT] Genericos
+# [completed] Genericos
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3AGenericos#-->
 # (NOT] Sistema de arquivos e o Registro
 # (NOT] Interoperabilidade
