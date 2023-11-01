@@ -22,16 +22,16 @@
 - Abstract e selead sao "variações" de estruturas de dados baseados em class, com mecanismo diferentes de uso. Portanto, há diferença conceitual entre interfaces; que tem como base outra estrutura de dados coms sua regras proprias, iguais ou nao a estruturas precedidas com class palavra-chave. Essa afirmação pressupe no não intercambel de herança entre interface e class (abstract, selead), e vice versa. O mesmo vale para struct, registro; sao todas estruturas distintas com suas proprias regras, iguals ou não a class, incapazes de intercambio de herança. Necessario o donwcast de class interface.
 
 # <Microsoft-Conceitos-Basicos>
-# [NOW] Estrutura do Programa 
+# [completed] Estrutura do Programa 
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3A%22Estrutura+do+Programa%22#-->
-# [NOW] Sistema de Tipos
+# [completed] Sistema de Tipos
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3ASistema-de-Tipos#-->
-# [NOW] Programação Orientada a Objeto
+# [completed] Programação Orientada a Objeto
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3APrograma%C3%A7%C3%A3o-Orientada-a-Objeto#-->
 # (NOW] Técnicas Funcionais
-# [NOW] Exceções e erros
+# [completed] Exceções e erros
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3AErro#-->
-# [NOW] Estilos de codificação
+# [completed] Estilos de codificação
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3AEstilos-de-codifica%C3%A7%C3%A3o#-->
 # (NOT] Tutorials
 
@@ -39,15 +39,15 @@
 # (NOT] Tipos de referência anuláveis
 # (NOT] Migrações de referência anuláveis
 # (NOT] Resolver avisos anuláveis
-# [NOW] Métodos
+# [completed] Métodos
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3AMetodos#-->
-# [NOW] Propriedades
+# [completed] Propriedades
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3APropriedades#-->
-# [NOW] Indexadores
+# [completed] Indexadores
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3AIndexadores#-->
-# [NOW] Iterators
+# [completed] Iterators
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3AIterators#-->
-# [NOW] Delegados e eventos
+# [completed] Delegados e eventos
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3ADelegados-e-eventos#-->
 # (NOT] LINQ (Consulta Integrada à Linguagem)
 # (NOT] Escrever código eficiente e seguro
@@ -56,7 +56,7 @@
 # (NOT] Controle de versão
 
 # <Microsoft-Guia-de-programação>
-# [NOT] Instruções expressoes e igualdade
+# [completed] Instruções expressoes e igualdade
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3AInstru%C3%A7%C3%B5es-expressoes-e-igualdade#-->
 # (NOT] Tipos
 # (NOT] Classes, Estruturas e Registos <polimorfismo,membros,propriedades>
@@ -207,12 +207,12 @@
 - As propriedades autoimplementadas tornam 
 - Você não pode declarar propriedades implementadas automaticamente
 - É possível inicializar as propriedades autoimplementadas da mesma
-# [NOT] Interfaces
+# [completed] Interfaces
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3Ainterfaces#-->
 # [NOT] Delegados
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3ADelegados#-->
 # (NOT] Matrizes
-# [NOT] Cadeias de caracteres
+# [completed] Cadeias de caracteres
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3ACadeia-de-caracteres#-->
 # [NOT] Indexadores
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3AC%23+tag%3AIndexadores#-->
