@@ -1,3 +1,6 @@
+> organizar presente
+organizar futuro
+organizar lib / code
 
-> HTML DOCS
-a 
+> didatico language / faculdade
+> codigo
