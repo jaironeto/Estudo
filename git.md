@@ -1,30 +1,28 @@
-Pro Git 1.1 Sobre Controle de Versão
+1.1 Sobre Controle de Versão
 <!--https://hypothes.is/search?q=tag%3A%221.1%22#-->
-> Pro Git 1.3 O Básico do Git
+> [completed] 1.3 O Básico do Git
 <!--https://hypothes.is/groups/99gVerPe/estudo?q=tag%3A1.3#--->
-> Pro Git 1.4 A Linha de Comando
+> [completed] 1.4 A Linha de Comando
 <!--https://hypothes.is/search?q=tag%3A%221.4%22#-->
-> Pro Git 1.5 Começando - Instalando o Git
-<!--https://hypothes.is/search?q=tag%3A%221.5%22#-->
-> Pro Git 1.6 Configuração Inicial do Git
+> [completed] 1.6 Configuração Inicial do Git
 <!--https://hypothes.is/search?q=tag%3A%221.6%22#-->
-> Pro Git 1.7 Pedindo Ajuda
+> [completed] 1.7 Pedindo Ajuda
 <!--https://hypothes.is/search?q=tag%3A%221.7%22#-->
 
 # <Noções-básicas-de-Git>
-> 2.1 Obtendo um repositório Git
+> [completed] 2.1 Obtendo um repositório Git
 <!--https://hypothes.is/search?q=tag%3A%222.1%22#-->
-> 2.2 Gravando alterações no repositório
+> [completed] 2.2 Gravando alterações no repositório
 <!--https://hypothes.is/search?q=tag%3A%222.2%22#-->
-> 2.3 Visualizando o histórico de commits
+> [completed] 2.3 Visualizando o histórico de commits
 <!--https://hypothes.is/search?q=tag%3A%222.3%22#-->
-> 2.4 Desfazendo coisas
+> [completed] 2.4 Desfazendo coisas
 <!--https://hypothes.is/search?q=tag%3A%222.4%22#-->
-> 2.5 Trabalhando com controles remotos
+> [completed] 2.5 Trabalhando com controles remotos
 <!--https://hypothes.is/search?q=tag%3A%222.5%22#-->
-> 2.6 Marcação
+> [completed] 2.6 Marcação
 <!--https://hypothes.is/search?q=tag%3A%222.6%22#-->
-> 2.7 Aliases do Git
+> [completed] 2.7 Aliases do Git
 <!--https://hypothes.is/search?q=tag%3A%222.7%22#-->
 
 # <Git-Branching>

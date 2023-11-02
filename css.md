@@ -35,53 +35,53 @@ https://themewagon.com/themes/
 - icone pesquisa e em um background e posicionar com as propriedades adequadas
 
 # <Primeiros-passos-CSS>
-# [NOT] O que é CSS?
+# [completed] O que é CSS
 <!--https://hypothes.is/search?q=tag%3A%22o-que-e-css%22#-->
-# [NOT] Introdução ao CSS
+# [completed] Introdução ao CSS
 <!--https://hypothes.is/search?q=tag%3Acss+tag%3Acss+introducao-ao-css#-->
-# [NOT] Como o CSS é estruturado
+# [completed] Como o CSS é estruturado
 <!--https://hypothes.is/search?q=tag%3A%22como-o-css-e-estruturado%22#-->
-# [NOT] Como funciona o CSS
+# [completed] Como funciona o CSS
 <!--https://hypothes.is/search?q=tag%3Acomo-funciona-o-css#-->
 # (NOT] Estilizando uma página de biografia
 
 # <Blocos-de-construção-CSS>
-# [NOT] Seletores CSS
+# [completed] Seletores CSS
 <!--https://hypothes.is/search?q=tag%3A%22seletores%22#-->
-# [NOT] Seletores de tipo, classe e ID
+# [completed] Seletores de tipo, classe e ID
 <!--https://hypothes.is/search?q=tag%3A%22Seletores-de-tipo-classe-e-ID%22#-->
-# [NOT] Seletores de atributos
+# [completed] Seletores de atributos
 <!--https://hypothes.is/search?q=tag%3A%22Seletores-de-atributos%22#-->
-# [NOT] Pseudoclasses e pseudoelementos
+# [completed] Pseudoclasses e pseudoelementos
 <!--https://hypothes.is/search?q=tag%3A%22Pseudoclasses-e-pseudoelementos%22#-->
-# [NOT] Combinadores
+# [completed] Combinadores
 <!--https://hypothes.is/search?q=tag%3A%22Combinators%22#-->
-# [NOT] Cascata, especificidade e herança
+# [completed] Cascata, especificidade e herança
 <!--https://hypothes.is/search?q=tag%3A%22Cascata-especificidade-e-heran%C3%A7a%22#-->
-# [NOT] Camadas em cascata
+# [completed] Camadas em cascata
 <!--https://hypothes.is/search?q=tag%3A%22Camadas-em-cascata%22#-->
-# [NOT] O modelo da caixa
+# [completed] O modelo da caixa
 <!--https://hypothes.is/search?q=tag%3A%22O-modelo-da-caixa%22#-->
-# [NOT] Planos de fundo e bordas
+# [completed] Planos de fundo e bordas
 <!--https://hypothes.is/search?q=tag%3A%22Planos-de-fundo-e-bordas%22#-->
-# [NOT] Lidando com diferentes direções de texto
+# [completed] Lidando com diferentes direções de texto
 <!--https://hypothes.is/search?q=tag%3A%22Lidando-com-diferentes-dire%C3%A7%C3%B5es-de-texto%22#-->
-# [NOT] Transbordando conteúdo
+# [completed] Transbordando conteúdo
 <!--https://hypothes.is/search?q=tag%3A%22Transbordando-conte%C3%BAdo%22#-->
-# [NOT] Valores e unidades CSS
+# [completed] Valores e unidades CSS
 <!--https://hypothes.is/search?q=tag%3A%22Valores-e-unidades%22#-->
-# [NOT] Dimensionando itens em CSS
+# [completed] Dimensionando itens em CSS
 <!--https://hypothes.is/search?q=tag%3A%22Dimensionando-itens-em-CSS%22#-->
-# [NOT] Imagens, mídia e elementos de formulário
+# [completed] Imagens, mídia e elementos de formulário
 <!--https://hypothes.is/search?q=tag%3A%22Imagens-m%C3%ADdia-e-elementos%22#-->
 # (NOT] Depurando CSS
-# [NOT] Organizando seu CSS
+# [completed] Organizando seu CSS
 <!--https://hypothes.is/search?q=tag%3A%22Organizando-seu-CSS%22#-->
 
 # <Estilizando-texto>
-# [NOT] Texto fundamental e estilo de fonte
+# [completed] Texto fundamental e estilo de fonte
 <!--https://hypothes.is/search?q=tag%3A%22Texto-fundamental%22#-->
-# [NOT] Fontes da web
+# (NOT] Fontes da web
 <!--https://hypothes.is/search?q=tag%3A%22Fontes-da-web%22#-->
 
 # <Layout>
