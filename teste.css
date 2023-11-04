@@ -1,38 +1,33 @@
-Properties
--moz-*
--moz-float-edgeNon-standard Deprecated
--moz-force-broken-image-iconNon-standard Deprecated
--moz-image-regionNon-standard
--moz-orientNon-standard
--moz-user-focusNon-standard
--moz-user-inputNon-standardDeprecated
--webkit-*
--webkit-border-beforeNon-standard
--webkit-box-reflectNon-standard
+-moz-image-region ⚠️
+-moz-orient ⚠️
+-moz-user-focus ⚠️
+
+-webkit-border-before ⚠️
+-webkit-box-reflect ⚠️
 -webkit-line-clamp
--webkit-mask-attachmentNon-standard
--webkit-mask-box-imageNon-standard
--webkit-mask-compositeNon-standard
--webkit-mask-position-xNon-standard
--webkit-mask-position-yNon-standard
--webkit-mask-repeat-xNon-standard
--webkit-mask-repeat-yNon-standard
--webkit-overflow-scrollingNon-standard
--webkit-tap-highlight-colorNon-standard
+-webkit-mask-attachment ⚠️
+-webkit-mask-box-image ⚠️
+-webkit-mask-composite ⚠️
+-webkit-mask-position-x ⚠️
+-webkit-mask-position-y ⚠️
+-webkit-mask-repeat-x ⚠️
+-webkit-mask-repeat-y ⚠️
+-webkit-overflow-scrolling ⚠️
+-webkit-tap-highlight-color ⚠️
 -webkit-text-fill-color
--webkit-text-securityNon-standard
+-webkit-text-security ⚠️
 -webkit-text-stroke
 -webkit-text-stroke-color
 -webkit-text-stroke-width
--webkit-touch-calloutNon-standard
+-webkit-touch-callout ⚠️
 accent-color
-align-*
+
 align-content
 align-items
 align-self
-align-tracks EXPERIMENTAL
+align-tracks ⚠️
 all
-animation-*
+
 animation
 animation-composition
 animation-delay
@@ -42,16 +37,16 @@ animation-fill-mode
 animation-iteration-count
 animation-name
 animation-play-state
-animation-rangeExperimental
-animation-range-endExperimental
-animation-range-startExperimental
-animation-timelineExperimental
+animation-range ⚠️
+animation-range-end ⚠️
+animation-range-start ⚠️
+animation-timeline ⚠️
 animation-timing-function
 appearance
 aspect-ratio
 backdrop-filter
 backface-visibility
-background-*
+
 background
 background-attachment
 background-blend-mode
@@ -65,7 +60,7 @@ background-position-y
 background-repeat
 background-size
 block-size
-border-*
+
 border
 border-block
 border-block-color
@@ -128,30 +123,21 @@ border-top-style
 border-top-width
 border-width
 bottom
-box-*
-box-alignNon-standardDeprecated
+
 box-decoration-break
-box-directionNon-standardDeprecated
-box-flexNon-standardDeprecated
-box-flex-groupNon-standardDeprecated
-box-linesNon-standardDeprecated
-box-ordinal-groupNon-standardDeprecated
-box-orientNon-standardDeprecated
-box-packNon-standardDeprecated
 box-shadow
 box-sizing
-break-*
+
 break-after
 break-before
 break-inside
 caption-side
 caret-color
 clear
-clipDeprecated
 clip-path
 color
 color-scheme
-column-*
+
 column-count
 column-fill
 column-gap
@@ -162,20 +148,20 @@ column-rule-width
 column-span
 column-width
 columns
-contain-*
+
 contain
 contain-intrinsic-block-size
 contain-intrinsic-height
 contain-intrinsic-inline-size
 contain-intrinsic-size
 contain-intrinsic-width
-container-*
+
 container
 container-name
 container-type
 content
-content-visibilityExperimental
-counter-*
+content-visibility ⚠️
+
 counter-increment
 counter-reset
 counter-set
@@ -184,7 +170,7 @@ direction
 display
 empty-cells
 filter
-flex-*
+
 flex
 flex-basis
 flex-direction
@@ -193,7 +179,7 @@ flex-grow
 flex-shrink
 flex-wrap
 float
-font-*
+
 font
 font-family
 font-feature-settings
@@ -203,7 +189,7 @@ font-optical-sizing
 font-palette
 font-size
 font-size-adjust
-font-smoothNon-standard
+font-smooth ⚠️
 font-stretch
 font-style
 font-synthesis
@@ -223,7 +209,7 @@ font-variation-settings
 font-weight
 forced-color-adjust
 gap
-grid-*
+
 grid
 grid-area
 grid-auto-columns
@@ -244,14 +230,14 @@ height
 hyphenate-character
 hyphenate-limit-chars
 hyphens
-image-*
+
 image-orientation
 image-rendering
-image-resolutionExperimental
-initial-letterExperimental
-initial-letter-alignExperimental
+image-resolution ⚠️
+initial-letter ⚠️
+initial-letter-align ⚠️
 inline-size
-inset-*
+
 inset
 inset-block
 inset-block-end
@@ -260,23 +246,23 @@ inset-inline
 inset-inline-end
 inset-inline-start
 isolation
-justify-*
+
 justify-content
 justify-items
 justify-self
-justify-tracksExperimental
+justify-tracks ⚠️
 left
 letter-spacing
-line-*
+
 line-break
 line-height
-line-height-stepExperimental
-list-*
+line-height-step ⚠️
+
 list-style
 list-style-image
 list-style-position
 list-style-type
-margin-*
+
 margin
 margin-block
 margin-block-end
@@ -288,8 +274,8 @@ margin-inline-start
 margin-left
 margin-right
 margin-top
-margin-trimExperimental
-mask-*
+margin-trim ⚠️
+
 mask
 mask-border
 mask-border-mode
@@ -307,17 +293,17 @@ mask-position
 mask-repeat
 mask-size
 mask-type
-masonry-auto-flowExperimental
-math-*
+masonry-auto-flow ⚠️
+
 math-depth
-math-shiftExperimental
+math-shift ⚠️
 math-style
-max-*
+
 max-block-size
 max-height
 max-inline-size
 max-width
-min-*
+
 min-block-size
 min-height
 min-inline-size
@@ -325,23 +311,23 @@ min-width
 mix-blend-mode
 object-fit
 object-position
-offset-*
+
 offset
 offset-anchor
 offset-distance
 offset-path
-offset-positionExperimental
+offset-position ⚠️
 offset-rotate
 opacity
 order
 orphans
-outline-*
+
 outline
 outline-color
 outline-offset
 outline-style
 outline-width
-overflow-*
+
 overflow
 overflow-anchor
 overflow-block
@@ -350,13 +336,13 @@ overflow-inline
 overflow-wrap
 overflow-x
 overflow-y
-overscroll-*
+
 overscroll-behavior
 overscroll-behavior-block
 overscroll-behavior-inline
 overscroll-behavior-x
 overscroll-behavior-y
-padding-*
+
 padding
 padding-block
 padding-block-end
@@ -368,7 +354,7 @@ padding-inline-start
 padding-left
 padding-right
 padding-top
-page-*
+
 page
 page-break-after
 page-break-before
@@ -376,7 +362,7 @@ page-break-inside
 paint-order
 perspective
 perspective-origin
-place-*
+
 place-content
 place-items
 place-self
@@ -388,10 +374,10 @@ resize
 right
 rotate
 row-gap
-ruby-alignExperimental
+ruby-align ⚠️
 ruby-position
 scale
-scroll-*
+
 scroll-behavior
 scroll-margin
 scroll-margin-block
@@ -418,27 +404,27 @@ scroll-padding-top
 scroll-snap-align
 scroll-snap-stop
 scroll-snap-type
-scroll-timelineExperimental
-scroll-timeline-axisExperimental
-scroll-timeline-nameExperimental
-scrollbar-*
+scroll-timeline ⚠️
+scroll-timeline-axis ⚠️
+scroll-timeline-name ⚠️
+
 scrollbar-color
 scrollbar-gutter
 scrollbar-width
-shape-*
+
 shape-image-threshold
 shape-margin
 shape-outside
 tab-size
 table-layout
-text-*
+
 text-align
 text-align-last
 text-combine-upright
 text-decoration
 text-decoration-color
 text-decoration-line
-text-decoration-skipExperimental
+text-decoration-skip ⚠️
 text-decoration-skip-ink
 text-decoration-style
 text-decoration-thickness
@@ -452,20 +438,20 @@ text-orientation
 text-overflow
 text-rendering
 text-shadow
-text-size-adjustExperimental
+text-size-adjust ⚠️
 text-transform
 text-underline-offset
 text-underline-position
-text-wrapExperimental
-timeline-scopeExperimental
+text-wrap ⚠️
+timeline-scope ⚠️
 top
 touch-action
-transform-*
+
 transform
 transform-box
 transform-origin
 transform-style
-transition-*
+
 transition
 transition-delay
 transition-duration
@@ -473,18 +459,17 @@ transition-property
 transition-timing-function
 translate
 unicode-bidi
-user-modifyNon-standardDeprecated
 user-select
 vertical-align
-view-*
-view-timelineExperimental
-view-timeline-axisExperimental
-view-timeline-insetExperimental
-view-timeline-nameExperimental
-view-transition-nameExperimental
+
+view-timeline ⚠️
+view-timeline-axis ⚠️
+view-timeline-inset ⚠️
+view-timeline-name ⚠️
+view-transition-name ⚠️
 visibility
 white-space
-white-space-collapseExperimental
+white-space-collapse ⚠️
 widows
 width
 will-change
@@ -492,4 +477,4 @@ word-break
 word-spacing
 writing-mode
 z-index
-zoomNon-standard
+zoom ⚠️
