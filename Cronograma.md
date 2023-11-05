@@ -1,8 +1,8 @@
-> Diario Limites
+> Limites para nao extrapollar
 
-- max 2 horas blibioteca
-- max 4 horas organizar
-- max 4 horas language / faculdade
+- max 4 horas organizar / cursos
+- max 4 horas language / blibiotecas / codigo analise
+- livre faculdade
 - livre codigo
 
 **parei exemplo css**
