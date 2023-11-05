@@ -1,4 +1,4 @@
-> Limites para nao extrapollar
+> Limites maximo
 
 - max 4 horas organizar / cursos
 - max 4 horas language / blibiotecas / codigo analise
