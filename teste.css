@@ -11,10 +11,10 @@ animation-play-state
 animation-timing-function
 animation-timeline
 
-At-rules
+/*At-rules*/
 @keyframes{}
 
-Events
+/*Events*/
 animationstart
 animationend
 animationcancel
