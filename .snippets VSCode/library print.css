@@ -28,100 +28,13 @@ align-self
 align-tracks ⚠️
 all
 
-animation
-animation-composition
-animation-delay
-animation-direction
-animation-duration
-animation-fill-mode
-animation-iteration-count
-animation-name
-animation-play-state
-animation-range ⚠️
-animation-range-end ⚠️
-animation-range-start ⚠️
-animation-timeline ⚠️
-animation-timing-function
 appearance
 aspect-ratio
 backdrop-filter
 backface-visibility
 
-background
-background-attachment
-background-blend-mode
-background-clip
-background-color
-background-image
-background-origin
-background-position
-background-position-x
-background-position-y
-background-repeat
-background-size
 block-size
 
-border
-border-block
-border-block-color
-border-block-end
-border-block-end-color
-border-block-end-style
-border-block-end-width
-border-block-start
-border-block-start-color
-border-block-start-style
-border-block-start-width
-border-block-style
-border-block-width
-border-bottom
-border-bottom-color
-border-bottom-left-radius
-border-bottom-right-radius
-border-bottom-style
-border-bottom-width
-border-collapse
-border-color
-border-end-end-radius
-border-end-start-radius
-border-image
-border-image-outset
-border-image-repeat
-border-image-slice
-border-image-source
-border-image-width
-border-inline
-border-inline-color
-border-inline-end
-border-inline-end-color
-border-inline-end-style
-border-inline-end-width
-border-inline-start
-border-inline-start-color
-border-inline-start-style
-border-inline-start-width
-border-inline-style
-border-inline-width
-border-left
-border-left-color
-border-left-style
-border-left-width
-border-radius
-border-right
-border-right-color
-border-right-style
-border-right-width
-border-spacing
-border-start-end-radius
-border-start-start-radius
-border-style
-border-top
-border-top-color
-border-top-left-radius
-border-top-right-radius
-border-top-style
-border-top-width
-border-width
 bottom
 
 box-decoration-break
@@ -134,7 +47,6 @@ break-inside
 caption-side
 caret-color
 clear
-clip-path
 color
 color-scheme
 
@@ -276,34 +188,14 @@ margin-right
 margin-top
 margin-trim ⚠️
 
-mask
-mask-border
-mask-border-mode
-mask-border-outset
-mask-border-repeat
-mask-border-slice
-mask-border-source
-mask-border-width
-mask-clip
-mask-composite
-mask-image
-mask-mode
-mask-origin
-mask-position
-mask-repeat
-mask-size
-mask-type
 masonry-auto-flow ⚠️
-
 math-depth
 math-shift ⚠️
 math-style
-
 max-block-size
 max-height
 max-inline-size
 max-width
-
 min-block-size
 min-height
 min-inline-size
@@ -318,6 +210,7 @@ offset-distance
 offset-path
 offset-position ⚠️
 offset-rotate
+
 opacity
 order
 orphans
@@ -336,12 +229,6 @@ overflow-inline
 overflow-wrap
 overflow-x
 overflow-y
-
-overscroll-behavior
-overscroll-behavior-block
-overscroll-behavior-inline
-overscroll-behavior-x
-overscroll-behavior-y
 
 padding
 padding-block
@@ -362,7 +249,6 @@ page-break-inside
 paint-order
 perspective
 perspective-origin
-
 place-content
 place-items
 place-self
@@ -377,7 +263,202 @@ row-gap
 ruby-align ⚠️
 ruby-position
 scale
+shape-image-threshold
+shape-margin
+shape-outside
+tab-size
+table-layout
+text-align
+text-align-last
+text-combine-upright
+text-decoration
+text-decoration-color
+text-decoration-line
+text-decoration-skip ⚠️
+text-decoration-skip-ink
+text-decoration-style
+text-decoration-thickness
+text-emphasis
+text-emphasis-color
+text-emphasis-position
+text-emphasis-style
+text-indent
+text-justify
+text-orientation
+text-overflow
+text-rendering
+text-shadow
+text-size-adjust ⚠️
+text-transform
+text-underline-offset
+text-underline-position
+text-wrap ⚠️
+timeline-scope ⚠️
+top
+touch-action
+transform
+transform-box
+transform-origin
+transform-style
+translate
+unicode-bidi
+user-select
+vertical-align
+view-timeline ⚠️
+view-timeline-axis ⚠️
+view-timeline-inset ⚠️
+view-timeline-name ⚠️
+view-transition-name ⚠️
+visibility
+white-space
+white-space-collapse ⚠️
+widows
+width
+will-change
+word-break
+word-spacing
+writing-mode
+z-index
+zoom ⚠️
 
+
+/*ANIMATIONNN*/
+/*Properties*/
+animation
+animation-composition
+animation-delay
+animation-direction
+animation-duration
+animation-fill-mode
+animation-iteration-count
+animation-name
+animation-play-state
+animation-range ⚠️
+animation-range-end ⚠️
+animation-range-start ⚠️
+animation-timeline ⚠️
+animation-timing-function
+animation-timeline
+
+
+/*At-rules*/
+@keyframes{}
+
+/*Events*/
+animationstart
+animationend
+animationcancel
+animationiteration
+Interfaces
+Web Animations API
+AnimationEvent
+CSSKeyframeRule
+CSSKeyframesRule
+
+/*MASCARA*/
+clip-path
+mask
+mask-border
+mask-border-mode
+mask-border-outset
+mask-border-repeat
+mask-border-slice
+mask-border-source
+mask-border-width
+mask-clip
+mask-composite
+mask-image
+mask-mode
+mask-origin
+mask-position
+mask-repeat
+mask-size
+mask-type
+
+/*TRANSITION*/
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+
+/*BACKGROUND E BORDER*/
+background
+background-attachment
+background-blend-mode
+background-clip
+background-color
+background-image
+background-origin
+background-position
+background-position-x
+background-position-y
+background-repeat
+background-size
+
+border
+border-block
+border-block-color
+border-block-end
+border-block-end-color
+border-block-end-style
+border-block-end-width
+border-block-start
+border-block-start-color
+border-block-start-style
+border-block-start-width
+border-block-style
+border-block-width
+border-bottom
+border-bottom-color
+border-bottom-left-radius
+border-bottom-right-radius
+border-bottom-style
+border-bottom-width
+border-collapse
+border-color
+border-end-end-radius
+border-end-start-radius
+border-image
+border-image-outset
+border-image-repeat
+border-image-slice
+border-image-source
+border-image-width
+border-inline
+border-inline-color
+border-inline-end
+border-inline-end-color
+border-inline-end-style
+border-inline-end-width
+border-inline-start
+border-inline-start-color
+border-inline-start-style
+border-inline-start-width
+border-inline-style
+border-inline-width
+border-left
+border-left-color
+border-left-style
+border-left-width
+border-radius
+border-right
+border-right-color
+border-right-style
+border-right-width
+border-spacing
+border-start-end-radius
+border-start-start-radius
+border-style
+border-top
+border-top-color
+border-top-left-radius
+border-top-right-radius
+border-top-style
+border-top-width
+border-width
+
+/*SCROOL*/
 scroll-behavior
 scroll-margin
 scroll-margin-block
@@ -412,69 +493,8 @@ scrollbar-color
 scrollbar-gutter
 scrollbar-width
 
-shape-image-threshold
-shape-margin
-shape-outside
-tab-size
-table-layout
-
-text-align
-text-align-last
-text-combine-upright
-text-decoration
-text-decoration-color
-text-decoration-line
-text-decoration-skip ⚠️
-text-decoration-skip-ink
-text-decoration-style
-text-decoration-thickness
-text-emphasis
-text-emphasis-color
-text-emphasis-position
-text-emphasis-style
-text-indent
-text-justify
-text-orientation
-text-overflow
-text-rendering
-text-shadow
-text-size-adjust ⚠️
-text-transform
-text-underline-offset
-text-underline-position
-text-wrap ⚠️
-timeline-scope ⚠️
-top
-touch-action
-
-transform
-transform-box
-transform-origin
-transform-style
-
-transition
-transition-delay
-transition-duration
-transition-property
-transition-timing-function
-translate
-unicode-bidi
-user-select
-vertical-align
-
-view-timeline ⚠️
-view-timeline-axis ⚠️
-view-timeline-inset ⚠️
-view-timeline-name ⚠️
-view-transition-name ⚠️
-visibility
-white-space
-white-space-collapse ⚠️
-widows
-width
-will-change
-word-break
-word-spacing
-writing-mode
-z-index
-zoom ⚠️
+overscroll-behavior
+overscroll-behavior-block
+overscroll-behavior-inline
+overscroll-behavior-x
+overscroll-behavior-y
