@@ -1,85 +1,49 @@
 
-:-moz-broken ⚠️
-:-moz-drag-over ⚠️
-:-moz-first-node ⚠️
-:-moz-handler-blocked ⚠️
-:-moz-handler-crashed ⚠️
-:-moz-handler-disabled ⚠️
-:-moz-last-node ⚠️
-:-moz-loading ⚠️
-:-moz-locale-dir(ltr) ⚠️
-:-moz-locale-dir(rtl) ⚠️
-:-moz-only-whitespace ⚠️
-:-moz-submit-invalid ⚠️
-:-moz-suppressed ⚠️
-:-moz-user-disabled ⚠️
-:-moz-window-inactive ⚠️
-:active
-:any-link
-:autofill
-:blank ⚠️
-:buffering
-:checked
-:current
-:default
-:defined
-:dir()
-:disabled
-:empty
-:enabled
-:first
-:first-child
-:first-of-type
-:focus
-:focus-visible
-:focus-within
-:fullscreen
-:future ⚠️
-:has()
-:host
-:host-context()
-:host()
-:hover
-:in-range
-:indeterminate
-:invalid
-:is()
-:lang()
-:last-child
-:last-of-type
-:left
-:link
-:local-link
-:modal
-:muted
-:not()
-:nth-child()
-:nth-last-child()
-:nth-last-of-type()
-:nth-of-type()
-:only-child
-:only-of-type
-:optional
-:out-of-range
-:past ⚠️
-:paused
-:picture-in-picture
-:placeholder-shown
-:playing
-:popover-open ⚠️
-:read-only
-:read-write
-:required
-:right
-:root
-:scope
-:seeking
-:stalled
-:target
-:target-within ⚠️
-:user-invalid
-:user-valid
-:valid
-:visited
-:volume-locked
-:where()
+::-moz-color-swatch ⚠️
+::-moz-focus-inner ⚠️
+::-moz-list-bullet ⚠️
+::-moz-list-number ⚠️
+::-moz-page ⚠️
+::-moz-page-sequence ⚠️
+::-moz-progress-bar ⚠️
+::-moz-range-progress ⚠️
+::-moz-range-thumb ⚠️
+::-moz-range-track ⚠️
+::-moz-scrolled-page-sequence ⚠️
+::-webkit-inner-spin-button ⚠️
+::-webkit-meter-bar ⚠️
+::-webkit-meter-even-less-good-value ⚠️
+::-webkit-meter-inner-element ⚠️
+::-webkit-meter-optimum-value ⚠️
+::-webkit-meter-suboptimum-value ⚠️
+::-webkit-outer-spin-button ⚠️
+::-webkit-progress-bar ⚠️
+::-webkit-progress-inner-element ⚠️
+::-webkit-progress-value ⚠️
+::-webkit-scrollbar ⚠️
+::-webkit-search-cancel-button ⚠️
+::-webkit-search-results-button ⚠️
+::-webkit-slider-runnable-track ⚠️
+::-webkit-slider-thumb ⚠️
+::after
+::backdrop
+::before
+::cue
+::cue-region
+::file-selector-button
+::first-letter
+::first-line
+::grammar-error ⚠️
+::highlight() ⚠️
+::marker
+::part()
+::placeholder
+::selection
+::slotted()
+::spelling-error ⚠️
+::target-text ⚠️
+::view-transition ⚠️
+::view-transition-group ⚠️
+::view-transition-image-pair ⚠️
+::view-transition-new ⚠️
+::view-transition-old ⚠️
