@@ -1,12 +1,12 @@
 {
 	/*****************************************************************************************/
-																	// Javascript Library
+	//																Javascript Library
 	/*****************************************************************************************/
 	
 	
 		"javascript": {
 		"scope": "javascript, typescript",
-		"prefix": "_lib",
+		"prefix": "_!ib",
 			"body": [
 				"```",
 				"> **Propriedades de valor**\n",
@@ -155,7 +155,7 @@
 		},
 	
 	/*****************************************************************************************/
-																	// Javascript Codigo
+	//																Javascript Codigo
 	/*****************************************************************************************/
 	
 		"javascript 0.0": {
@@ -623,7 +623,7 @@
 		},
 	
 	/*****************************************************************************************/
-																	// DOM
+	//																DOM
 	/*****************************************************************************************/
 		"Dom 1.1": {
 			"scope": "javascript, typescript",
@@ -944,7 +944,7 @@
 			"description": ""
 		},*/
 	/*****************************************************************************************/
-																	// Javascript
+	//																Javascript
 	/*****************************************************************************************/
 	
 		"   ": {
@@ -958,7 +958,7 @@
 					"![Descrição da imagem](https://imgur.com/SDYInCP.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"    ": {
@@ -972,7 +972,7 @@
 					"![Descrição da imagem](https://imgur.com/hm8Yfxv.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"      ": {
@@ -986,7 +986,7 @@
 					"![Descrição da imagem](https://imgur.com/kwf21IR.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 		
 		"       ": {
@@ -1000,7 +1000,7 @@
 					"![Descrição da imagem](https://imgur.com/IVl7Eyf.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"         ": {
@@ -1028,7 +1028,7 @@
 					"![Descrição da imagem](https://imgur.com/SWEpXvS.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 		
 		"           ": {
@@ -1042,7 +1042,7 @@
 					"![Descrição da imagem](https://imgur.com/lvwaGtg.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 		
 		"            ": {
@@ -1056,11 +1056,11 @@
 					"![Descrição da imagem](https://imgur.com/6oSIN78.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		
-		"11/23             ": {
+		"                                ": {
 			"scope": "javascript, typescript",
 		"prefix": ".javascript programacao orientada a objetos",
 				"body": [
@@ -1071,10 +1071,10 @@
 					"![Descrição da imagem](https://imgur.com/zehWR8K.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
-		"11/23              ": {
+		"                                 ": {
 			"scope": "javascript, typescript",
 		"prefix": ".javascript classes em javascript",
 				"body": [
@@ -1085,10 +1085,10 @@
 					"![Descrição da imagem](https://imgur.com/GE5VrUY.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
-		"11/23               ": {
+		"                                  ": {
 			"scope": "javascript, typescript",
 		"prefix": ".javascript apresentando javaScript assincrono",
 				"body": [
@@ -1099,7 +1099,7 @@
 					"![Descrição da imagem](https://imgur.com/PRGC3qo.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"     ": {
@@ -1113,7 +1113,7 @@
 					"![Descrição da imagem](https://imgur.com/kwpE2Ea.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"        ": {
@@ -1127,7 +1127,7 @@
 					"![Descrição da imagem](https://imgur.com/S6KZGTW.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                ": {
@@ -1156,7 +1156,7 @@
 					"![Descrição da imagem](https://imgur.com/rQHZimn.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"              ": {
@@ -1170,7 +1170,7 @@
 					"![Descrição da imagem](https://imgur.com/P763eFm.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"               ": {
@@ -1184,7 +1184,7 @@
 					"![Descrição da imagem](https://imgur.com/Y7yUsYv.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                 ": {
@@ -1199,7 +1199,7 @@
 					"![Descrição da imagem](https://imgur.com/d6q8DWO.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                  ": {
@@ -1214,7 +1214,7 @@
 					"![Descrição da imagem](https://imgur.com/lcqHeTl.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                   ": {
@@ -1228,7 +1228,7 @@
 					"![Descrição da imagem](https://imgur.com/wuJshfZ.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                     ": {
@@ -1243,7 +1243,7 @@
 					"![Descrição da imagem](https://imgur.com/n0xjDo9.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                      ": {
@@ -1257,7 +1257,7 @@
 					"![Descrição da imagem](https://imgur.com/4jZAxCb.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                        ": {
@@ -1271,7 +1271,7 @@
 					"![Descrição da imagem](https://imgur.com/oPA5nEc.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                         ": {
@@ -1286,7 +1286,7 @@
 					"![Descrição da imagem](https://imgur.com/97SnBLU.png)",
 					"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                          ": {
@@ -1360,13 +1360,12 @@
 						],
 			"description": ""
 		},*/
-	
 	/*****************************************************************************************/
-																	// React
+	//																React
 	/*****************************************************************************************/
 	
 		"                                                 ": {
-		"scope": "javascript, typescript",
+			"scope": "javascript, typescript",
 		"prefix": ".react mantendo os componentes puros",
 			"body": [
 				"```",
@@ -1377,11 +1376,11 @@
 				"```",
 				"```",
 					],
-				"description": ""
+		"description": "11/23"
 		},
 	
 		"                                                ": {
-		"scope": "javascript, typescript",
+			"scope": "javascript, typescript",
 		"prefix": ".react renderizando listas",
 			"body": [
 				"```",
@@ -1396,7 +1395,7 @@
 		},
 	
 		"                                               ": {
-		"scope": "javascript, typescript",
+			"scope": "javascript, typescript",
 		"prefix": ".react renderização condicional",
 			"body": [
 				"```",
@@ -1411,7 +1410,7 @@
 	
 		"                                              ": {
 			"scope": "javascript, typescript",
-			"prefix": ".react passando acessórios para um componente",
+		"prefix": ".react passando acessórios para um componente",
 				"body": [				
 					"```",
 					"> https://react.dev/learn/passing-props-to-a-component",
@@ -1423,9 +1422,9 @@
 					"description": ""
 		},
 	
-			"                                             ": {
+		"                                             ": {
 			"scope": "javascript, typescript",
-			"prefix": ".react javaScript em jsx com chaves",
+		"prefix": ".react javaScript em jsx com chaves",
 				"body": [
 					"```",
 					"> https://react.dev/learn/javascript-in-jsx-with-curly-braces",
@@ -1435,10 +1434,10 @@
 					"```",
 					"```",
 						],
-					"description": ""
+		"description": "11/23"
 		},
 	
-		"10/23                                            ": {
+		"                                                                ": {
 			"scope": "javascript, typescript",
 		"prefix": ".react escrevendo marcação com JSX",
 				"body": [
@@ -1450,10 +1449,10 @@
 					"```",
 					"```",
 						],
-					"description": ""
+		"description": "11/23"
 		},
 	
-		"10/23                                                  ": {
+		"                                                                     ": {
 			"scope": "javascript, typescript",
 		"prefix": ".react importando e exportando componentes",
 				"body": [
@@ -1464,7 +1463,7 @@
 					"![Descrição da imagem](https://imgur.com/51SwtMD.png)",
 					"```",
 						],
-				"description": ""
+		"description": "11/23"
 		},
 	
 		"                                          ": {
@@ -1479,10 +1478,10 @@
 					"```",
 					"```",
 						],
-					"description": ""
+		"description": "11/23"
 		},
 	
-		"10/23                                         ": {
+		"                                                                      ": {
 			"scope": "javascript, javascriptreact, typescriptreact",
 		"prefix": ".react descrevendo a IU",
 			"body": [
@@ -1494,11 +1493,11 @@
 				"```",
 				"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 	/*****************************************************************************************/
-																	// React Codigo
+	//																React Codigo
 	/*****************************************************************************************/
 	
 		"react 1.1": {
@@ -2118,7 +2117,7 @@
 			"description": ""
 		},*/
 	/*****************************************************************************************/
-																	// Express
+	//																Express
 	/*****************************************************************************************/
 	
 		/*"                                                          ": {
@@ -2168,7 +2167,7 @@
 					"![Descrição da imagem](https://imgur.com/U721ymn.png)",
 					"```",
 					"```",						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                                                     ": {
@@ -2182,7 +2181,7 @@
 					"![Descrição da imagem](https://imgur.com/d5Ri7tV.png)",
 					"```",
 					"```",					],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                                                    ": {
@@ -2197,7 +2196,7 @@
 				"```",
 				"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                                                   ": {
@@ -2212,7 +2211,7 @@
 				"```",
 				"```",
 						],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                                        ": { // zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
@@ -2221,7 +2220,7 @@
 			"body": [
 			/// 
 					],
-			"description": ""
+		"description": ""
 		},
 	
 		"                                       ": {
@@ -2235,7 +2234,7 @@
 				"![Descrição da imagem](https://imgur.com/eHtdkay.png)",
 				"```",
 					],
-			"description": ""
+		"description": ""
 		},
 	
 		"                                      ": {
@@ -2249,10 +2248,10 @@
 				"![Descrição da imagem](https://imgur.com/rK4aIUn.png)",
 				"```",
 					],
-			"description": ""
+		"description": ""
 		},
 	
-		"ok                                     ": {
+		"                                                                       ": {
 		"scope": "javascript, typescript",
 		"prefix": ".express usando o middleware",
 			"body": [
@@ -2264,10 +2263,10 @@
 				"```",
 				"```",
 					],
-			"description": ""
+		"description": ""
 		},
 	
-		"ok                                    ": {
+		"                                                                        ": {
 		"scope": "javascript, typescript",
 		"prefix": ".express escrevendo o middleware",
 			"body": [
@@ -2279,7 +2278,7 @@
 				"```",
 				"```",
 					],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"                                   ": {
@@ -2294,12 +2293,12 @@
 				"```",
 				"```",
 					],
-			"description": ""
+		"description": "11/23"
 		},
 	
 		"express": {
 			"scope": "javascript",
-			"prefix": "_lib",
+			"prefix": "_!ib",
 			"body": [
 				"```",
 				"> express()",
@@ -2412,7 +2411,7 @@
 		},
 	
 	/*****************************************************************************************/
-																	// Express Codigo
+	//																Express Codigo
 	/*****************************************************************************************/
 	
 		"express 1.1": {
@@ -2662,13 +2661,13 @@
 		},*/
 	
 	/*****************************************************************************************/
-																	// Typescript
+	//																Typescript
 	/*****************************************************************************************/
 	
 		"typescript": {
-		"scope": "typescript",
-		"prefix": "...maestria",
-		"body": [
+			"scope": "typescript",
+		"prefix": "_maestria",
+			"body": [
 			"```",
 			"- compilar o codigo",
 			"- Tipos explícitos parametro de function",
@@ -2753,311 +2752,97 @@
 			"- Reandoly direto no parametro da função",
 			"```",
 					],
-		"description": ""
+			"description": ""
 		},
 	
-		"                       ": {
+		"                                                               ": {
 			"scope": "typescript",
-			"prefix": ".typescript",
-			"body": [
+		"prefix": ".typescript tipos do dia a dia",
+				"body": [
 				"```",
-				"**O básico**",
-				"- Todo e qualquer valor em JavaScript tem			",
-				"- A única maneira em JavaScript puro de dizer o que fnfaz com um determinado valor é			",
-				"- O JavaScript só fornece realmente digitação dinâmica - executando o			",
-				"- A alternativa é usar um sistema de tipo estático para fazer			",
-				"- Por exemplo, a especificação diz que tentar chamar algo que não pode ser chamado deve gerar um erro. Talvez isso soe como “comportamento óbvio”, mas você pode imaginar que acessar uma propriedade que não existe em um objeto deve gerar um erro também. Em vez disso, o JavaScript nos dá			",
-				"- Isso significa que o TypeScript também pode ser aproveitado para edição de código, e o verificador de tipo principal pode fornecer mensagens de erro e conclusão de código conforme você digita no editor. Isso é parte do que as pessoas geralmente se referem			",
-				"- O compilador tenta emitir um código legível limpo que se pareça com algo que uma pessoa escreveria. Embora isso nem sempre seja tão fácil, o TypeScript recua			",
-				"- Uma coisa que você pode não ter notado no último exemplo foi que nosso hello.jsarquivo mudou novamente. Se abrirmos esse arquivo, veremos que o conteúdo ainda se parece basicamente com o nosso arquivo de entrada. Isso pode ser um pouco surpreendente dado o fato de que tscreportamos um erro sobre nosso código, mas isso é baseado em um dos valores centrais do TypeScript: na maior parte do tempo			",
-				"- O que são anotações de tipo, para que serve? com ele o TypeScript pode nos informar sobre outros casos em que",
-				"- Lembre-se de que nem sempre precisamos escrever anotações de tipo explícitas. Em muitos casos, o TypeScript pode apenas			",
-				"- As anotações de tipo não fazem parte			",
-				"- portanto, realmente não existem",
-				"- É por isso que o TypeScript precisa de			",
-				"- --target es2015alterações			",
-				"- afinal, voltar anyé apenas a experiência simples do			",
-				"- O strictNullCheckssinalizador torna			",
-				"- Para alguns valores, como os primitivos stringe number, podemos identificar seu tipo em tempo de execução usando o typeofoperador. Mas para outras coisas como funções, não há			",
-				"- O verificador de tipo tem informações para verificar coisas como se estamos acessando			",
-				"- Ativar o noImplicitAnysinalizador emitirá um erro em qualquer variável cujo			",
-				"- Para que serve noEmitOnError !			",
-				"",
+				"> https://www.typescriptlang.org/docs/handbook/2/everyday-types.html",
+				"```",
+				"```",
+				"![Descrição da imagem](https://imgur.com/MxryJmY.png)",
+				"```",	
+						],
+				"description": ""
+		},
 	
-				"**Tipos do dia a dia**",
-				"- JavaScript tem três primitivos muito comumente usados			",
-				"- Quando um valor é do tipo any, você pode			",
-				"- O anytipo é útil quando você não deseja escrever			",
-				"- Use o sinalizador do compilador noImplicitAnypara sinalizar qualquer			",
-				"- Assim como as anotações de tipo de variável, você geralmente não precisa de uma anotação de tipo de retorno porque			",
-				"- Esse processo é chamado de digitação contextual porque			",
-				"- Os tipos de objeto também podem especificar que algumas ou todas as suas propriedades são opcionais . Para fazer isso, adicione			",
-				"- Em JavaScript, se você acessar uma propriedade que não existe, obterá o valor undefinedem vez de um erro de tempo de execução. Por causa disso, ao ler uma propriedade opcional, você terá			",
-				"- É fácil fornecer um valor correspondente a um tipo de união - basta fornecer um tipo",
-				"- O estreitamento ocorre quando o TypeScript pode			",
-				"- Às vezes você terá uma união onde todos os membros têm algo em comum. Por exemplo, arrays e strings possuem um slicemétodo. Se todos os membros de uma união tiverem uma propriedade em comum, você poderá			",
-				"- Na verdade, você pode usar um alias de tipo para dar um nome a			",
-				"- Observe que aliases são apenas aliases - você não pode usar aliases de tipo para			",
-				"- Quando você usa o alias, é exatamente como se			",
-				"- Uma declaração de interface é outra maneira de			",
-				"- Como uma anotação de tipo, as asserções de tipo são removidas pelo compilador e não afetarão			",
-				"- Lembrete: como as asserções de tipo são removidas em tempo de compilação, não há verificação de tempo de execução associada a uma asserção de tipo. Não haverá uma exceção ou nullgerada se			",
-				"- O TypeScript permite apenas declarações de tipo que convertem em uma versão			",
-				"- Às vezes, essa regra pode ser muito conservadora e não permitirá coerções mais complexas que possam ser válidas. Se isso acontecer, você pode			",
-				"- Além dos tipos gerais stringe number, podemos nos referir a strings e números específicos em",
-				"- O as constsufixo age como constmas para o sistema de tipos, garantindo que todas as propriedades sejam			",
-				"- O TypeScript também possui uma sintaxe especial para remover nulle undefinedde um tipo sem fazer nenhuma verificação			",
-				"- O TypeScript também tem um tipo especial, any, que você pode usar sempre que			",
-				"- Funções são o principal meio de			",
-				"- Ao declarar uma função, você pode adicionar			",
-				"- Para definir um tipo de objeto, simplesmente listamos			",
-				"- O sistema de tipos do TypeScript permite que você crie			",
-				"- As anotações do tipo de retorno aparecem após			",
-				"- A primeira maneira de combinar tipos que você pode ver é um tipo de união . Um tipo de união é um tipo formado por			",
-				"- Aliases de tipo e interfaces são muito semelhantes e, em muitos casos, você pode escolher entre eles livremente. Quase todos os recursos de um interfaceestão disponíveis em type, a principal distinção é que um tipo não pode			",
-				"- Quando você inicializa uma variável com um objeto, o TypeScript assume que as propriedades desse objeto podem			",
-				"- Por exemplo, se você estiver usando document.getElementById, o TypeScript sabe apenas que isso retornará algum tipo de HTMLElement, mas você pode saber que sua página sempre terá um HTMLCanvasElementcom um determinado ID. Nessa situação, você pode usar uma declaração de tipo para especificar um tipo mais específico:",
-				"- Os nomes de tipo String, Numbere Boolean(começando com letras maiúsculas) são legais, mas referem-se			",
-				"- Para especificar o tipo de um array como [1, 2, 3], você pode usar			",
-				"- Quando você não especifica um tipo e o TypeScript não pode inferi-lo a partir do contexto			",
-				"- Ao declarar uma variável usando const, var, ou let, você pode opcionalmente			",
-				"- Existem duas maneiras de contornar isso			",
-				"- Sempre use			",
-				"- Você também pode ver isso escrito como			",
-				"- Observe que isso [number]			",
-				"- Você geralmente deseja evitar isso			",
-				"- Na maioria dos casos, porém, isso não é necessário			",
-				"- TypeScript permite que você especifique os tipos de valores			",
-				"- As anotações de tipo de parâmetro vêm			",
-				"- Quando um parâmetro possui uma anotação de tipo			",
-				"- Mesmo que você não tenha anotações de tipo em seus parâmetros, o TypeScript			",
-				"- Você também pode adicionar anotações de tipo			",
-				"- Além dos primitivos, o tipo mais comum que você encontrará é um object type . Refere-se a qualquer valor JavaScript			",
-				"- Você pode usar ou para separar as propriedades			",
-				"- A parte do tipo de cada propriedade também é opcional. Se você não especificar um tipo			",
-				"- O TypeScript só permitirá uma operação se for válida para todos os membros do sindicato			",
-				"- A solução é restringir a união com o código			",
-				"- Temos usado tipos de objetos e tipos de união, escrevendo-os diretamente em anotações de tipo. Isso é conveniente			",
-				"- Um alias de tipo é exatamente isso: um nome para qualquer tipo			",
-				"- O TypeScript se preocupa apenas com a estrutura do valor para o qual passamos printCoord			",
-				"- chamamos TypeScript de sistema de tipos estruturalmente tipados			",
-				"",
-	
-				"**Mais sobre funções**",
-				"- A maneira mais simples de descrever uma função é com uma			",
-				"- As funções JavaScript também podem ser			",
-				"- No TypeScript, os genéricos são usados			",
-				"- Ao adicionar um parâmetro de tipo Typea essa função e usá-lo em dois locais			",
-				"- Alguns objetos, como Date			",
-				"- Às vezes, queremos relacionar dois valores			",
-				"- O problema é que a função promete			",
-				"- As funções em JavaScript geralmente			",
-				"- padrão de parâmetro			",
-				"- assinatura de implementação			",
-				"- void			",
-				"- object			",
-				"- unknown			",
-				"- never			",
-				"- Function			",
-				"- se você chamar uma função com mais argumentos			",
-				"- podemos fornecer			",
-				"- Você pode usar a desestruturação de parâmetros			",
-				"- Além de usar			",
-				"- Observe que			",
-				"- Um parâmetro rest			",
-				"- especificar manualmente			",
-				"- No TypeScript, podemos especificar uma função			",
-				"",
-	
-				"**Tipos de objetos**",
-				"- Cada propriedade em um tipo de objeto pode especificar algumas coisas:			",
-				"- Assim como ReadonlyArray, ele não tem representação em tempo de execução, mas é significativo			",
-				"- O TypeScript fornece outra construção chamada tipos de interseção que é usada principalmente			",
-				"- interfaces também podem se estender de vários tipos. ts			",
-				"- A extendspalavra-chave an interfacenos permite			",
-				"- Tudo o que a opcionalidade realmente diz é que			",
-				"- As propriedades também podem ser marcadas como readonly			",
-				"- O TypeScript não considera			",
-				"- Às vezes, você não conhece			",
-				"- Apenas alguns tipos			",
-				"- Por fim			",
-				"- No entanto, uma abordagem			",
-				"- Uma maneira final de contornar essas verificações			",
-				"- Em vez disso, podemos criar um tipo genérico			",
-				"- Em JavaScript, a maneira fundamental			",
-				"- Onde e como um objeto é atribuído a um tipo			",
-				"- Como os aliases de tipo, ao contrário das interfaces			",
-				"- Muito parecido com o Boxtipo acima			",
-				"- O JavaScript moderno também fornece outras estruturas de dados que são genéricas, como			",
-				"- Se um objeto literal			",
-				"- As tuplas também podem ter elementos rest			",
-				"- Tipos de tuplas podem ser usados			",
-				"- Uma observação final sobre os tipos de tupla			",
-				"- Além dessas verificações de comprimento			",
-				"- Também podemos desestruturar tuplas			",
-				"- Um tipo de tupla			",
-				"- O ReadonlyArray			",
-				"- É possível oferecer suporte a ambos os tipos de indexadores			",
-				"",
-	
-				"**Classes**"
-				"- Uma declaração de campo cria uma			",
-				"- Assim como em outros locais, a anotação de tipo é opcional, mas será			",
-				"- Os campos também podem ter inicializadores ; estes serão			",
-				"- Assim como com const, let, e var, o inicializador de uma propriedade de classe será usado para			",
-				"- A strictPropertyInitializationconfiguração controla se os campos de classe precisam			",
-				"- Observe que o campo precisa ser inicializado no			",
-				"- O TypeScript não analisa os métodos que você chama do construtor para			",
-				"- Porque uma classe derivada pode			",
-				"- Se você pretende inicializar definitivamente um campo por meios diferentes do construtor (por exemplo, talvez uma biblioteca externa esteja preenchendo parte de sua classe para você), você pode usar			",
-				"- Os campos podem ser prefixados com o readonlymodificador. Isso evita			",
-				"- Os construtores de classe são muito semelhantes às funções. Você pode adicionar			",
-				"- Existem apenas algumas diferenças entre assinaturas de construtor de classe e assinaturas de função:			",
-				"- Assim como no JavaScript, se você tiver uma classe base, precisará			",
-				"- Uma propriedade de função em uma classe é chamada de			",
-				"- Métodos podem usar todas as mesmas			",
-				"- Observe que dentro de um corpo de método, ainda é obrigatório			",
-				"- As classes também podem ter			",
-				"- O TypeScript tem algumas regras de inferência especiais para acessadores:			",
-				"- As classes podem declarar assinaturas de índice;			",
-				"- Você pode usar uma implementscláusula para			",
-				"- Um erro será emitido se",
-				"- Como o tipo de assinatura de índice também precisa capturar os tipos de métodos, não é fácil usar esses tipos de maneira útil. Geralmente é melhor			",
-				"- Um erro será emitido se uma classe			",
-				"- É importante entender que uma implementscláusula é apenas			",
-				"- Não altera",
-				"- Uma fonte comum de erro é",
-				"- As classes podem extendpartir de			",
-				"- Uma classe derivada tem			",
-				"- Uma classe derivada também pode substituir			",
-				"- Você pode usar a super.sintaxe para acessar",
-				"- bserve que, como as classes JavaScript são um objeto de pesquisa simples, não há			",
-				"- O TypeScript impõe que uma classe derivada seja sempre			",
-				"- É importante que uma classe derivada siga seu contrato de classe base. Lembre-se que é muito comum (e sempre legal!) referir-se a uma instância de classe derivada por meio			",
-				"- E se Derivednão seguisse Baseo contrato de? ts			",
-				"- Quando target >= ES2022ou useDefineForClassFieldsé true, os campos de classe são inicializados após			",
-				"- Isso pode ser um problema quando você deseja",
-				"- Para lidar com esses casos			",
-				"- Isso pode ser um problema quando			",
-				"- Para lidar com esses casos			",
-				"- A ordem que as classes JavaScript inicializam pode ser surpreendente em alguns casos.			",
-				"- No ES2015, os construtores que retornam um objeto substituem			",
-				"- É necessário que o código do construtor gerado capture qualquer			",
-				"- Como recomendação, você pode ajustar manualmente o protótipo imediatamente após qualquer super(...)chamada. ts			",
-				"- No entanto, qualquer subclasse de MsgErrorterá que			",
-				"- Você pode usar o TypeScript para controlar se determinados métodos ou propriedades são			",
-				"- A visibilidade padrão dos membros da classe			",
-				"- Um publicmembro pode ser			",
-				"- No entanto, qualquer subclasse MsgErrortambém terá			",
-				"- Como publicjá é o modificador de visibilidade padrão, você nunca precisará			",
-				"- protectedmembros são visíveis apenas para			",
-				"- As classes derivadas precisam seguir seus contratos de classe base, mas podem optar por			",
-				"- Isso inclui fazer",
-				"- O TypeScript fica do lado do C# e do C++ aqui, porque o acesso xdeve Derived2ser legal apenas nas Derived2subclasses de e Derived1não é uma delas. Além disso, se o acesso xpor meio de uma Derived1referência for ilegal (o que certamente deveria ser!), acessá-lo por meio de uma referência de classe base nunca deve melhorar a situação.			",
-				"- privateé como protected, mas não permite			",
-				"- Como privateos membros não são visíveis para classes derivadas, uma classe derivada não pode			",
-				"- O TypeScript permite privateacesso entre			",
-				"- Como outros aspectos do sistema de tipos do TypeScript, privatee protected são aplicados apenas			",
-				"- Isso significa que			",
-				"- privatetambém permite acesso usando a notação de colchetes durante			",
-				"- Isso torna privateos campos -declared potencialmente mais fáceis			",
-				"- Isso significa que construções de tempo de execução JavaScript			",
-				"- Ao contrário do TypeScripts , os campos privadosprivate do JavaScript ( ) permanecem privados após			",
-				"- Isso torna privateos campos declarados potencialmente mais fáceis			",
-				"- Ao compilar para ES2021 ou menos, o TypeScript usará WeakMaps no lugar de #. ts			",
-				"- Se você precisar proteger valores em sua classe de agentes mal-intencionados, deverá usar mecanismos que ofereçam privacidade de tempo de execução rígida, como fechamentos, WeakMaps ou campos privados. Observe que essas verificações de privacidade adicionadas durante o tempo de execução podem			",
-				"- As classes podem ter staticmembros. Esses membros não estão associados			",
-				"- Eles podem ser acessados			",
-				"- Os membros estáticos também podem usar os mesmos modificadores			",
-				"- Membros estáticos também são			",
-				"- Geralmente não é seguro/possível substituir as propriedades do Functionprotótipo. Como as próprias classes são funções que podem ser invocadas com new, certos staticnomes não podem ser usados. Propriedades de função como name, lengthe callnão são válidas para definir como staticmembros			",
-				"- Eles podem ser acessados através			",
-				"- Por exemplo, não precisamos de uma sintaxe de “classe estática” no TypeScript porque um objeto regular (ou mesmo uma função de nível superior) também fará o trabalho: ts			",
-				"- Os blocos estáticos permitem que você escreva			",
-				"- Os blocos estáticos significa que podemos			",
-				"- As classes, assim como as interfaces, podem ser genéricas. Quando uma classe genérica é instanciada com new			",
-				"- As classes podem usar restrições e padrões genéricos da mesma forma			",
-				"- Lembre-se de que os tipos são sempre totalmente apagados! No tempo de execução, há apenas um Box.defaultValue slot de propriedade. Isso significa			",
-				"- Os staticmembros de uma classe genérica nunca			",
-				"- É importante lembrar que o TypeScript não altera o comportamento do tempo de execução do JavaScript e que o JavaScript			",
-				"- Para encurtar a história, por padrão, o valor de thisdentro de uma função depende",
-				"- Se você tiver uma função que frequentemente será chamada de uma forma que perde seu thiscontexto, pode fazer sentido usar",
-				"- Em uma definição de método ou função, um parâmetro inicial nomeado thistem um significado especial no TypeScript. Esses parâmetros são			",
-				"- O TypeScript verifica se a chamada de uma função com um thisparâmetro é feita com um contexto correto. Em vez de usar uma função de seta, podemos			",
-				"- Isso tem algumas vantagens			",
-				"- Compensações de usar this em vez de funções de seta			",
-				"- Nas classes, um tipo especial chamado thisrefere-se dinamicamente			",
-				"- Você também pode usar thisem uma anotação			",
-				"- Isso é diferente de escrever other: Box— se você tiver uma classe derivada, seu sameAsmétodo agora aceitará apenas outras instâncias dessa mesma classe derivada: ts			",
-				"- Você pode usar this is Typena posição de retorno para métodos em classes e interfaces. Quando misturado com uma restrição de tipo (por exemplo, ifinstruções), o tipo do objeto de destino seria reduzido ao especificado Type. ts			",
-				"- Um caso de uso comum para um guarda de tipo baseado nisso é permitir			",
-				"- O TypeScript oferece sintaxe especial para transformar um parâmetro de construtor em uma propriedade de classe com o mesmo nome e valor. Eles são chamados			",
-				"- Por exemplo, este caso remove an undefineddo valor			",
-				"- As expressões de classe são muito semelhantes às declarações de classe. A única diferença real é que			",
-				"- Classes, métodos e campos no TypeScript podem			",
-				"- Um método abstrato ou campo abstrato é aquele que			",
-				"- Esses membros devem existir			",
-				"- O papel das classes abstratas é servir como uma classe base para subclasses que			",
-				"- Quando uma classe não possui membros abstratos, ela é chamada			",
-				"- Não podemos instanciar Baseporque newé abstrato. Em vez disso, precisamos criar			",
-				"- Observe que, se esquecermos de implementar os membros abstratos da classe base			",
-				"- Às vezes, você deseja aceitar alguma função de construtor de classe que produz uma instância de uma classe que deriva de alguma classe abstrata.			",
-				"- Esses membros devem existir			",
-				"- Na maioria dos casos, as classes em TypeScript são comparadas estruturalmente, da mesma forma que outros tipos. Por exemplo, essas duas classes podem ser usadas no lugar uma da outra porque são idênticas:			",
-				"- Da mesma forma, existem relacionamentos de subtipos entre classes mesmo que não haja herança explícita:			",
-				"- Classes vazias não têm membros. Em um sistema de tipo estrutural, um tipo sem membros geralmente é			",
-				"- Então, se você escrever uma classe vazia (não!), qualquer coisa			",
-				"",
-	
-				"**Módulos**",
-				"- No TypeScript, assim como no ECMAScript 2015, qualquer arquivo que contenha um nível superior importou exporté			",
-				"- Por outro lado, um arquivo sem nenhuma declaração de importação ou exportação de nível superior é tratado como			",
-				"- Os módulos são executados dentro de seu próprio escopo, não			",
-				"- Isso significa que			",
-				"- Isso significa que variáveis, funções, classes, etc. declaradas em um módulo não são			",
-				"- Por outro lado, para consumir uma variável, função, classe, interface, etc. exportada de um módulo diferente, ela deve ser			",
-				"- Antes de começarmos, é importante entender o que o TypeScript considera um módulo. A especificação JavaScript declara que qualquer			",
-				"- Dentro de um arquivo de script, variáveis ​​e tipos são declarados no escopo global compartilhado e presume-se que você usará a outFileopção do compilador			",
-				"- Se você tiver um arquivo que atualmente não possui nenhum imports ou exports, mas deseja ser tratado como um módulo			",
-				"- Há três coisas principais a serem consideradas ao escrever código baseado em módulo no TypeScript:			",
-				"- Um arquivo pode declarar uma exportação principal via			",
-				"- Isso é importado via			",
-				"- Isso é então importado via			",
-				"- Além da exportação padrão, você pode ter mais de uma exportação de variáveis ​​e funções por meio			",
-				"- Uma importação pode ser renomeada usando um formato como import {old as new}: ts			",
-				"- Você pode misturar e combinar a sintaxe acima em uma única import:			",
-				"- Você pode misturar e combinar a sintaxe acima em uma única import: ts			",
-				"- Você pode pegar todos os objetos exportados e colocá-los em um único namespace usando * as name: ts			",
-				"- Você pode pegar todos os objetos exportados e colocá-los em um único namespace usando * as name: ts			",
-				"- Você pode importar um arquivo e não incluir nenhuma variável em seu módulo atual via import './file': ts			",
-				"- Nesse caso, o importnão faz nada. No entanto, todo o código maths.tsfoi avaliado, o que pode desencadear efeitos colaterais que afetam outros objetos.			",
-				"- Você pode importar um arquivo e não incluir nenhuma variável em seu módulo atual via import './file': ts			",
-				"- Que é uma declaração de importação que só pode importar tipos: ts			",
-				"- O TypeScript 4.5 também permite que importações individuais sejam prefixadas typepara indicar que a referência importada é um tipo: ts			",
-				"- O TypeScript 4.5 também permite que importações individuais sejam prefixadas typepara indicar que a referência importada é um tipo: ts			",
-				"- Juntos, eles permitem que um transpiler não TypeScript como Babel, swc ou esbuild saiba quais importações podem ser removidas com segurança.			",
-				"- O TypeScript possui a sintaxe do módulo ES que se correlaciona diretamente com um CommonJS e AMD require. As importações usando o Módulo ES são, na maioria dos casos			",
-				"- Juntos, eles permitem que um transpiler não TypeScript como Babel, swc ou esbuild saiba quais importações podem ser removidas com segurança.			",
-				"- O TypeScript possui a sintaxe do módulo ES que se correlaciona diretamente com um CommonJS e AMD require. As importações usando o Módulo ES são, na maioria dos casos, as mesmas requiredesses ambientes, mas			",
-				"- CommonJS é o formato no qual a maioria dos módulos no npm são entregues. Mesmo se você estiver escrevendo usando a sintaxe ES Modules acima, ter um breve entendimento de como a sintaxe CommonJS funciona ajudará você a depurar mais facilmente			",
-				"- Os identificadores são exportados definindo a exportspropriedade em um global chamado module. ts			",
-				"- Em seguida, esses arquivos podem ser importados por meio de uma requiredeclaração:",
-				"- Então esses arquivos podem ser importados por meio de uma requiredeclaração: ts			",
-				"- Ou você pode simplificar um pouco usando o recurso de desestruturação em JavaScript: ts			",
-				"- Há uma incompatibilidade de recursos entre os módulos CommonJS e ES em relação à distinção entre uma importação padrão e uma importação de objeto de namespace de módulo. O TypeScript tem um sinalizador de compilador para			",
-				"- O TypeScript inclui duas estratégias de resolução:			",
-				"- A resolução do módulo é o processo de pegar uma string da instrução importor requiree determinar			",
-				"- Existem duas opções que afetam a saída do JavaScript emitida:			",
-				"- O que targetvocê usa é determinado			",
-				"- Toda a comunicação entre os módulos acontece			",
-				"- O TypeScript tem seu próprio formato de módulo chamado namespacesque é anterior ao padrão ES Modules. Essa sintaxe tem			",
-				"```"
+		"                                                                 ": {
+			"scope": "typescript",
+		"prefix": ".typescript mais sobre funcoes",
+				"body": [
+				"```",
+				"> https://www.typescriptlang.org/docs/handbook/2/functions.html",
+				"```",
+				"```",
+				"![Descrição da imagem](https://imgur.com/leK20g7.png)",
+				"```",	
 						],
 			"description": ""
 		},
 	
+		"                                                                  ": {
+			"scope": "typescript",
+		"prefix": ".typescript tipos de objetos",
+				"body": [
+				"```",
+				"> https://www.typescriptlang.org/docs/handbook/2/objects.html",
+				"```",
+				"```",
+				"![Descrição da imagem](https://imgur.com/RhUF2ju.png)",
+				"![Descrição da imagem](https://imgur.com/aSqCWcA.png)",
+				"```",	
+						],
+			"description": ""
+		},
+	
+		"                                                                   ": {
+			"scope": "typescript",
+			"prefix": ".typescript classes",
+				"body": [
+				"```",
+				"> zzzz",
+				"```",
+				"```",
+				"![Descrição da imagem](https://imgur.com/35kgf9q.png)",
+				"![Descrição da imagem](https://imgur.com/HX8SS0o.png)",
+				"```",	
+						],
+				"description": ""
+		},
+	
+		"                                                                    ": {
+			"scope": "typescript",
+		"prefix": ".typescript modulos",
+				"body": [
+				"```",
+				"> https://www.typescriptlang.org/docs/handbook/2/modules.html",
+				"```",
+				"```",
+				"![Descrição da imagem](https://imgur.com/UidZzZo.png)",
+				"```",	
+						],
+			"description": ""
+		},
+	
+	
+			/*"zzzzz": {
+			"scope": "typescript",
+			"prefix": "........................",
+				"body": [
+				"```",
+				"> zzzz",
+				"```",
+				"```",
+				"![Descrição da imagem](zzz)",
+				"```",	
+						],
+			"description": ""
+		},*/
 	/*****************************************************************************************/
-																	// SQL
+	//																SQL
 	/*****************************************************************************************/
 	
 		"  ": {
@@ -3373,7 +3158,7 @@
 	
 			"sql": {
 			"scope": "markdown, plaintext",
-			"prefix": "_lib",
+			"prefix": "_!ib",
 			"body": [
 				"```",
 				"> **Palavras-chave SQL**\n"
@@ -3463,12 +3248,12 @@
 	
 	
 	/*****************************************************************************************/
-																	// GIT
+	//																GIT
 	/*****************************************************************************************/
 	
 		"git": {
 			"scope": "markdown, plaintext",
-			"prefix": "_lib",
+			"prefix": "_!ib",
 			"body": [
 				"```",
 				"> **Comandos de alto nível**\n",
@@ -3936,4 +3721,4 @@
 						],
 			"description": ""
 		},*/
-	}
+}
