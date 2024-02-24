@@ -2,281 +2,69 @@
 	/*****************************************************************************************/
 	//																Javascript Library
 	/*****************************************************************************************/
-	
-	
-		"javascript": {
+
+		"Javascript Object": {
 		"scope": "javascript, typescript",
-		"prefix": "_!ib",
-			"body": [
-				"```",
-				"> **Propriedades de valor**\n",
-				"Estas propriedades globais retornam um valor simples. Eles não têm propriedades ou métodos.",
-				"- globalThis",
-				"- Infinity",
-				"- NaN",
-				"- undefined",
-	
-				"> **Propriedades da função**\n",
-				"Essas funções globais — funções que são chamadas globalmente, em vez de em um objeto — retornam diretamente seus resultados ao chamador.",
-				"- eval()",
-				"- isFinite()",
-				"- isNaN()",
-				"- parseFloat()",
-				"- parseInt()",
-				"- decodeURI()",
-				"- decodeURIComponent()",
-				"- encodeURI()",
-				"- encodeURIComponent()",
-	
-				"> **Objetos fundamentais**\n",
-				"Esses objetos representam construções fundamentais da linguagem.			",
-				"- Object",
-				"- Function",
-				"- Boolean",
-				"- Symbol",
-	
-				"> **Objetos de erro**\n",
-				"Objetos de erro são um tipo especial de objeto fundamental. Eles incluem o Errortipo básico, bem como vários tipos de erros especializados.			",
-				"- Error",
-				"- AggregateError",
-				"- EvalError",
-				"- RangeError",
-				"- ReferenceError",
-				"- SyntaxError",
-				"- TypeError",
-				"- URIError",
-	
-				"> **Números e datas**\n",
-				"Estes são os objetos básicos que representam números, datas e cálculos matemáticos.			",
-				"- Number",
-				"- BigInt",
-				"- Math",
-				"- Date",
-	
-				"> **Processamento de texto**\n",
-				"Esses objetos representam strings e suportam sua manipulação.			",
-				"- String",
-				"- RegExp",
-	
-				"> **Coleções indexadas**\n",
-				"Esses objetos representam coleções de dados ordenados por um valor de índice. Isso inclui matrizes (digitadas) e construções semelhantes a matrizes.			",
-				"- Array",
-				"- Int8Array",
-				"- Uint8Array",
-				"- Uint8ClampedArray",
-				"- Int16Array",
-				"- Uint16Array",
-				"- Int32Array",
-				"- Uint32Array",
-				"- BigInt64Array",
-				"- BigUint64Array",
-				"- Float32Array",
-				"- Float64Array",
-	
-				"> **Coleções codificadas**\n	",
-				"Esses objetos representam coleções que usam chaves. As coleções iteráveis ​​( Mape Set) contêm elementos que são facilmente iterados na ordem de inserção.			",
-				"- Map",
-				"- Set",
-				"- WeakMap",
-				"- WeakSet",
-	
-				"> **Dados estruturados**\n",
-				"Esses objetos representam e interagem com buffers de dados estruturados e dados codificados usando JavaScript Object Notation (JSON).			",
-				"- ArrayBuffer",
-				"- SharedArrayBuffer",
-				"- DataView",
-				"- Atomics",
-				"- JSON",
-	
-				"> **Gerenciando memória**\n",
-				"Esses objetos interagem com o mecanismo de coleta de lixo.		",
-				"- WeakRef",
-				"- FinalizationRegistry",
-	
-				"> **Controlar objetos de abstração** \n",
-				"As abstrações de controle podem ajudar a estruturar o código, especialmente o código assíncrono (sem usar retornos de chamada profundamente aninhados, por exemplo).		",
-				"- Iterator",
-				"- AsyncIterator",
-				"- Promise",
-				"- GeneratorFunction",
-				"- AsyncGeneratorFunction",
-				"- Generator",
-				"- AsyncGenerator",
-				"- AsyncFunction",
-	
-				"> **Reflexão** \n",
-				"- Reflect",
-				"- Proxy",
-	
-				"> **Internacionalização**			\n",
-				"Adições ao núcleo ECMAScript para funcionalidades sensíveis à linguagem.			",
-				"- Intl",
-				"- Intl.Collator",
-				"- Intl.DateTimeFormat",
-				"- Intl.DisplayNames",
-				"- Intl.DurationFormat",
-				"- Intl.ListFormat",
-				"- Intl.Locale",
-				"- Intl.NumberFormat",
-				"- Intl.PluralRules",
-				"- Intl.RelativeTimeFormat",
-				"- Intl.Segmenter",
-				"```",
-					],
-			"description": "last update outubro 2023"
+		"prefix": "_library",
+				"body": [
+					"```",
+					"![](https://imgur.com/wM5JYRp.png)"
+					"```"
+			 ],
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object"
 		},
-		"Object.create": {
+
+		"Javascript String": {
 		"scope": "javascript, typescript",
-		"prefix": "create",
-			"body": [
-				"const person = {  isHuman: false,\n  printIntroduction: function () {\n    console.log(`My name is ${this.name}. Am I human? ${this.isHuman}`);\n  },\n};\n\nconst me = Object.create(person);\n\nme.name = 'Matthew'; /* 'name' is a property set on 'me', but not on 'person'*/\nme.isHuman = true; /* Inherited properties can be overwritten*/\n\nme.printIntroduction();\n// Expected output: 'My name is Matthew. Am I human? true'\n"
-		],
-			"description": ""
+		"prefix": "_library",
+					"body": [
+						"```",
+						"![](https://imgur.com/y5eHVgu.png)"
+						"```"
+				 ],
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String"
 		},
 	
-		"Object.assign": {
+		"Javascript Function": {
 		"scope": "javascript, typescript",
-		"prefix": "assign",
-		"body": [
-			"const target = { a: 1, b: 2 };\nconst source = { b: 4, c: 5 };\n\nconst returnedTarget = Object.assign(target, source);\n\nconsole.log(target);\n/* Expected output: Object { a: 1, b: 4, c: 5 } */\n\nconsole.log(returnedTarget === target);\n/* Expected output: true*/\n"
-					],
-		"description": ""
+		"prefix": "_library",
+						"body": [
+							"```",
+							"![](https://imgur.com/exUlIKg.png)"
+							"```"
+					 ],
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function"
 		},
-	
-		"Object.defineProperties": {
+		
+		"Javascript Array": {
 		"scope": "javascript, typescript",
-		"prefix": "defineProperties",
-		"body": [
-			"```",
-			"![Descrição da imagem](https://imgur.com/FkZHHE9.png)",
-			"```",
-					],
-		"description": ""
-		},
-	
+		"prefix": "_library",
+						"body": [
+								"```",
+								"![](https://imgur.com/Ahh33Rq.png)"
+								"```"
+						 ],
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+			},
+		
+			"Javascript Number": {
+			"scope": "javascript, typescript",
+			"prefix": "_library",
+								"body": [
+										"```",
+										"![]https://imgur.com/WWbUQou.png)"
+										"```"
+								 ],
+			"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number"
+					},
+		
 	/*****************************************************************************************/
 	//																Javascript Codigo
 	/*****************************************************************************************/
 	
-		"javascript 0.0": {
-			"scope": "javascript, typescript",
-			"prefix": "_javascript",
-			"body": [
-				"```",
-				"- literal de objeto definindo a __proto__, shorthand handler: handler, super chamada",
-				"- finally retornando o valor unico do bloco, try...catch",
-				"- acessa propriedade com notação de colchetes que nao seria acessivel com de ponto",
-				"- acessar matriz",
-				"- acessar um objeto",
-				"- agregação de modulos",
-				"- alinhamento catch em promise",
-				"- aqui está o gerador de fibonacci usando next(x)para reiniciar a sequência:",
-				"- arguments",
-				"- as eu uma importação de uma default",
-				"- as no export e import esses recursos renomeados",
-				"- carregamento dinamico de modulo import() com then e await",
-				"- classe",
-				"- classe com campos privado",
-				"- classe com get/set privado",
-				"- concatenar string com +",
-				"- const",
-				"- construtor em uma classe",
-				"- construtor retornando valor diferente de new",
-				"- criar e acessar um objeto com uma propriedade que é outro objeto",
-				"- criar matrizes multidimensionais",
-				"- criar slots vazio em array com ,,",
-				"- declaração de função",
-				"- definir propriedade/metdo em prototype",
-				"- definir um get/set em um objeto literal",
-				"- definir um get/set posteriomente em um objeto ja criado",
-				"- definir um metodo em uma classe via this",
-				"- definir um metodo normal e abreviado em um objeto",
-				"- destruturação em for..of",
-				"- diferentes forma de criar matriz com comprimento diferente de zero, mas sem nenhum item",
-				"- do while",
-				"- encadear promise depois de um catch",
-				"- escopo de bloco",
-				"- escopo de função",
-				"- escopo de modulo",
-				"- escopo global",
-				"- estabelecendo a herança prototípica em um literal de objeto",
-				"- event handlers",
-				"- event listeners",
-				"- export multiplos item na ultima linha do arquivo",
-				"- export na frente do item, maneira mais facil",
-				"- export/import classe e usar-la em instanciação",
-				"- exportação padrao na mesma intrução, forma mais basica",
-				"- exportações nomeadas",
-				"- finally",
-				"- for",
-				"- for...of",
-				"- for..in",
-				"- herança em classe",
-				"- if...else",
-				"- if..else alinhado",
-				"- import com as",
-				"- import maneira mais simples multiplos item entre { }",
-				"- import todos os recursos com *",
-				"- importação de export default",
-				"- incorporar expressões em template string",
-				"- inicializar matriz 1/2/3 dimensões",
-				"- inicializar uma variavel",
-				"- instance field classe",
-				"- instance method classe",
-				"- instanciar um construtor",
-				"- instrução de bloco",
-				"- iteráveis definido no [Symbol.iterator]",
-				"- içamento de variação e função",
-				"- label",
-				"- let",
-				"- literais RegExp",
-				"- literal bigint",
-				"- literal binario",
-				"- matriz dentro de uma matriz",
-				"- mixins",
-				"- mudar dimensão array com lenght",
-				"- notação de colchetes e notação normal",
-				"- objeto literal",
-				"- omitir construtor",
-				"- operador %",
-				"- operador **",
-				"- operador de descremento",
-				"- operador de incremento",
-				"- operador tenario",
-				"- os 2 acessador de objetos[. e colchetes]",
-				"- parametro padrão",
-				"- parametro rest",
-				"- parametro rest em contrutor de classe",
-				"- static block classe",
-				"- static field classe",
-				"- static method classe",
-				"- substituir toString aprimorado com super",
-				"- substituir um membros static de uma classe, mas aprimorado com super",
-				"- super e this em classes",
-				"- switch",
-				"- template literal",
-				"- template string",
-				"- throw",
-				"- tratamento de erro async/await",
-				"- try...catch",
-				"- typeof",
-				"- usar async/await",
-				"- usar o resultado de uma promise, no caso, cadeia de promise",
-				"- usar recursos importados",
-				"- usar var antes de inicializar",
-				"- use de then em promisse, com suas duas funções",
-				"- uso de Reflect objeto",
-				"- uso de proxy objeto",
-				"- var",
-				"- while",
-				"```"
-			],
-			"description": ""
-		}, 
-	
 		"javascript 1.1": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"/* Verifica uma condição*/",
 				"if (algumaCondicao) {",
@@ -297,7 +85,7 @@
 	
 		"javascript 1.2": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"var minhaFuncao = new Function('console.log('Isso é uma função criada com o construtor Function.');');",
 				"",
@@ -309,7 +97,7 @@
 	
 		"javascript 1.3": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"```",
 				"> **Função de Seta Sem Abreviação**",
@@ -333,7 +121,7 @@
 	
 		"javascript 1.4": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"function fazerAlgumaCoisa(callback) {",
 				"  console.log('Fazendo algo...'');",
@@ -356,7 +144,7 @@
 	
 		"javascript 1.5": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"// Função que retorna uma promessa que resolve após um atraso",
 				"const fazerAlgumaCoisa = () => {",
@@ -397,7 +185,7 @@
 	
 		"javascript 1.6": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"// Definindo uma função chamada 'saudacao'",
 				"function saudacao(nome) {",
@@ -410,9 +198,9 @@
 		"description": "Chamar uma função"
 		},
 	
-		"javascript 1.6.7": {
+		"javascript 1.7": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"function contador() {",
 				"  let count = 0;",
@@ -438,7 +226,7 @@
 	
 		"javascript 1.8": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript"
+		"prefix": "_codigo",
 			"body": [
 				"// Expressão de função anônima",
 				"const soma = function (a, b) {",
@@ -452,7 +240,7 @@
 	
 		"javascript 1.9": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"// Função que recebe uma função anônima como argumento",
 				"function executarFuncao(callback) {",
@@ -470,7 +258,7 @@
 	
 		"javascript 2.1": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"```",
 				"> **Funcao Auto Invocada**",
@@ -491,7 +279,7 @@
 	
 		"javascript 2.2": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"void function() {",
 				"  console.log('Esta é uma função auto-invocada com void.');",
@@ -502,7 +290,7 @@
 	
 		"javascript 2.3": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"function* meuGerador() {",
 				"  yield 1;",
@@ -525,7 +313,7 @@
 	
 		"javascript 2.4": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"function Pessoa(nome, idade) {",
 				"  this.nome = nome;",
@@ -548,7 +336,7 @@
 	
 		"javascript 2.5": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"minhaFuncao(); // Saída: 'Olá, mundo!'",
 				"",
@@ -561,7 +349,7 @@
 	
 		"javascript 2.6": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"// Sem parâmetros",
 				"const funcaoArrow = () => {",
@@ -586,7 +374,7 @@
 	
 		"javascript 2.7": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"function* buscarDadosAssincronamente() {",
 				"  const resultado = yield fazerRequisicaoAssincrona();",
@@ -607,7 +395,7 @@
 	
 		"javascript 2.8": {
 			"scope": "javascript, typescript",
-			"prefix": "_javascript",
+		"prefix": "_codigo",
 			"body": [
 				"try {",
 				"  throw {",
@@ -621,7 +409,423 @@
 						],
 		"description": "Lançar uma exeção com um bloco de instrução"
 		},
+
+		"javascript 2.9": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"const pessoa = {",
+				" nome: 'João',",
+				"  idade: 30,",
+				"  cidade: 'São Paulo'",
+				"};",
+				"",
+				"// Acessando propriedades do objeto",
+				"console.log(pessoa.nome); // Saída: João",
+				"console.log(pessoa.idade); // Saída: 30",
+				"console.log(pessoa.cidade); // Saída: São Paulo",
+				"",
+				"// Alterando o valor de uma propriedade",
+				"pessoa.idade = 31;
+				"",
+				"// Adicionando uma nova propriedade",
+				"pessoa.profissao = 'Engenheiro';",
+				"",
+				"// Acessando a nova propriedade",
+				"console.log(pessoa.profissao); // Saída: Engenheiro",
+						],
+		"description": "Acessando um objeto, criando e atribuindo valores as propriedades"
+		},
 	
+		"javascript 3.1": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"const matriz = [",
+				"  [1, 2, 3],",
+				"  [4, 5, 6],",
+				"  [7, 8, 9]",
+				"];",
+				"",
+				"// Acessando elementos da matriz",
+				"console.log(matriz[0][0]); // Saída: 1",
+				"console.log(matriz[1][1]); // Saída: 5",
+				"console.log(matriz[2][2]); // Saída: 9",
+						],
+		"description": "Matriz de 2 dimensoes sendo criada e acessada"
+		},
+
+		"javascript 3.2": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"function soma() {",
+				"  let total = 0;",
+				"  for (let i = 0; i < arguments.length; i++) {",
+				"    total += arguments[i];",
+				"  }",
+				"  return total;",
+				"}",
+				"",
+				"console.log(soma(1, 2, 3)); // Saída: 6",
+				"console.log(soma(1, 2, 3, 4, 5)); // Saída: 15",
+						],
+		"description": "Uso arguments"
+		},
+
+		"javascript 3.3": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"class MinhaClasse {",
+				"  constructor(valor1, valor2, valor3) {",
+				"    this.valor1 = valor1;",
+				"    this.valor2 = valor2;",
+				"    this.valor3 = valor3;",
+				"  }",
+				"",
+				" metodo() {",
+				"    return this.valor1 + this.valor2 + this.valor3;",
+				"  }",
+				"}",
+				"",
+				"const objeto = new MinhaClasse(1, 2, 3);",
+				"console.log(objeto.metodo()); // Saída: 6",
+						],
+		"description": "Classe normal com construtor e um metodo, sendo construido com tres valores"
+		},
+
+		"javascript 3.4": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"class MinhaClasse {",
+				"  #campoPrivado;",
+				"",
+				"  constructor(campo) {",
+				"    this.#campoPrivado = campo;",
+				"  }",
+				"",
+				"  #metodoPrivado() {",
+				"    return this.#campoPrivado;",
+				"  }",
+				"",
+				"  metodoPublico() {",
+				"    return this.#metodoPrivado();",
+				"  }",
+				"}",	
+				"",
+				"const objeto = new MinhaClasse('valor');",
+				"console.log(objeto.metodoPublico()); // Saída: valor",
+						],
+		"description": "Classe com campos e metodos privados"
+		},
+
+		"javascript 3.5": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"try {",
+				"  // Código que pode gerar um erro",
+				"  throw 'Erro ocorreu!';",
+				"} catch (error) {",
+				"  console.error('Ocorreu um erro:', error);",
+				"}",
+						],
+		"description": "try...catch"
+		},
+
+		"javascript 3.6": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"const nome = 'João';",
+				"const sobrenome = 'Silva';",
+				"const nomeCompleto = nome + ' ' + sobrenome;",
+				"console.log(nomeCompleto); // Saída: João Silva",
+						],
+		"description": "concatenar string com +"
+		},
+
+		"javascript 3.7": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"class Exemplo {",
+				"	#valorPrivado = 0;",
+				"",
+				"	get valor() {",
+				"	  return this.#valorPrivado;",
+				"	}",
+				"",
+				"	set valor(novoValor) {",
+				"	  if (novoValor >= 0) {",
+				"     this.#valorPrivado = novoValor;",
+				"	 } else {",
+				"		   throw new Error('O valor não pode ser negativo.');",
+				"	 }",
+				" }",
+				"}",
+				"",
+				"const exemplo = new Exemplo();",
+				"console.log(exemplo.valor); // Saída: 0",
+				"exemplo.valor = 10;",
+				"console.log(exemplo.valor); // Saída: 10",
+				"exemplo.valor = -5; // Lança um erro",
+						],
+		"description": "Uso de get/set tanto privado quanto nao privados para com propriedades privadas"
+		},
+
+		"javascript 3.8": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"let i = 0;",
+				"while (i < 5) {",
+				"	console.log(i);",
+				"	i++;",
+				"}",
+						],
+		"description": "Uso while"
+		},
+
+		"javascript 3.9": {
+		"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"function dividir(dividendo, divisor) {",
+				"	if (divisor === 0) {",
+				"		throw new Error('Não é possível dividir por zero.');",
+				"	}",
+				"return dividendo / divisor;",
+				"}",
+				"",
+				"try {",
+				"	const resultado = dividir(10, 0);",
+				"	console.log(resultado);",
+				"} catch (error) {",
+				"		console.error('Ocorreu um erro:', error.message);",
+				"}",
+						],
+		"description": "Uso throw"
+		},
+
+		"javascript 4.1": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"// Uso de var",
+				"var variavelVar = 'valor inicial';",
+				"console.log(variavelVar); // Saída: valor inicial",
+				"",
+				"// Uso de let",
+				"let variavelLet = 'valor inicial';",
+				"variavelLet = 'novo valor';",
+				"console.log(variavelLet); // Saída: novo valor",
+				"",
+				"// Uso de const",
+				"const variavelConst = 'valor inicial';",
+				"// variavelConst = 'novo valor'; // Isso resultaria em um erro, pois const não pode ser reatribuído",
+				"console.log(variavelConst); // Saída: valor inicial",
+						],
+		"description": "Uso var, let e const"
+		},
+
+		"javascript 4.2": {
+		"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"async function minhaFuncao() {",
+				"  try {",
+				"    const resultado = await algumaFuncaoAsync();",
+				"    console.log(resultado);",
+				"  } catch (erro) {",
+				"    console.error('Ocorreu um erro:', erro);",
+				"  }",
+				"}",
+				"minhaFuncao();",
+						],
+		"description": "tratamento de erro async/await"
+		},
+
+		"javascript 4.3": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"async function minhaFuncao() {",
+				"  try {",
+				"    const resultado = await minhaOperacaoAsync();",
+				"    console.log(resultado);",
+				"  } catch (erro) {",
+				"    console.error('Ocorreu um erro:', erro);",
+				"  }",
+				"}",
+				"",
+				"minhaFuncao();",
+						],
+		"description": "usar async/await"
+		},
+
+		"javascript 4.4": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"const nome = 'Alice';",
+				"const idade = 30;",
+				"",
+				"const mensagem = `Olá, meu nome é ${nome} e tenho ${idade} anos.`;",
+				"",
+				"console.log(mensagem); // Saída: Olá, meu nome é Alice e tenho 30 anos.",
+						],
+		"description": "template string"
+		},
+
+		"javascript 4.5": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"const valor = 42;",
+				"console.log(typeof valor); // Saída: number",
+				"",
+				"const nome = 'João';",
+				"console.log(typeof nome); // Saída: string",
+				"",
+				"const ativo = true;",
+				"console.log(typeof ativo); // Saída: boolean",
+				"",
+				"const pessoa = { nome: 'Maria', idade: 25 };",
+				"console.log(typeof pessoa); // Saída: object",
+				"",
+				"const numeros = [1, 2, 3, 4, 5];",
+				"console.log(typeof numeros); // Saída: object",
+				"",	
+				"function soma(a, b) {",
+				"  return a + b;",
+				"}",
+				"console.log(typeof soma); // Saída: function",
+						],
+		"description": "typeof"
+		},
+
+		"javascript 4.6": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"const numeros = [1, 2, 3, 4, 5];",
+				"",
+				"for (const numero of numeros) {",
+				"  console.log(numero);",
+				"}",
+						],
+		"description": "for...of"
+		},
+
+		"javascript 4.7": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"const dia = 3;",
+				"let mensagem;",
+				"",
+				"switch (dia) {",
+				"  case 1:",
+				"    mensagem = 'Segunda-feira';",
+				"    break;",
+				"  case 2:",
+				"    mensagem = 'Terça-feira';",
+				"    break;",
+				"  case 3:",
+				"    mensagem = 'Quarta-feira';",
+				"    break;",
+				"  case 4:",
+				"    mensagem = 'Quinta-feira';",
+				"    break;",
+				"  case 5:",
+				"    mensagem = 'Sexta-feira';",
+				"    break;",
+				"  case 6:",
+				"    mensagem = 'Sábado';",
+				"    break;",
+				"  case 7:",
+				"    mensagem = 'Domingo';",
+				"    break;",
+				"  default:",
+				"    mensagem = 'Dia inválido';",
+				"}",
+				"",
+				"console.log(mensagem);",
+						],
+		"description": "switch"
+		},
+
+		"javascript 4.8": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"class Animal {",
+				"  constructor(nome) {",
+				"    this.nome = nome;",
+				"  }",
+				"",	
+				"  emitirSom() {",
+				"    console.log(`${this.nome} emitiu um som.`);",
+				"  }",
+				"}",
+				"",
+				"class Cachorro extends Animal {",
+				"  constructor(nome, raca) {",
+				"    super(nome);",
+				"    this.raca = raca;",
+				"  }",
+				"",
+				"  latir() {",
+				"    console.log(`${this.nome} da raça ${this.raca} está latindo.`);",
+				"  }",
+				"}",
+				"",
+				"const cachorro = new Cachorro('Rex', 'Labrador');",
+				"cachorro.emitirSom(); // Saída: Rex emitiu um som.",
+				"cachorro.latir(); // Saída: Rex da raça Labrador está latindo.",
+						],
+		"description": "super e this em classes"
+		},
+
+		"javascript 4.9": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"const objeto = { a: 1, b: 2, c: 3 };",
+				"",
+				"for (const chave in objeto) {",
+				"  console.log(`${chave}: ${objeto[chave]}`);",
+				"}",
+						],
+		"description": "for..in"
+		},
+
+
+		/*"javascript empty-------": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"```",
+				"![empty](----------------)",
+				"```",
+						],
+		"description": "=========================================="
+		},*/
+
+
+		/*"javascript empty-------": {
+			"scope": "javascript, typescript",
+		"prefix": "_codigo",
+			"body": [
+				"```",
+				"![empty](----------------)",
+				"```",
+						],
+		"description": "=========================================="
+		},*/
 	/*****************************************************************************************/
 	//																DOM
 	/*****************************************************************************************/
@@ -946,405 +1150,324 @@
 	/*****************************************************************************************/
 	//																Javascript
 	/*****************************************************************************************/
-	
+
 		"   ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript tomando decisões em seu código – condicionais",
+		"prefix": "_javascript tomando decisões em seu código – condicionais",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/SDYInCP.png)",
+					"![tomando decisões em seu código – condicionais](https://imgur.com/SDYInCP.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals"
 		},
 	
 		"    ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript Código em loop",
+		"prefix": "_javascript Código em loop",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/hm8Yfxv.png)",
+					"![Código em loop](https://imgur.com/hm8Yfxv.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code"
 		},
 	
 		"      ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript funções — blocos de código reutilizáveis",
+		"prefix": "_javascript funções — blocos de código reutilizáveis",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/kwf21IR.png)",
+					"![Descrição da imagem](https://imgur.com/FxOZOZ5.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions"
 		},
 		
 		"       ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript crie sua própria funcao",
+		"prefix": "_javascript crie sua própria funcao",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/IVl7Eyf.png)",
+					"![crie sua própria funcao](https://imgur.com/IVl7Eyf.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function"
 		},
 	
 		"         ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript valores de retorno da funcao",
+		"prefix": "_javascript valores de retorno da funcao",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/UJyKZiU.png)",
+					"![valores de retorno da funcao](https://imgur.com/UJyKZiU.png)",
 					"```",
 						],
-			"description": ""
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values"
 		},
 		
 		"          ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript introdução aos eventos",
+		"prefix": "_javascript introdução aos eventos",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/SWEpXvS.png)",
+					"![introdução aos eventos](https://imgur.com/SWEpXvS.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events"
 		},
 		
 		"           ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript nocoes basicas de objetos javaScript",
+		"prefix": "_javascript nocoes basicas de objetos javaScript",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/lvwaGtg.png)",
+					"![nocoes basicas de objetos javaScript](https://imgur.com/lvwaGtg.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics"
 		},
 		
 		"            ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript prototipos de objetos",
+		"prefix": "_javascript prototipos de objetos",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/6oSIN78.png)",
+					"![javascript prototipos de objetos](https://imgur.com/6oSIN78.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes"
 		},
 	
 		
 		"                                ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript programacao orientada a objetos",
+		"prefix": "_javascript programacao orientada a objetos",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/zehWR8K.png)",
+					"![programacao orientada a objetos](https://imgur.com/zehWR8K.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming"
 		},
 	
 		"                                 ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript classes em javascript",
+		"prefix": "_javascript classes em javascript",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/GE5VrUY.png)",
+					"![classes em javascript](https://imgur.com/GE5VrUY.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript"
 		},
 	
 		"                                  ": {
-			"scope": "javascript, typescript",
-		"prefix": ".javascript apresentando javaScript assincrono",
+		"scope": "javascript, typescript",
+		"prefix": "_javascript apresentando javaScript assincrono",
 				"body": [
-					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/PRGC3qo.png)",
+					"```"
+					"![apresentando javaScript assincrono](https://imgur.com/PRGC3qo.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing"
 		},
 	
 		"     ": {
-			"scope": "javascript, typescript",
-		"prefix": ".javascript como usar promessas",
+		"scope": "javascript, typescript",
+		"prefix": "_javascript como usar promessas",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/kwpE2Ea.png)",
+					"![como usar promessas](https://imgur.com/kwpE2Ea.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises"
 		},
 	
 		"        ": {
-			"scope": "javascript, typescript",
-		"prefix": ".javascript como implementar uma API baseada em promessas",
+		"scope": "javascript, typescript",
+		"prefix": "_javascript como implementar uma API baseada em promessas",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Implementing_a_promise-based_API",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/S6KZGTW.png)",
+					"![como implementar uma API baseada em promessas](https://imgur.com/S6KZGTW.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Implementing_a_promise-based_API"
 		},
 	
 		"                ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript apresentando trabalhadores",
+		"prefix": "_javascript apresentando trabalhadores",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing_workers",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/cKFb6XI.png)",
+					"![apresentando trabalhadores](https://imgur.com/cKFb6XI.png)",
 					"```",
 						],
-			"description": ""
+		"description": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing_workers"
 		},
 	
 		"             ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript gramatica e tipos",
+		"prefix": "_javascript gramatica e tipos",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/4SX8hdf.png)",
-					"![Descrição da imagem](https://imgur.com/rQHZimn.png)",
+					"![gramatica e tipos](https://imgur.com/4SX8hdf.png)",
+					"![gramatica e tipos](https://imgur.com/rQHZimn.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types"
 		},
 	
 		"              ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript fluxo de controle e tratamento de erros",
+		"prefix": "_javascript fluxo de controle e tratamento de erros",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/P763eFm.png)",
+					"![fluxo de controle e tratamento de erros](https://imgur.com/P763eFm.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling"
 		},
 	
 		"               ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript loops e iteração",
+		"prefix": "_javascript loops e iteração",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/Y7yUsYv.png)",
+					"![loops e iteração](https://imgur.com/Y7yUsYv.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"
 		},
 	
 		"                 ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript functions",
+		"prefix": "_javascript functions",
 				"body": [
 					"```",
 					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions",
 					"```",
 					"```",
-					"![Descrição da imagem](https://imgur.com/N0XJhVP.png)",
-					"![Descrição da imagem](https://imgur.com/d6q8DWO.png)",
+					"![functions 1](https://imgur.com/N0XJhVP.png)",
+					"![functions 2](https://imgur.com/d6q8DWO.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
 		},
 	
 		"                  ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript expressões e operadores",
+		"prefix": "_javascript expressões e operadores",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/CDNRhzW.png)",
-					"![Descrição da imagem](https://imgur.com/lcqHeTl.png)",
+					"![expressões e operadores 1](https://imgur.com/CDNRhzW.png)",
+					"![expressões e operadores 2](https://imgur.com/lcqHeTl.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators"
 		},
 	
 		"                   ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript formatação de texto",
+		"prefix": "_javascript formatação de texto",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Text_formatting",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/wuJshfZ.png)",
+					"![formatação de texto](https://imgur.com/wuJshfZ.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Text_formatting"
 		},
 	
 		"                     ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript coleções indexadas",
+		"prefix": "_javascript coleções indexadas",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/I5c4Ytv.png)",
-					"![Descrição da imagem](https://imgur.com/n0xjDo9.png)",
+					"![coleções indexadas](https://imgur.com/I5c4Ytv.png)",
+					"![coleções indexadas](https://imgur.com/n0xjDo9.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections"
 		},
 	
 		"                      ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript colecoes codificadas",
+		"prefix": "_javascript colecoes codificadas",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Keyed_collections",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/4jZAxCb.png)",
+					"![colecoes codificadas](https://imgur.com/4jZAxCb.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Keyed_collections"
 		},
 	
 		"                        ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript trabalhando com objetos",
+		"prefix": "_javascript trabalhando com objetos",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/oPA5nEc.png)",
+					"![trabalhando com objetos](https://imgur.com/oPA5nEc.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects"
 		},
 	
 		"                         ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript usando classes",
+		"prefix": "_javascript usando classes",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/Omec4Y0.png)",
-					"![Descrição da imagem](https://imgur.com/97SnBLU.png)",
+					"![usando classes](https://imgur.com/Omec4Y0.png)",
+					"![usando classes](https://imgur.com/97SnBLU.png)",
 					"```",
 						],
-		"description": "11/23"
+		"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes"
 		},
 	
 		"                          ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript usando promessas",
+		"prefix": "_javascript usando promessas",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/TXOF1mh.png)",
+					"![usando promessas](https://imgur.com/TXOF1mh.png)",
 					"```",
 						],
-			"description": ""
+			"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
 		},
 	
 		"                           ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript iteradores e geradores",
+		"prefix": "_javascript iteradores e geradores",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/goPFPMo.png)",
+					"![iteradores e geradores](https://imgur.com/goPFPMo.png)",
 					"```",
 						],
-			"description": ""
+			"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators"
 		},
 	
 		"                            ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript metaprogramacao",
+		"prefix": "_javascript metaprogramacao",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Meta_programming",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/FyhReEP.png)",
+					"![metaprogramacao](https://imgur.com/FyhReEP.png)",
 					"```",
 						],
-			"description": ""
+			"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Meta_programming"
 		},
 	
 		"                             ": {
 			"scope": "javascript, typescript",
-		"prefix": ".javascript modulos javaScript",
+		"prefix": "_javascript modulos javaScript",
 				"body": [
 					"```",
-					"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
-					"```",
-					"```",
-					"![Descrição da imagem](https://imgur.com/4TRskNs.png)",
-					"![Descrição da imagem](https://imgur.com/PzXTGKU.png)",
-					"![Descrição da imagem](https://imgur.com/L6Vd7E6.png)",
+					"![modulos javaScript 1](https://imgur.com/4TRskNs.png)",
+					"![modulos javaScript 2](https://imgur.com/PzXTGKU.png)",
+					"![modulos javaScript 3](https://imgur.com/L6Vd7E6.png)",
 					"```",
 						],
-			"description": ""
+			"description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
 		},
 	
 		/*"                    ": {
@@ -1502,7 +1625,7 @@
 	
 		"react 1.1": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"// https://react.dev/learn/describing-the-ui"
 				"function Profile() {",
@@ -1531,7 +1654,7 @@
 	
 		"react 1.2": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"// https://react.dev/learn/describing-the-ui"
 				"export default function TodoList() {",
@@ -1557,7 +1680,7 @@
 	
 		"react 1.3": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"```",
 				"> **Gallery.js**"
@@ -1592,7 +1715,7 @@
 	
 		"react 1.4": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"const person = {",
 				"  name: 'Gregorio Y. Zara',",
@@ -1626,7 +1749,7 @@
 	
 		"react 1.5": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"function Item({ name, isPacked }) {",
 				"  return (",
@@ -1663,7 +1786,7 @@
 	
 		"react 1.6": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 	
 				"```",
@@ -1745,7 +1868,7 @@
 	
 		"react 1.7": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"function Cup({ guest }) {",
 				"  return <h2>Tea cup for guest #{guest}</h2>;",
@@ -1766,7 +1889,7 @@
 	
 		"react 1.8": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"```",
 				"> Return componente de linha unica",
@@ -1785,7 +1908,7 @@
 	
 		"react 1.9": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"export default function Avatar() {",
 				"  const avatar = 'https://i.imgur.com/7vQD0fPs.jpg';",
@@ -1804,7 +1927,7 @@
 	
 		"react 2.1": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"export default function TodoList() {",
 				"  const name = 'Gregorio Y. Zara';",
@@ -1818,7 +1941,7 @@
 	
 		"react 2.2": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"export default function TodoList() {",
 				"  return (",
@@ -1838,7 +1961,7 @@
 	
 		"react 2.3": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"```",
 				"> App.js",
@@ -1899,7 +2022,7 @@
 	
 		"react 2.4": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"function Item({ name, isPacked }) {",
 				"  if (isPacked) {",
@@ -1935,7 +2058,7 @@
 	
 		"react 2.5": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"function Item({ name, isPacked }) {",
 				"  if (isPacked) {",
@@ -1971,7 +2094,7 @@
 	
 		"react 2.6": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"function Item({ name, isPacked }) {",
 				"  let itemContent = name;",
@@ -2016,7 +2139,7 @@
 	
 		"react 2.7": {
 			"scope": "javascript, typescript",
-			"prefix": "_react",
+			"prefix": "_codigo",
 			"body": [
 				"function Recipe({ drinkers }) {",
 				"  return (",
@@ -2416,7 +2539,7 @@
 	
 		"express 1.1": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 					"const express = require('express')",
 					"const app = express()",
@@ -2436,7 +2559,7 @@
 	
 		"express 1.2": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 				"app.use(express.static('public'));",
 				"app.use('/static', express.static('public'));",
@@ -2447,7 +2570,7 @@
 	
 		"express 1.3": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 				"app.get('/example/b', function (req, res, next) {",
 				"  console.log('the response will be sent by the next function ...');",
@@ -2462,7 +2585,7 @@
 	
 		"express 1.4": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 				"var cb0 = function (req, res, next) {",
 				"  console.log('CB0');",
@@ -2485,7 +2608,7 @@
 	
 		"express 1.5": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 				"var cb0 = function (req, res, next) {",
 				"  console.log('CB0');",
@@ -2510,7 +2633,7 @@
 	
 		"express 1.6": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 				"app.route('/book')",
 				"  .get(function(req, res) {",
@@ -2528,7 +2651,7 @@
 	
 		"express 1.7": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 				"```",
 				"> **Arquivo Router**"
@@ -2564,7 +2687,7 @@
 	
 		"express 1.8": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 				"var express = require('express');",
 				"var app = express();",
@@ -2587,7 +2710,7 @@
 	
 		"express 1.9": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 				"var express = require('express');",
 				"var app = express();",
@@ -2612,7 +2735,7 @@
 	
 		"express 2.1": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 				"var app = express();",
 				"",
@@ -2626,7 +2749,7 @@
 	
 		"express 2.2": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 				"app.use('/user/:id', function (req, res, next) {",
 				"  console.log('Request Type:', req.method);",
@@ -2638,7 +2761,7 @@
 	
 		"express 2.3": {
 			"scope": "javascript",
-			"prefix": "_express",
+			"prefix": "_codigo",
 			 "body": [
 				"app.use('/user/:id', function(req, res, next) {",
 				"console.log('Request URL:', req.originalUrl);",
