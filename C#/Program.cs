@@ -1,10 +1,19 @@
 ﻿
-MyClass myclass = new MyClass(66); 
+carro.OtherPerson carrin = new carro.OtherPerson();
 
-myclass.method();
-public class MyClass(int valor){
+System.Console.WriteLine(Person.method());
+System.Console.WriteLine(carrin.method());
 
-  public void method(){
-    System.Console.WriteLine(valor);
+public class Person{
+  public static string method(){
+    return "ford";
   }
 }
+
+namespace carro {
+  public class OtherPerson{
+    public string method(){
+      return "vrum";
+    }
+  }
+}  
