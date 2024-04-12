@@ -1,5 +1,11 @@
 🧪⚠️
-# C# code example pratico 
+# Express Codigo
+> 1.1
+> 1.2
+> 1.3
+> 1.4
+> 1.7
+# C# codigo
 parei 9
 > 1.7
 > 1.8
@@ -18,7 +24,6 @@ parei 9
 > 8.9
 > 9.1
 # React codigo
-parei 3.3
 > 1.1
 > 1.2
 > 1.3
