@@ -1,11 +1,21 @@
 
-function Car(name, carro){
-  this.name = name;
-  this.carro = carro;
-  this.func = function(){
-    console.log(this.name + this.carro)
+class Car{
+  #name;
+  #idade;
+
+  constructor(name, idade){
+    this.#idade = idade;
+    this.#name = name;
+  }
+  get func2(){
+    return this.#name;
+  }
+  set func2(value){
+    this.#name = value
   }
 }
 
-var obj = new Car("jairo", "ford");
-obj.func();
+const obj = new Car("jairo", 24);
+console.log(obj.func2)
+obj.func2 = "marcos"
+console.log(obj.func2)
