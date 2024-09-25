@@ -1643,7 +1643,7 @@
 					"console.log(exemplo.valor); // Saída: 10",
 					"exemplo.valor = -5; // Lança um erro",
 							],
-		"description": "Uso de get/set tanto privado quanto nao privados para com propriedades privadas"
+		"description": "Uso de get/set com propriedades privadas em classe"
 		},
 	
 		"                                                                                                                                                                                                             ": {
@@ -1950,7 +1950,7 @@
 					"// A classe pode ser usada normalmente após sua definição",
 					"console.log(MinhaClasse.variavelEstatica); // Saída: Valor inicial",
 							],
-		"description": "campos, metodo e static block statics em uma class"
+		"description": "campos static, metodo static e static block em uma class"
 		},
 	
 		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ": {
@@ -2264,6 +2264,31 @@
 		},
 	
 			
+		"                                                                   ": {
+		"scope": "javascript, typescript",
+		"prefix": "_codigo javascript 6.8",
+					"body": [
+					"const dynamicFieldName = \"idade\";\r\nconst obj = {\r\n  [dynamicFieldName]: 25,\r\n  nome: \"João\"\r\n};\r\n\r\nconsole.log(obj); // { idade: 25, nome: 'João' }"
+								],
+		"description": "Definir dinamicamente o nome de um campo em um objeto literal"
+		},
+	
+		"                                                                    ": {
+		"scope": "javascript, typescript",
+		"prefix": "_codigo javascript 6.9",
+					"body": [
+						"class Pessoa {\r\n  constructor(nome, campoDinamico, valorDinamico) {\r\n    this.nome = nome;\r\n    this[campoDinamico] = valorDinamico; // Definindo dinamicamente o campo\r\n  }\r\n}\r\n\r\nconst pessoa1 = new Pessoa(\"João\", \"idade\", 30);\r\nconst pessoa2 = new Pessoa(\"Maria\", \"profissao\", \"Engenheira\");\r\n\r\nconsole.log(pessoa1); // { nome: 'João', idade: 30 }\r\nconsole.log(pessoa2); // { nome: 'Maria', profissao: 'Engenheira' }\r\n"
+								],
+		"description": "Definir dinamicamente o nome de um campo em uma classe"
+		},
+	
+		/*"?": {
+		"scope": "javascript, typescript",
+		"prefix": "?",
+					"body": [
+								],
+		"description": "?"
+		},*/ 
 	/*****************************************************************************************/
 	//																DOM Library
 	/*****************************************************************************************/
@@ -4068,16 +4093,6 @@
 	/*****************************************************************************************/
 	//																React Codigo
 	/*****************************************************************************************/
-		
-	
-		"jsx            ": {
-		"scope": "javascriptreact, javascript, typescript",
-		"prefix": "_codigo react 0.0",
-				"body": [
-				"1.1 Conceito de usar componente dentro de outros\r\n1.2 html embutido com fragment\r\n1.3 Exportando e usando o componente importado\r\n1.4 Criando uma variavel com o style e entao os usando no componente em style prop\r\n1.5 Renderização condicional\r\n1.6 Renderizando listas\r\n1.7 Mantendo componente puro\r\n1.8 Componente com return abreviado e nao abreviado\r\n1.9 Codigo limpo, declarando os literals em variaveis e so depois nas props com jsx\r\n2.1 Usando variaveis javascript dentro do JSX e dentro das tag como texto\r\n2.2 Usando style elemento css diretamente no html JSX\r\n2.3 Usando children propriedade passada automaticamente\r\n2.4 Renderizando itens condicionalmente\r\n2.5 Renderizando itens condicionalmente e retornando null para nao renderizar\r\n2.6 Renderizando itens condicionalmente, mas colocando JSX diretamente na variavel\r\n2.7 Mantendo componente puro\r\n2.8 Usando nome da className em arquivo css\r\n2.9 Definindo style diretamente no react\r\n3.1 Renderização condicional\r\n3.2 Renderização condicional\r\n3.3 Responder a um evento\r\n3.4 Use status\r\n3.5 Use status autualizando 2 botoes ao mesmo tempo\r\n3.6 Exportação e nomeada no mesmo arquivo\r\n3.7 Respondendo a eventos\r\n3.8 \"\"\r\n3.9 Atualizando objetos no estado\r\n4.1 Atualizando matrizes no estado\r\n\n4.2 Evento simples\r\n4.3 Evento simples inline, as duas formas\r\n4.4 Lendo adereços em manipuladores de eventos\r\n4.5 Passando manipuladores de eventos como adereços\r\n4.6 Nomeando adereços do manipulador de eventos\r\n4.7 Parando a propagação\r\n4.8 Renderizar"
-							],
-			"description": ""
-		},
 	
 		"jsx                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ": {
 		"scope": "javascriptreact, javascript, typescript",
@@ -6780,4 +6795,4 @@
 								],
 		"description": ""
 		},*/
-	}
+}
