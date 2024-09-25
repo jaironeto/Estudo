@@ -1,22 +1,25 @@
-class myClass{
-  
-  #idade;
-  #profissao;
 
-  constructor(name, idade, profissao){
+class pai{
+  constructor(name, idade){
     this.name = name;
-    this.#idade = idade;
-    this.#profissao = profissao;
+    this.idade = idade;
   }
 
-  #func(){
-    console.log(this.name + this.#idade + this.#profissao);
-  }
-
-  a(){
-    this.#func();
+  func(){
+    console.log("pai" + `${this.name} is ${this.idade}`)
   }
 }
 
-var obj = new myClass("jairo", 24, "programador");
-obj.a();
+class filho extends pai{
+  constructor(name, idade){
+    super(name, idade)
+  }
+
+  func(){
+    console.log("filho" + `${this.name} + ${this.idade}`)
+  }
+}
+
+var obj = new filho("jairo", 24);
+
+obj.func();
