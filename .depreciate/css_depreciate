@@ -1,0 +1,3280 @@
+{
+  /***************************************************************************************************/
+//  															CSS
+/***************************************************************************************************/
+
+	"Pseudo classe": {
+
+		"prefix": "_library",
+		"body": [
+			":-moz-broken⚠️",
+			":-moz-drag-over⚠️",
+			":-moz-first-node⚠️",
+			":-moz-handler-blocked⚠️",
+			":-moz-handler-crashed⚠️",
+			":-moz-handler-disabled⚠️",
+			":-moz-last-node⚠️",
+			":-moz-loading⚠️",
+			":-moz-locale-dir(ltr)⚠️",
+			":-moz-locale-dir(rtl)⚠️",
+			":-moz-only-whitespace⚠️",
+			":-moz-submit-invalid⚠️",
+			":-moz-suppressed⚠️",
+			":-moz-user-disabled⚠️",
+			":-moz-window-inactive⚠️",
+			":active — usado para selecionar e estilizar o link ativo. Um link se torna ativo quando você clica nele",
+			":any-link — corresponde a cada elemento <a> ou <area> que possui um atributo href",
+			":autofill — permite estilizar <input>elementos que contêm conteúdo preenchido automaticamente pelo navegador",
+			":blank⚠️",
+			":buffering⚠️",
+			":checked — representa qualquer elemento de rádio (<input type='radio'>), caixa de seleção (<input type='checkbox'>) ou opção (<option> em um <select>) que está marcado ou alternado para um estado ativado",
+			":current⚠️",
+			":default — seleciona elementos de formulário que são padrão em um grupo de elementos relacionados",
+			":defined (num sei)",
+			":dir() — combina elementos com base na direcionalidade do texto neles contido",
+			":disabled — representa qualquer elemento desabilitado. Um elemento é desabilitado se não puder ser ativado (selecionado, clicado, digitado, etc.) ou aceitar o foco",
+			":empty — representa qualquer elemento que não tenha filho",
+			":enabled — representa qualquer elemento ativado. Um elemento é ativado se puder ser ativado (selecionado, clicado, digitado etc.) ou aceitar o foco",
+			":first (num sei)",
+			":first-child — representa qualquer elemento que seja o primeiro filho de seus pais",
+			":first-of-type — representa o primeiro elemento de seu tipo entre os filhos de seu elemento pai",
+			":focus — aplicada quando um elemento recebe foco, o que pode ocorrer quando o usuário seleciona o elemento utilizando o teclado ou ativando o mesmo com o mouse",
+			":focus-visible — aplica quando você realmente deseja um indicador visual para ajudar o usuário a ver onde está o foco",
+			":focus-within — corresponde a um elemento se o elemento ou qualquer um de seus descendentes estiver em foco",
+			":fullscreen — corresponde a cada elemento que está atualmente no modo de tela cheia.",
+			":future (nao sei)",
+			":has() (nao sei)",
+			":host (nao sei)",
+			":host-context() (nao sei)",
+			":host() (nao sei)",
+			":hover — corresponde quando o usuário interage com um elemento com um dispositivo apontador, mas não necessariamente o ativa. Geralmente é acionado quando o usuário passa o cursor sobre um elemento (ponteiro do mouse)",
+			":in-range — representa um elemento <input> cujo valor atual está dentro dos limites de intervalo especificados pelos atributos min e max.",
+			":indeterminate — seleciona elementos do formulário que estão em estado indeterminado",
+			":invalid — representa qualquer elemento <form>, <fieldset>, <input> ou outro elemento <form> cujo conteúdo não foi validado.",
+			":is() (nao sei)",
+			":lang() combina elementos com base no idioma em que eles estão determinados",
+			":last-child — representa o último elemento entre um grupo de elementos irmãos",
+			":last-of-type — representa o último elemento de seu tipo entre um grupo de elementos irmãos.",
+			":left (nao sei)",
+			":link — representa um elemento que ainda não foi visitado. Ele corresponde a todos os elementos <a> ou <area> não visitados que possuem um atributo href",
+			":local-link (nao sei)",
+			":modal — corresponde a um elemento que está em um estado no qual exclui toda interação com elementos externos até que a interação seja descartada",
+			":muted — representa um elemento que é capaz de emitir som, como <audio> ou <video>, mas está silenciado (silêncio forçado)",
+			":not() (nao sei)",
+			":nth-child() — O seletor corresponde a cada elemento que é o enésimo filho de seu pai",
+			":nth-last-child() — combina elementos com base em sua posição entre um grupo de irmãos, contando a partir do final",
+			":nth-last-of-type() — combina elementos com base em sua posição entre irmãos do mesmo tipo (nome da tag), contando a partir do final.",
+			":nth-of-type() — combina elementos com base em sua posição entre irmãos do mesmo tipo (nome da tag)",
+			":only-child — representa um elemento sem irmãos",
+			":only-of-type — representa um elemento que não possui irmãos do mesmo tipo",
+			":optional",
+			":out-of-range",
+			":past",
+			":paused",
+			":picture-in-picture",
+			":placeholder-shown",
+			":playing",
+			":popover-open",
+			":read-only",
+			":read-write",
+			":required",
+			":right",
+			":root",
+			":scope",
+			":seeking",
+			":stalled",
+			":state()⚠️",
+			":target",
+			":target-within⚠️",
+			":user-invalid",
+			":user-valid",
+			":valid",
+			":visited",
+			":volume-locked",
+			":where()",
+		],
+		"description": " "
+	},
+
+	"Pseudo elements": {
+		"prefix": "_library",
+		"body": [
+			"Pseudo-elements",
+			"::-moz-color-swatch⚠️",
+			"::-moz-focus-inner⚠️",
+			"::-moz-list-bullet⚠️",
+			"::-moz-list-number⚠️",
+			"::-moz-page⚠️",
+			"::-moz-page-sequence⚠️",
+			"::-moz-progress-bar⚠️",
+			"::-moz-range-progress⚠️",
+			"::-moz-range-thumb⚠️",
+			"::-moz-range-track⚠️",
+			"::-moz-scrolled-page-sequence⚠️",
+			"::-webkit-inner-spin-button⚠️",
+			"::-webkit-meter-bar⚠️",
+			"::-webkit-meter-even-less-good-value⚠️",
+			"::-webkit-meter-inner-element⚠️",
+			"::-webkit-meter-optimum-value⚠️",
+			"::-webkit-meter-suboptimum-value⚠️",
+			"::-webkit-progress-bar⚠️",
+			"::-webkit-progress-inner-element⚠️",
+			"::-webkit-progress-value⚠️",
+			"::-webkit-scrollbar⚠️",
+			"::-webkit-search-cancel-button⚠️",
+			"::-webkit-search-results-button⚠️",
+			"::-webkit-slider-runnable-track⚠️",
+			"::-webkit-slider-thumb⚠️",
+			"::after",
+			"::backdrop",
+			"::before",
+			"::cue",
+			"::cue-region",
+			"::file-selector-button",
+			"::first-letter",
+			"::first-line",
+			"::grammar-error",
+			"::highlight()",
+			"::marker",
+			"::part()",
+			"::placeholder",
+			"::selection",
+			"::slotted()",
+			"::spelling-error",
+			"::target-text⚠️",
+			"::view-transition⚠️",
+			"::view-transition-group⚠️",
+			"::view-transition-image-pair⚠️",
+			"::view-transition-new⚠️",
+			"::view-transition-old⚠️",
+		],
+		"description": " "
+	},
+
+	"Functions": {
+		"prefix": "_library",
+		"body": [
+			"-moz-image-rect🗑️",
+			"abs()",
+			"acos()",
+			"asin()",
+			"atan()",
+			"atan2()",
+			"attr()",
+			"calc()",
+			"clamp()",
+			"cos()",
+			"counter()",
+			"counters()",
+			"cross-fade()",
+			"element()⚠️",
+			"env()",
+			"exp()",
+			"fit-content()",
+			"hypot()",
+			"log()",
+			"max()",
+			"min()",
+			"minmax()",
+			"mod()",
+			"path()",
+			"pow()",
+			"ray()",
+			"rem()",
+			"repeat()",
+			"round()",
+			"sign()",
+			"sin()",
+			"sqrt()",
+			"symbols()",
+			"tan()",
+			"url()",
+			"var()",
+		],
+		"description": " "
+	},
+
+	"Seletores e Combinatores": {
+		"prefix": "_library",
+		"body": [
+			"Seletores de atributos",
+			"[attr]",			
+			"[attr=value]",			
+			"[attr~=value]",			
+			"[attr|=value]",			
+			"[attr^=value]",			
+			"[attr$=value]",			
+			"[attr*=value]",			
+			"[attr operator value i]",		
+			"[attr operator value s]⚠️",
+
+			"",
+			"Seletores de classe",
+			"Seletores de ID",
+			"& seletor de aninhamento",
+			"Seletores de tipo",
+			"Seletores universais",
+
+			"",
+			"child combinator (>)",
+			"column combinator (||)⚠️",
+			"descendant combinator ( )",
+			"namespace separator (|)",
+			"next-sibling combinator (+)",
+			"selector list (,)",
+			"subsequent-sibling combinator (~)",
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#-moz-image-region⚠️",
+			"body": [
+			],
+			"description": " "
+	},
+	
+	"                                                                                                                                                                                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#-moz-orient⚠️",
+			"body": [
+			],
+			"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#-webkit-border-before⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#-webkit-box-reflect⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                   ": {
+	"prefix": "#-webkit-line-clamp",
+			"body": [
+			],
+			"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#-webkit-mask-attachment⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#-webkit-mask-box-image⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#-webkit-mask-composite⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#-webkit-mask-position-x⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+	
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#-webkit-mask-position-y⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#-webkit-mask-repeat-x⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#-webkit-mask-repeat-y⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#-webkit-overflow-scrolling⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#-webkit-tap-highlight-color⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                    ": {
+	"prefix": "#-webkit-text-fill-color",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#-webkit-text-security",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                     ": {
+	"prefix": "#-webkit-text-stroke",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                      ": {
+	"prefix": "#-webkit-text-stroke-color",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                         ": {
+	"prefix": "#-webkit-text-stroke-width",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#-webkit-touch-callout⚠️",
+		"body": [
+		],
+		"description": " "
+	},
+
+	"                                                                          ": {    
+	"prefix": "#accent-color",
+		"body": [
+			"accent-color: red;"
+		],
+		"description": "A propriedade CSS define a cor de destaque para controles da interface do usuário gerados por alguns elementos"
+	},
+
+	"                                                                           ": { 
+	"prefix": "#align-content",
+		"body": [
+			"align-content: start;"
+		],
+		"description": "A propriedade CSS align-content define a distribuição de espaço entre e ao redor dos itens de conteúdo ao longo do eixo transversal de um flexbox ou do eixo de bloco de um elemento de nível de grade ou bloco."
+	},
+
+	"                                                                            ": { 
+	"prefix": "#align-items",
+		"body": [
+			"align-items: start;"
+		],
+		"description": "A propriedade CSS align-items define o valor de align-self em todos os filhos diretos como um grupo. No flexbox, controla o alinhamento dos itens no eixo cruzado. No layout de grade, controla o alinhamento dos itens no eixo do bloco dentro de suas áreas de grade"
+	},
+
+	"                                                                             ": {
+	"prefix": "#align-self",
+		"body": [
+			"align-self: start;"
+		],
+		"description": "A propriedade CSS align-self substitui o valor de alinhamento de itens de uma grade ou de um item flexível. Na grade, alinha o item dentro da área da grade. No flexbox, alinha o item no eixo cruzado"
+	},
+
+	"                                                                              ": {
+	"prefix": "#align-tracks⚠️",
+		"body": [
+			"align-tracks: start;"
+		],
+		"description": " "
+	},
+
+	"                                                                               ": {
+	"prefix": "#all",
+		"body": [
+			"all: initial;"
+		],
+		"description": "A propriedade CSS abreviada redefine todas as propriedades de um elemento, exceto unicode-bidi, direção e propriedades personalizadas CSS"
+	},
+
+  "                                                                                                             ": {
+  "prefix": "#anchor-name⚠️",
+      "body": [
+      ],
+      "description": ""
+  },
+
+	"                                                                                ": { 
+	"prefix": "#animation (shorthand)",
+		"body": [
+			"animation: 3s ease-in 1s infinite reverse both running slidein;"
+		],
+		"description": " "
+	},
+
+	"                                                                                 ": {
+	"prefix": "#animation-composition;",
+		"body": [
+			"animation-composition: add;"
+		],
+		"description": " "
+	},
+
+	"                                                                                  ": {
+	"prefix": "#animation-delay",
+		"body": [
+			"animation-delay: 2s;"
+		],
+		"description": "Especifica a quantidade de tempo a ser aguardada da aplicação da animação a um elemento antes de começar a executar a animação"
+	},
+
+	"                                                                                   ": {
+	"prefix": "#animation-direction",
+		"body": [
+			"animation-direction: normal;"
+		],
+		"description": "A propriedade CSS define se uma animação deve ser reproduzida para frente, para trás ou alternar entre reproduzir a sequência para frente e para trás"
+	},
+
+	"                                                                                    ": {
+	"prefix": "#animation-duration",
+		"body": [
+			"animation-duration: 2s;"
+		],
+		"description": ""
+	},
+
+	"                                                                                     ": {
+	"prefix": "#animation-fill-mode",
+		"body": [
+			"animation-fill-mode: none;"
+		],
+		"description": ""
+	},
+
+
+	"                                                                                      ": { 
+	"prefix": "#animation-iteration-count",
+		"body": [
+			"animation-iteration-count: 0;"
+		],
+		"description": ""
+	},
+
+	"                                                                                       ": {
+	"prefix": "#animation-name",
+		"body": [
+			"animation-name: none;"
+		],
+		"description": ""
+	},
+
+	"                                                                                        ": {
+	"prefix": "#animation-play-state",
+		"body": [
+			"animation-play-state: paused;"
+		],
+		"description": "especifica se a animação está em execução ou pausada"
+	},
+
+	"                                                                                         ": {
+	"prefix": "#animation-range⚠️",
+		"body": [
+			"animation-range: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                          ": {
+	"prefix": "#animation-range-end⚠️",
+		"body": [
+			"animation-range-end: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                           ": {
+	"prefix": "#animation-range-start⚠️",
+		"body": [
+			"animation-range-start: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                            ": {
+	"prefix": "#animation-timeline⚠️",
+		"body": [
+			"animation-timeline: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                             ": {          
+	"prefix": "#animation-timing-function",
+		"body": [
+			"animation-timing-function: linear;"
+		],
+		"description": "especifica a curva de velocidade de uma animação"
+	},
+
+	"                                                                                                ": {
+	"prefix": "#appearance",
+		"body": [
+			"appearance: auto;"
+		],
+		"description": "A propriedade CSS de aparência é usada para exibir elementos de UI com estilo específico da plataforma, com base no tema do sistema operacional."
+	},
+
+	"                                                                                                 ": { 
+	"prefix": "#aspect-ratio",
+		"body": [
+			"aspect-ratio: auto;"
+		],
+		"description": "A propriedade CSS permite definir a proporção desejada entre largura e altura da caixa de um elemento"
+	},
+
+	"                                                                                                  ": {
+	"prefix": "#backdrop-filter",
+		"body": [
+			"backdrop-filter: blur(10px);"
+		],
+		"description": "A propriedade CSS permite aplicar efeitos gráficos, como desfoque ou mudança de cor, à área atrás de um elemento. Como se aplica a tudo que está atrás do elemento, para ver o efeito o elemento ou seu fundo precisa ser transparente ou parcialmente transparente"
+	},
+
+	"                                                                                                   ": { 
+	"prefix": "#backface-visibility",
+		"body": [
+			"backface-visibility: visible;"
+		],
+		"description": "A propriedade CSS backface-visibility define se a face posterior de um elemento fica visível quando voltada para o usuário"
+	},
+
+	"                                                                                                    ": {
+	"prefix": "#background (shorthand)",
+		"body": [
+			"background: content-box radial-gradient(crimson, skyblue);"
+		],
+		"description": " "
+	},
+
+	"                                                                                                     ": { 
+	"prefix": "#background-attachment",
+		"body": [
+			"background-attachment: scroll;"
+		],
+		"description": "A propriedade CSS background-attachment define se a posição de uma imagem de fundo é fixa na janela de visualização ou rola com o bloco que a contém"
+	},
+
+	"                                                                                                      ": {
+	"prefix": "#background-blend-mode",
+		"body": [
+			"background-blend-mode: normal;"
+		],
+		"description": "A propriedade CSS background-blend-mode define como as imagens de fundo de um elemento devem se misturar entre si e com a cor de fundo do elemento"
+	},
+
+	"                                                                                                       ": { 
+	"prefix": "#background-clip",
+		"body": [
+			"background-clip: border-box;"
+		],
+		"description": "A propriedade CSS background-clip define se o plano de fundo de um elemento se estende abaixo de sua caixa de borda, caixa de preenchimento ou caixa de conteúdo"
+	},
+
+	"                                                                                              ": {
+	"prefix": "#background-color",
+		"body": [
+			"background-color: brown;"
+		],
+		"description": "A propriedade CSS background-color define a cor de fundo de um elemento."
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#background-image",
+		"body": [
+			"background-image: url(\"nada\");"
+		],
+		"description": "A propriedade CSS background-image define uma ou mais imagens de fundo em um elemento"
+	},
+
+	"                                                                                                        ": { 
+	"prefix": "#background-origin",
+		"body": [
+			"background-origin: border-box;"
+		],
+		"description": "A propriedade CSS background-origin define a origem do plano de fundo: desde o início da borda, dentro da borda ou dentro do preenchimento"
+	},
+
+	"                                                                                                         ": { 
+	"prefix": "#background-position (shorthand)",
+		"body": [
+			"background-position: top;"
+		],
+		"description": "A propriedade CSS background-position define a posição inicial de cada imagem de fundo. A posição é relativa à camada de posição definida pela origem do plano de fundo."
+	},
+
+	"                                                                                                          ": {   
+	"prefix": "#background-repeat",
+		"body": [
+			"background-repeat: repeat;"
+		],
+		"description": "A propriedade CSS background-repeat define como as imagens de fundo são repetidas. Uma imagem de fundo pode ser repetida ao longo dos eixos horizontal e vertical ou nem mesmo ser repetida."
+	},
+
+	"                                                                                                           ": {  
+	"prefix": "#background-size",
+		"body": [
+			"background-size: cover"
+				],
+		"description": "A propriedade CSS background-size define o tamanho da imagem de fundo do elemento. A imagem pode ser deixada em seu tamanho natural, esticada ou restrita para caber no espaço disponível"
+	},
+
+	"                                                                                                                                                  ": { 
+	"prefix": "#block-size ",
+			"body": [
+				"block-size: 150px;"
+			],
+		"description": "A propriedade CSS define o tamanho horizontal ou vertical do bloco de um elemento, dependendo do seu modo de escrita"
+	},
+
+	"                                                                                                            ": { 
+	"prefix": "#border (shorthand)",
+		"body": [
+			"border: solid;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                             ": { 
+	"prefix": "#border-block (shorthand)",
+		"body": [
+			"border-block: solid;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                            ": { 
+	"prefix": "#border-block-end (shorthand)",
+		"body": [
+			"border-block-end: solid; "
+		],
+		"description": " "
+	},
+
+	"                                                                                                                           ": {  
+	"prefix": "#border-block-start (shorthand)",
+		"body": [
+			"border-block-start: solid;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                          ": {   
+	"prefix": "#border-bottom (shorthand)",
+		"body": ["border-bottom: solid;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                         ": {  
+	"prefix": "#border-bottom-left-radius",
+		"body": ["border-bottom-left-radius: 80px 80px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                        ": { 
+	"prefix": "#border-bottom-right-radius",
+		"body": [
+			"border-bottom-right-radius: 80px 80px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                       ": { 
+	"prefix": "#border-collapse",
+		"body": [
+			"border-collapse: collapse;"
+			],
+		"description": " "
+	},
+
+	"                                                                                                                      ": { 
+	"prefix": "#border-end-end-radius",
+		"body": [
+			"border-end-end-radius: 80px 80px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                              ": { 
+	"prefix": "#border-image",
+		"body": [
+			"border-image: url('/media/examples/border-diamonds.png') 30;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                               ": { 
+	"prefix": "#border-image-outset",
+		"body": [
+			"border-image-outset: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                ": { 
+	"prefix": "#border-image-repeat",
+		"body": [
+			"border-image-repeat: stretch;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                 ": { 
+	"prefix": "#border-image-slice",
+		"body": [
+			"border-image-slice: 30;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                  ": { 
+	"prefix": "#border-image-source",
+		"body": [
+			"border-image-source: url('/media/examples/border-diamonds.png');"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                   ": { 
+	"prefix": "#border-image-width",
+		"body": [
+			"border-image-width: 30px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                    ": { 
+	"prefix": "#border-inline",
+		"body": [
+			"border-inline: solid;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                     ": { 
+	"prefix": "#border-inline-color",
+		"body": [
+			"border-inline-color: red;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                      ": { 
+	"prefix": "#border-inline-end",
+		"body": [
+			"border-inline-end: 1px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                       ": { 
+	"prefix": "#border-inline-end-color",
+		"body": [
+			"border-inline-end-color: red;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                        ": { 
+	"prefix": "#border-inline-end-style",
+		"body": [
+			"border-inline-end-style: dotted; "
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                         ": { 
+	"prefix": "#border-inline-end-width",
+		"body": [
+			"border-inline-end-width: thick;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                            ": { 
+	"prefix": "#border-inline-start",
+		"body": [
+			"border-inline-start: solid;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                           ": { 
+	"prefix": "#border-inline-start-color",
+		"body": [
+			"border-inline-start-color: red;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                             ": { 
+	"prefix": "#border-inline-start-style",
+		"body": [
+			"border-inline-start-style: dotted;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                              ": { 
+	"prefix": "#border-inline-start-width",
+		"body": [
+			"border-inline-start-width: thick;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                               ": { 
+	"prefix": "#border-inline-style",
+		"body": [
+			"border-inline-style: dotted;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                          ": { 
+	"prefix": "#border-inline-width",
+		"body": [
+			"border-inline-width: thick;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                 ": { 
+	"prefix": "#border-left (shorthand)",
+		"body": [
+			"border-left: solid;"
+		],
+	"description": " "
+	},
+
+	"                                                                                                                                                   ": { 
+	"prefix": "#border-radius",
+		"body": [
+			"border-radius: 30px;"
+				],
+	"description": " "
+	},
+
+	"                                                                                                                                                ": { 
+	"prefix": "#border-right (shorthand)",
+		"body": [
+			"border-right: solid;"
+		],
+	"description": " "
+	},
+
+	"                                                                                               ": { 
+	"prefix": "#border-spacing",
+		"body": [
+			"border-spacing: 0;"
+		],
+	"description": " "
+	},
+
+	"                                                                                                                                                          ": { 
+	"prefix": "#border-start-end-radius",
+		"body": [
+			"border-start-end-radius: 80px 80px;"
+		],
+	"description": " "
+	},
+
+	"                                                                                                                                                         ": { 
+	"prefix": "#border-start-start-radius",
+				"body": [
+					"border-start-start-radius: 80px 80px;"
+				],
+	"description": " "
+	},
+
+	"                                                                                                                                                                              ": { 
+	"prefix": "#border-style (shorthand)",
+			"body": [
+				"border-style: none;"
+			],
+	"description": " "
+	},
+	
+	"                                                                                                                                                            ": { 
+	"prefix": "#border-top",
+			"body": [
+				"border-top: solid;"
+			],
+	"description": " "
+	},
+	
+	"                                                                                                                                                             ": {  
+	"prefix": "#border-top-color",
+			"body": [
+				"border-top-color: red;"
+			],
+	"description": " "
+	},
+	
+	"                                                                                                                                                               ": { 
+	"prefix": "#border-top-left-radius",
+			"body": [
+				"border-top-left-radius: 80px 80px;"
+			],
+	"description": " "
+	},
+
+	"                                                                                                                                                      ": {  
+	"prefix": "#border-top-right-radius",
+		"body": [
+			"border-top-right-radius: 80px 80px;"
+		],
+	"description": " "
+	},
+
+	"                                                                                                                                                       ": { 
+	"prefix": "#border-top-style",
+		"body": [
+			"border-top-style: none;"
+		],
+	"description": " "
+	},
+
+	"                                                                                                                                                     ": { 
+	"prefix": "#border-top-width",
+		"body": [
+			"border-top-width: thick;"
+		],
+	"description": " "
+	},
+
+	"                                                                                                                                                                                                                                       ": { 
+	"prefix": "#border-width",
+			"body": [
+				"border-width: thick;"
+			],
+	"description": " "
+	},
+
+  "                                                                                                                                                                                                                                                                                                                 ": { 
+  "prefix": "#bottom",
+        "body": [
+          "bottom: 10px;"
+        ],
+    "description": "A bottompropriedade afeta a posição vertical de um elemento posicionado. Esta propriedade não tem efeito em elementos não posicionados"
+	},
+
+	"                                                                                                                                                        ": { 
+	"prefix": "#box-decoration-break",
+		"body": [
+			"box-decoration-break: slice;"
+		],
+	"description": "A propriedade CSS box-decoration-break especifica como os fragmentos de um elemento devem ser renderizados quando quebrados em várias linhas, colunas ou páginas"
+	},
+
+	"                                                                                                                                                           ": { 
+	"prefix": "#box-shadow",
+		"body": [
+			"box-shadow: 10px 5px 5px red;"
+		],
+		"description": "A propriedade CSS box-shadow adiciona efeitos de sombra ao redor do quadro de um elemento"
+	},
+
+	"                                                                                                                                                              ": { 
+	"prefix": "#box-sizing",
+		"body": [
+			"box-sizing: content-box;"
+		],
+		"description": "A propriedade CSS box-sizing define como a largura e altura totais de um elemento são calculadas."
+	},
+
+	"                                                                                                                                                                 ": { 
+	"prefix": "#break-after",
+		"body": [
+			"break-after: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                ": {  
+	"prefix": "#break-before",
+		"body": [
+			"break-before: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                  ": { 
+	"prefix": "#break-inside",
+		"body": [
+			"break-inside: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                   ": { 
+	"prefix": "#caption-side",
+		"body": [
+			"caption-side: top;"
+		],
+		"description": "A propriedade CSS do lado da legenda coloca o conteúdo da <caption> de uma tabela no lado especificado. Os valores são relativos ao modo de escrita da tabela"
+	},
+
+	"                                                                                                                                                                    ": {   
+	"prefix": "#caret-color",
+		"body": [
+			"caret-color: red;"
+		],
+		"description": "A propriedade CSS caret-color define a cor do cursor de inserção, o marcador visível onde será inserido o próximo caractere digitado"
+	},
+
+	"                                                                                                                                                                      ": { 
+	"prefix": "#clear",
+		"body": [
+			"clear: none;"
+		],
+		"description": "A propriedade CSS clear define se um elemento deve ser movido abaixo (limpo) dos elementos flutuantes que o precedem. A propriedade clear se aplica a elementos flutuantes e não flutuantes"
+	},
+
+	"                                                                                                                                                                     ": { 
+	"prefix": "#clip-path",
+		"body": [
+			"clip-path: circle(40%);"
+		],
+		"description": "A propriedade CSS clip-path cria uma região de recorte que define qual parte de um elemento deve ser mostrada"
+	},
+
+	"                                                                                                                                                                            ": { 
+	"prefix": "#color",
+		"body": [
+			"color: #00a400;"
+		],
+		"description": "A color propriedade CSS define o valor da cor de primeiro plano do texto e das decorações de texto de um elemento e define o currentcolorvalor. currentcolorpode ser usado como um valor indireto em outras propriedades e é o padrão para outras propriedades de cores, como border-color"
+	},
+
+	"                                                                                                                                                                                       ": { 
+	"prefix": "#color-interpolation",
+		"body": [
+			"color-interpolation: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                             ": { 
+	"prefix": "#color-scheme",
+		"body": [
+			"color-scheme: normal;"
+		],
+		"description": "A propriedade CSS color-scheme permite que um elemento indique em quais esquemas de cores ele pode ser renderizado confortavelmente"
+	},
+
+	"                                                                                                                                                                           ": { 
+	"prefix": "#column-count",
+		"body": [
+			"column-count: 2;"
+		],
+		"description": "A propriedade CSS column-count divide o conteúdo de um elemento no número especificado de colunas."
+	},
+
+	"                                                                                                                                                                       ": { 
+	"prefix": "#column-fill",
+		"body": [
+			"column-fill: auto;"
+		],
+		"description": "A propriedade CSS de preenchimento de coluna controla como o conteúdo de um elemento é balanceado quando dividido em colunas"
+	},
+
+	"                                                                                                                                                                                ": {  
+	"prefix": "#column-gap",
+		"body": [
+			"column-gap: 0;"
+		],
+		"description": "A propriedade CSS column-gap define o tamanho da lacuna (medianiz) entre as colunas de um elemento."
+	},
+
+	"                                                                                                                                                                               ": {  
+	"prefix": "#column-rule (shorthand)",
+		"body": [
+			"column-rule: dotted;"
+			],
+		"description": " "
+	},
+
+	"                                                                                                                                                                          ": { 
+	"prefix": "#column-span",
+		"body": [
+			"column-span: none;"
+		],
+		"description": "A propriedade CSS column-span possibilita que um elemento se estenda por todas as colunas quando seu valor for definido como all."
+	},
+
+	"                                                                                                                                                                         ": {   
+	"prefix": "#column-width",
+		"body": [
+			"column-width: auto;"
+		],
+		"description": "A propriedade CSS column-width define a largura ideal da coluna em um layout de várias colunas. "
+	},
+
+	"                                                                                                                                                                        ": { 
+	"prefix": "#columns",
+		"body": [
+			"columns: 2;"
+		],
+		"description": "A propriedade abreviada CSS de colunas define o número de colunas a serem usadas ao desenhar o conteúdo de um elemento, bem como a largura dessas colunas"
+	},
+
+	"                                                                                                                                                                                   ": { 
+	"prefix": "#contain",
+		"body": [
+			"contain: none;"
+		],
+		"description": "A propriedade CSS indica que um elemento e seu conteúdo são, tanto quanto possível, independentes do resto da árvore do documento"
+	},
+
+	"                                                                                                                                                                                              ": { 
+	"prefix": "#contain-intrinsic-block-size",
+		"body": [
+			"contain-intrinsic-block-size: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                             ": {  
+	"prefix": "#contain-intrinsic-height",
+		"body": [
+			"contain-intrinsic-height: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                            ": { 
+	"prefix": "#contain-intrinsic-inline-size",
+		"body": [
+			"contain-intrinsic-inline-size: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                           ": { 
+	"prefix": "#contain-intrinsic-size",
+		"body": [
+			"contain-intrinsic-width: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                          ": { 
+	"prefix": "#contain-intrinsic-width",
+		"body": [
+			"contain-intrinsic-width: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                         ": { 
+	"prefix": "#container (shorthand)",
+		"body": [
+			"container: inherit;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                        ": { 
+	"prefix": "#content",
+		"body": [
+			"content: '🎮 ';"
+		],
+		"description": "A contentpropriedade é usada com os pseudoelementos ::before e ::after para inserir conteúdo gerado."
+	},
+
+	"                                                                                                                                                                                      ": {  
+	"prefix": "#content-visibility⚠️",
+		"body": [
+			"content-visibility: visible;"
+		],
+		"description": "A propriedade CSS controla se um elemento renderiza ou não seu conteúdo, além de forçar um forte conjunto de contenções, permitindo que agentes de usuário potencialmente omitam grandes faixas de trabalho de layout e renderização até que se tornem necessárias. Ela permite que o agente de usuário pule o trabalho de renderização de um elemento (incluindo layout e pintura) até que seja necessário — o que torna o carregamento inicial da página muito mais rápido"
+	},
+
+	"                                                                                                                                                                                     ": { 
+	"prefix": "#counter-increment",
+		"body": [
+			"counter-increment: example-counter 5;"
+		],
+		"description": "A propriedade CSS pode ser usada para aumentar ou diminuir o valor dos contadores CSS nomeados pelos valores especificados ou para impedir que todos os contadores ou o valor de um contador individual sejam alterados"
+	},
+
+	"                                                                                                                                                                                  ": { 
+	"prefix": "#counter-reset",
+		"body": [
+			"counter-reset: none;"
+		],
+		"description": "A propriedade CSS de redefinição de contador cria contadores CSS nomeados e os inicializa com um valor específico. Ele suporta a criação de contadores que contam de um até o número de elementos, bem como aqueles que fazem contagem regressiva do número de elementos até um."
+	},
+
+	"                                                                                                                                                                                    ": { 
+	"prefix": "#counter-set",
+		"body": [
+			"counter-set: none;"
+		],
+		"description": "A counter-setpropriedade criará um novo contador para cada contador nomeado na lista de pares de contador e valor separados por espaço que ainda não existe. Se um contador nomeado na lista estiver sem um valor, o valor do contador será definido como 0"
+	},
+
+	
+	"                                                                                                                                                                                               ": { 
+	"prefix": "#cursor",
+		"body": [
+			"cursor: help;"
+		],
+		"description": "A propriedade CSS define o cursor do mouse, se houver, para ser exibido quando o ponteiro do mouse estiver sobre um elemento"
+	},
+
+	"                                                                                                                                                                                                            ": { 
+	"prefix": "#direction 🗑️",
+		"body": [
+			"direction: ltr;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                           ": { 
+	"prefix": "#display",
+		"body": [
+			"display: block;"
+		],
+		"description": "A displaypropriedade especifica o comportamento de exibição (o tipo de caixa de renderização) de um elemento."
+	},
+
+	"                                                                                                                                                                                                          ": { 
+	"prefix": "#empty-cells",
+		"body": [
+			"empty-cells: show;"
+		],
+	"description": "A empty-cellspropriedade define se bordas devem ou não ser exibidas em células vazias em uma tabela"
+	},
+
+  "                                                                                                                                                                                                             ": { 
+  "prefix": "#field-sizing⚠️",
+      "body": [
+      ],
+  "description": ""
+  },
+
+	"                                                                                                                                                                                                         ": { 
+	"prefix": "#filter",
+		"body": [
+			"filter: blur(5px);"
+		],
+	"description": "A filterpropriedade define efeitos visuais (como desfoque e saturação) para um elemento (geralmente <img>)"
+	},
+
+	"                                                                                                                                                                                                        ": { 
+	"prefix": "#flex (shorthand)",
+		"body": [
+			"flex: 1;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                       ": { 
+	"prefix": "#flex-basis",
+		"body": [
+			"flex-basis: auto;"
+		],
+		"description": "A flex-basispropriedade especifica o comprimento inicial de um item flexível"
+	},
+
+	"                                                                                                                                                                                                      ": { 
+	"prefix": "#flex-direction",
+		"body": [
+			"flex-direction: row;"
+		],
+		"description": "A flex-direction propriedade especifica a direção dos itens flexíveis"
+	},
+
+	"                                                                                                                                                                                                     ": { 
+	"prefix": "#flex-flow (shorthand)",
+		"body": [
+			"flex-flow: row wrap;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                    ": { 
+	"prefix": "#flex-grow",
+		"body": [
+			"flex-grow: 1;"
+		],
+		"description": "A flex-growpropriedade especifica o quanto o item crescerá em relação ao restante dos itens flexíveis dentro do mesmo contêiner."
+	},
+
+	"                                                                                                                                                                                                   ": { 
+	"prefix": "#flex-shrink",
+		"body": [
+			"flex-shrink: 0;"
+		],
+		"description": "A flex-shrinkpropriedade especifica como o item encolherá em relação ao restante dos itens flexíveis dentro do mesmo contêiner."
+	},
+
+	"                                                                                                                                                                                                  ": { 
+	"prefix": "#flex-wrap",
+		"body": [
+			"flex-wrap: nowrap;"
+		],
+		"description": "A flex-wrappropriedade especifica se os itens flexíveis devem ser wrap ou não"
+	},
+
+	"                                                                                                                                                                                                 ": { 
+	"prefix": "#float",
+		"body": [
+			"float: none;"
+		],
+	"description": "A floatpropriedade especifica se um elemento deve flutuar para a esquerda, para a direita ou não deve flutuar"
+	},
+
+	"                                                                                                                                                                                                              ": { 
+	"prefix": "#font (shorthand)",
+		"body": [
+			"font: 1.2rem \"Fira Sans\", sans-serif;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                               ": { 
+	"prefix": "#font-family",
+		"body": [
+			"font-family: Georgia, serif;"
+		],
+		"description": "A font-family propriedade especifica a fonte de um elemento. A font-familypropriedade pode conter vários nomes de fontes como um sistema \"fallback\". Se o navegador não suportar a primeira fonte, ele tenta a próxima fonte"
+	},
+
+	"                                                                                                                                                                                                                ": { 
+	"prefix": "#font-feature-settings",
+		"body": [
+			"font-feature-settings: normal;"
+		],
+		"description": "A propriedade CSS controla recursos tipográficos avançados em fontes OpenType"
+	},
+
+	"                                                                                                                                                                                                                 ": { 
+	"prefix": "#font-kerning",
+		"body": [
+			"font-kerning: auto;"
+		],
+		"description": "A propriedade CSS font-kerning controla o o uso da informação de kerning, que é, o controle de como as letras serão espaçadas. A informação de kerning é armazenada na fonte, e se a fonte é well-kerned, essa caracteristica permite que o espaçamento entre caracteres seja muito parecido, independente dos caracteres"
+	},
+
+	"                                                                                                                                                                                                                  ": { 
+	"prefix": "#font-language-override",
+		"body": [
+			"font-language-override: normal;"
+		],
+		"description": "A propriedade CSS controla o uso de glifos específicos do idioma em uma fonte"
+	},
+
+	"                                                                                                                                                                                                                   ": { 
+	"prefix": "#font-optical-sizing",
+		"body": [
+			"font-optical-sizing: auto;"
+		],
+		"description": "A propriedade CSS define se a renderização de texto é otimizada para visualização em tamanhos diferentes"
+	},
+
+	"                                                                                                                                                                                                                    ": { 
+	"prefix": "#font-palette",
+		"body": [
+			"font-palette: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                ": { 
+	"prefix": "#font-size",
+		"body": [
+			"font-size: 1.2rem;"
+		],
+		"description": "A font-sizepropriedade define o tamanho de uma fonte"
+	},
+
+	"                                                                                                                                                                                                                     ": { 
+	"prefix": "#font-size-adjust",
+		"body": [
+			"font-size-adjust: none;"
+		],
+		"description": "A font-size-adjustpropriedade oferece melhor controle do tamanho da fonte quando a primeira fonte selecionada não está disponível"
+	},
+
+	"                                                                                                                                                                                                                      ": { 
+	"prefix": "#font-stretch",
+		"body": [
+			"font-stretch: condensed;"
+		],
+		"description": "A font-stretchpropriedade permite que você torne o texto mais estreito (condensado) ou mais largo (expandido)"
+	},
+
+	"                                                                                                                                                                                                                       ": { 
+	"prefix": "#font-style",
+		"body": [
+			"font-style: normal;"
+		],
+		"description": "A propriedade CSS define se uma fonte deve ser estilizada com uma face normal, itálica ou oblíqua"
+	},
+
+	"                                                                                                                                                                                                                        ": {  
+	"prefix": "#font-synthesis (shorthand)",
+		"body": [
+			"font-synthesis: weight style small-caps;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                         ": { 
+	"prefix": "#font-synthesis-position",
+		"body": [
+			"font-synthesis-position: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                          ": { 
+	"prefix": "#font-synthesis-small-caps",
+		"body": [
+			"font-synthesis-small-caps: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                           ": {  
+	"prefix": "#font-synthesis-style",
+		"body": [
+			"font-synthesis-style: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                            ": { 
+	"prefix": "#font-synthesis-weight",
+		"body": [
+			"font-synthesis-weight: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                             ": { 
+	"prefix": "#font-variant (shorthand)",
+		"body": [
+			"font-variant: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                              ": { 
+	"prefix": "#font-variant-alternates",
+		"body": [
+			"font-variant-alternates: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ": {
+ 
+		"prefix": "#font-variant-caps",
+			"body": [
+				"font-variant-caps: normal;"
+			],
+			"description": " "
+		},
+	
+	"                                                                                                                                                                                                                               ": {
+ 
+		"prefix": "#font-variant-caps",
+			"body": [
+			],
+		"description": " "
+		},
+
+	"                                                                                                                                                                                                                                ": { 
+	"prefix": "#font-variant-east-asian",
+		"body": [
+			"font-variant-east-asian: normal;"
+		],
+	"description": " "
+	},
+
+	"                                                                                                                                                                                                                                 ": { 
+	"prefix": "#font-variant-emoji",
+		"body": [
+			"font-variant-emoji: normal;"
+		],
+	"description": " "
+	},
+
+	"                                                                                                                                                                                                                                  ": { 
+	"prefix": "#font-variant-ligatures",
+		"body": [
+			"font-variant-ligatures: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                   ": { 
+	"prefix": "#font-variant-numeric",
+		"body": [
+			"font-variant-numeric: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                    ": { 
+	"prefix": "#font-variant-position",
+		"body": [
+			"font-variant-position: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                     ": { 
+	"prefix": "#font-variation-settings",
+		"body": [
+			"font-variation-settings: 'wght' 50;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                      ": { 
+	"prefix": "#font-weight",
+		"body": [
+			"font-weight: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#forced-color-adjust",
+		"body": [
+			"forced-color-adjust: auto;"
+		],
+	"description": "A propriedade CSS permite que autores optem por certos elementos fora do modo de cores forçadas. Isso então restaura o controle desses valores para CSS"
+	},
+
+	"                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#gap (shorthand)",
+		"body": [
+			"gap: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#grid (shorthand)",
+		"body": [
+			"grid: auto-flow / 1fr 1fr 1fr;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#grid-area (shorthand)",
+		"body": [
+			"grid-area: a;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#grid-auto-columns",
+		"body": [
+			"grid-auto-columns: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#grid-auto-flow",
+		"body": [
+			"grid-auto-flow: row;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#grid-auto-rows",
+		"body": [
+			"grid-auto-rows: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#grid-column",
+		"body": [
+			"grid-column: 1;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#grid-column-end",
+		"body": [
+			"grid-column-end: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#grid-column-start",
+		"body": [
+			"grid-column-start: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                               ": {   
+	"prefix": "#grid-row",
+		"body": [
+			"grid-row: 1;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                ": { 
+	"prefix": "#grid-row-end",
+		"body": [
+			"grid-row-end: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                              ": { 
+	"prefix": "#grid-row-start",
+		"body": [
+			"grid-row-start: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                             ": {  
+	"prefix": "#grid-template",
+		"body": [
+			"grid-template: \r\n            \"a a a\" 40px\r\n            \"b c c\" 40px\r\n            \"b c c\" 40px / 1fr 1fr 1fr;}"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                            ": { 
+	"prefix": "#grid-template-areas",
+		"body": [
+			"\"grid-template: \\r\\n            \\\"a a a\\\" 40px\\r\\n            \\\"b c c\\\" 40px\\r\\n            \\\"b c c\\\" 40px / 1fr 1fr 1fr;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                           ": { 
+	"prefix": "#grid-template-columns",
+		"body": [
+			"grid-template-columns: 60px 60px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                          ": { 
+	"prefix": "#grid-template-rows",
+		"body": [
+			"grid-template-rows: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                         ": { 
+	"prefix": "#hanging-punctuation",
+		"body": [
+			"hanging-punctuation: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                        ": { 
+	"prefix": "#height",
+		"body": [
+			"height: 150px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#hyphenate-character",
+		"body": [
+			"hyphenate-character: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#hyphenate-limit-chars",
+		"body": [
+			"hyphenate-limit-chars: 10 4 4;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#hyphens",
+		"body": [
+			"hyphens: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#image-orientation",
+		"body": [
+			"image-orientation: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                             ": {  
+	"prefix": "#image-rendering",
+		"body": [
+			"image-rendering: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#image-resolution⚠️",
+		"body": [
+			"image-resolution: inherit;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#initial-letter⚠️",
+		"body": [
+			"initial-letter: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#initial-letter-align⚠️",
+		"body": [
+			"initial-letter-align: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#inline-size",
+		"body": [
+			"inline-size: 150px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#inset (shorthand)",
+		"body": [
+			"inset: 1em;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#inset-block (shorthand)",
+		"body": [
+			"inset-block: 10px 20px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                      ": {    
+	"prefix": "#inset-inline (shorthand)",
+		"body": [
+			"inset-inline: 5% 10%;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#isolation",
+		"body": [
+			"isolation: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#justify-content",
+		"body": [
+			"justify-content: start;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#justify-items",
+		"body": [
+			"justify-items: stretch;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#justify-self",
+		"body": [
+			"justify-self: stretch;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#justify-tracks⚠️",
+		"body": [
+			"justify-tracks: start;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#left",
+		"body": [
+			"left: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#letter-spacing",
+		"body": [
+			"letter-spacing: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#line-break",
+		"body": [
+			"line-break: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#line-height",
+		"body": [
+			"line-height: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#line-height-step⚠️",
+		"body": [
+			"line-height-step: 18pt;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#list-style",
+		"body": [
+			"list-style: square;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#list-style-image",
+		"body": [
+			"list-style-image: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#list-style-position",
+		"body": [
+			"list-style-position: inside;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#list-style-type",
+		"body": [
+			"list-style-type: space-counter;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#margin",
+		"body": [
+			"margin: 1em;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#margin-block (Shorthand)",
+		"body": [
+			"margin-block: 10px 20px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#margin-bottom",
+		"body": [
+			"margin-bottom: 1em;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#margin-inline",
+		"body": [
+			"margin-inline: 5% 10%;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#margin-left",
+		"body": [
+			"margin-left: 1em;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#margin-right",
+		"body": [
+			"margin-right: 1em;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#margin-top",
+		"body": [
+			"margin-top: 1em;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#margin-trim⚠️",
+		"body": [
+			"margin-trim: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                               ": {  
+	"prefix": "#mask",
+		"body": [
+			"mask: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#mask-border",
+		"body": [
+			"mask-border: inherit;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#mask-border-mode",
+		"body": [
+			"mask-border-mode: luminance;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#mask-border-outset",
+		"body": [
+			"mask-border-outset: 1rem;"
+		],
+		"description": " "
+	},
+ 
+	"                                                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#mask-border-repeat",
+		"body": [
+			"mask-border-repeat: stretch;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#mask-border-slice",
+		"body": [
+			"mask-border-slice: 30%;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                     ": {  
+	"prefix": "#mask-border-source",
+		"body": [
+			"mask-border-source: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#mask-border-width",
+		"body": [
+			"mask-border-width: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#mask-clip",
+		"body": [
+			"mask-clip: content-box;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#mask-composite",
+		"body": [
+			"mask-composite: add;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#mask-image",
+		"body": [
+			"mask-image: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#mask-mode",
+		"body": [
+			"mask-mode: alpha;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#mask-origin",
+		"body": [
+			"mask-origin: content-box;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#mask-position",
+		"body": [
+			"mask-position: top;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#mask-repeat",
+		"body": [
+			"mask-repeat: repeat-x;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                              ": {  
+	"prefix": "#mask-size",
+		"body": [
+			"mask-size: cover;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#mask-type",
+		"body": [
+			"mask-type: luminance;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#masonry-auto-flow⚠️luu",
+		"body": [
+			"masonry-auto-flow: pack;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#math-depth",
+		"body": [
+			"math-depth: auto-add;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#math-shift⚠️",
+		"body": [
+			"math-shift: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#math-style",
+		"body": [
+			"math-style: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#max-block-size",
+		"body": [
+			"max-block-size: 150px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#max-height",
+		"body": [
+			"max-height: 150px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#max-inline-size",
+		"body": [
+			"max-inline-size: 150px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#max-width",
+		"body": [
+			"max-width: 150px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#min-block-size",
+		"body": [
+			"min-block-size: 150px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#min-height",
+		"body": [
+			"min-height: 150px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#min-inline-size",
+		"body": [
+			"min-inline-size: 200px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#min-width",
+		"body": [
+			"min-width: 150px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#mix-blend-mode",
+		"body": [
+			"mix-blend-mode: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#object-fit",
+		"body": [
+			"object-fit"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#object-position",
+		"body": [
+			"object-position: 50% 50%;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                          ": {  
+	"prefix": "#offset ",
+		"body": [
+			"offset: path(\n'M 20 60 L 120 60 L 70 10 L 20 60')\n0% auto 90deg;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#offset-anchor",
+		"body": [
+			"offset-anchor: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#offset-distance",
+		"body": [
+			"offset-distance: 0%;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#offset-path",
+		"body": [
+			"offset-path: path('M0,0 L60,70 L-60,30z');"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#offset-position",
+		"body": [
+			"offset-position: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#offset-rotate",
+		"body": [
+			"offset-rotate: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#opacity",
+		"body": [
+			"opacity: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#order",
+		"body": [
+			"order: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#orphans",
+		"body": [
+			"orphans: 2;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#outline (shorthand)",
+		"body": [
+			"outline: solid;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#outline-color",
+		"body": [
+			"outline-color: red;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#outline-offset",
+		"body": [
+			"outline-offset: 4px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#outline-style",
+		"body": [
+			"outline-style: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#outline-width",
+		"body": [
+			"outline-width: 12px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#overflow",
+		"body": [
+			"overflow: visible;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#overflow-anchor",
+		"body": [
+			"overflow-anchor: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#overflow-block",
+		"body": [
+			"overflow-block: visible;"
+		],
+		"description": " "
+	},
+	
+	"                                                                                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#overflow-clip-margin",
+		"body": [
+			"overflow-clip-margin: 20px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#overflow-inline",
+		"body": [
+			"overflow-inline: visible;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                      ": {  
+	"prefix": "#overflow-wrap",
+		"body": [
+			"overflow-wrap: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#overflow-x",
+		"body": [
+			"overflow-x: visible;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#overflow-y",
+		"body": [
+			"overflow-y: visible;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#overlay⚠️",
+		"body": [
+			"overlay: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                    ": {  
+	"prefix": "#overscroll-behavior (shorthand)",
+		"body": [
+			"overscroll-behavior: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#overscroll-behavior-block",
+		"body": [
+			"overscroll-behavior-block: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#overscroll-behavior-inline",
+		"body": [
+			"overscroll-behavior-inline: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#padding (shorthand)",
+		"body": [
+			"padding: 1em;"
+		],
+		"description": " "
+	},
+	
+	"                                                                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#padding-block (shorthand)",
+		"body": [
+			"padding-block: 10px 20px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#padding-inline (shorthand)",
+		"body": [
+			"padding-inline: 5% 10%;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#page",
+		"body": [
+			"page: inherit;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#page-break-after",
+		"body": [
+			"page-break-after: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#page-break-before",
+		"body": [
+			"page-break-before: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#page-break-inside",
+		"body": [
+			"page-break-inside: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                 ": {  
+	"prefix": "#paint-order",
+		"body": [
+			"paint-order: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#perspective",
+		"body": [
+			"perspective: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#perspective-origin",
+		"body": [
+			"perspective-origin: center;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                             ": {  
+	"prefix": "#place-content",
+		"body": [
+			"place-content: end space-between;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#place-items (shorthand)",
+		"body": [
+			"place-items: center stretch;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#place-self (shorthand)",
+		"body": [
+			"place-self: stretch center;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#pointer-events",
+		"body": [
+			"pointer-events: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#position",
+		"body": [
+			"position: static;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#print-color-adjust",
+		"body": [
+			"print-color-adjust: initial;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#quotes",
+		"body": [
+			"quotes: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#resize",
+		"body": [
+			"resize: both;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#right",
+		"body": [
+			"right: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#rotate",
+		"body": [
+			"rotate: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#row-gap",
+		"body": [
+			"row-gap: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#ruby-align⚠️",
+		"body": [
+			"ruby-align: start;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#ruby-position",
+		"body": [
+			"ruby-position: over;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#scale",
+		"body": [
+			"scale: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#scroll-behavior",
+		"body": [
+			"scroll-behavior: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                ": {  
+	"prefix": "#scroll-margin (shorthand)",
+		"body": [
+			"scroll-margin: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#scroll-margin-block (shorthand)",
+		"body": [
+			"scroll-margin-block: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#scroll-margin-inline (shorthand)",
+		"body": [
+			"scroll-margin-inline: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#scroll-padding (shorthand)",
+		"body": [
+			"scroll-padding: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#scroll-padding-block (shorthand)",
+		"body": [
+			"scroll-padding-block: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#scroll-padding-inline (shorthand)",
+		"body": [
+			"scroll-padding-inline: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#scroll-snap-align",
+		"body": [
+			"scroll-snap-align: start;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#scroll-snap-stop",
+		"body": [
+			"scroll-snap-stop: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#scroll-snap-type",
+		"body": [
+			"scroll-snap-type: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#scroll-timeline⚠️",
+		"body": [
+			"scroll-timeline: none x;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#scroll-timeline-axis⚠️",
+		"body": [
+			"scroll-timeline-axis: block;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#scroll-timeline-name⚠️",
+		"body": [
+			"scroll-timeline-name: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#scrollbar-color",
+		"body": [
+			"scrollbar-color: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#scrollbar-gutter",
+		"body": [
+			"scrollbar-gutter: auto;"
+		],
+		"description": " "
+	},
+
+		"                                                                                                                                                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#scrollbar-width",
+		"body": [
+			"scrollbar-width: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#shape-image-threshold",
+		"body": [
+			"shape-image-threshold: .4;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#shape-margin",
+		"body": [
+			"shape-margin: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#shape-outside",
+		"body": [
+			"shape-outside: circle(50%);"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#tab-size",
+		"body": [
+			"tab-size: 10px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#table-layout",
+		"body": [
+			"table-layout: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#text-align",
+		"body": [
+			"text-align: start;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#text-align-last",
+		"body": [
+			"text-align-last: right;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#text-combine-upright",
+		"body": [
+			"text-combine-upright: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#text-decoration",
+		"body": [
+			"text-decoration: underline;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#text-decoration-color",
+		"body": [
+			"text-decoration-color: red;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#text-decoration-line",
+		"body": [
+			"text-decoration-line: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#text-decoration-skip⚠️",
+		"body": [
+			"text-decoration-skip: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#text-decoration-skip-ink",
+		"body": [
+			"text-decoration-skip-ink: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#text-decoration-style",
+		"body": [
+			"text-decoration-style: solid;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#text-decoration-thickness",
+		"body": [
+			"text-decoration-thickness: 3px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#text-emphasis",
+		"body": [
+			"text-emphasis: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#text-emphasis-color",
+		"body": [
+			"text-emphasis-color: currentColor;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#text-emphasis-position",
+		"body": [
+			"text-emphasis-position: over right;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#text-emphasis-style",
+		"body": [
+			"text-emphasis-style: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#text-indent",
+		"body": [
+			"text-indent: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#text-justify",
+		"body": [
+			"text-justify: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#text-orientation",
+		"body": [
+			"text-orientation: mixed;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#text-overflow",
+		"body": [
+			"text-overflow: ellipsis;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#text-rendering",
+		"body": [
+			"text-rendering: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#text-shadow",
+		"body": [
+			"text-shadow: 1px 1px 2px pink;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#text-size-adjust⚠️",
+		"body": [
+			"text-size-adjust: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#text-transform",
+		"body": [
+			"text-transform: capitalize;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#text-underline-offset",
+		"body": [
+			"text-underline-offset: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#text-underline-position",
+		"body": [
+			"text-underline-position: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#text-wrap",
+		"body": [
+			"text-wrap: wrap;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#timeline-scope⚠️",
+		"body": [
+			"timeline-scope: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#top",
+		"body": [
+			"top: 0;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#touch-action",
+		"body": [
+			"touch-action: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#transform",
+		"body": [
+			"transform: scale(2, 0.5);"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#transform-box",
+		"body": [
+			"transform-box: content-box;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#transform-origin",
+		"body": [
+			"transform-origin: center;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#transform-style",
+		"body": [
+			"transform-style: flat;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#transition (shorthand)",
+		"body": [
+			"transition: margin-right 2s;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#transition-behavior",
+		"body": [
+			"transition-behavior: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#transition-delay",
+		"body": [
+			"transition-delay: 250ms;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#transition-duration",
+		"body": [
+			"transition-duration: 500ms;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#transition-property",
+		"body": [
+			"transition-property: margin-right;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#transition-timing-function",
+		"body": [
+			"transition-timing-function: linear;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#translate",
+		"body": [
+			"translate: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#unicode-bidi",
+		"body": [
+			"unicode-bidi: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                   ": { 
+	"prefix": "#user-select",
+		"body": [
+			"user-select: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                  ": { 
+	"prefix": "#vertical-align",
+		"body": [
+			"vertical-align: top;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                 ": { 
+	"prefix": "#view-timeline⚠️",
+		"body": [
+			"view-timeline: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                                ": { 
+	"prefix": "#view-timeline-axis⚠️",
+		"body": [
+			"view-timeline-axis: block;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                               ": { 
+	"prefix": "#view-timeline-inset⚠️",
+		"body": [
+			"view-timeline-inset: 20%;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                              ": { 
+	"prefix": "#view-timeline-name⚠️",
+		"body": [
+			"view-timeline-name: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                             ": { 
+	"prefix": "#view-transition-name⚠️",
+		"body": [
+			"view-transition-name: none;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                            ": { 
+	"prefix": "#visibility",
+		"body": [
+			"visibility: visible"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                           ": { 
+	"prefix": "#white-space",
+		"body": [
+			"white-space: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                          ": { 
+	"prefix": "#white-space-collapse",
+		"body": [
+			"white-space-collapse: collapse;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                         ": { 
+	"prefix": "#widows",
+		"body": [
+			"widows: 2;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                        ": { 
+	"prefix": "#width",
+		"body": [
+			"width: 150px;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                       ": { 
+	"prefix": "#will-change",
+		"body": [
+			"will-change: auto;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                      ": { 
+	"prefix": "#word-break",
+		"body": [
+			"word-break: normal;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                     ": { 
+	"prefix": "#word-spacing",
+		"body": [
+			"word-spacing: 1rem;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                    ": { 
+	"prefix": "#writing-mode",
+		"body": [	
+			"writing-mode: horizontal-tb;"
+		],
+		"description": " "
+	},
+
+	"                                                                                                                                                                                                                                                                                                                                                                                                                   ": {  
+	"prefix": "#z-index",
+		"body": [
+			"z-index: auto;"
+		],
+		"description": " "
+	},
+}
