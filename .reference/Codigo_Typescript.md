@@ -1,7 +1,7 @@
 > 1.1 adicionando novos campos a uma interface existente com interface
 > 1.2 adicionando novos campos a uma interface existente com type
 > 1.3 alias de tipo para nomear um tipo de função
-1.4 alias para um tipo união e depois usar o alias na função
+> 1.4 alias para um tipo união e depois usar o alias na função
 1.5 aliases de tipo para tipos, objeto e função
 1.6 alias de anotação Tipos de objeto em funções
 1.7 anotações de Tipo de Retorno
