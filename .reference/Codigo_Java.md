@@ -54,3 +54,5 @@
 6.9 concatenar uma string com tambem uma variavel
 7.1 Classe com construtor, campo, metodo e o metodo main
 7.2 Uso package e import
+7.3 Inferir o tipo da variavel com var palavra chave
+7.4 Campo static final
