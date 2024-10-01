@@ -1,8 +1,6 @@
-# Old [1/24] 23hrs
-`Java`
+# Old 1 [2/24] 00hrs
 1 podemos colocar _ nos literais inteiros para os organizar melhor
 2 javascript e uma linguagem fortemente tipada
-3 uma classe nao e tecnicamente um tipo primitivo
 
 4 campos sem inicialização tem sua propria inicialização
 5 variaveis locais nao tem inicialização padrao
@@ -26,9 +24,7 @@
 
 19 Quando voce usa o operador =, o valor retornado e o valor da expressao que estar sendo usada na inicialização
 20 um bloco de instrução e um conglomerado de expressoes que entao pode ser usada em qualquer lugar que uma expresso seria usado
-
-# Now [1/24] 23hrs
-`Java`
+# Old 2 [2/24] 00hrs
 1 As declarações de campo sao definidos com um modificador, o tipo do campo e o nome do campo
 2 A primeira letra de uma classe deve ser maiuscula
 3 Os elementos necessarios em um metodo sao seu tipo de retorno, seu nome, seus parametros e seu corpo
@@ -56,3 +52,7 @@
 19 Metodos de classe nao podem usar a this palavra chave
 20 O modificador static pode ser juntada com o modificar final, para criar constantes
 21 Existem dois niveis de acesso: nivel superior, public ou pacote-privado (sem uso de modificador). Nivel de membro, public, private, protected ou pacote-privado
+
+# Now
+
+#
