@@ -1,13 +1,14 @@
-function func1(){
-  var i = 0;
+class myClass{
+  constructor(idade, profissao){
+    this.idade = idade;
+    this.profissao = profissao;
+  }
 
-  return function funcInterna(){
-    console.log(++i);
+  func(){
+    console.log(this.idade + " " + this.profissao);
   }
 }
 
-var teste = func1();
+var obj = new myClass(24, "programador");
 
-teste();
-teste();
-teste();
+obj.func();
