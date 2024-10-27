@@ -1,11 +1,13 @@
-if (1 > 2) {
-  var func = function () {
-    console.log("a")
-  }
-} else {
-  var func = function () {
-    console.log("b")
+function func1(){
+  var i = 0;
+
+  return function funcInterna(){
+    console.log(++i);
   }
 }
 
-func();
+var teste = func1();
+
+teste();
+teste();
+teste();

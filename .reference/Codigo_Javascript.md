@@ -1,12 +1,12 @@
-1.1 Definir uma função com uma expressão de função condicionalmente
-1.2 Criar uma função com 'function' construtor
-1.3 Arrow 'function' sem e com abreviações
-1.4 Callback
-1.5 Cadeia de promise com arrow 'function
-1.6 Chamar uma função
-1.7 closure
-1.8 Expressão de função
-1.9 Função anônima como argumento de outra função
+> 1.1 Definir uma função com uma expressão de função condicionalmente
+> 1.2 Criar uma função com 'function' construtor
+> 1.3 Arrow 'function' sem e com abreviações
+> 1.4 Callback
+> 1.5 Cadeia de promise com arrow function
+> 1.6 Chamar uma função
+> 1.7 closure
+> 1.8 Expressão de função
+> 1.9 Função anônima como argumento de outra função
 2.1 Função auto invocada com e sem argumento
 2.2 Função auto invocado com void
 2.3 Função com um iterator e consumir ele
