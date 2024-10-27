@@ -43,7 +43,7 @@
 5.6 parametro padrão
 5.7 use de then em promisse, com suas duas funções no Promise construtor
 5.8 declaração de função
-5.9 definir propriedade/metdo em prototype
+5.9 definir campo/metodo em prototype
 6.1 definir um get/set em um objeto literal
 6.2 definir um get/set posteriomente em um objeto ja criado
 6.3 definir um metodo em uma classe via this
