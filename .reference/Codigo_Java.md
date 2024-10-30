@@ -1,18 +1,18 @@
-1.1 Herança
-1.2 final palavra-chave para uma variavel
-1.3 final palavra-chave para um metodo
-1.4 final palavra-chave para uma classe
-1.5 Declarar, alocar memoria e inicializar um array
-1.6 Outra forma nao usual de declarar array
-1.7 Declarar um array abreviado com inicialização
-1.8 Matriz de mais de uma dimensao com inicialização
-1.9 Concatenar duas string
-2.1 if...else
-2.2 Switch com default
-2.3 while
-2.4 do while
-2.5 for loop
-2.6 for loop aprimorado
+> 1.1 Herança
+> 1.2 final palavra-chave para uma variavel
+> 1.3 final palavra-chave para um metodo
+> 1.4 final palavra-chave para uma classe
+> 1.5 Declarar, alocar memoria e inicializar um array
+< 1.6 Outra forma nao usual de declarar array
+> 1.7 Declarar um array abreviado com inicialização
+> 1.8 Matriz de mais de uma dimensao com inicialização
+> 1.9 Concatenar duas string
+> 2.1 if...else
+> 2.2 Switch com default
+> 2.3 while
+> 2.4 do while
+> 2.5 for loop
+> 2.6 for loop aprimorado
 2.7 label e uma break encerrando a label externa
 2.8 continue palavra-chave
 2.9 construtor e encapsulamento
