@@ -3,7 +3,7 @@
 > 1.3 final palavra-chave para um metodo
 > 1.4 final palavra-chave para uma classe
 > 1.5 Declarar, alocar memoria e inicializar um array
-< 1.6 Outra forma nao usual de declarar array
+> 1.6 Outra forma nao usual de declarar array
 > 1.7 Declarar um array abreviado com inicialização
 > 1.8 Matriz de mais de uma dimensao com inicialização
 > 1.9 Concatenar duas string
@@ -13,14 +13,14 @@
 > 2.4 do while
 > 2.5 for loop
 > 2.6 for loop aprimorado
-2.7 label e uma break encerrando a label externa
-2.8 continue palavra-chave
-2.9 construtor e encapsulamento
-3.1 declaração simples de um metodo
-3.2 sobrecarga de metodo
-3.3 metodo com um array como parametro
-3.4 sintaxe spreed
-3.5 Instanciação
+> 2.7 label e uma break encerrando a label externa
+> 2.8 continue palavra-chave
+> 2.9 construtor e encapsulamento
+> 3.1 declaração simples de um metodo
+> 3.2 sobrecarga de metodo
+> 3.3 metodo com um array como parametro
+> 3.4 sintaxe spreed
+> 3.5 Instanciação
 3.6 Referenciar um campo/metodo de objeto
 3.7 Método retornando um tipo de referência
 3.8 Usar this em um construtor para resolver problema de identificadores iguais
