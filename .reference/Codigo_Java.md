@@ -21,20 +21,20 @@
 > 3.3 metodo com um array como parametro
 > 3.4 sintaxe spreed
 > 3.5 Instanciação
-3.6 Referenciar um campo/metodo de objeto
-3.7 Método retornando um tipo de referência
-3.8 Usar this em um construtor para resolver problema de identificadores iguais
-3.9 Construtor usando this para chamar outro construtor
-4.1 Membro static
-4.2 campo static final
-4.3 blocos de inicialização estáticos
-4.4 Blocos inicializadores para variáveis ​​de instância
-4.5 Instaniar diretamente uma classe interna
-4.6 classe local
-4.7 classe local acessando membro final do metodo
-4.8 Variavel efetivamente final
-4.9 Interface sendo usado como variavel tipo de uma classe
-5.1 Classes anonimas
+> 3.6 Referenciar um campo/metodo de objeto
+> 3.7 Método retornando um tipo de referência
+> 3.8 Usar this em um construtor para resolver problema de identificadores iguais
+> 3.9 Construtor usando this para chamar outro construtor
+> 4.1 Membro static
+> 4.2 campo static final
+> 4.3 blocos de inicialização estáticos
+> 4.4 Blocos inicializadores para variáveis ​​de instância
+< 4.5 Instaniar diretamente uma classe interna
+< 4.6 classe local
+< 4.7 classe local acessando membro final do metodo
+< 4.8 Variavel efetivamente final
+< 4.9 Interface sendo usado como variavel tipo de uma classe
+< 5.1 Classe anonima com interface
 5.2 Usando uma enum
 5.3 expressao lambda
 5.4 corpo de expressão lambda com múltiplas instruções dentro das chaves
@@ -56,3 +56,5 @@
 7.2 Uso package e import
 7.3 Inferir o tipo da variavel com var palavra chave
 7.4 Campo static final
+7.5 Interface com metodo default
+7.6 Classe anonima estendendo de uma classe concreta

@@ -1,18 +1,30 @@
 
 class automovel {
 
+    public static int VALUESTATIC = 0;
     private String name;
     private String profissao;
     private int idade;
 
+    {
+      this.name = "marco2";
+      this.profissao = "mecanico";
+    }
+    /*public automovel(){
+      this("jairo", "programador", 666);
+    }
     public automovel(String name, String profissao, int idade) {
         this.name = name;
         this.profissao = profissao;
         this.idade = idade;
-    }
+    }*/
 
     public String getName() {
         return this.name;
+    }
+
+    public void setName(String value) {
+        this.name = value;
     }
 
     public String getName(String arg) {
@@ -28,22 +40,14 @@ class automovel {
     }
 }
 
-class z extends automovel {
+class z {
 
-    public String argZ;
-    public z() {
-        super("jairo", "programador", 24);
-        this.argZ = "carro";
-    }
+    public enum MyEnum {SEGUNDA, TERÇA, QUARTA};
 
     public static void main(String[] args) {
-       z obj = new z();
-       System.out.println(obj.getName());
-       System.out.println(obj.argZ);
-
-    }
-
-    public static void chamar(int... arg1) {
-      System.out.println(arg1[1]);
+      automovel obj = new automovel();
+        System.out.println(obj.getName());
     }
 }
+
+_
