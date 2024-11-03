@@ -35,9 +35,9 @@
 < 4.8 Variavel efetivamente final
 < 4.9 Interface sendo usado como variavel tipo de uma classe
 < 5.1 Classe anonima com interface
-5.2 Usando uma enum
-5.3 expressao lambda
-5.4 corpo de expressão lambda com múltiplas instruções dentro das chaves
+> 5.2 Usando uma enum
+< 5.3 expressao lambda
+< 5.4 corpo de expressão lambda com múltiplas instruções dentro das chaves
 5.5 operador de referência de método
 5.6 enum com 2 valores entre ()
 5.7 atributo deprecated
