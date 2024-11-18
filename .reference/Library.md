@@ -29,7 +29,7 @@ forced-color-adjust
 gap
 hanging-punctuation
 height
-hyphenate-character
+>hyphenate-character
 hyphenate-limit-chars
 hyphens
 initial-letter

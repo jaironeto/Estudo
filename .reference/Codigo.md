@@ -1,4 +1,4 @@
-# Java [0/10] last update
+# Java [0] last update
 > 1.1 Herança
 > 1.2 final palavra-chave para uma variavel
 > 1.3 final palavra-chave para um metodo
@@ -60,7 +60,7 @@
 7.5 Interface com metodo default
 7.6 Classe anonima estendendo de uma classe concreta
 
-# Javascript [0/10] last update
+# Javascript [1] last update 19:06
 1.1 Definir uma função com uma expressão de função condicionalmente
 1.2 Criar uma função com 'function' construtor
 1.3 Arrow 'function' sem e com abreviações
@@ -72,7 +72,7 @@
 1.9 Função anônima como argumento de outra função
 2.1 Função auto invocada com e sem argumento
 2.2 Função auto invocado com void
-2.3 Função com um iterator e consumir ele
+>2.3 Função com um iterator e consumir ele
 2.4 Função construtora com campo e metodo
 2.5 Função hoisting
 2.6 Funções de seta
@@ -101,7 +101,7 @@
 
 5.2 do while
 5.3 campos static, metodo static e static block em uma class
->5.4 parametro rest em contrutor de classe
+5.4 parametro rest em contrutor de classe
 5.5 objeto literal
 5.6 parametro padrão
 5.7 use de then em promisse, com suas duas funções no Promise construtor
@@ -117,7 +117,7 @@
 6.8 Definir dinamicamente o nome de um campo em um objeto literal
 6.9 Definir dinamicamente o nome de um campo em uma classe
 
-# Typescript [0/10] last update
+# Typescript [0] last update
 > 1.1 adicionando novos campos a uma interface existente com interface
 > 1.2 adicionando novos campos a uma interface existente com type
 > 1.3 alias de tipo para nomear um tipo de função
