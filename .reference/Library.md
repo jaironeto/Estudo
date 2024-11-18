@@ -1,7 +1,7 @@
 # CSS
 
 ## <Properties>
-<!--https://developer.mozilla.org/en-US/docs/Web/CSS/Reference-->
+<!--https://developer.mozilla.org/en-US/docs/Web/CSS/Reference -->
 accent-color
 all
 anchor-name⚠️
@@ -14,9 +14,9 @@ bottom
 caption-side
 caret-color
 clear
-columns
+columns `shorthand`
 content
-content-visibility
+content-visibility <!--contain-intrinsic-size-->
 cursor
 direction
 Display

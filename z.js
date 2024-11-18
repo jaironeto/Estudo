@@ -1,9 +1,12 @@
 
-function myClass(name){
-  this.name = name
-}
+var myPromiss = new Promise((resolve, reject)=>{
+  setTimeout(()=> console.log("promiss 1"), 20000);
+});
 
-var obj = new myClass("jairo");
-myClass.prototype.idade = 24;
+var myPromiss2 = new Promise((resolve, reject)=>{
+  setTimeout(()=> console.log("promiss 2"), 10000);
+})
 
-console.log(obj.idade)
+myPromiss.then(resul =>{
+  return myPromiss2;
+}).then (resul)
