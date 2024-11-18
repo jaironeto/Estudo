@@ -1,13 +1,14 @@
+class teste{
 
-function teste(){
-  var index = 0;
-
-  return function(){
-    console.log(++index);
+  constructor(name1, name2){
+    this.name1 = name1;
+    this.name2 = name2;
+  }
+  
+  methodo(){
+    console.log(this.name1 + " " + this.name2);
   }
 }
 
-var funcClosure = teste();
-
-funcClosure();
-funcClosure();
+var obj = new teste("jairo", "ionelle");
+obj.methodo();
