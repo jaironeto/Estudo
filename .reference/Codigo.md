@@ -81,7 +81,7 @@
 2.9 Acessando um objeto, criando e atribuindo valores as propriedades
 3.1 Matriz de 2 dimensoes sendo criada e acessada
 3.2 Uso arguments
-> 3.3 Classe com construtor e um metodo, sendo construido com tres campos direto no construtor
+3.3 Classe com construtor e um metodo, sendo construido com tres campos direto no construtor
 3.4 Classe com campos e metodos privados
 3.5 try...catch
 3.6 concatenar string com +
@@ -101,7 +101,7 @@
 
 5.2 do while
 5.3 campos static, metodo static e static block em uma class
-5.4 parametro rest em contrutor de classe
+>5.4 parametro rest em contrutor de classe
 5.5 objeto literal
 5.6 parametro padrão
 5.7 use de then em promisse, com suas duas funções no Promise construtor

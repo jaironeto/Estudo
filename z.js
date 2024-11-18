@@ -1,14 +1,13 @@
-class teste{
+class myclass{
+  static campo1;
 
-  constructor(name1, name2){
-    this.name1 = name1;
-    this.name2 = name2;
+  static methodo(){
+    return this.campo1;
   }
-  
-  methodo(){
-    console.log(this.name1 + " " + this.name2);
+
+  static{
+    myclass.campo1 = "jairo";
   }
 }
 
-var obj = new teste("jairo", "ionelle");
-obj.methodo();
+console.log(myclass.methodo())
