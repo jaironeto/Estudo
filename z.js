@@ -1,12 +1,13 @@
 
-var myPromiss = new Promise((resolve, reject)=>{
-  setTimeout(()=> console.log("promiss 1"), 20000);
-});
+function teste(){
+  var index = 0;
 
-var myPromiss2 = new Promise((resolve, reject)=>{
-  setTimeout(()=> console.log("promiss 2"), 10000);
-})
+  return function(){
+    console.log(++index);
+  }
+}
 
-myPromiss.then(resul =>{
-  return myPromiss2;
-}).then (resul)
+var funcClosure = teste();
+
+funcClosure();
+funcClosure();

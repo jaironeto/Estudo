@@ -67,12 +67,12 @@
 1.4 Callback
 1.5 Cadeia de promise com arrow function
 1.6 Chamar uma função
-> 1.7 closure
+1.7 closure
 1.8 Expressão de função
 1.9 Função anônima como argumento de outra função
 2.1 Função auto invocada com e sem argumento
 2.2 Função auto invocado com void
-2.3 Função com um iterator e consumir ele
+>2.3 Função com um iterator e consumir ele
 2.4 Função construtora com campo e metodo
 2.5 Função hoisting
 2.6 Funções de seta
