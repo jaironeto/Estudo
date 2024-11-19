@@ -1,19 +1,11 @@
-class classFilho extends classePai{
-    
-}
+class teste{
 
-final class teste2{
-    final int campo = 0;
-_
-    final void method(){
+    public static void main(String args[]){
+ 
+        int[] array1 = {12323, 334343, 222, 111};
+
 
     }
 }
 
-final int CONSTANTE = 10;
-class Pai {
-    public final void metodoFinal() {
-        // Este método não pode ser sobrescrito
-    }
-}
 _

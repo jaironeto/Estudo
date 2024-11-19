@@ -6,7 +6,7 @@
 5. Declarar, alocar memoria e inicializar um array
 6. Outra forma nao usual de declarar array
 7. Declarar um array abreviado com inicialização
-8. Matriz de mais de uma dimensao com inicialização
+>8. Matriz de mais de uma dimensao com inicialização
 9. Concatenar duas string
 10. if...else
 11. Switch com default
