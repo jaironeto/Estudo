@@ -72,13 +72,13 @@
 1.9 Função anônima como argumento de outra função
 2.1 Função auto invocada com e sem argumento
 2.2 Função auto invocado com void
->2.3 Função com um iterator e consumir ele
+2.3 Função com um iterator e consumir ele
 2.4 Função construtora com campo e metodo
 2.5 Função hoisting
 2.6 Funções de seta
 2.7 Função geradora lidando com sequencias assincrona
 2.8 Lançar uma exeção com um bloco de instrução
-2.9 Acessando um objeto, criando e atribuindo valores as propriedades
+>2.9 Acessando um objeto, criando e atribuindo valores as propriedades
 3.1 Matriz de 2 dimensoes sendo criada e acessada
 3.2 Uso arguments
 3.3 Classe com construtor e um metodo, sendo construido com tres campos direto no construtor
