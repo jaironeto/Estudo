@@ -1,121 +1,120 @@
 # Java [0] last update
-> 1.1 Herança
-> 1.2 final palavra-chave para uma variavel
-> 1.3 final palavra-chave para um metodo
-> 1.4 final palavra-chave para uma classe
-> 1.5 Declarar, alocar memoria e inicializar um array
-> 1.6 Outra forma nao usual de declarar array
-> 1.7 Declarar um array abreviado com inicialização
-> 1.8 Matriz de mais de uma dimensao com inicialização
-> 1.9 Concatenar duas string
-> 2.1 if...else
-> 2.2 Switch com default
-> 2.3 while
-> 2.4 do while
-> 2.5 for loop
-> 2.6 for loop aprimorado
-> 2.7 label e uma break encerrando a label externa
-> 2.8 continue palavra-chave
-> 2.9 construtor e encapsulamento
-> 3.1 declaração simples de um metodo
-> 3.2 sobrecarga de metodo
-> 3.3 metodo com um array como parametro
-> 3.4 sintaxe spreed
-> 3.5 Instanciação
-> 3.6 Referenciar um campo/metodo de objeto
-> 3.7 Método retornando um tipo de referência
-> 3.8 Usar this em um construtor para resolver problema de identificadores iguais
-> 3.9 Construtor usando this para chamar outro construtor
-> 4.1 Membro static
-> 4.2 campo static final
-> 4.3 blocos de inicialização estáticos
-> 4.4 Blocos inicializadores para variáveis ​​de instância
-< 4.5 Instaniar diretamente uma classe interna
-< 4.6 classe local
-< 4.7 classe local acessando membro final do metodo
-< 4.8 Variavel efetivamente final
-< 4.9 Interface sendo usado como variavel tipo de uma classe
-< 5.1 Classe anonima com interface
-> 5.2 Usando uma enum
-< 5.3 expressao lambda
-< 5.4 corpo de expressão lambda com múltiplas instruções dentro das chaves
-5.5 operador de referência de método
-5.6 enum com 2 valores entre ()
-5.7 atributo deprecated
-5.8 atributo override
-5.9 interface e implements 
-6.1 interface extends outra interface
-6.2 interface com default modificador
-6.3 interface com membro static
-6.4 interface com constantes
-6.5 uso de .super. para resolver conflito em interface
-6.6 uso de super() em classe
-6.7 importação estática
-6.8 definir uma string
-6.9 concatenar uma string com tambem uma variavel
-7.1 Classe com construtor, campo, metodo e o metodo main
-7.2 Uso package e import
-7.3 Inferir o tipo da variavel com var palavra chave
-7.4 Campo static final
-7.5 Interface com metodo default
-7.6 Classe anonima estendendo de uma classe concreta
+1. Herança
+2. final palavra-chave para uma variavel
+3. final palavra-chave para um metodo
+4. final palavra-chave para uma classe
+5. Declarar, alocar memoria e inicializar um array
+6. Outra forma nao usual de declarar array
+7. Declarar um array abreviado com inicialização
+8. Matriz de mais de uma dimensao com inicialização
+9. Concatenar duas string
+10. if...else
+11. Switch com default
+12. while
+13. do while
+14. for loop
+15. for loop aprimorado
+16. label e uma break encerrando a label externa
+17. continue palavra-chave
+18. construtor e encapsulamento
+19. declaração simples de um metodo
+20. sobrecarga de metodo
+21. metodo com um array como parametro
+22. sintaxe spreed
+23. Instanciação
+24. Referenciar um campo/metodo de objeto
+25. Método retornando um tipo de referência
+26. Usar this em um construtor para resolver problema de identificadores iguais
+27. Construtor usando this para chamar outro construtor
+28. Membro static
+29. campo static final
+30. blocos de inicialização estáticos
+31. Blocos inicializadores para variáveis ​​de instância
+32. Instaniar diretamente uma classe interna
+33. classe local
+34. classe local acessando membro final do metodo
+35. Variavel efetivamente final
+36. Interface sendo usado como variavel tipo de uma classe
+37. Classe anonima com interface
+38. Usando uma enum
+39. expressao lambda
+40. corpo de expressão lambda com múltiplas instruções dentro das chaves
+41. operador de referência de método
+42. enum com 2 valores entre ()
+43. atributo deprecated
+44. atributo override
+45. interface e implements 
+46. interface extends outra interface
+47. interface com default modificador
+48. interface com membro static
+49. interface com constantes
+50. uso de .super. para resolver conflito em interface
+51. uso de super() em classe
+52. importação estática
+53. definir uma string
+54. concatenar uma string com tambem uma variavel
+55. Classe com construtor, campo, metodo e o metodo main
+56. Uso package e import
+57. Inferir o tipo da variavel com var palavra chave
+58. Campo static final
+59. Interface com metodo default
+60. Classe anonima estendendo de uma classe concreta
 
-# Javascript [1] last update 19:06
-1.1 Definir uma função com uma expressão de função condicionalmente
-1.2 Criar uma função com 'function' construtor
-1.3 Arrow 'function' sem e com abreviações
-1.4 Callback
-1.5 Cadeia de promise com arrow function
-1.6 Chamar uma função
-1.7 closure
-1.8 Expressão de função
-1.9 Função anônima como argumento de outra função
-2.1 Função auto invocada com e sem argumento
-2.2 Função auto invocado com void
-2.3 Função com um iterator e consumir ele
-2.4 Função construtora com campo e metodo
-2.5 Função hoisting
-2.6 Funções de seta
-2.7 Função geradora lidando com sequencias assincrona
-2.8 Lançar uma exeção com um bloco de instrução
->2.9 Acessando um objeto, criando e atribuindo valores as propriedades
-3.1 Matriz de 2 dimensoes sendo criada e acessada
-3.2 Uso arguments
-3.3 Classe com construtor e um metodo, sendo construido com tres campos direto no construtor
-3.4 Classe com campos e metodos privados
-3.5 try...catch
-3.6 concatenar string com +
-3.7 Uso de get/set com propriedades privadas em classe
-3.8 Uso while
-3.9 Uso throw
-4.1 Uso var, let e const
-4.2 tratamento de erro async/await
-4.3 usar async/await
-4.4 template string
-4.5 typeof
-4.6 for...of
-4.7 switch
-4.8 super e this em classes
-4.9 for..in
-5.1 Herança em classe e override metodos da classe pai
-
-5.2 do while
-5.3 campos static, metodo static e static block em uma class
-5.4 parametro rest em contrutor de classe
-5.5 objeto literal
-5.6 parametro padrão
-5.7 use de then em promisse, com suas duas funções no Promise construtor
-5.8 declaração de função
-5.9 definir campo/metodo em prototype
-6.1 definir um get/set em um objeto literal
-6.2 definir um get/set posteriomente em um objeto ja criado
-6.3 definir um metodo em uma classe via this
-6.4 definir um metodo normal e abreviado em um objeto literal
-6.5 destruturação em for..of
-6.6 substituir um membros static de uma classe, mas aprimorado com super
-6.7 Objeto literal com prototipo, campo e metodo
-6.8 Definir dinamicamente o nome de um campo em um objeto literal
-6.9 Definir dinamicamente o nome de um campo em uma classe
+# Javascript [2] last update 19/11
+1. Definir uma função com uma expressão de função condicionalmente
+2. Criar uma função com 'function' construtor
+3. Arrow 'function' sem e com abreviações
+4. Callback
+5. Cadeia de promise com arrow function
+6. Chamar uma função
+7. closure
+8. Expressão de função
+9. Função anônima como argumento de outra função
+10. Função auto invocada com e sem argumento
+11. Função auto invocado com void
+12. Função com um iterator e consumir ele
+13. Função construtora com campo e metodo
+14. Função hoisting
+15. Funções de seta
+16. Função geradora lidando com sequencias assincrona
+17. Lançar uma exeção com um bloco de instrução
+18. Acessando um objeto, criando e atribuindo valores as propriedades
+19. Matriz de 2 dimensoes sendo criada e acessada
+20. Uso arguments
+21. Classe com construtor e um metodo, sendo construido com tres campos direto no construtor
+22. Classe com campos e metodos privados
+23. try...catch
+24. concatenar string com +
+25. Uso de get/set com propriedades privadas em classe
+26. Uso while
+27. Uso throw
+28. Uso var, let e const
+29. tratamento de erro async/await
+30. usar async/await
+31. template string
+32. typeof
+33. for...of
+34. switch
+35. super e this em classes
+36. for..in
+37. Herança em classe e override metodos da classe pai
+38. do while
+39. campos static, metodo static e static block em uma class
+40. parametro rest em contrutor de classe
+41. objeto literal
+42. parametro padrão
+43. use de then em promisse, com suas duas funções no Promise construtor
+44. declaração de função
+45. definir campo/metodo em prototype
+46. definir um get/set em um objeto literal
+47. definir um get/set posteriomente em um objeto ja criado
+48. definir um metodo em uma classe via this
+49. definir um metodo normal e abreviado em um objeto literal
+50. destruturação em for..of
+51. substituir um membros static de uma classe, mas aprimorado com super
+52. Objeto literal com prototipo, campo e metodo
+53. Definir dinamicamente o nome de um campo em um objeto literal
+54. Definir dinamicamente o nome de um campo em uma classe
 
 # Typescript [0] last update
 > 1.1 adicionando novos campos a uma interface existente com interface
