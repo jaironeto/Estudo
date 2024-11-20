@@ -5,15 +5,15 @@
 4. final palavra-chave para uma classe
 5. Declarar, alocar memoria e inicializar um array
 6. Outra forma nao usual de declarar array
-7. Declarar um array abreviado com inicialização
->8. Matriz de mais de uma dimensao com inicialização
+>7. Declarar um array abreviado com inicialização
+8. Matriz de mais de uma dimensao com inicialização
 9. Concatenar duas string
 10. if...else
 11. Switch com default
 12. while
 13. do while
 14. for loop
-15. for loop aprimorado
+>15. for loop aprimorado
 16. label e uma break encerrando a label externa
 17. continue palavra-chave
 18. construtor e encapsulamento

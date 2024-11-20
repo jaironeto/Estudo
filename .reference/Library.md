@@ -1,4 +1,4 @@
-# CSS
+# CSS [0] last update 19/11
 
 ## <Properties>
 <!--https://developer.mozilla.org/en-US/docs/Web/CSS/Reference -->
@@ -29,15 +29,15 @@ forced-color-adjust
 gap
 hanging-punctuation
 height
->hyphenate-character
+hyphenate-character
 hyphenate-limit-chars
 hyphens
-initial-letter
+initial-letter <!--::first-letter-->
 inline-size
 isolation
 left
 letter-spacing
-mix-blend-mode
+>mix-blend-mode
 object-fit
 object-position
 opacity
@@ -704,7 +704,7 @@ next-sibling combinator (+)
 selector list (,)
 subsequent-sibling combinator (~)
 
-# Javascript
+# Javascript [0] last update 19/11
 
 ## <Array>
 <!--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array-->

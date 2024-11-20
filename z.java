@@ -1,11 +1,13 @@
-class teste{
+class myClass{
+    public static void main(String[] args) {
+        int[] myarray = new int[10];
+            
+        myarray[0] = 20;
 
-    public static void main(String args[]){
- 
-        int[] array1 = {12323, 334343, 222, 111};
+        System.out.println(myarray[0]);
 
+        int[] array2 = {20, 32, 33};
 
-    }
-}
-
-_
+        System.out.println(array2[0]);
+        
+    }}
