@@ -16,14 +16,14 @@
 15. for loop aprimorado
 16. label e uma break encerrando a label externa
 17. continue palavra-chave
->18. construtor e encapsulamento
+18. construtor e encapsulamento
 19. declaração simples de um metodo
 20. sobrecarga de metodo
 21. metodo com um array como parametro
->22. sintaxe spreed
+22. sintaxe spreed
 23. Instanciação
 24. Referenciar um campo/metodo de objeto
-25. Método retornando um tipo de referência
+>25. Método retornando um tipo de referência
 26. Usar this em um construtor para resolver problema de identificadores iguais
 27. Construtor usando this para chamar outro construtor
 28. Membro static
