@@ -1,13 +1,21 @@
-class myClass{
+
+class myClass {
+
     public static void main(String[] args) {
-        int[] myarray = new int[10];
-            
-        myarray[0] = 20;
-
-        System.out.println(myarray[0]);
-
-        int[] array2 = {20, 32, 33};
-
-        System.out.println(array2[0]);
+        method(11, 23, 34);
+        int[] arraymy = new int[10];
+        arraymy[0] = 3;
         
-    }}
+        System.out.println(arraymy[0]);
+
+    }
+
+    public static void method(int... args){
+        System.out.println(args[1]);
+    }
+
+};
+
+class Person{
+    
+}
