@@ -23,13 +23,13 @@
 22. sintaxe spreed
 23. Instanciação
 24. Referenciar um campo/metodo de objeto
->25. Método retornando um tipo de referência
+25. Método retornando um tipo de referência
 26. Usar this em um construtor para resolver problema de identificadores iguais
 27. Construtor usando this para chamar outro construtor
 28. Membro static
 29. campo static final
 30. blocos de inicialização estáticos
-31. Blocos inicializadores para variáveis ​​de instância
+>31. Blocos inicializadores para variáveis ​​de instância
 32. Instaniar diretamente uma classe interna
 33. classe local
 34. classe local acessando membro final do metodo
