@@ -29,12 +29,12 @@
 28. Membro static
 29. campo static final
 30. blocos de inicialização estáticos
->31. Blocos inicializadores para variáveis ​​de instância
+31. Blocos inicializadores para variáveis ​​de instância
 32. Instaniar diretamente uma classe interna
 33. classe local
 34. classe local acessando membro final do metodo
 35. Variavel efetivamente final
-36. Interface sendo usado como variavel tipo de uma classe
+>36. Interface sendo usado como variavel tipo de uma classe
 37. Classe anonima com interface
 38. Usando uma enum
 39. expressao lambda
