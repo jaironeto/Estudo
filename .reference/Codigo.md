@@ -17,9 +17,9 @@
 16. label e uma break encerrando a label externa
 17. continue palavra-chave
 18. construtor e encapsulamento
->19. declaração simples de um metodo
+19. declaração simples de um metodo
 20. sobrecarga de metodo
-21. metodo com um array como parametro
+>21. metodo com um array como parametro
 22. sintaxe spreed
 23. Instanciação
 24. Referenciar um campo/metodo de objeto
