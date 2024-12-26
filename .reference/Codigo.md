@@ -1,9 +1,9 @@
-# Java [0] last update
+# Java last update
 1. Herança
 2. final palavra-chave para uma variavel
 3. final palavra-chave para um metodo
 4. final palavra-chave para uma classe
-5. Declarar, alocar memoria e inicializar um array
+>5. Declarar, alocar memoria e inicializar um array
 6. Outra forma nao usual de declarar array
 7. Declarar um array abreviado com inicialização
 8. Matriz de mais de uma dimensao com inicialização
@@ -19,14 +19,14 @@
 18. construtor e encapsulamento
 19. declaração simples de um metodo
 20. sobrecarga de metodo
->21. metodo com um array como parametro
+21. metodo com um array como parametro
 22. sintaxe spreed
 23. Instanciação
 24. Referenciar um campo/metodo de objeto
 25. Método retornando um tipo de referência
 26. Usar this em um construtor para resolver problema de identificadores iguais
 27. Construtor usando this para chamar outro construtor
-28. Membro static
+>28. Membro static
 29. campo static final
 30. blocos de inicialização estáticos
 31. Blocos inicializadores para variáveis ​​de instância
@@ -60,7 +60,7 @@
 59. Interface com metodo default
 60. Classe anonima estendendo de uma classe concreta
 
-# Javascript [2] last update 19/11
+# Javascript last update 19/11
 1. Definir uma função com uma expressão de função condicionalmente
 2. Criar uma função com 'function' construtor
 3. Arrow 'function' sem e com abreviações
@@ -116,7 +116,7 @@
 53. Definir dinamicamente o nome de um campo em um objeto literal
 54. Definir dinamicamente o nome de um campo em uma classe
 
-# Typescript [0] last update
+# Typescript last update
 > 1.1 adicionando novos campos a uma interface existente com interface
 > 1.2 adicionando novos campos a uma interface existente com type
 > 1.3 alias de tipo para nomear um tipo de função
