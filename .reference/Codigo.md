@@ -3,7 +3,7 @@
 2. final palavra-chave para uma variavel
 3. final palavra-chave para um metodo
 4. final palavra-chave para uma classe
->5. Declarar, alocar memoria e inicializar um array
+5. Declarar, alocar memoria e inicializar um array
 6. Outra forma nao usual de declarar array
 7. Declarar um array abreviado com inicialização
 8. Matriz de mais de uma dimensao com inicialização
@@ -26,7 +26,7 @@
 25. Método retornando um tipo de referência
 26. Usar this em um construtor para resolver problema de identificadores iguais
 27. Construtor usando this para chamar outro construtor
->28. Membro static
+28. Membro static
 29. campo static final
 30. blocos de inicialização estáticos
 31. Blocos inicializadores para variáveis ​​de instância
@@ -34,7 +34,7 @@
 33. classe local
 34. classe local acessando membro final do metodo
 35. Variavel efetivamente final
->36. Interface sendo usado como variavel tipo de uma classe
+36. Interface sendo usado como variavel tipo de uma classe
 37. Classe anonima com interface
 38. Usando uma enum
 39. expressao lambda
