@@ -59,6 +59,7 @@
 58. Campo static final
 59. Interface com metodo default
 60. Classe anonima estendendo de uma classe concreta
+61. rule switch
 
 # Javascript last update 19/11
 1. Definir uma função com uma expressão de função condicionalmente
