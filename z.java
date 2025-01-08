@@ -1,83 +1,57 @@
+class Pai{
 
-class Program {
+    public void method(int[] a){
+        System.out.println(a[0]);
+    }
 
-    public static void main(String[] args) {
+    public void method2(int... a){
+        System.out.println(a[0]);
+    }
+}
 
-        final String name1 = "jairo";
-
-        int[] array1 = new int[10];
-        array1[0] = 2;
-
-        int[] array2 = {20, 30, 44, 11};
-        int[][] array3 = new int[20][10];
-        int[][] array4 = {{23, 2}, {33, 2}};
-
-        String name2 = "jairo" + " " + "marcos";
-
-        switch (name1) {
-            case "marcos":
-
-                break;
-
-            case "jairo":
-                break;
-
-            default:
-                break;
-        }
-
-        for (int i : array2) {
-            System.out.println(i);
+class class2{
+    
+    class Intern{
+        public void method(){
+            System.out.println("Intern");
         }
     }
 }
+class class1{
+    private int a;
+    private int b;
 
-class Pai {
+    public class1(){
+        this(33, 22);
+    }
 
+    public class1(int a, int b){
+        this.a = a;
+        this.b = b;
+    }
 }
 
-class Filho extends Pai {
-
+interface inter{
+    public void method();
 }
 
-class Nada {
+public class z{
+    public static void main(String[] args){
+        Pai p = new Pai();
+        int[] a = {1,2,3};
+        p.method(a);
 
-    private String name1;
-    private String name2;
-    public static String name3;
+        p.method2(22, 33, 11);
+        
+        class2 obj = new class2();
+        class2.Intern i = obj.new Intern();
 
-    static {
-        Nada.name3 = "ionelle";
-    }
+        inter in = new inter(){
+            public void method(){
+                System.out.println("intern");
+            }
+        };
 
-    public Nada() {
-        this.name1 = "jairo";
-        this.name2 = "marcos";
-    }
-
-    public Nada(String name1, String name2) {
-        this.name1 = name1;
-        this.name2 = name2;
-    }
-
-    public void getMethod() {
-        System.out.println(this.name1 + " " + this.name2);
-    }
-
-    public void getMethod(int i) {
-        System.out.println(this.name1 + " " + this.name2 + "-" + i);
-    }
-
-    public void getMethod(int[] i) {
-        System.out.println(i[0]);
-    }
-
-    public void getMethod(int a, int... i) {
-        System.out.println(i[0]);
-    }
-
-    public Pai getClassMethod() {
-        Pai obj = new Pai();
-        return obj;
+        in.method();
     }
 }
