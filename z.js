@@ -68,6 +68,14 @@ class MyClass{
     this.name = name;
     this.#privateName1 = name;
   }
+  
+  get privateName1(){
+    return this.#privateName1;
+  }
+
+  set privateName1(name){
+    this.#privateName1 = name;
+  }
 
   func(){
     console.log(this.#privateName1);  }
@@ -75,3 +83,69 @@ class MyClass{
 
 var obj = new MyClass('jairo222222222222222');
 obj.func();
+
+console.log(obj.privateName1);
+obj.privateName1 = 'marco';
+console
+console.log(obj.privateName1);
+
+class Filho extends MyClass{
+  constructor(name){
+    super(name);
+  }
+
+  func(...args){
+    super.privateName1 = "ionelle"
+   return super.privateName1 + args;
+  }
+}
+
+var obj = new Filho('vrum');
+console.log(obj.func(2,3,4));
+
+Filho.prototype.func2 = function(){
+  console.log('aaaa');
+}
+
+obj.func2();
+
+var obj = {
+  name1: "senna",
+  get name(){
+    return this.name1;
+  },
+  set name(name){
+    this.name1 = name;
+  }
+}
+
+console.log(obj.name);
+
+class Myclass{
+  constructor(name){
+    this.name = name;
+    this.func = function(){
+      return this.name;
+    }
+  }
+}
+
+var obj = new Myclass('daiane');
+console.log(obj.func());
+var dinamico = "ts1";
+
+var obj = {
+  name1: "ayrton",
+  [dinamico]: "senna"
+}
+
+console.log(obj[dinamico]);
+
+class MyClass2{
+  constructor(name){
+    this[dinamico] = name;
+  }
+}
+
+var obj = new MyClass2('dinamico class');
+console.log(obj[dinamico]);
