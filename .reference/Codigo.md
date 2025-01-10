@@ -80,7 +80,7 @@
 16. Função geradora lidando com sequencias assincrona
 17. Lançar uma exeção com um bloco de instrução
 18. Acessando um objeto, criando e atribuindo valores as propriedades
-19. Matriz de 2 dimensoes sendo criada e acessada
+19. Matriz de 2 dimensoes sendo com inicialiazação sendo criada e acessada
 20. Uso arguments
 21. Classe com construtor e um metodo, sendo construido com tres campos direto no construtor
 22. Classe com campos e metodos privados
