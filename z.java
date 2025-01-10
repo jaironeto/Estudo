@@ -1,57 +1,15 @@
-class Pai{
-
-    public void method(int[] a){
-        System.out.println(a[0]);
-    }
-
-    public void method2(int... a){
-        System.out.println(a[0]);
-    }
-}
-
-class class2{
-    
-    class Intern{
-        public void method(){
-            System.out.println("Intern");
-        }
-    }
-}
-class class1{
-    private int a;
-    private int b;
-
-    public class1(){
-        this(33, 22);
-    }
-
-    public class1(int a, int b){
-        this.a = a;
-        this.b = b;
-    }
-}
-
-interface inter{
-    public void method();
-}
-
 public class z{
     public static void main(String[] args){
-        Pai p = new Pai();
-        int[] a = {1,2,3};
-        p.method(a);
+        int[][] array1 = new int[3][4];
 
-        p.method2(22, 33, 11);
-        
-        class2 obj = new class2();
-        class2.Intern i = obj.new Intern();
+        Pai obj = new Pai();
+        obj.method1(array1);
+    }
+}
 
-        inter in = new inter(){
-            public void method(){
-                System.out.println("intern");
-            }
-        };
-
-        in.method();
+class Pai{
+    public void method1(int[][] a){
+        a[0][0] = 9;
+        System.out.println(a[0][0]);
     }
 }
