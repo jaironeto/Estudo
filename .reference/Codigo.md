@@ -1,4 +1,4 @@
-# Java last update
+# Java last update 10/01
 1. Herança
 2. final palavra-chave para uma variavel
 3. final palavra-chave para um metodo
@@ -61,7 +61,7 @@
 60. Classe anonima estendendo de uma classe concreta
 61. rule switch
 
-# Javascript last update 19/11
+# Javascript last update 2024
 1. Definir uma função com uma expressão de função condicionalmente
 2. Criar uma função com 'function' construtor
 3. Arrow 'function' sem e com abreviações

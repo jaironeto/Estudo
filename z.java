@@ -10,7 +10,40 @@ public class z{
         Extern obj3 = new Extern();
         Extern.Intern obj2 = obj3.new Intern();
         obj2.method();
+
+        Inter obj4 = new Class2(); 
+        System.out.println(obj4.executar());
+
+        Inter obj5 = new Inter(){
+            @Override
+            public String executar(){
+                return "executar anonimo 2222";
+            }
+        };
+    
+        System.out.println(obj5.executar());
+
+        Day day = Day.SEGUNDA;
+        System.out.println(day);
+        day = day.TERÇA;
+        System.out.println(day);
+
+        Inter obj6 = () -> "executar labda";
+        
+        System.out.println(obj6.executar());
+        
+        switch(day){
+            case SEGUNDA -> System.out.println("1");
+            case TERÇA -> System.out.println("2");
     }
+} 
+
+enum Day{
+    SEGUNDA, TERÇA, QUARTA;
+}
+
+interface Inter{
+    String executar();
 }
 
 class Pai{
@@ -53,5 +86,36 @@ class Extern{
         public void method(){
             System.out.println("Intern");
         }
+    }
+}
+
+class Class2 implements Inter{
+    public String name1;
+
+    {
+        this.name1 = "jairo";
+    }
+
+    public String executar(){
+        return "executar" + this.name1;
+    }
+}
+
+interface Car1{
+    default void print(){
+        System.out.println("Car1");
+    }
+}
+
+interface Car2{
+    default void print(){
+        System.out.println("Car2");
+    }
+}
+
+class Car implements Car1, Car2{
+    public void print(){
+        Car1.super.print();
+        Car2.super.print();
     }
 }
