@@ -54,12 +54,13 @@
 53. definir uma string
 54. concatenar uma string com tambem uma variavel
 55. Classe com construtor, campo, metodo e o metodo main
-56. Uso package e import
+56. Uso package
 57. Inferir o tipo da variavel com var palavra chave
 58. Campo static final
 59. Interface com metodo default
 60. Classe anonima estendendo de uma classe concreta
 61. rule switch
+62. uso import
 
 # Javascript last update 10/01
 1. Definir uma função com uma expressão de função condicionalmente
