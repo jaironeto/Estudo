@@ -6,10 +6,10 @@ accent-color
 all
 anchor-name⚠️
 appearance
-aspect-ratio
+<!--aspect-ratio nao precisa-->
 backdrop-filter
 backface-visibility
-block-size
+<!--block-size nao precisa-->
 bottom
 caption-side
 caret-color
@@ -18,7 +18,7 @@ columns `shorthand`
 content
 content-visibility <!--contain-intrinsic-size-->
 cursor
-direction
+<!--direction-->
 Display
 dominant-baseline
 empty-cells
