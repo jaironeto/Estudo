@@ -1,4 +1,4 @@
-# Java last update 10/01
+# Java 12/01
 1. Herança
 2. final palavra-chave para uma variavel
 3. final palavra-chave para um metodo
@@ -62,7 +62,7 @@
 61. rule switch
 62. uso import
 
-# Javascript last update 10/01
+# Javascript 10/01
 1. Definir uma função com uma expressão de função condicionalmente
 2. Criar uma função com 'function' construtor
 3. Arrow 'function' sem e com abreviações
@@ -118,7 +118,147 @@
 53. Definir dinamicamente o nome de um campo em um objeto literal
 54. Definir dinamicamente o nome de um campo em uma classe
 
-# Typescript last update
+# C#
+1. Main declarado async
+2. Instruição de nivel superior
+3. Enum
+4. Diretiva using em ação eliminando o uso de System no codigo
+5. Namespace com chaves
+6. Namespace global
+7. Propriedade auto-implementada com required e inicializador de objeto
+8. Classe com construtor primario
+9. Uso simples de record
+10. Uso record com with
+11. Uso record mais complicadinho
+12. Tipo anonimo
+13. Tipo anonimo com um membro mais complexo
+14. Matriz com tipo anonimo
+15. Mutação com with em tipo anonimo
+16. Criando uma struct com new e tambem a partir de um objeto struct ja criado sem usar new
+17. Override em metodo virtual
+18. Ocultar membro com new
+19. Membro ocultado com new sendo convertido para chamar o metodo da classe base que foi ocultado
+20. Polimorfismo e selead
+21. Usando base palavra chave
+22. Usando tupla +1 forma
+23. Desconstruindo tupla
+24. Desconstruindo tupla com Desconstruct metodo
+25. Override metodo toString() object
+26. Classe e metodo abstract
+27. Classe abstract transformando um metodo virtual em abstract
+28. Acabando com a herança virtual com selead
+29. Classe e metodo selead
+30. Criar e acessar uma constante
+31. Classe abstract
+32. Class constante
+33. Campo static reandoly
+34. Propriedade
+35. Sintaxe simples para propriedade somente leitura com membro apto de expressao
+36. Propriedade com membro apto de expressao
+37. Propriedade auto-implementada
+38. Propriedade auto-implementada required
+39. Propriedade em interface
+40. Acessador propriedade com modificador de acesso
+41. Inicializar propriedade auto-implementada
+42. Retornar valor por ref
+43. Usar uma ref local
+44. Metodo async
+45. Metodo de extensao
+46. Finalizador
+47. Um namespace dentro aninhado em outro namespace
+48. Main async return
+49. Record simples
+50. Record com propriedade required
+51. Codigo simples e basico com uma class, construtor e propriedades
+52. Uso do modificador new em metodos nao virtuais
+53. Substituir metodo toString()
+54. Abstract herdando de uma classe e transformando um metodo virtual em abstract, para depois quem herdar do metodo abstract dar override
+55. switch
+56. Campo, propriedade e metodo static
+57. Campos const
+58. Classe base abstract com propriedade abstract que entao sera override por classes derivadas
+59. Nova implementação com new operador sem o uso de virtual
+60. Propriedade com acessibilidade diferente
+61. Valor retornado por ref
+62. ref recebendo uma ref
+63. Metodo de extensao com ref e sem ref
+64. Metodo de extensao
+65. Metodo de extensao para string
+66. Usando enum
+67. Argumento nomeado e posicional
+68. Construtor simples
+69. Construtor com : base
+70. Sobrecarga de construtor
+71. Construtor com : this
+72. Classe abstract com construtor sendo acessado quando derivado
+73. Construtor static
+74. Finalizador
+75. As duas sintaxe de inicializador de objeto
+76. Tipo aninhado
+77. Class partial
+78. Metodos partial
+79. literais de cadeia de caracteres entre aspas
+80. Literais de cadeia de caracteres textuais
+81. Literais de cadeia de caracteres bruta
+82. cadeias de caracteres interpoladas
+83. literais de cadeia de caracteres bruta com interpolações de cadeia de caracteres
+84. Formatação de composição
+85. Delegate simples
+86. Adicionar e remover um metodo a um delegate
+87. Indexador simples
+88. Indexador somente leitura e com parametro generico
+89. Indexador em uma interface
+90. Campos const em uma classe static
+91. implementação de interface explícita
+92. Uso params
+93. Acessando um membro de uma interface herdada, declarando o tipo da interface e usando a variavel da classe
+94. Indexador normal
+95. Indexador somente leitura
+96. Indexador normal com membro apto de expressao
+97. Criando uma excessao com uma classe derivada de exception
+98. Varios catch para um exception
+99. filtros de exceção para adicionar uma expressão booliana a uma cláusula catch
+100. Passando um valor por referencia
+101. Evento
+
+# React
+1. Conceito de usar componente dentro de outros
+2. html embutido com fragment
+3. Exportando e usando o componente importado
+4. Criando uma variavel com o style e entao os usando no componente em style prop
+5. Renderização condicional operador tenario e &&
+6. Renderizando listas
+7. Mantendo componente puro
+8. Componente com return abreviado e nao abreviado
+9. Codigo limpo, declarando os literals em variaveis e so depois nas props com jsx
+10. Usando variaveis javascript dentro do JSX e dentro das tag como texto
+11. Usando style elemento css diretamente no html JSX
+12. Usando children propriedade passada automaticamente
+13. Renderizando itens condicionalmente
+14. Renderizando itens condicionalmente e retornando null para nao renderizar
+15. Renderizando itens condicionalmente, mas colocando JSX diretamente na variavel
+16. Mantendo componente puro
+17. Usando nome da className em arquivo css
+18. Definindo style diretamente no react
+19. Renderização condicional
+20. Renderização condicional
+21. Responder a um evento
+22. Use status
+23. Use status autualizando 2 botoes ao mesmo tempo
+24. Exportação e nomeada no mesmo arquivo
+25. Respondendo a eventos
+26. **** export
+27. Atualizando objetos no estado
+28. Atualizando matrizes no estado
+29. Evento simples
+30. Evento simples inline, as duas formas
+31. Lendo adereços em manipuladores de eventos
+32. Passando manipuladores de eventos como adereços
+33. Nomeando adereços do manipulador de eventos
+34. Parando a propagação
+35. Renderizar
+
+# Typescript 
 > 1.1 adicionando novos campos a uma interface existente com interface
 > 1.2 adicionando novos campos a uma interface existente com type
 > 1.3 alias de tipo para nomear um tipo de função
