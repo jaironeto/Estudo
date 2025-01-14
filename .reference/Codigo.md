@@ -140,7 +140,6 @@
 19. Membro ocultado com new sendo convertido para chamar o metodo da classe base que foi ocultado
 20. Polimorfismo e selead
 21. Usando base palavra chave
-
 22. Usando tupla +1 forma
 23. Desconstruindo tupla
 24. Desconstruindo tupla com Desconstruct metodo
@@ -160,7 +159,7 @@
 38. Propriedade auto-implementada required
 39. Propriedade em interface
 40. Acessador propriedade com modificador de acesso
-41. Inicializar propriedade auto-implementada
+>41. Inicializar propriedade auto-implementada
 42. Retornar valor por ref
 43. Usar uma ref local
 44. Metodo async
