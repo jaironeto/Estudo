@@ -1,58 +1,31 @@
-﻿using System;
-
-class Program 
+﻿enum DiasDaSemana
 {
-  public static async Task Main(string[] args)
+  Domingo,
+  Segunda,
+  Terca,
+  Quarta,
+  Quinta,
+  Sexta,
+  Sabado
+}
+
+class Program
+{
+  static async Task Main()
   {
-    Class2 p2 = new Class2();
-    Class1 p1 = new Class1();
 
-    p1.method();
-    p2.method();
-  
+    Class1 obj = new Class1("jairo") { nome = "João" };
+    System.Console.WriteLine(obj.nome);
+    System.Console.WriteLine(obj.nome2);
+    DiasDaSemana dia = DiasDaSemana.Segunda;
+    System.Console.WriteLine(dia);
+    await Task.Delay(3000);
+    System.Console.WriteLine("Hello World!");
   }
 }
 
-class Class1{
-  public virtual void method(){
-    System.Console.WriteLine("Class1");
-  }
-}
-class Class2 : Class1{
-  public new void method(){
-    base.method();
-    System.Console.WriteLine("Class2");
-  }
-}
-
-struct Pessoa{
-  public string name1;
-
-  public Pessoa(string name1){
-    this.name1 = name1;
-  }
-}
-
-class Filho{
-  public string Nome { get; set; }
-  public string Nome2 { get; set; }
-
-}
-
-class Filho2(string _name){
-  public string name = _name; 
-}
-public record myrecord(string name, int idade);
-
-public record myrecord2(string name, int idade){
-  public string name3 {get; set;}
-}
-
-
-public enum FileTipo
+class Class1(string nome)
 {
-  Text,
-  Image,
-  Video,
-  Audio
+  public string nome { get; set; }
+  public string nome2 = nome;
 }
