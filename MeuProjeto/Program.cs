@@ -19,8 +19,6 @@ class Program
     c7.name = "carro";
     Console.WriteLine(c7.name);
 
-    _
-
   }
 }
 

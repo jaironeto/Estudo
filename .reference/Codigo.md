@@ -62,7 +62,7 @@
 61. rule switch
 62. uso import
 
-# Javascript 10/01
+# Javascript 14/01
 1. Definir uma função com uma expressão de função condicionalmente
 2. Criar uma função com 'function' construtor
 3. Arrow 'function' sem e com abreviações
