@@ -3,22 +3,26 @@ public class z {
 
     public static void main(String[] args) {
 
-        inter1 i = new inter1() {
-            @Override
-            public void method() {
-                System.out.println("metodo anonimo");
-            }
-        };
-
-        inter1 soma = () -> {
-            System.out.println("teste1");
-            System.out.println("teste3");
-        };
-        inter1 mult = () -> System.out.println("teste2");
-
-        soma.method();
-
+        Class3 i = new Class3();
+        i.method();
+        var o = 3;
     }
+}
+class Class3 implements inter2, inter3{
+  public void method(){
+    inter2.super.method();
+    inter3.super.method();
+  }
+}
+interface inter2{
+  default void method(){
+    System.out.println("inter2");
+  }
+}
+interface inter3{
+  default void method(){
+    System.out.println("inter3");
+  }
 }
 
 interface inter1 {

@@ -1,78 +1,40 @@
-﻿
-enum DiasDaSemana
-{
-  Domingo,
-  Segunda,
-  Terca,
-  Quarta,
-  Quinta,
-  Sexta,
-  Sabado
-}
+﻿using System;
+namespace ProgramNamespace;
 
-class Program
-{
-  static async Task Main()
-  {
-    Class7 c7 = new Class7();
-    Console.WriteLine(c7.name);
-    c7.name = "carro";
-    Console.WriteLine(c7.name);
+class Program{
+  public static async Task Main(String[] args){
+    
+  
+    A a = new A();
+    System.Console.WriteLine("aqui1 ");
+    await a.methodAsync();
 
   }
 }
 
-class Class7
-{
-  public string _name = "teste";
-  public string name
-  {
-    private get { return _name; }
-    set => _name = value;
-  }
-
-}
-static class Class6
-{
-  public const string name = "vitor";
-  public static readonly string name2 = "marta";
-
-  static Class6()
-  {
-    Class6.name2 = "jairo";
-  }
-
-}
-
-class Class4
-{
-  public const string nome = "aviao";
-  public virtual void method()
-  {
-    Console.WriteLine("jairo");
+static class C{
+  public static string[] methodExtensao(this string a){
+    var i = a.Split(" ");
+    return i;
   }
 }
-abstract class Class3 : Class4
-{
-  public abstract void methodAbstract();
-  public override abstract void method();
 
-}
-class Class2
-{
-  public (string, string) method()
-  {
-    return ("jairo3", "vrum");
+class A{
 
+  public async Task methodAsync(){
+    await Task.Delay(5000);
+        System.Console.WriteLine("aqui2");
   }
-}
-record Record1(string nome)
-{
-  public string nome2 { get; set; }
-}
 
-class Class1(string nome)
-{
-  public string nome { get; set; }
-  public string nome2 = nome;
+
+  public const string name1 = "vrum";
+  public string _name;
+  public string name{
+    get => this._name;
+    set => this._name = value;
+  }
+
+  public virtual (string, string) method(){
+    return ("jairo", "name1");
+  }
 }
