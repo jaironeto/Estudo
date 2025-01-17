@@ -1,0 +1,2316 @@
+//****************************************************************************
+                            // CSS Library
+//****************************************************************************
+{  
+  "properties": {
+	"prefix": "#accent-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties ": {
+	"prefix": "#all",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties  ": {
+	"prefix": "#⚠️anchor-name",
+			"body": [
+				],
+  "description": ""
+	},
+
+  "properties                ": {
+	"prefix": "#appearance",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties   ": {
+	"prefix": "#🚫aspect-ratio",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties    ": {
+	"prefix": "#backdrop-filter",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties     ": {
+	"prefix": "#backface-visibility",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties      ": {
+	"prefix": "#🚫block-size",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties       ": {
+	"prefix": "#bottom",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties        ": {
+	"prefix": "#caption-side",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties         ": {
+	"prefix": "#caret-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties          ": {
+	"prefix": "#clear",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties           ": {
+	"prefix": "#columns (shorthand)",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties            ": {
+	"prefix": "#content",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties             ": {
+	"prefix": "#content-visibility ",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties              ": {
+	"prefix": "#contain-intrinsic-size (shorthand)",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties               ": {
+	"prefix": "#cursor",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "css": {
+	"prefix": "#🗑️direction",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                             ": {
+	"prefix": "#Display",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                            ": {
+	"prefix": "#dominant-baseline",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                           ": {
+	"prefix": "#empty-cells",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                          ": {
+	"prefix": "#⚠️field-sizing",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                         ": {
+	"prefix": "#filter",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                        ": {
+	"prefix": "#float",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                       ": {
+	"prefix": "#forced-color-adjust",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                      ": {
+	"prefix": "#gap",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                     ": {
+	"prefix": "#hanging-punctuation",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                    ": {
+	"prefix": "#height",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                   ": {
+	"prefix": "#hyphenate-character",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                  ": {
+	"prefix": "#hyphenate-limit-chars",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                 ": {
+	"prefix": "#hyphens",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                ": {
+	"prefix": "#initial-letter ",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                               ": {
+	"prefix": "#inline-size",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                              ": {
+	"prefix": "#isolation",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                             ": {
+	"prefix": "#left",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                            ": {
+	"prefix": "#letter-spacing",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                           ": {
+	"prefix": "#mix-blend-mode",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                          ": {
+	"prefix": "#object-fit",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                         ": {
+	"prefix": "#object-position",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                        ": {
+	"prefix": "#opacity",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                       ": {
+	"prefix": "#order",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                      ": {
+	"prefix": "#orphans",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                     ": {
+	"prefix": "#⚠️overlay",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                    ": {
+	"prefix": "#paint-order",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                   ": {
+	"prefix": "#perspective",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                  ": {
+	"prefix": "#perspective-origin",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                           ": {
+	"prefix": "#pointer-events",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                          ": {
+	"prefix": "#print-color-adjust",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                         ": {
+	"prefix": "#quotes",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                       ": {
+	"prefix": "#r",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                        ": {
+	"prefix": "#resize",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                      ": {
+	"prefix": "#right",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                     ": {
+	"prefix": "#rotate",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                ": {
+	"prefix": "#row-gap",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                    ": {
+	"prefix": "#ruby-align",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                   ": {
+	"prefix": "#ruby-position",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                  ": {
+	"prefix": "#rx",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                 ": {
+	"prefix": "#ry",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                ": {
+	"prefix": "#scale",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                               ": {
+	"prefix": "#stop-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                              ": {
+	"prefix": "#stop-opacity",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                             ": {
+	"prefix": "#tab-size",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                            ": {
+	"prefix": "#table-layout",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                           ": {
+	"prefix": "#⚠️timeline-scope",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                          ": {
+	"prefix": "#top",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                         ": {
+	"prefix": "#touch-action",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                        ": {
+	"prefix": "#translate",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                       ": {
+	"prefix": "#unicode-bidi",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                      ": {
+	"prefix": "#🗑️user-modify",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                     ": {
+	"prefix": "#user-select",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                    ": {
+	"prefix": "#vector-effect",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                   ": {
+	"prefix": "#vertical-align",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                  ": {
+	"prefix": "#visibility",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                 ": {
+	"prefix": "#white-space",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                ": {
+	"prefix": "#white-space-collapse",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                               ": {
+	"prefix": "#widows",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                              ": {
+	"prefix": "#width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                             ": {
+	"prefix": "#will-change",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                            ": {
+	"prefix": "#word-break",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                           ": {
+	"prefix": "#word-spacing",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                          ": {
+	"prefix": "#writing-mode",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                         ": {
+	"prefix": "#x",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                        ": {
+	"prefix": "#y",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                       ": {
+	"prefix": "#z-index",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                      ": {
+	"prefix": "#zoom",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                     ": {
+	"prefix": "#🗑️moz-float-edge",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                    ": {
+	"prefix": "#🗑️moz-force-broken-image-icon",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                   ": {
+	"prefix": "#⚠️-moz-image-region",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                  ": {
+	"prefix": "#⚠️-moz-orient",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                 ": {
+	"prefix": "#🗑️-moz-user-focus",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                ": {
+	"prefix": "#🗑️-moz-user-input",
+			"body": [
+				],
+  "description": "#"
+	},
+		
+  "properties                                                               ": {
+	"prefix": "#⚠️-webkit-border-before",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                              ": {
+	"prefix": "#⚠️-webkit-box-reflect",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                             ": {
+	"prefix": "#-webkit-line-clamp",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                            ": {
+	"prefix": "#⚠️-webkit-mask-box-image",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                           ": {
+	"prefix": "#⚠️-webkit-mask-composite",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                          ": {
+	"prefix": "#⚠️-webkit-mask-position-x",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                         ": {
+	"prefix": "#⚠️-webkit-mask-position-y",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                        ": {
+	"prefix": "#⚠️-webkit-mask-repeat-x",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                       ": {
+	"prefix": "#⚠️-webkit-mask-repeat-y",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                      ": {
+	"prefix": "#⚠️-webkit-tap-highlight-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                     ": {
+	"prefix": "#-webkit-text-fill-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                    ": {
+	"prefix": "#⚠️-webkit-text-security",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                   ": {
+	"prefix": "#-webkit-text-stroke",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                  ": {
+	"prefix": "#-webkit-text-stroke-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                               ": {
+	"prefix": "#-webkit-text-stroke-width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                 ": {
+	"prefix": "#⚠️-webkit-touch-callout",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                  ": {
+	"prefix": "#align-content",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                          ": {
+	"prefix": "#align-items",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                         ": {
+	"prefix": "#align-self",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                           ": {
+	"prefix": "#animation",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                             ": {
+	"prefix": "#animation-composition",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                            ": {
+	"prefix": "#animation-delay",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                              ": {
+	"prefix": "#animation-direction",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                               ": {
+	"prefix": "#animation-duration",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                ": {
+	"prefix": "#animation-fill-mode",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                 ": {
+	"prefix": "#animation-iteration-count",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                  ": {
+	"prefix": "#animation-name",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                   ": {
+	"prefix": "#animation-play-state",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                    ": {
+	"prefix": "#⚠️animation-range",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                     ": {
+	"prefix": "#⚠️animation-range-end",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                      ": {
+	"prefix": "#⚠️animation-range-start",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                       ": {
+	"prefix": "#⚠️animation-timeline",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                        ": {
+	"prefix": "#animation-timing-function",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                         ": {
+	"prefix": "#background",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                          ": {
+	"prefix": "#background-attachment",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                                                      ": {
+	"prefix": "#background-blend-mode",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                           ": {
+	"prefix": "#background-clip",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                            ": {
+	"prefix": "#background-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                             ": {
+	"prefix": "#background-image",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                              ": {
+	"prefix": "#background-origin",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                               ": {
+	"prefix": "#background-position",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                ": {
+	"prefix": "#background-position-x",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                  ": {
+	"prefix": "#background-position-y",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                   ": {
+	"prefix": "#background-repeat",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                 ": {
+	"prefix": "#background-size",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                    ": {
+	"prefix": "#border",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                     ": {
+	"prefix": "#border-block",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                      ": {
+	"prefix": "#border-block-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                       ": {
+	"prefix": "#border-block-end",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                        ": {
+	"prefix": "#border-block-end-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                         ": {
+	"prefix": "#border-block-end-style",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                          ": {
+	"prefix": "#border-block-end-width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+
+  "properties                                                                                                                                                                                           ": {
+	"prefix": "#border-block-start",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                            ": {
+	"prefix": "#border-block-start-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                             ": {
+	"prefix": "#border-block-start-style",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                              ": {
+	"prefix": "#border-block-start-width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                               ": {
+	"prefix": "#border-block-style",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                                ": {
+	"prefix": "#border-block-width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                                                                 ": {
+	"prefix": "#border-bottom",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                        ": {
+	"prefix": "#border-bottom-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                       ": {
+	"prefix": "#border-bottom-left-radius",
+			"body": [
+				],
+  "description": "#"
+	},
+
+
+  "properties                                                                                                                                                      ": {
+	"prefix": "#border-bottom-right-radius",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                     ": {
+	"prefix": "#border-bottom-style",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                    ": {
+	"prefix": "#border-bottom-width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                   ": {
+	"prefix": "#border-collapse",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                  ": {
+	"prefix": "#border-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                 ": {
+	"prefix": "#border-end-end-radius",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                                ": {
+	"prefix": "#border-end-start-radius",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                               ": {
+	"prefix": "#border-image",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                              ": {
+	"prefix": "#border-image-outset",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                             ": {
+	"prefix": "#border-image-repeat",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                            ": {
+	"prefix": "#border-image-slice",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                           ": {
+	"prefix": "#border-image-source",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                          ": {
+	"prefix": "#border-image-width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                         ": {
+	"prefix": "#border-inline",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                        ": {
+	"prefix": "#border-inline-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                       ": {
+	"prefix": "#border-inline-end",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                      ": {
+	"prefix": "#border-inline-end-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                     ": {
+	"prefix": "#border-inline-end-style",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                    ": {
+	"prefix": "#border-inline-end-width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                   ": {
+	"prefix": "#border-inline-start",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                  ": {
+	"prefix": "#border-inline-start-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                 ": {
+	"prefix": "#border-inline-start-style",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                                ": {
+	"prefix": "#border-inline-start-width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                               ": {
+	"prefix": "#border-inline-style",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                              ": {
+	"prefix": "#border-inline-width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                             ": {
+	"prefix": "#border-left",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                            ": {
+	"prefix": "#border-left-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                          ": {
+	"prefix": "#border-left-style",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                           ": {
+	"prefix": "#border-left-width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                         ": {
+	"prefix": "#border-radius",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                        ": {
+	"prefix": "#border-right",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                       ": {
+	"prefix": "#border-right-color",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                      ": {
+	"prefix": "#border-right-style",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                    ": {
+	"prefix": "#border-right-width",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                     ": {
+	"prefix": "#border-spacing",
+			"body": [
+				],
+  "description": "#"
+	},
+
+  "properties                                                                                                                   ": {
+	"prefix": "#border-start-end-radius",
+			"body": [
+				],
+  "description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#border-start-start-radius",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#border-style",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#border-top",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#border-top-color",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#border-top-left-radius",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#border-top-right-radius",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#border-top-style",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#border-top-width",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#border-width",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#🗑️box-align",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#box-decoration-break",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#🗑️box-direction",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#🗑️box-flex", 
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#🗑️box-flex-group", 
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#🗑️box-lines",  
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#🗑️moz-box-ordinal-group",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#🗑️box-orient",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#🗑️box-pack",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#box-shadow",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#box-sizing",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#break-after",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#break-before",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#break-inside",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#clip-path",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#clip-rule",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#color",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#color-interpolation",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#color-interpolation-filters",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#color-scheme",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#column-count",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#column-fill",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#column-gap",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#column-rule",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#column-rule-color",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#column-rule-style",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#column-rule-width",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#column-span",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#column-width",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#contain",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                ": {
+	"prefix": "#contain-intrinsic-block-size",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                               ": {
+	"prefix": "#contain-intrinsic-height",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                              ": {
+	"prefix": "#contain-intrinsic-inline-size",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                             ": {
+	"prefix": "#contain-intrinsic-size",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                            ": {
+	"prefix": "#contain-intrinsic-width",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                           ": {
+	"prefix": "#container",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                          ": {
+	"prefix": "#container-name",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                         ": {
+	"prefix": "#container-type",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                        ": {
+	"prefix": "#counter-increment",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                       ": {
+	"prefix": "#counter-reset",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                      ": {
+	"prefix": "#counter-set",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                     ": {
+	"prefix": "#fill",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                    ": {
+	"prefix": "#fill-opacity",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                   ": {
+	"prefix": "#fill-rule",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                  ": {
+	"prefix": "#flex",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                 ": {
+	"prefix": "#flex-basis",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                ": {
+	"prefix": "#flex-direction",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                               ": {
+	"prefix": "#flex-flow",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                              ": {
+	"prefix": "#flex-grow",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                             ": {
+	"prefix": "#flex-shrink",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                            ": {
+	"prefix": "#flex-wrap",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                           ": {
+	"prefix": "#font",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                          ": {
+	"prefix": "#font-family",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                         ": {
+	"prefix": "#font-feature-settings",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                        ": {
+	"prefix": "#font-kerning",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                       ": {
+	"prefix": "#font-language-override",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                      ": {
+	"prefix": "#font-optical-sizing",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                     ": {
+	"prefix": "#font-palette",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                    ": {
+	"prefix": "#font-size",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                   ": {
+	"prefix": "#font-size-adjust",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                 ": {
+	"prefix": "#⚠️font-smooth",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                  ": {
+	"prefix": "#font-stretch",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                ": {
+	"prefix": "#font-style",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                              ": {
+	"prefix": "#font-synthesis",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                               ": {
+	"prefix": "#font-synthesis-position",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                            ": {
+	"prefix": "#font-synthesis-small-caps",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                             ": {
+	"prefix": "#font-synthesis-style",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                           ": {
+	"prefix": "#font-synthesis-weight",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                          ": {
+	"prefix": "#font-variant",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                         ": {
+	"prefix": "#font-variant-alternates",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                        ": {
+	"prefix": "#font-variant-caps",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                       ": {
+	"prefix": "#font-variant-east-asian",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                     ": {
+	"prefix": "#font-variant-emoji",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                   ": {
+	"prefix": "#font-variant-ligatures",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                    ": {
+	"prefix": "#font-variant-numeric",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                  ": {
+	"prefix": "#font-variant-position",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                 ": {
+	"prefix": "#font-variation-settings",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                ": {
+	"prefix": "#font-weight",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                               ": {
+	"prefix": "#grid",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                              ": {
+	"prefix": "#grid-area",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                             ": {
+	"prefix": "#grid-auto-columns",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                            ": {
+	"prefix": "#grid-auto-flow",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                           ": {
+	"prefix": "#grid-auto-rows",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                          ": {
+	"prefix": "#grid-column",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                        ": {
+	"prefix": "#grid-column-end",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                         ": {
+	"prefix": "#grid-column-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                       ": {
+	"prefix": "#grid-row",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                      ": {
+	"prefix": "#grid-row-end",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                   ": {
+	"prefix": "#grid-row-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                    ": {
+	"prefix": "#grid-template",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                     ": {
+	"prefix": "#grid-template-areas",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#grid-template-columns",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#grid-template-rows",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#image-orientation",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#image-rendering",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#⚠️image-resolution",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#inset",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#inset-block",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#inset-block-end",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#inset-block-start",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#inset-inline",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#inset-inline-end",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#inset-inline-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#justify-content",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#justify-items",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#justify-self",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#line-break",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#line-height",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#⚠️line-height-step",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#list-style",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#list-style-image",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#list-style-position",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#list-style-type",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#margin",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#margin-block",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#margin-block-end",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#margin-block-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#margin-bottom",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#margin-inline",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#margin-inline-end",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#margin-inline-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#margin-left",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#margin-right",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#margin-top",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#⚠️margin-trim",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#marker",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#marker-end",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#marker-mid",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#marker-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#mask",
+				"body": [
+					],
+	"description": "#"
+	},
+	
+	"properties                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#mask-border",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#",
+				"body": [
+					],
+	"description": "#"
+	},
+}
