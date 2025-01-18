@@ -1,0 +1,503 @@
+{
+  "Raiz principal": {
+   "prefix": "#<html>",
+            "body": [
+              ],
+  "description": "#"
+  },
+
+  "Metadados do documento": {
+  "prefix": "#<base>",
+             "body": [
+               ],
+  "description": "#Especifica a URL base a ser usada para todas as URLs relativas em um documento. Pode haver apenas um elemento desse tipo em um documento."
+ },
+
+  "Metadados do documento     ": {
+  "prefix": "#<head>",
+             "body": [
+               ],
+  "description": "#Contém informações legíveis por máquina (metadados) sobre o documento, como título , scripts e folhas de estilo ."
+ },
+
+  "Metadados do documento    ": {
+  "prefix": "#<link>",
+             "body": [
+               ],
+  "description": "#Especifica relacionamentos entre o documento atual e um recurso externo. Este elemento é mais comumente usado para vincular ao CSS, mas também é usado para estabelecer ícones de site (ícones de estilo "favicon" e ícones para a tela inicial e aplicativos em dispositivos móveis), entre outras coisas."
+ },
+
+  "Metadados do documento   ": {
+  "prefix": "#<meta>",
+             "body": [
+               ],
+  "description": "#Representa metadados que não podem ser representados por outros elementos meta-relacionados ao HTML, como <base>, <link>, e .<script><style><title>"
+ },
+
+  "Metadados do documento  ": {
+  "prefix": "#<style>",
+             "body": [
+               ],
+  "description": "#Contém informações de estilo para um documento ou parte de um documento. Ele contém CSS, que é aplicado ao conteúdo do documento que contém este elemento."
+ },
+
+  "Metadados do documento ": {
+  "prefix": "#<title>",
+             "body": [
+               ],
+  "description": "#O conteúdo do título de uma página pode ter implicações significativas para a otimização de mecanismos de busca ( SEO ). Em geral, um título mais longo e descritivo tem melhor desempenho do que títulos curtos ou genéricos. O conteúdo do título é um dos componentes usados ​​pelos algoritmos dos mecanismos de busca para decidir a ordem em que as páginas serão listadas nos resultados da busca. Além disso, o título é o "gancho" inicial pelo qual você captura a atenção dos leitores que olham para a página de resultados da busca."
+ },
+
+  "Seccionamento da raiz": {
+  "prefix": "#<body>",
+             "body": [
+               ],
+  "description": "#Representa o conteúdo de um documento HTML. Só pode haver um elemento desse tipo em um documento."
+ },
+
+  "Seção de conteúdo": {
+  "prefix": "#<address>",
+             "body": [
+               ],
+  "description": "#Indica que o HTML incluso fornece informações de contato de uma pessoa ou pessoas, ou de uma organização."
+ },
+
+  "Seção de conteúdo          ": {
+  "prefix": "#<article>",
+             "body": [
+               ],
+  "description": "#Representa uma composição autocontida em um documento, página, aplicativo ou site, que se destina a ser independentemente distribuível ou reutilizável (por exemplo, em syndication). Exemplos incluem uma postagem de fórum, um artigo de revista ou jornal, uma entrada de blog, um cartão de produto, um comentário enviado pelo usuário, um widget ou gadget interativo ou qualquer outro item independente de conteúdo."
+ },
+
+  "Seção de conteúdo         ": {
+  "prefix": "#<aside>",
+             "body": [
+               ],
+  "description": "#Representa uma parte de um documento cujo conteúdo está apenas indiretamente relacionado ao conteúdo principal do documento. Apartes são frequentemente apresentados como barras laterais ou caixas de chamada."
+ },
+
+  "Seção de conteúdo        ": {
+  "prefix": "#<footer>",
+             "body": [
+               ],
+  "description": "#A tag <footer> em HTML é usada para definir o rodapé de uma seção ou de um documento. O rodapé normalmente contém informações sobre o autor, links para termos de uso, políticas de privacidade, direitos autorais, ou até mesmo links de navegação adicionais"
+ },
+
+  "Seção de conteúdo       ": {
+  "prefix": "#<header>",
+             "body": [
+               ],
+  "description": "#Representa conteúdo introdutório, tipicamente um grupo de auxílios introdutórios ou de navegação. Pode conter alguns elementos de título, mas também um logotipo, um formulário de pesquisa, um nome de autor e outros elementos."
+ },
+
+  "Seção de conteúdo      ": {
+  "prefix": "#<h1>, <h2>, <h3>, <h4>, <h5>,<h6>",
+             "body": [
+               ],
+  "description": "#Representa seis níveis de títulos de seção. <h1>é o nível de seção mais alto e <h6>é o mais baixo."
+ },
+
+  "Seção de conteúdo     ": {
+  "prefix": "#<hgroup>",
+             "body": [
+               ],
+  "description": "#Representa um título agrupado com qualquer conteúdo secundário, como subtítulos, um título alternativo ou um slogan."
+ },
+
+  "Seção de conteúdo    ": {
+  "prefix": "#<main>",
+             "body": [
+               ],
+  "description": "#Representa o conteúdo dominante do corpo de um documento. A área de conteúdo principal consiste em conteúdo que está diretamente relacionado ou expande o tópico central de um documento, ou a funcionalidade central de um aplicativo."
+ },
+
+  "Seção de conteúdo   ": {
+  "prefix": "#<nav>",
+             "body": [
+               ],
+  "description": "#Representa uma seção de uma página cujo propósito é fornecer links de navegação, seja dentro do documento atual ou para outros documentos. Exemplos comuns de seções de navegação são menus, tabelas de conteúdo e índices."
+ },
+
+  "Seção de conteúdo  ": {
+  "prefix": "#<section>",
+             "body": [
+               ],
+  "description": "#Representa uma seção autônoma genérica de um documento, que não tem um elemento semântico mais específico para representá-la. As seções devem sempre ter um título, com pouquíssimas exceções."
+ },
+
+  "Seção de conteúdo ": {
+  "prefix": "#<search>",
+             "body": [
+               ],
+  "description": "#Representa uma parte que contém um conjunto de controles de formulário ou outro conteúdo relacionado à execução de uma operação de pesquisa ou filtragem."
+ },
+
+  "Conteúdo de texto": {
+  "prefix": "#<blockquote>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto             ": {
+  "prefix": "#<dd>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto            ": {
+  "prefix": "#<div>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto           ": {
+  "prefix": "#<dl>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto          ": {
+  "prefix": "#<dt>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto         ": {
+  "prefix": "#<figcaption>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto        ": {
+  "prefix": "#<figure>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto       ": {
+  "prefix": "#<hr>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto      ": {
+  "prefix": "#<li>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto     ": {
+  "prefix": "#<menu>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto    ": {
+  "prefix": "#<ol>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto   ": {
+  "prefix": "#<p>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto  ": {
+  "prefix": "#<pre>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Conteúdo de texto ": {
+  "prefix": "#<ul>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha": {
+  "prefix": "#<a>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                            ": {
+  "prefix": "#<abbr>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                           ": {
+  "prefix": "#<b>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                          ": {
+  "prefix": "#<bdi>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                         ": {
+  "prefix": "#<bdo>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                        ": {
+  "prefix": "#<br>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                       ": {
+  "prefix": "#<cite>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                     ": {
+  "prefix": "#<code>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                      ": {
+  "prefix": "#<data>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                    ": {
+  "prefix": "#<dfn>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                   ": {
+  "prefix": "#<em>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                  ": {
+  "prefix": "#<i>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                 ": {
+  "prefix": "#<kbd>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha                ": {
+  "prefix": "#<mark>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha               ": {
+  "prefix": "#<q>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha              ": {
+  "prefix": "#<rp>",
+             "body": [
+               ],
+  "description": "#"
+ },
+ 
+  "Semântica de texto em linha             ": {
+  "prefix": "#<rt>",
+             "body": [
+               ],
+  "description": "#"
+ },
+ 
+  "Semântica de texto em linha            ": {
+  "prefix": "#<ruby>",
+             "body": [
+               ],
+  "description": "#"
+ },
+ 
+  "Semântica de texto em linha           ": {
+  "prefix": "#<s>",
+             "body": [
+               ],
+  "description": "#"
+ },
+  "Semântica de texto em linha          ": {
+  "prefix": "#<samp>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha         ": {
+  "prefix": "#<small>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha        ": {
+  "prefix": "#<span>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha       ": {
+  "prefix": "#<strong>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha      ": {
+  "prefix": "#<sub>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha     ": {
+  "prefix": "#<sup>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha    ": {
+  "prefix": "#<time>",
+             "body": [
+               ],
+  "description": "#"
+ },
+  "Semântica de texto em linha   ": {
+  "prefix": "#<u>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha  ": {
+  "prefix": "#<var>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Semântica de texto em linha ": {
+  "prefix": "#<wbr>",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "Imagem e multimídia": {
+  "prefix": "#",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "": {
+  "prefix": "#",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "": {
+  "prefix": "#",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "": {
+  "prefix": "#",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "": {
+  "prefix": "#",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "": {
+  "prefix": "#",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "": {
+  "prefix": "#",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "": {
+  "prefix": "#",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "": {
+  "prefix": "#",
+             "body": [
+               ],
+  "description": "#"
+ },
+
+  "": {
+  "prefix": "#",
+             "body": [
+               ],
+  "description": "#"
+ },
+}

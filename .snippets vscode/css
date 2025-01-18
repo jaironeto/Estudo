@@ -5,8 +5,9 @@
   "properties": {
 	"prefix": "#accent-color",
 			"body": [
+				"",
 				],
-  "description": "#"
+  "description": "A propriedade CSS accent-color define a cor de destaque para controles de interface do usuário gerados por alguns elementos."
 	},
 
   "properties ": {
@@ -2300,17 +2301,2230 @@
 	"description": "#"
 	},
 
-	"properties                                                                                                                                                                                                                                                                                                                                                 ": {
-	"prefix": "#",
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#mask-border-mode",
 				"body": [
 					],
 	"description": "#"
 	},
 
-	"properties                                                                                                                                                                                                                                                                                                                                                 ": {
-	"prefix": "#",
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#mask-border-outset",
 				"body": [
 					],
 	"description": "#"
 	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#mask-border-repeat",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#mask-border-slice",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#mask-border-source",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#mask-border-width",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#mask-clip",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#mask-composite",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#mask-image",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#mask-mode",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#mask-origin",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#mask-position",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#mask-repeat",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#mask-size",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#mask-type",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#math-depth",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#⚠️math-shift",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#math-style",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#max-block-size",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#max-height",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#max-inline-size",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#max-width",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#min-block-size",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#min-height",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#min-inline-size",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#min-width",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#offset",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#offset-anchor",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#offset-distance",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#offset-path",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#offset-position",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#offset-rotate",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#outline",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#outline-color",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#outline-offset",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#outline-style",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#outline-width",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#overflow",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#overflow-anchor",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#overflow-block",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#overflow-clip-margin",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#overflow-inline",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#overflow-wrap",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#overflow-x",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#overflow-y",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#overscroll-behavior",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#overscroll-behavior-block",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#overscroll-behavior-inline",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#overscroll-behavior-x",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#overscroll-behavior-y",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#padding",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#padding-block",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#padding-block-end",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#padding-block-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#padding-bottom",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#padding-inline",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#padding-inline-end",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#padding-inline-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#padding-left",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#padding-right",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#padding-top",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#page",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#page-break-after",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#page-break-before",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#page-break-inside",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#place-content",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#place-items",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#place-self",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#position",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#⚠️position-anchor",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#⚠️position-area",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#⚠️position-try",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#⚠️position-try-fallbacks",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#⚠️position-try-order",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#⚠️position-visibility",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#scroll-behavior",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#scroll-margin",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#scroll-margin-block",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#scroll-margin-block-end",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#scroll-margin-block-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#scroll-margin-bottom",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#scroll-margin-inline",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#scroll-margin-inline-end",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#scroll-margin-inline-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#scroll-margin-left",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#scroll-margin-right",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#scroll-margin-top",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#scroll-padding",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#scroll-padding-block",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#scroll-padding-block-end",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#scroll-padding-block-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#scroll-padding-bottom",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#scroll-padding-inline",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#scroll-padding-inline-end",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#scroll-padding-inline-start",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#scroll-padding-left",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#scroll-padding-right",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#scroll-padding-top",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#scroll-snap-align",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#scroll-snap-stop",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#scroll-snap-type",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#⚠️scroll-timeline",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#⚠️scroll-timeline-axis",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#⚠️scroll-timeline-name",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#scrollbar-color",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#scrollbar-gutter",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#scrollbar-width",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#shape-image-threshold",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#shape-margin",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#shape-outside",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#shape-rendering",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#stroke",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#stroke-dasharray",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#stroke-dashoffset",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#stroke-linecap",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#stroke-linejoin",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#stroke-miterlimit",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#stroke-opacity",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#stroke-width",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#text-align",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#text-align-last",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#text-anchor",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#text-combine-upright",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#text-decoration",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#text-decoration-color",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#text-decoration-line",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#⚠️text-decoration-skip",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#text-decoration-skip-ink",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#text-decoration-style",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#text-decoration-thickness",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#text-emphasis",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#text-emphasis-color",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#text-emphasis-position",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#text-emphasis-style",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#text-indent",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#text-justify",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#text-orientation",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#text-overflow",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#text-rendering",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#text-shadow",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#⚠️text-size-adjust",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#⚠️text-spacing-trim",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#text-transform",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#text-underline-offset",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#text-underline-position",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#text-wrap",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#text-wrap-mode",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#text-wrap-style",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#transform",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ": {
+	"prefix": "#transform-box",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ": {
+	"prefix": "#transform-origin",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ": {
+	"prefix": "#transform-style",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ": {
+	"prefix": "#transition",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ": {
+	"prefix": "#transition-behavior",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ": {
+	"prefix": "#transition-delay",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#transition-duration",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ": {
+	"prefix": "#transition-property",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ": {
+	"prefix": "#transition-timing-function",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ": {
+	"prefix": "#⚠️view-timeline",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ": {
+	"prefix": "#⚠️view-timeline-axis",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ": {
+	"prefix": "#⚠️view-timeline-inset",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ": {
+	"prefix": "#⚠️view-timeline-name",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ": {
+	"prefix": "#view-transition-name",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ": {
+	"prefix": "#cx", 
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ": {
+	"prefix": "#cy",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"properties                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ": {
+	"prefix": "#d",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                             ": {
+	"prefix": "#⚠️::-moz-color-swatch",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                            ": {
+	"prefix": "#⚠️::-moz-focus-inner",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                           ": {
+	"prefix": "#⚠️::-moz-list-bullet",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                          ": {
+	"prefix": "#⚠️::-moz-list-number",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                         ": {
+	"prefix": "#⚠️::-moz-page",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                        ": {
+	"prefix": "#⚠️::-moz-page-sequence",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                       ": {
+	"prefix": "#⚠️::-moz-progress-bar",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                      ": {
+	"prefix": "#⚠️::-moz-range-progress",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                     ": {
+	"prefix": "#⚠️::-moz-range-thumb",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                    ": {
+	"prefix": "#⚠️::-moz-range-track",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                   ": {
+	"prefix": "#⚠️::-moz-scrolled-page-sequence",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                  ": {
+	"prefix": "#⚠️::-webkit-inner-spin-button",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                 ": {
+	"prefix": "#⚠️::-webkit-meter-bar",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                ": {
+	"prefix": "#⚠️::-webkit-meter-even-less-good-value",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements               ": {
+	"prefix": "#⚠️::-webkit-meter-inner-element",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements              ": {
+	"prefix": "#⚠️::-webkit-meter-optimum-value",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements             ": {
+	"prefix": "#⚠️::-webkit-meter-suboptimum-value",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements           ": {
+	"prefix": "#⚠️::-webkit-progress-bar",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements          ": {
+	"prefix": "#⚠️::-webkit-progress-inner-element",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements         ": {
+	"prefix": "#⚠️::-webkit-progress-value",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements            ": {
+	"prefix": "#⚠️::-webkit-scrollbar",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements        ": {
+	"prefix": "#⚠️::-webkit-search-cancel-button",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements       ": {
+	"prefix": "#⚠️::-webkit-search-results-button",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements      ": {
+	"prefix": "#⚠️::-webkit-slider-runnable-track",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements     ": {
+	"prefix": "#⚠️::-webkit-slider-thumb",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements    ": {
+	"prefix": "#::after",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements   ": {
+	"prefix": "#::backdrop",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements  ": {
+	"prefix": "#::before",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                        ": {
+	"prefix": "#::cue",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                     ": {
+	"prefix": "#::cue-region",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                    ": {
+	"prefix": "#::file-selector-button",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                   ": {
+	"prefix": "#::first-letter",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                  ": {
+	"prefix": "#::first-line",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                 ": {
+	"prefix": "#::grammar-error",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                ": {
+	"prefix": "#::highlight()",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                               ": {
+	"prefix": "#::marker",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                              ": {
+	"prefix": "#::part()",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements ": {
+	"prefix": "#::placeholder",
+				"body": [
+					],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                         ": {
+	"prefix": "#::selection",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                                 ": {
+	"prefix": "#::slotted()",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                                ": {
+	"prefix": "#::spelling-error",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                               ": {
+	"prefix": "#⚠️::target-text",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                              ": {
+	"prefix": "#⚠️::view-transition",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                             ": {
+	"prefix": "#⚠️::view-transition-group",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                            ": {
+	"prefix": "#⚠️::view-transition-image-pair",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                           ": {
+	"prefix": "#⚠️::view-transition-new",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Elements                                          ": {
+	"prefix": "#⚠️::view-transition-old",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                 ": {
+	"prefix": "#⚠️:-moz-broken",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                              ": {
+	"prefix": "#⚠️:-moz-drag-over",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                            ": {
+	"prefix": "#⚠️:-moz-first-node",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                             ": {
+	"prefix": "#⚠️:-moz-handler-blocked",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                           ": {
+	"prefix": "#⚠️:-moz-handler-crashed",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                          ": {
+	"prefix": "#⚠️:-moz-handler-disabled",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                         ": {
+	"prefix": "#⚠️:-moz-last-node",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                        ": {
+	"prefix": "#⚠️:-moz-loading",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                       ": {
+	"prefix": "#⚠️:-moz-locale-dir(ltr)",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                      ": {
+	"prefix": "#⚠️:-moz-locale-dir(rtl)",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                     ": {
+	"prefix": "#⚠️:-moz-only-whitespace",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                    ": {
+	"prefix": "#⚠️:-moz-submit-invalid",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                  ": {
+	"prefix": "#⚠️:-moz-suppressed",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                   ": {
+	"prefix": "#⚠️:-moz-user-disabled",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                 ": {
+	"prefix": "#⚠️:-moz-window-inactive",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                ": {
+	"prefix": "#:active",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe             ": {
+	"prefix": "#:any-link",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe               ": {
+	"prefix": "#:autofill",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe              ": {
+	"prefix": "#⚠️:blank",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe            ": {
+	"prefix": "#⚠️:buffering",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe           ": {
+	"prefix": "#:checked ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe          ": {
+	"prefix": "#⚠️:current",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe         ": {
+	"prefix": "#:default ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe        ": {
+	"prefix": "#:defined ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe       ": {
+	"prefix": "#:dir() ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe      ": {
+	"prefix": "#:disabled",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe     ": {
+	"prefix": "#:empty",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe    ": {
+	"prefix": "#:enabled",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe   ": {
+	"prefix": "#:first",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe  ": {
+	"prefix": "#:first-child",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe ": {
+	"prefix": "#:first-of-type",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe": {
+	"prefix": "#:focus ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                               ": {
+	"prefix": "#:focus-visible ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                                  ": {
+	"prefix": "#:focus-within ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                                       ": {
+	"prefix": "#:fullscreen ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                                 ": {
+	"prefix": "#:future ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                               ": {
+	"prefix": "#:has()",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                                ": {
+	"prefix": "#:host ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                              ": {
+	"prefix": "#:host-context() ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                             ": {
+	"prefix": "#:host()",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                            ": {
+	"prefix": "#:hover",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                      ": {
+	"prefix": "#:in-range",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                           ": {
+	"prefix": "#:indeterminate ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                         ": {
+	"prefix": "#:invalid",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                          ": {
+	"prefix": "#:is()",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                        ": {
+	"prefix": "#:lang()",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                       ": {
+	"prefix": "#:last-child",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                     ": {
+	"prefix": "#:last-of-type ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                    ": {
+	"prefix": "#:left",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                   ": {
+	"prefix": "#:link",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                  ": {
+	"prefix": "#:modal",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                 ": {
+	"prefix": "#:muted",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                                ": {
+	"prefix": "#:not()",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                               ": {
+	"prefix": "#:nth-child() ",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                              ": {
+	"prefix": "#:nth-last-child()",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                             ": {
+	"prefix": "#:nth-last-of-type()",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                            ": {
+	"prefix": "#:nth-of-type()",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                           ": {
+	"prefix": "#:only-child",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                          ": {
+	"prefix": "#:only-of-type",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                         ": {
+	"prefix": "#:optional",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                        ": {
+	"prefix": "#:out-of-range",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                       ": {
+	"prefix": "#:past",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                      ": {
+	"prefix": "#:paused",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                     ": {
+	"prefix": "#:picture-in-picture",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                    ": {
+	"prefix": "#:placeholder-shown",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                   ": {
+	"prefix": "#:playing",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                  ": {
+	"prefix": "#:popover-open",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                ": {
+	"prefix": "#:read-only",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                                 ": {
+	"prefix": "#:read-write",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                               ": {
+	"prefix": "#:required",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                              ": {
+	"prefix": "#:right",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                             ": {
+	"prefix": "#:root",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                            ": {
+	"prefix": "#:scope",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                         ": {
+	"prefix": "#:seeking",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                           ": {
+	"prefix": "#:stalled",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                          ": {
+	"prefix": "#⚠️:state()",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                        ": {
+	"prefix": "#:target",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                       ": {
+	"prefix": "#⚠️:target-within",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                      ": {
+	"prefix": "#:user-invalid",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                     ": {
+	"prefix": "#:user-valid",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                    ": {
+	"prefix": "#:valid",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                   ": {
+	"prefix": "#:visited",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                  ": {
+	"prefix": "#:volume-locked",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Pseudo Classe                                ": {
+	"prefix": "#:where()",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor de atributo         ": {
+	"prefix": "#[attr]",
+					"body": [
+						],
+	"description": "#"
+	},
+	
+	"Seletor de atributo        ": {
+	"prefix": "#[attr=value]",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor de atributo       ": {
+	"prefix": "#[attr~=value]",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor de atributo      ": {
+	"prefix": "#[attr|=value]",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor de atributo     ": {
+	"prefix": "#[attr^=value]",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor de atributo    ": {
+	"prefix": "#[attr$=value]",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor de atributo   ": {
+	"prefix": "#[attr*=value]",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor de atributo  ": {
+	"prefix": "#[attr operator value i]",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor de atributo ": {
+	"prefix": "#⚠️[attr operator value s]",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor     ": {
+	"prefix": "#-Seletores de classe",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor    ": {
+	"prefix": "#-Seletores de ID",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor   ": {
+	"prefix": "#-Seletor de aninhamento &",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor  ": {
+	"prefix": "#-Seletores de tipo",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Seletor ": {
+	"prefix": "#-Seletores universais",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Combinator": {
+	"prefix": "#-child combinator (>)",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Combinator      ": {
+	"prefix": "#-column combinator (||)",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Combinator     ": {
+	"prefix": "#-descendant combinator ( )",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Combinator    ": {
+	"prefix": "#-namespace separator (|)",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Combinator   ": {
+	"prefix": "#-next-sibling combinator (+)",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Combinator  ": {
+	"prefix": "#-selector list (,)",
+					"body": [
+						],
+	"description": "#"
+	},
+
+	"Combinator ": {
+	"prefix": "#-subsequent-sibling combinator (~)",
+					"body": [
+						],
+	"description": "#"
+	},
+
 }
