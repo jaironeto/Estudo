@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo Animation Composition</title>
+    <style>
+        .button {
+            background-color: blue;
+            color: white;
+            padding: 15px 32px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            animation: colorChange 2s infinite, moveButton 2s infinite;
+            animation-composition: add;
+        }
+
+        @keyframes colorChange {
+            0% { background-color: blue; }
+            50% { background-color: red; }
+            100% { background-color: blue; }
+        }
+
+        @keyframes moveButton {
+            0% { left: 0; }
+            50% { left: 100px; }
+            100% { left: 0; }
+        }
+
+        .button:hover {
+            animation-composition: replace;
+        }
+    </style>
+</head>
+<body>
+    <button class="button">Aperte-me</button>
+</body>
+</html>
