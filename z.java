@@ -1,24 +1,65 @@
-public class z{
-  public static void main(String[] args){
 
+public class z {
 
-    Class1 obj = new Class1(){
-      public String campo1 = "mard";
+    public static void main(String[] args) {
+        String name = "jairo";
 
-      @Override
-      public void method2(){
-        System.out.println(this.campo1);
-      }
-    };
+        In i = new In(){
+          @Override
+          public void method(){
+            System.out.println("vrum");
+          }
+        };
 
-    obj.method2();
-  }
+        switch (name) {
+            case "jairo":
+                break;
+
+            default:
+        }
+
+        search:
+        for (int a = 9; a < 10; a++) {
+            for (int z = 9; z < 10; z++) {
+                break search;
+            }
+        }
+
+        In in1 = ()-> System.out.println("zzz");
+    }
+}
+
+interface In{
+  public void method();
 }
 
 class Class1{
-  public String campo1 = "ford";
 
-  public void method2(){
-    this.campo1 = "vrum";
+  public Class1(){
+    this("jairo");
+  }
+
+  public Class1(String i){
+
+  }
+
+  public void method(String i){
+
+  }
+
+  public void method(int i){
+
+  }
+
+  public void method(int i, int b){
+
+  }
+
+  public void method2(int... i){
+
+  }
+
+  public void method3(String[] i){
+
   }
 }
