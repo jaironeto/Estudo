@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de Tag &lt;dialog&gt;</title>
+    <script>
+        function abrirDialogo() {
+            var dialog = document.getElementById('meuDialogo');
+            dialog.showModal();
+        }
+
+        function fecharDialogo() {
+            var dialog = document.getElementById('meuDialogo');
+            dialog.close();
+        }
+    </script>
+</head>
+<body>
+    <button onclick="abrirDialogo()">Abrir Diálogo</button>
+
+    <dialog id="meuDialogo">
+        <h2>Caixa de Diálogo</h2>
+        <p>Este é um exemplo de uma caixa de diálogo.</p>
+        <button onclick="fecharDialogo()">Fechar</button>
+    </dialog>
+</body>
+</html>
