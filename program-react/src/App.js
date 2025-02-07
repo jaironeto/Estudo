@@ -6,27 +6,47 @@ import Profile from "./Teste"
 
 var theme = {
   backgroundColor: "red",
-  color: "blue",
+  color: "blue"
 }
 
-function Item({name, condicional}){
+var name = "jairo"
+
+function Card({children}){
   return(
-    <li>
-      {name} {condicional && "✔"}
-    </li>
-  );
+    <div>
+      <p>teste1</p>
+      {children}
+    </div>    
+  )
 }
-export default function App1() {
-  return (
-    <>
-      <section style={theme}>
-        <h1>Teste2</h1>
-        <Profile />
-        <Profile />
-        <Item name="jairo" condicional={true} />
-        <Item name="marco" condicional={false} />
 
-      </section>
+function Teste({condicao = false}){
+  var obj = null;
+  if(condicao){
+    obj = (
+    <div>
+      <p>is true</p>
+    </div>);
+  }
+
+  return obj;
+}
+
+export default function App1(){
+  return(
+    <>
+      <section className="teste1">
+        <h1> {name} teste</h1>
+        <Profile/>
+        <Profile/>
+        <Card>
+          <p>vrummm</p>
+        </Card>
+        <Teste condicao={true}/>
+        <Teste condicao={false}/>
+        <Teste condicao={true}/>
+
+      </section> 
     </>
   );
 }

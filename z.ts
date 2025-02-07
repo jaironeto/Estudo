@@ -1,3 +1,1 @@
-
-type a = string | number
-
+_
