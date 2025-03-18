@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Exemplo de Tag &lt;select&gt;</title>
-</head>
-<body>
-    <form>
-        <label for="carros">Escolha um carro:</label>
-        <select id="carros" name="carros">
-            <option value="audi">Audi</option>
-            <option value="bmw">BMW</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="toyota">Toyota</option>
-        </select>
-    </form>
-</body>
-</html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0}
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Exemplo de Tag &lt;datalist&gt;</title>
-</head>
+.icon-bar {
+  width: 90px;
+  background-color: #555;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
 <body>
-    <form>
-        <label for="frutas">Escolha uma fruta:</label>
-        <input list="frutas" id="fruta" name="fruta">
-        <datalist id="frutas">
-            <option value="Maçã">
-            <option value="Banana">
-            <option value="Laranja">
-            <option value="Manga">
-            <option value="Morango">
-        </datalist>
-    </form>
+
+<div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a> 
+</div>
+  
 </body>
-</html>
+</html> 
