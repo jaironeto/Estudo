@@ -1,18 +1,26 @@
-import Profile from "./Teste"
-/*
-      src='https://i.imgur.com/MK3eW3As.jpg'
-      '✔
-*/
+import Profile from "./Teste";
+import { useState } from "react";
 
-var style = {
-  color: "red"
+function MyButton({count, onClick}){
+  return(
+    <button onClick={onClick}>click me {count}</button>
+  );
 }
-export default function App1() {
-  return (
-    <div style={style}>
-      <h1>teste</h1>
-      <p>{false ? "vrum" : "tu"}</p>
-        <Profile />
-      </div>
-        )
+
+export default function App2() {
+  const [count, setCount] = useState(0);
+  
+  function handleClick() {
+    setCount(count + 1);
+  }
+
+  return(
+    <div>
+      <MyButton onClick={handleClick} count={count}/>
+      <MyButton onClick={handleClick} count={count}/>
+
+    </div>
+  );
 }
+
+_react
