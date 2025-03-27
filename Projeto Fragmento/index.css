@@ -1,0 +1,23 @@
+div{
+  width: 100px;
+  background-color: rgb(73, 68, 68);
+
+}
+
+div a{
+  display: block;
+  transition: all 0.3s ease;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 16px;
+}
+
+div a:hover{
+  background-color: rgb(96, 194, 15);
+  color: white;
+}
+
+.house{
+  background-color: red;
+}
