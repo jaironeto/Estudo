@@ -1,18 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://kit.fontawesome.com/d9b10fbc94.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="index.css">
-</head>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  div {
+    width: 100px;
+    background-color: rgb(87, 83, 83);
+  }
+
+  div a{
+    font-size: 30px;
+    text-align: center;
+    padding: 16px;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+
+  div a:hover{
+    background-color: #962b2b;
+  }
+</style>
+
 <body>
-  <div>
-    <a class="house"><i class="fa-solid fa-house"></i></a>
-    <a><i class="fa-regular fa-star"></i></a>
-    <a><i class="fa-solid fa-web-awesome"></i></a>
-    <a><i class="fa-solid fa-bars"></i></a>
-    <a><i class="fa-solid fa-heart"></i></a>
+
+  <div class="icon-bar">
+    <a class="active" href="#"><i class="fa fa-home"></i></a>
+    <a href="#"><i class="fa fa-search"></i></a>
+    <a href="#"><i class="fa fa-envelope"></i></a>
+    <a href="#"><i class="fa fa-globe"></i></a>
+    <a href="#"><i class="fa fa-trash"></i></a>
   </div>
+
+</body>
+
 </html>
