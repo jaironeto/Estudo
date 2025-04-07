@@ -1,16 +1,80 @@
 <!--Acordeao-->
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-  </head>
-  <body> 
-    <div class="acordeao">teste 1</div> 
-    <p class="texto">Lorem ipsum praesent diam nibh enim gravida sapien, pellentesque imperdiet sapien molestie velit lacinia rutrum varius, sodales porttitor donec commodo mattis quis. cursus consectetur potenti faucibus erat sagittis ullamcorper platea rutrum venenatis, mauris primis hendrerit netus pretium quam convallis ullamcorper pretium, sem arcu luctus etiam facilisis nibh facilisis sodales. proin aliquet hac consectetur semper augue rhoncus mattis vestibulum, sollicitudin dictumst aptent justo non quam vulputate magna nisl, ut elementum ut laoreet at facilisis proin. lacus vel lectus litora nunc vel cras vestibulum elementum ligula, gravida turpis tristique erat felis quam urna eget, facilisis massa hendrerit viverra vel habitant in fusce. </p>
-    <div class="acordeao">teste 2</div>
-    <p class="texto">Lorem ipsum praesent diam nibh enim gravida sapien, pellentesque imperdiet sapien molestie velit lacinia rutrum varius, sodales porttitor donec commodo mattis quis. cursus consectetur potenti faucibus erat sagittis ullamcorper platea rutrum venenatis, mauris primis hendrerit netus pretium quam convallis ullamcorper pretium, sem arcu luctus etiam facilisis nibh facilisis sodales. proin aliquet hac consectetur semper augue rhoncus mattis vestibulum, sollicitudin dictumst aptent justo non quam vulputate magna nisl, ut elementum ut laoreet at facilisis proin. lacus vel lectus litora nunc vel cras vestibulum elementum ligula, gravida turpis tristique erat felis quam urna eget, facilisis massa hendrerit viverra vel habitant in fusce. </p>
-    <div class="acordeao">teste 3</div>
-    <p class="texto">Lorem ipsum praesent diam nibh enim gravida sapien, pellentesque imperdiet sapien molestie velit lacinia rutrum varius, sodales porttitor donec commodo mattis quis. cursus consectetur potenti faucibus erat sagittis ullamcorper platea rutrum venenatis, mauris primis hendrerit netus pretium quam convallis ullamcorper pretium, sem arcu luctus etiam facilisis nibh facilisis sodales. proin aliquet hac consectetur semper augue rhoncus mattis vestibulum, sollicitudin dictumst aptent justo non quam vulputate magna nisl, ut elementum ut laoreet at facilisis proin. lacus vel lectus litora nunc vel cras vestibulum elementum ligula, gravida turpis tristique erat felis quam urna eget, facilisis massa hendrerit viverra vel habitant in fusce. </p>
-  </body>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <style>
+    .acordeao {
+      background-color: #dad6d6;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+
+    .active,
+    .acordeao:hover {
+      background-color: #19af26;
+    }
+
+    .texto {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: all 0.2s ease-out;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="acordeao">teste 1</div>
+  <p class="texto">Lorem ipsum praesent diam nibh enim gravida sapien, pellentesque imperdiet sapien molestie velit
+    lacinia rutrum varius, sodales porttitor donec commodo mattis quis. cursus consectetur potenti faucibus erat
+    sagittis ullamcorper platea rutrum venenatis, mauris primis hendrerit netus pretium quam convallis ullamcorper
+    pretium, sem arcu luctus etiam facilisis nibh facilisis sodales. proin aliquet hac consectetur semper augue rhoncus
+    mattis vestibulum, sollicitudin dictumst aptent justo non quam vulputate magna nisl, ut elementum ut laoreet at
+    facilisis proin. lacus vel lectus litora nunc vel cras vestibulum elementum ligula, gravida turpis tristique erat
+    felis quam urna eget, facilisis massa hendrerit viverra vel habitant in fusce. </p>
+  <div class="acordeao">teste 2</div>
+  <p class="texto">Lorem ipsum praesent diam nibh enim gravida sapien, pellentesque imperdiet sapien molestie velit
+    lacinia rutrum varius, sodales porttitor donec commodo mattis quis. cursus consectetur potenti faucibus erat
+    sagittis ullamcorper platea rutrum venenatis, mauris primis hendrerit netus pretium quam convallis ullamcorper
+    pretium, sem arcu luctus etiam facilisis nibh facilisis sodales. proin aliquet hac consectetur semper augue rhoncus
+    mattis vestibulum, sollicitudin dictumst aptent justo non quam vulputate magna nisl, ut elementum ut laoreet at
+    facilisis proin. lacus vel lectus litora nunc vel cras vestibulum elementum ligula, gravida turpis tristique erat
+    felis quam urna eget, facilisis massa hendrerit viverra vel habitant in fusce. </p>
+  <div class="acordeao">teste 3</div>
+  <p class="texto">Lorem ipsum praesent diam nibh enim gravida sapien, pellentesque imperdiet sapien molestie velit
+    lacinia rutrum varius, sodales porttitor donec commodo mattis quis. cursus consectetur potenti faucibus erat
+    sagittis ullamcorper platea rutrum venenatis, mauris primis hendrerit netus pretium quam convallis ullamcorper
+    pretium, sem arcu luctus etiam facilisis nibh facilisis sodales. proin aliquet hac consectetur semper augue rhoncus
+    mattis vestibulum, sollicitudin dictumst aptent justo non quam vulputate magna nisl, ut elementum ut laoreet at
+    facilisis proin. lacus vel lectus litora nunc vel cras vestibulum elementum ligula, gravida turpis tristique erat
+    felis quam urna eget, facilisis massa hendrerit viverra vel habitant in fusce. </p>
+  <script>
+    var acc = document.getElementsByClassName("acordeao");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+</body>
+
 </html>
