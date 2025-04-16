@@ -1,7 +1,5 @@
 {
-	/*****************************************************************************************/
-	//																Javascript Library
-	/*****************************************************************************************/
+	/********************************* Javascript Library ****************************************************/
 		"                                                 ": {
 			"scope": "javascript, typescript",
 			"prefix": "#1 Object() ",
@@ -442,9 +440,16 @@
 			],
 			"description": "A propriedade prototype permite adicionar propriedades e métodos a todos os objetos criados por uma função construtora. Útil para compartilhar comportamentos entre instâncias."
 		},
-	/*****************************************************************************************/
-	//																Javascript Codigo
-	/*****************************************************************************************/
+	/********************************* Javascript Codigo *****************************************************/
+		"0": {
+		"scope": "javascript, typescript",
+		"prefix": "_Javascript 1.0",
+					"body": [
+						"1 Definir uma função com uma expressão de função condicionalmente\r\n2 Criar uma função com 'function' construtor\r\n3 Arrow 'function' sem e com abreviações\r\n4 Callback\r\n5 Cadeia de promise com arrow function\r\n6 Chamar uma função\r\n7 closure\r\n8 Expressão de função\r\n9 Função anônima como argumento de outra função\r\n10 Função auto invocada com e sem argumento\r\n11 Função auto invocado com void\r\n12 Função com um iterator e consumir ele\r\n13 Função construtora com campo e metodo\r\n14 Função hoisting\r\n15 Funções de seta\r\n16 Função geradora lidando com sequencias assincrona\r\n17 Lançar uma exeção com um bloco de instrução\r\n18 Acessando um objeto, criando e atribuindo valores as propriedades\r\n19 Matriz de 2 dimensoes sendo com inicialiazação sendo criada e acessada\r\n20 Uso arguments\r\n21 Classe com construtor e um metodo, sendo construido com tres campos direto no construtor\r\n22 Classe com campos e metodos privados\r\n23 try...catch\r\n24 concatenar string com +\r\n25 Uso de get/set com propriedades privadas em classe\r\n26 Uso while\r\n27 Uso throw\r\n28 Uso var, let e const\r\n29 tratamento de erro async/await\r\n30 usar async/await\r\n31 template string\r\n32 typeof\r\n33 for...of\r\n34 switch\r\n35 super e this em classes\r\n36 for..in\r\n37 Herança em classe e override metodos da classe pai\r\n38 do while\r\n39 campos static, metodo static e static block em uma class\r\n40 parametro rest em contrutor de classe\r\n41 objeto literal\r\n42 parametro padrão\r\n43 use de then em promisse, com suas duas funções no Promise construtor\r\n44 declaração de função\r\n45 definir campo/metodo em prototype\r\n46 definir um get/set em um objeto literal\r\n47 definir um get/set posteriomente em um objeto ja criado\r\n48 definir um metodo em uma classe via this\r\n49 definir um metodo normal e abreviado em um objeto literal\r\n50 destruturação em for..of\r\n51 substituir um membros static de uma classe, mas aprimorado com super\r\n52 Objeto literal com prototipo, campo e metodo\r\n53 Definir dinamicamente o nome de um campo em um objeto literal\r\n54 Definir dinamicamente o nome de um campo em uma classe\r\n55 Export default e import\r\n56 Export nomeado e import\r\n57 Exportando todas as funções como um objeto padrão e import\r\n58 Module.exports e require\r\n59 Module.exports e require com desestruturação\r\n60 encadeamento opcional\r\n61 operador de coalescência nula (??)"
+					],
+		"description": ""
+		},
+	
 		"1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ": {
 			"scope": "javascript, typescript",
 			"prefix": "_Javascript 1.1",
@@ -1536,16 +1541,82 @@
 			],
 			"description": "Definir dinamicamente o nome de um campo em uma classe"
 		},
-		/*"?": {
+		"55": {
+		"scope": "javascript, typescript",
+		"prefix": "_Javascript 7.1 ",
+					"body": [
+					"// greeting.js\r\nfunction greet(name) {\r\n  return `Olá, ${name}!`;\r\n}\r\n\r\nexport default greet;\r\n\r\n\r\n// Arquivo: app.js\r\njavascript\r\n// app.js\r\nimport greet from './greeting';\r\n\r\nconsole.log(greet('Mundo')); "
+								],
+		"description": "export default e import"
+		},
+	
+		"56": {
+		"scope": "javascript, typescript",
+		"prefix": "_Javascript 7.2",
+					"body": [
+					"// math.js\r\nexport function add(a, b) {\r\n  return a + b;\r\n}\r\n\r\nexport function subtract(a, b) {\r\n  return a - b;\r\n}\r\n\r\n// app.js\r\nimport { add, subtract } from './math';\r\n\r\nconsole.log(add(2, 3));       // Output: 5\r\nconsole.log(subtract(5, 2));  // Output: 3\r\n"
+								],
+		"description": "Export nomeado e import"
+		},
+	
+		"57": {
+		"scope": "javascript, typescript",
+		"prefix": "_Javascript 7.3",
+					"body": [
+						"// utils.js\r\nfunction greet(name) {\r\n  return `Olá, ${name}!`;\r\n}\r\n\r\nfunction add(a, b) {\r\n  return a + b;\r\n}\r\n\r\nfunction subtract(a, b) {\r\n  return a - b;\r\n}\r\n\r\n// Exportando todas as funções como um objeto padrão\r\nexport default {\r\n  greet,\r\n  add,\r\n  subtract\r\n};\r\n\r\n// app.js\r\nimport utils from './utils';\r\n\r\n// Usando as funções importadas do objeto 'utils'\r\nconsole.log(utils.greet('Mundo'));     // Output: Olá, Mundo!\r\nconsole.log(utils.add(2, 3));          // Output: 5\r\nconsole.log(utils.subtract(5, 2));     // Output: 3\r\n"
+								],
+		"description": "Exportando todas as funções como um objeto padrão e import"
+		},
+	
+		"58": {
+		"scope": "javascript, typescript",
+		"prefix": "_Javascript 7.4",
+					"body": [
+						"// utils.js\r\nfunction greet(name) {\r\n  return `Olá, ${name}!`;\r\n}\r\n\r\nfunction add(a, b) {\r\n  return a + b;\r\n}\r\n\r\nfunction subtract(a, b) {\r\n  return a - b;\r\n}\r\n\r\n// Exportando todas as funções como um objeto\r\nmodule.exports = {\r\n  greet,\r\n  add,\r\n  subtract\r\n};\r\n\r\n// app.js\r\n// Importando o módulo\r\nconst utils = require('./utils');\r\n\r\n// Usando as funções do módulo 'utils'\r\nconsole.log(utils.greet('Mundo'));     // Output: Olá, Mundo!\r\nconsole.log(utils.add(2, 3));          // Output: 5\r\nconsole.log(utils.subtract(5, 2));     // Output: 3\r\n"
+								],
+		"description": "module.exports e require"
+		},
+	
+		"59": {
+		"scope": "javascript, typescript",
+		"prefix": "_Javascript 7.5",
+					"body": [
+					"// utils.js\r\nfunction greet(name) {\r\n  return `Olá, ${name}!`;\r\n}\r\n\r\nfunction add(a, b) {\r\n  return a + b;\r\n}\r\n\r\nfunction subtract(a, b) {\r\n  return a - b;\r\n}\r\n\r\n// Exportando todas as funções como um objeto\r\nmodule.exports = {\r\n  greet,\r\n  add,\r\n  subtract\r\n};\r\n\r\n// app.js\r\n// Importação com desestruturação\r\nconst { greet, add, subtract } = require('./utils');\r\n\r\n// Usando as funções importadas\r\nconsole.log(greet('Mundo'));     // Output: Olá, Mundo!\r\nconsole.log(add(2, 3));          // Output: 5\r\nconsole.log(subtract(5, 2));     // Output: 3"
+					
+								],
+		"description": "Module.exports e require com desestruturação"
+		},
+	
+		"60": {
+		"scope": "javascript, typescript",
+		"prefix": "_Javascript 7.6",
+						"body": [
+							"let usuario = {\r\n    nome: 'Maria',\r\n    endereco: {\r\n        cidade: 'Natal',\r\n        estado: 'RN'\r\n    }\r\n};\r\n\r\n// Usando o operador ?. para acessar uma propriedade aninhada\r\nlet cidade = usuario.endereco?.cidade;\r\n\r\nconsole.log(cidade); // Saída: 'Natal'\r\n\r\n// Tentando acessar uma propriedade que não existe sem ?. resultaria em erro\r\nlet pais = usuario.endereco?.pais;\r\n\r\nconsole.log(pais); // Saída: undefined\r\n"
+						
+									],
+		"description": "encadeamento opcional"
+			},
+	
+		"61": {
+		"scope": "javascript, typescript",
+		"prefix": "_Javascript 7.7",
+							"body": [
+								"let numeroAnulavel = null;\r\n\r\n// Usando o operador ?? para atribuir um valor padrão se numeroAnulavel for null ou undefined\r\nlet valor = numeroAnulavel ?? 0;\r\n\r\nconsole.log(`O valor é: ${valor}`); // Saída: 0\r\n"
+							
+										],
+		"description": "operador de coalescência nula (??)"
+		},
+	
+			/*"?": {
 		"scope": "javascript, typescript",
 		"prefix": "?",
 					"body": [
+						
+					
 								],
-		"description": "?"
+		"description": ""
 		},*/
-	/*****************************************************************************************/
-	//																DOM Library
-	/*****************************************************************************************/
+	/********************************* DOM Library ***********************************************************/
 		"❓                                                                          ": {
 			"scope": "javascript,typescript",
 			"prefix": "#3 AbortSignal aborted",
@@ -8749,9 +8820,16 @@
 			"body": [],
 			"description": ""
 		},*/
-	/*****************************************************************************************/
-	//																React Codigo
-	/*****************************************************************************************/
+	/********************************* React Codigo **********************************************************/
+		"0 ": {
+		"scope": "javascriptreact, javascript, typescript",
+		"prefix": "_React 1.0",
+				"body": [
+					"1 Conceito de usar componente dentro de outros\r\n2 html embutido com fragment\r\n3 Exportando e usando o componente importado\r\n4 Criando uma variavel com o style e entao os usando no componente em style prop\r\n5 Renderização condicional operador tenario e &&\r\n6 Renderizando listas\r\n7 Mantendo componente puro\r\n8 Componente com return abreviado e nao abreviado\r\n9 Codigo limpo, declarando os literals em variaveis e so depois nas props com jsx\r\n10 Usando variaveis javascript dentro do JSX e dentro das tag como texto\r\n11 Usando style elemento css diretamente no html JSX\r\n12 Usando children propriedade passada automaticamente\r\n13 Renderizando itens condicionalmente\r\n14 Renderizando itens condicionalmente e retornando null para nao renderizar\r\n15 Renderizando itens condicionalmente, mas colocando JSX diretamente na variavel\r\n16 Mantendo componente puro\r\n17 Usando nome da className em arquivo css\r\n18 Definindo style diretamente no react\r\n19 Renderização condicional\r\n20 Renderização condicional\r\n21 Responder a um evento\r\n22 Use status\r\n23 Use status autualizando 2 botoes ao mesmo tempo\r\n24 Exportação e nomeada no mesmo arquivo\r\n25 Respondendo a eventos\r\n26 **** export\r\n27 Atualizando objetos no estado\r\n28 Atualizando matrizes no estado\r\n29 Evento simples\r\n30 Evento simples inline, as duas formas\r\n31 Lendo adereços em manipuladores de eventos\r\n32 Passando manipuladores de eventos como adereços\r\n33 Nomeando adereços do manipulador de eventos\r\n34 Parando a propagação\r\n35 Renderizar"
+							],
+		"description": ""
+		},
+	
 		"1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ": {
 			"scope": "javascriptreact, javascript, typescript",
 			"prefix": "_React 1.1",
@@ -9586,9 +9664,7 @@
 							],
 		"description": ""
 		},*/
-	/*****************************************************************************************/
-	//																Express Library
-	/*****************************************************************************************/
+	/********************************* Express Library *******************************************************/
 		"express": {
 			"scope": "javascript",
 			"prefix": "#lib",
@@ -9696,12 +9772,18 @@
 			],
 			"description": "last update outubro 2023"
 		},
-	/*****************************************************************************************/
-	//																Express Codigo
-	/*****************************************************************************************/
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ": {
+	/********************************* Express Codigo ********************************************************/
+		"0  ": {
+		"scope": "javascript",
+		"prefix": "_Express 1.0",
+			"body": [
+					"1 Programa mais basico express\r\n2 Servindo arquivos static\r\n3 Chamando next() metodo com mais de uma função de mindlware empilhada na mesma solicitação get\r\n4 Uma matriz de funções de retorno de chamada podem manipular uma rota\r\n5 Uma combinação de funções independentes e matrizes de funções podem manipular uma rota\r\n6 manipuladores de rotas encadeáveis que são definidos usando app.route()\r\n7 Sem texto\r\n8 Carregando uma função em app.use antes de usar get\r\n9 Alterando uma request no app.use antes de usar get\r\n10 Funcao de mindware diretamente no app.use sendo que a função e anonima\r\n11 App.use com um caminho especificado\r\n12 app.use com funções empilhada de mindware"
+						],
+		"description": ""
+		},
+		"1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 1.1",
+			"prefix": "_Express 1.1",
 			"body": [
 				"const express = require('express')",
 				"const app = express()",
@@ -9717,9 +9799,9 @@
 			],
 			"description": "Programa mais basico express"
 		},
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ": {
+		"2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 1.2",
+			"prefix": "_Express 1.2",
 			"body": [
 				"app.use(express.static('public'));",
 				"app.use('/static', express.static('public'));",
@@ -9727,9 +9809,9 @@
 			],
 			"description": "Servindo arquivos static"
 		},
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ": {
+		"3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 1.3",
+			"prefix": "_Express 1.3",
 			"body": [
 				"app.get('/example/b', function (req, res, next) {",
 				"  console.log('the response will be sent by the next function ...');",
@@ -9741,9 +9823,9 @@
 			],
 			"description": "Chamando next() metodo com mais de uma função de mindlware empilhada na mesma solicitação get"
 		},
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ": {
+		"4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 1.4",
+			"prefix": "_Express 1.4",
 			"body": [
 				"var cb0 = function (req, res, next) {",
 				"  console.log('CB0');",
@@ -9763,9 +9845,9 @@
 			],
 			"description": "Uma matriz de funções de retorno de chamada podem manipular uma rota"
 		},
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ": {
+		"5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 1.5",
+			"prefix": "_Express 1.5",
 			"body": [
 				"var cb0 = function (req, res, next) {",
 				"  console.log('CB0');",
@@ -9787,9 +9869,9 @@
 			],
 			"description": "Uma combinação de funções independentes e matrizes de funções podem manipular uma rota"
 		},
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ": {
+		"6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 1.6",
+			"prefix": "_Express 1.6",
 			"body": [
 				"app.route('/book')",
 				"  .get(function(req, res) {",
@@ -9804,9 +9886,9 @@
 			],
 			"description": "manipuladores de rotas encadeáveis que são definidos usando app.route()"
 		},
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ": {
+		"7                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 1.7",
+			"prefix": "_Express 1.7",
 			"body": [
 				"```",
 				"> **Arquivo Router**",
@@ -9837,11 +9919,11 @@
 				"...",
 				"app.use('/birds', birds);",
 			],
-			"description": ""
+			"description": "Sem texto"
 		},
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ": {
+		"8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 1.8",
+			"prefix": "_Express 1.8",
 			"body": [
 				"var express = require('express');",
 				"var app = express();",
@@ -9861,9 +9943,9 @@
 			],
 			"description": "Carregando uma função em app.use antes de usar get"
 		},
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ": {
+		"9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 1.9",
+			"prefix": "_Express 1.9",
 			"body": [
 				"var express = require('express');",
 				"var app = express();",
@@ -9885,9 +9967,9 @@
 			],
 			"description": "Alterando uma request no app.use antes de usar get"
 		},
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ": {
+		"10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 2.1",
+			"prefix": "_Express 2.1",
 			"body": [
 				"var app = express();",
 				"",
@@ -9898,9 +9980,9 @@
 			],
 			"description": "Funcao de mindware diretamente no app.use sendo que a função e anonima"
 		},
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ": {
+		"11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 2.2",
+			"prefix": "_Express 2.2",
 			"body": [
 				"app.use('/user/:id', function (req, res, next) {",
 				"  console.log('Request Type:', req.method);",
@@ -9909,9 +9991,9 @@
 			],
 			"description": "App.use com um caminho especificado"
 		},
-		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ": {
+		"12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ": {
 			"scope": "javascript",
-			"prefix": "_codigo express 2.3",
+			"prefix": "_Express 2.3",
 			"body": [
 				"app.use('/user/:id', function(req, res, next) {",
 				"console.log('Request URL:', req.originalUrl);",
@@ -9931,424 +10013,426 @@
 						],
 		"description": ""
 		},*/
-	/*****************************************************************************************/
-	//																SQL
-	/*****************************************************************************************/
+	/********************************* SQL Library ***********************************************************/
 		"sql   ": {
-			"scope": "sql",
-			"prefix": "zADD",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 ADD",
 			"body": [
 				"ALTER TABLE Customers\r\nADD Email varchar(255);"
 			],
 			"description": "Adiciona uma coluna em uma tabela existente"
 		},
 		"sql ": {
-			"scope": "sql",
-			"prefix": "zADD CONSTRAINT ",
-			"body": [],
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 ADD CONSTRAINT ",
+			"body": ["ALTER TABLE Persons\r\nADD CONSTRAINT PK_Person PRIMARY KEY (ID,LastName);"],
 			"description": "Adiciona uma restrição depois que uma tabela já foi criada"
 		},
 		"sql  ": {
-			"scope": "sql",
-			"prefix": "zALL",
-			"body": [],
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 ALL",
+			"body": ["SELECT ProductName\r\nFROM Products\r\nWHERE ProductID = ALL (SELECT ProductID FROM OrderDetails WHERE Quantity = 10);"],
 			"description": "Retorna verdadeiro se todos os valores da subconsulta atenderem à condição"
 		},
 		"sql    ": {
-			"scope": "sql",
-			"prefix": "zALTER",
-			"body": [],
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 ALTER",
+			"body": ["ALTER TABLE Customers\r\nADD Email varchar(255);\r\n\r\nALTER TABLE Customers\r\nDROP COLUMN Email;\r\n\r\nALTER TABLE Employees\r\nALTER COLUMN BirthDate year;"],
 			"description": "Adiciona, exclui ou modifica colunas em uma tabela ou altera o tipo de dados de uma coluna em uma tabela"
 		},
 		"sql     ": {
-			"scope": "sql",
-			"prefix": "zALTER COLUMN",
-			"body": [],
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 ALTER COLUMN",
+			"body": ["ALTER TABLE Employees\r\nALTER COLUMN BirthDate year;"],
 			"description": "Altera o tipo de dados de uma coluna em uma tabela"
 		},
 		"sql      ": {
-			"scope": "sql",
-			"prefix": "zALTER TABLE⭐",
-			"body": [],
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 ALTER TABLE⭐",
+			"body": [
+				"ALTER TABLE Customers\r\nADD Email varchar(255);\r\n\r\nALTER TABLE Customers\r\nDROP COLUMN Email;\r\n\r\nALTER TABLE Employees\r\nALTER COLUMN BirthDate year;"
+			],
 			"description": "Adiciona, exclui ou modifica colunas em uma tabela"
 		},
 		"sql       ": {
-			"scope": "sql",
-			"prefix": "zAND☄️",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 AND☄️",
 			"body": [
 				"SELECT * FROM Customers\r\nWHERE Country = 'Germany'\r\nAND City = 'Berlin'\r\nAND PostalCode > 12000;"
 			],
 			"description": "Inclui apenas linhas onde ambas as condições são verdadeiras"
 		},
 		"sql        ": {
-			"scope": "sql",
-			"prefix": "zANY",
-			"body": [],
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 ANY",
+			"body": [
+				"SELECT ProductName\r\nFROM Products\r\nWHERE ProductID = ANY (SELECT ProductID FROM OrderDetails WHERE Quantity = 10);"
+				],
 			"description": "Retorna verdadeiro se algum dos valores da subconsulta atender à condição"
 		},
 		"sql         ": {
-			"scope": "sql",
-			"prefix": "zAS",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 AS",
 			"body": [],
 			"description": "Renomeia uma coluna ou tabela com um alias "
 		},
 		"sql          ": {
-			"scope": "sql",
-			"prefix": "zASC",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 ASC",
 			"body": [],
 			"description": "Classifica o conjunto de resultados em ordem crescente, sql"
 		},
 		"sql           ": {
-			"scope": "sql",
-			"prefix": "zBACKUP DATABASE",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 BACKUP DATABASE",
 			"body": [],
 			"description": "Cria um backup de um banco de dados existente, sql"
 		},
 		"sql            ": {
-			"scope": "sql",
-			"prefix": "zBETWEEN☄️",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 BETWEEN☄️",
 			"body": [
 				"SELECT * FROM Products\r\nWHERE Price BETWEEN 10 AND 20\r\nAND CategoryID IN (1,2,3);"
 			],
 			"description": "Seleciona valores dentro de um determinado intervalo, sql"
 		},
 		"sql             ": {
-			"scope": "sql",
-			"prefix": "zCASE",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 CASE",
 			"body": [],
 			"description": "Cria diferentes resultados com base nas condições, sql"
 		},
 		"sql              ": {
-			"scope": "sql",
-			"prefix": "zCHECK",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 CHECK",
 			"body": [],
 			"description": "Uma restrição que limita o valor que pode ser colocado em uma coluna"
 		},
 		"sql               ": {
-			"scope": "sql",
-			"prefix": "zCOLUMN",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 COLUMN",
 			"body": [],
 			"description": "Altera o tipo de dados de uma coluna ou exclui uma coluna de uma tabela"
 		},
 		"sql                ": {
-			"scope": "sql",
-			"prefix": "zCONSTRAINT",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 CONSTRAINT",
 			"body": [],
 			"description": "Adiciona ou exclui uma restrição"
 		},
 		"sql                 ": {
-			"scope": "sql",
-			"prefix": "zCREATE",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 CREATE",
 			"body": [],
 			"description": "Cria um banco de dados, índice, visualização, tabela ou procedimento"
 		},
 		"sql                  ": {
-			"scope": "sql",
-			"prefix": "zCREATE DATABASE⭐",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 CREATE DATABASE⭐",
 			"body": [],
 			"description": "Cria um novo banco de dados SQL"
 		},
 		"sql                   ": {
-			"scope": "sql",
-			"prefix": "zCREATE INDEX⭐",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 CREATE INDEX⭐",
 			"body": [],
 			"description": "Cria um índice em uma tabela (permite valores duplicados)"
 		},
 		"sql                    ": {
-			"scope": "sql",
-			"prefix": "zCREATE OR REPLACE VIEW",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 CREATE OR REPLACE VIEW",
 			"body": [],
 			"description": "Atualiza uma visualização"
 		},
 		"sql                     ": {
-			"scope": "sql",
-			"prefix": "zCREATE TABLE⭐",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 CREATE TABLE⭐",
 			"body": [],
 			"description": "Cria uma nova tabela no banco de dados"
 		},
 		"sql                      ": {
-			"scope": "sql",
-			"prefix": "zCREATE PROCEDURE",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 CREATE PROCEDURE",
 			"body": [],
 			"description": "Cria um procedimento armazenado"
 		},
 		"sql                       ": {
-			"scope": "sql",
-			"prefix": "zCREATE UNIQUE INDEX",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 CREATE UNIQUE INDEX",
 			"body": [],
 			"description": "Cria um índice exclusivo em uma tabela (sem valores duplicados)"
 		},
 		"sql                        ": {
-			"scope": "sql",
-			"prefix": "zCREATE VIEW",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 CREATE VIEW",
 			"body": [],
 			"description": "Cria uma visualização baseada no conjunto de resultados de uma instrução SELECT"
 		},
 		"sql                         ": {
-			"scope": "sql",
-			"prefix": "zDATABASE",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DATABASE",
 			"body": [],
 			"description": "Cria ou exclui um banco de dados SQL"
 		},
 		"sql                          ": {
-			"scope": "sql",
-			"prefix": "zDEFAULT",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DEFAULT",
 			"body": [],
 			"description": "Uma restrição que fornece um valor padrão para uma coluna"
 		},
 		"sql                           ": {
-			"scope": "sql",
-			"prefix": "zDELETE⭐",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DELETE⭐",
 			"body": [
 				"DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';\r\n"
 			],
 			"description": "Exclui linhas de uma tabela"
 		},
 		"sql                            ": {
-			"scope": "sql",
-			"prefix": "zDESC",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DESC",
 			"body": [],
 			"description": "Classifica o conjunto de resultados em ordem decrescente"
 		},
 		"sql                             ": {
-			"scope": "sql",
-			"prefix": "zDISTINCT",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DISTINCT",
 			"body": [],
 			"description": "Seleciona apenas valores distintos (diferentes)"
 		},
 		"sql                              ": {
-			"scope": "sql",
-			"prefix": "zDROP",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DROP",
 			"body": [],
 			"description": "Exclui uma coluna, restrição, banco de dados, índice, tabela ou visualização"
 		},
 		"sql                               ": {
-			"scope": "sql",
-			"prefix": "zDROP COLUMN",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DROP COLUMN",
 			"body": [],
 			"description": "Exclui uma coluna em uma tabela"
 		},
 		"sql                                ": {
-			"scope": "sql",
-			"prefix": "zDROP CONSTRAINT",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DROP CONSTRAINT",
 			"body": [],
 			"description": "Exclui uma restrição UNIQUE, PRIMARY KEY, FOREIGN KEY ou CHECK"
 		},
 		"sql                                  ": {
-			"scope": "sql",
-			"prefix": "zDROP DATABASE",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DROP DATABASE",
 			"body": [],
 			"description": "Exclui um banco de dados SQL existente"
 		},
 		"sql                                   ": {
-			"scope": "sql",
-			"prefix": "zDROP DEFAULT",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DROP DEFAULT",
 			"body": [],
 			"description": "Exclui uma restrição DEFAULT"
 		},
 		"sql                                    ": {
-			"scope": "sql",
-			"prefix": "zDROP INDEX⭐",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DROP INDEX⭐",
 			"body": [],
 			"description": "Exclui um índice em uma tabela"
 		},
 		"sql                                     ": {
-			"scope": "sql",
-			"prefix": "zDROP TABLE⭐",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DROP TABLE⭐",
 			"body": [],
 			"description": "Exclui uma tabela existente no banco de dados"
 		},
 		"sql                                      ": {
-			"scope": "sql",
-			"prefix": "zDROP VIEW",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 DROP VIEW",
 			"body": [],
 			"description": "Exclui uma visualização"
 		},
 		"sql                                       ": {
-			"scope": "sql",
-			"prefix": "zEXEC",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 EXEC",
 			"body": [],
 			"description": "Executa um procedimento armazenado"
 		},
 		"sql                                 ": {
-			"scope": "sql",
-			"prefix": "zEXISTS",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 EXISTS",
 			"body": [],
 			"description": "Testes para a existência de qualquer registro em uma subconsulta"
 		},
 		"sql                                        ": {
-			"scope": "sql",
-			"prefix": "zFOREIGN KEY",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 FOREIGN KEY",
 			"body": [],
 			"description": "Uma restrição que é uma chave usada para vincular duas tabelas"
 		},
 		"sql                                            ": {
-			"scope": "sql",
-			"prefix": "zFROM",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 FROM",
 			"body": [],
 			"description": "Especifica de qual tabela selecionar ou excluir dados"
 		},
 		"sql                                           ": {
-			"scope": "sql",
-			"prefix": "zFULL OUTER JOIN",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 FULL OUTER JOIN",
 			"body": [],
 			"description": "Retorna todas as linhas quando há uma correspondência na tabela esquerda ou na tabela direita"
 		},
 		"sql                                          ": {
-			"scope": "sql",
-			"prefix": "zGROUP BY",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 GROUP BY",
 			"body": [],
 			"description": "Agrupa o conjunto de resultados (usado com funções agregadas: COUNT, MAX, MIN, SUM, AVG)"
 		},
 		"sql                                         ": {
-			"scope": "sql",
-			"prefix": "zHAVING",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 HAVING",
 			"body": [],
 			"description": "Usado em vez de WHERE com funções agregadas"
 		},
 		"sql                                              ": {
-			"scope": "sql",
-			"prefix": "zIN☄️",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 IN",
 			"body": [
 				"SELECT * FROM Customers\r\nWHERE Country IN ('Germany', 'France', 'UK');"
 			],
 			"description": "Permite especificar vários valores em uma cláusula WHERE"
 		},
 		"sql                                               ": {
-			"scope": "sql",
-			"prefix": "zINDEX",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 INDEX",
 			"body": [],
 			"description": "Cria ou exclui um índice em uma tabela"
 		},
 		"sql                                                ": {
-			"scope": "sql",
-			"prefix": "zINNER JOIN",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 INNER JOIN",
 			"body": [],
 			"description": "Retorna linhas que possuem valores correspondentes em ambas as tabelas"
 		},
 		"sql                                                 ": {
-			"scope": "sql",
-			"prefix": "zINSERT INTO⭐",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 INSERT INTO⭐",
 			"body": [],
 			"description": "Insere novas linhas em uma tabela"
 		},
 		"sql                                                  ": {
-			"scope": "sql",
-			"prefix": "zINSERT INTO SELECT",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 INSERT INTO SELECT",
 			"body": [],
 			"description": "Copia dados de uma tabela para outra tabela"
 		},
 		"sql                                                   ": {
-			"scope": "sql",
-			"prefix": "zIS NULL",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 IS NULL",
 			"body": [],
 			"description": "Testes para valores vazios"
 		},
 		"sql                                                    ": {
-			"scope": "sql",
-			"prefix": "zIS NOT NULL",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 IS NOT NULL",
 			"body": [],
 			"description": "Testes para valores não vazios"
 		},
 		"sql                                                     ": {
-			"scope": "sql",
-			"prefix": "zJOIN",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 JOIN",
 			"body": [],
 			"description": "Junta-se a tabelas"
 		},
 		"sql                                                      ": {
-			"scope": "sql",
-			"prefix": "zLEFT JOIN",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 LEFT JOIN",
 			"body": [],
 			"description": "Retorna todas as linhas da tabela esquerda e as linhas correspondentes da tabela direita"
 		},
 		"sql                                             ": {
-			"scope": "sql",
-			"prefix": "zLIKE",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 LIKE",
 			"body": [],
 			"description": "Procura um padrão especificado em uma coluna"
 		},
 		"sql                                                        ": {
-			"scope": "sql",
-			"prefix": "zLIMIT",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 LIMIT",
 			"body": [],
 			"description": "Especifica o número de registros a serem retornados no conjunto de resultados"
 		},
 		"sql                                                         ": {
-			"scope": "sql",
-			"prefix": "zNOT☄️",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 NOT",
 			"body": [
 				"SELECT * FROM Customers\r\nWHERE NOT CustomerId < 50;"
 			],
 			"description": "Inclui apenas linhas onde uma condição não é verdadeira"
 		},
 		"sql                                                          ": {
-			"scope": "sql",
-			"prefix": "zNOT NULL",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 NOT NULL",
 			"body": [],
 			"description": "Uma restrição que impõe uma coluna para não aceitar valores NULL"
 		},
 		"sql                                                       ": {
-			"scope": "sql",
-			"prefix": "zOR☄️",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 OR",
 			"body": [
 				"SELECT * FROM Customers\r\nWHERE Country = 'Germany'\r\nAND City = 'Berlin'\r\nAND PostalCode > 12000;"
 			],
 			"description": "Inclui linhas onde qualquer uma das condições é verdadeira"
 		},
 		"sql                                                            ": {
-			"scope": "sql",
-			"prefix": "zORDER BY☄️",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 ORDER BY☄️",
 			"body": [
 				"SELECT * FROM Customers\r\nORDER BY Country ASC, CustomerName DESC;"
 			],
 			"description": "Classifica o conjunto de resultados em ordem crescente ou decrescente"
 		},
 		"sql                                                             ": {
-			"scope": "sql",
-			"prefix": "zOUTER JOIN",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 OUTER JOIN",
 			"body": [],
 			"description": "Retorna todas as linhas quando há uma correspondência na tabela esquerda ou na tabela direita"
 		},
 		"sql                                                              ": {
-			"scope": "sql",
-			"prefix": "zPRIMARY KEY",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 PRIMARY KEY",
 			"body": [],
 			"description": "Uma restrição que identifica exclusivamente cada registro em uma tabela de banco de dados"
 		},
 		"sql                                                               ": {
-			"scope": "sql",
-			"prefix": "zPROCEDURE",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 PROCEDURE",
 			"body": [],
 			"description": "Um procedimento armazenado"
 		},
 		"sql                                                                ": {
-			"scope": "sql",
-			"prefix": "zRIGHT JOIN",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 RIGHT JOIN",
 			"body": [],
 			"description": "Retorna todas as linhas da tabela direita e as linhas correspondentes da tabela esquerda"
 		},
 		"sql                                                                 ": {
-			"scope": "sql",
-			"prefix": "zROWNUM",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 ROWNUM",
 			"body": [],
 			"description": "Especifica o número de registros a serem retornados no conjunto de resultados"
 		},
 		"sql                                                                  ": {
-			"scope": "sql",
-			"prefix": "zSELECT⭐",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 SELECT⭐",
 			"body": [],
 			"description": "Seleciona dados de um banco de dados"
 		},
 		"sql                                                                   ": {
-			"scope": "sql",
-			"prefix": "zSELECT DISTINCT☄️",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 SELECT DISTINCT☄️",
 			"body": [],
 			"description": "Seleciona apenas valores distintos (diferentes)"
 		},
 		"sql                                                                    ": {
-			"scope": "sql",
-			"prefix": "zSELECT INTO",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 SELECT INTO",
 			"body": [
 				"INSERT INTO table_name (column1, column2, column3, ...)\r\nVALUES (value1, value2, value3, ...);",
 				"",
@@ -10357,295 +10441,1605 @@
 			"description": "Copia dados de uma tabela para uma nova tabela"
 		},
 		"sql                                                                     ": {
-			"scope": "sql",
-			"prefix": "zSELECT TOP",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 SELECT TOP",
 			"body": [],
 			"description": "Especifica o número de registros a serem retornados no conjunto de resultados"
 		},
 		"sql                                                                      ": {
-			"scope": "sql",
-			"prefix": "zSET",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 SET",
 			"body": [],
 			"description": "Especifica quais colunas e valores devem ser atualizados em uma tabela"
 		},
 		"sql                                                                       ": {
-			"scope": "sql",
-			"prefix": "zTABLE",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 TABLE",
 			"body": [],
 			"description": "Cria uma tabela ou adiciona, exclui ou modifica colunas em uma tabela ou exclui uma tabela ou dados dentro de uma tabela"
 		},
 		"sql                                                                        ": {
-			"scope": "sql",
-			"prefix": "zTOP",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 TOP",
 			"body": [],
 			"description": "Especifica o número de registros a serem retornados no conjunto de resultados"
 		},
 		"sql                                                                         ": {
-			"scope": "sql",
-			"prefix": "zTRUNCATE TABLE",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 TRUNCATE TABLE",
 			"body": [],
 			"description": "Exclui os dados de uma tabela, mas não a própria tabela"
 		},
 		"sql                                                                          ": {
-			"scope": "sql",
-			"prefix": "zUNION",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 UNION",
 			"body": [],
 			"description": "Combina o conjunto de resultados de duas ou mais instruções SELECT (somente valores distintos)"
 		},
 		"sql                                                           ": {
-			"scope": "sql",
-			"prefix": "zUNION ALL",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 UNION ALL",
 			"body": [],
 			"description": "Combina o conjunto de resultados de duas ou mais instruções SELECT (permite valores duplicados)"
 		},
 		"sql                                                                           ": {
-			"scope": "sql",
-			"prefix": "zUNIQUE",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 UNIQUE",
 			"body": [],
 			"description": "Uma restrição que garante que todos os valores em uma coluna sejam únicos"
 		},
 		"sql                                                                            ": {
-			"scope": "sql",
-			"prefix": "zUPDATE⭐",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 UPDATE⭐",
 			"body": [
 				"UPDATE Customers\r\nSET ContactName='Juan'\r\nWHERE Country='Mexico';"
 			],
 			"description": "Atualiza linhas existentes em uma tabela"
 		},
 		"sql                                                                             ": {
-			"scope": "sql",
-			"prefix": "zVALUES",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 VALUES",
 			"body": [],
 			"description": "Especifica os valores de uma instrução INSERT INTO"
 		},
 		"sql                                                                              ": {
-			"scope": "sql",
-			"prefix": "zVIEW",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 VIEW",
 			"body": [],
 			"description": "Cria, atualiza ou exclui uma visualização"
 		},
 		"sql                                                                               ": {
-			"scope": "sql",
-			"prefix": "zWHERE⭐",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 WHERE⭐",
 			"body": [
 				"SELECT * FROM Customers\r\nWHERE Country='Mexico';"
 			],
 			"description": "Filtra um conjunto de resultados para incluir apenas registros que atendem a uma condição especificada"
 		},
 		"sql                                                                                ": {
-			"scope": "sql",
-			"prefix": "zALTER DATABASE⭐",
+			"scope": "sql, markdown, plaintext",
+			"prefix": "#1 ALTER DATABASE⭐",
 			"body": [],
 			"description": ""
 		},
-	/*****************************************************************************************/
-	//																GIT
-	/*****************************************************************************************/
-		"git": {
+	/********************************* GIT Library ***********************************************************/
+		
+		"git                                                                                                                                                                         ": {
 			"scope": "markdown, plaintext",
-			"prefix": "_library",
+			"prefix": "#2 git-add",
 			"body": [
-				"```",
-				"> **Comandos de alto nível**\n",
-				"Separamos os comandos do porcelana nos comandos principais e em alguns utilitários auxiliares do usuário.\n",
-				"**Principais comandos**\n",
-				"- **git-add** Adicione o conteúdo do arquivo ao índice",
-				"- **git-am** Aplicar uma série de patches de uma caixa de correio",
-				"- **git-archive** Crie um arquivo de arquivos de uma árvore nomeada",
-				"- **git-bisect** Use a pesquisa binária para encontrar o commit que introduziu um bug",
-				"- **git-branch** Listar, criar ou excluir ramificações",
-				"- **git-bundle** Mover objetos e referências por arquivo",
-				"- **git-checkout** Troque de ramificação ou restaure arquivos da árvore de trabalho",
-				"- **git-cherry-pick** Aplicar as alterações introduzidas por alguns commits existentes",
-				"- **git-citool** Alternativa gráfica para git-commit",
-				"- **git-clean** Remova arquivos não rastreados da árvore de trabalho",
-				"- **git-clone** Clonar um repositório em um novo diretório",
-				"- **git-commit** Registrar alterações no repositório",
-				"- **git-describe** Dê a um objeto um nome legível por humanos com base em uma referência disponível",
-				"- **git-diff** Mostrar alterações entre commits, commit e árvore de trabalho, etc.",
-				"- **git-fetch** Baixe objetos e referências de outro repositório",
-				"- **git-format-patch** Preparar patches para envio por e-mail",
-				"- **git-gc** Limpe arquivos desnecessários e otimize o repositório local",
-				"- **git-grep** Imprimir linhas que correspondam a um padrão",
-				"- **git-gui** Uma interface gráfica portátil para Git",
-				"- **git-init** Crie um repositório Git vazio ou reinicialize um existente",
-				"- **git-log** Mostrar registros de commit",
-				"- **git-maintenance** Execute tarefas para otimizar os dados do repositório Git",
-				"- **git-merge** Junte duas ou mais histórias de desenvolvimento",
-				"- **git-mv** Mover ou renomear um arquivo, diretório ou link simbólico",
-				"- **git-notes** Adicionar ou inspecionar notas de objeto",
-				"- **git-pull** Buscar e integrar com outro repositório ou filial local",
-				"- **git-push** Atualizar referências remotas junto com objetos associados",
-				"- **git-range-diff** Compare dois intervalos de commit (por exemplo, duas versões de um branch)",
-				"- **git-rebase** Reaplicar commits em cima de outra dica base",
-				"- **git-reset** Redefinir o HEAD atual para o estado especificado",
-				"- **git-restore** Restaurar arquivos da árvore de trabalho",
-				"- **git-revert** Reverter alguns commits existentes",
-				"- **git-rm** Remova arquivos da árvore de trabalho e do índice",
-				"- **git-shortlog** Resuma a saída do git log",
-				"- **git-show** Mostrar vários tipos de objetos",
-				"- **git-sparse-checkout** Reduza sua árvore de trabalho a um subconjunto de arquivos rastreados",
-				"- **git-stash** Armazene as alterações em um diretório de trabalho sujo",
-				"- **git-status** Mostrar o status da árvore de trabalho",
-				"- **git-submodule** Inicialize, atualize ou inspecione submódulos",
-				"- **git-switch** Mudar de ramo",
-				"- **git-tag** Crie, liste, exclua ou verifique um objeto de tag assinado com GPG",
-				"- **git-worktree** Gerenciar múltiplas árvores de trabalho",
-				"- **gitk** O navegador do repositório Git",
-				"- **scalar** Uma ferramenta para gerenciar grandes repositórios Git\n",
-				"**Comandos Auxiliares (Principais comandos)**\n",
-				"- **git-config** Obtenha e defina repositório ou opções globais",
-				"- **git-fast-export** Exportador de dados Git",
-				"- **git-fast-import** Back-end para importadores rápidos de dados Git",
-				"- **git-filter-branch** Reescrever ramificações",
-				"- **git-mergetool** Execute ferramentas de resolução de conflitos de mesclagem para resolver conflitos de mesclagem",
-				"- **git-pack-refs** Pack heads e tags para acesso eficiente ao repositório",
-				"- **git-prune** Remover todos os objetos inacessíveis do banco de dados de objetos",
-				"- **git-reflog** Gerenciar informações de reflog",
-				"- **git-remote** Gerenciar conjunto de repositórios rastreados",
-				"- **git-repack** Empacotar objetos descompactados em um repositório",
-				"- **git-replace** Crie, liste e exclua referências para substituir objetos",
-				"- **git-annotate** Anote linhas de arquivo com informações de commit",
-				"- **git-blame** Mostrar qual revisão e autor modificou pela última vez cada linha de um arquivo",
-				"- **git-bugreport** Coletar informações para o usuário registrar um relatório de bug",
-				"- **git-count-objects** Conte o número de objetos descompactados e seu consumo de disco",
-				"- **git-diagnose** Gere um arquivo zip de informações de diagnóstico",
-				"- **git-difftool** Mostrar alterações usando ferramentas de comparação comuns",
-				"- **git-fsck Verifica a conectividade e validade dos objetos no banco de dados",
-				"- **git-help** Exibir informações de ajuda sobre o Git",
-				"- **git-instaweb** Navegue instantaneamente em seu repositório de trabalho no gitweb",
-				"- **git-merge-tree** Execute a mesclagem sem tocar no índice ou na árvore de trabalho",
-				"- **git-rerere** Reutilizar resolução gravada de mesclagens conflitantes",
-				"- **git-show-branch** Mostrar filiais e seus commits",
-				"- **git-verify-commit** Verifique a assinatura GPG dos commits",
-				"- **git-verify-tag** Verifique a assinatura GPG das tags",
-				"- **git-version** Exibir informações de versão sobre o Git",
-				"- **git-whatchanged** Mostrar logs com a diferença que cada commit apresenta",
-				"- **gitweb** Interface web Git (frontend web para repositórios Git)\n",
-				"**Interagindo com outras pessoas**\n",
-				"Esses comandos servem para interagir com SCM estrangeiros e com outras pessoas via patch por e-mail.\n",
-				"- **git-archimport** Importe um repositório GNU Arch para o Git",
-				"- **git-cvsexportcommit** Exporte um único commit para um checkout CVS",
-				"- **git-cvsimport** Salve seus dados de outro SCM que as pessoas adoram odiar",
-				"- **git-cvsserver** Um emulador de servidor CVS para Git",
-				"- **git-imap-send** Envie uma coleção de patches do stdin para uma pasta IMAP",
-				"- **git-p4** Importar e enviar para repositórios Perforce",
-				"- **git-quiltimport** Aplica um patchset de quilt no branch atual",
-				"- **git-request-pull** Gera um resumo das alterações pendentes",
-				"- **git-send-email** Envie uma coleção de patches como e-mails",
-				"- **git-svn** Operação bidirecional entre um repositório Subversion e Git\n",
-				"**Redefinir, restaurar e reverter**\n",
-				"- **git-revert** trata de fazer um novo commit que reverte as alterações feitas por outros commits.",
-				"- **git-restore** trata de restaurar arquivos na árvore de trabalho a partir do índice ou de outro commit. Este comando não atualiza seu branch. O comando também pode ser usado para restaurar arquivos no índice de outro commit.",
-				"- **git-reset** trata de atualizar seu branch, movendo a dica para adicionar ou remover commits do branch. Esta operação altera o histórico de commits. git resettambém pode ser usado para restaurar o índice, sobrepondo-se ao git restore.",
-				"```",
+				"git add [arquivo]"
 			],
-			"description": ""
+			"description": "Adicione o conteúdo do arquivo ao índice"
 		},
-		"git ": {
+		"git                                                                                                                                                                        ": {
 			"scope": "markdown, plaintext",
-			"prefix": "__library",
+			"prefix": "#2 git-am",
 			"body": [
-				"```",
-				"> **Comandos de alto nível**\n",
-				"Separamos os comandos do porcelana nos comandos principais e em alguns utilitários auxiliares do usuário.\n",
-				"**Principais comandos**\n",
-				"- **git-add** Adicione o conteúdo do arquivo ao índice",
-				"- **git-am** Aplicar uma série de patches de uma caixa de correio",
-				"- **git-archive** Crie um arquivo de arquivos de uma árvore nomeada",
-				"- **git-bisect** Use a pesquisa binária para encontrar o commit que introduziu um bug",
-				"- **git-branch** Listar, criar ou excluir ramificações",
-				"- **git-bundle** Mover objetos e referências por arquivo",
-				"- **git-checkout** Troque de ramificação ou restaure arquivos da árvore de trabalho",
-				"- **git-cherry-pick** Aplicar as alterações introduzidas por alguns commits existentes",
-				"- **git-citool** Alternativa gráfica para git-commit",
-				"- **git-clean** Remova arquivos não rastreados da árvore de trabalho",
-				"- **git-clone** Clonar um repositório em um novo diretório",
-				"- **git-commit** Registrar alterações no repositório",
-				"- **git-describe** Dê a um objeto um nome legível por humanos com base em uma referência disponível",
-				"- **git-diff** Mostrar alterações entre commits, commit e árvore de trabalho, etc.",
-				"- **git-fetch** Baixe objetos e referências de outro repositório",
-				"- **git-format-patch** Preparar patches para envio por e-mail",
-				"- **git-gc** Limpe arquivos desnecessários e otimize o repositório local",
-				"- **git-grep** Imprimir linhas que correspondam a um padrão",
-				"- **git-gui** Uma interface gráfica portátil para Git",
-				"- **git-init** Crie um repositório Git vazio ou reinicialize um existente",
-				"- **git-log** Mostrar registros de commit",
-				"- **git-maintenance** Execute tarefas para otimizar os dados do repositório Git",
-				"- **git-merge** Junte duas ou mais histórias de desenvolvimento",
-				"- **git-mv** Mover ou renomear um arquivo, diretório ou link simbólico",
-				"- **git-notes** Adicionar ou inspecionar notas de objeto",
-				"- **git-pull** Buscar e integrar com outro repositório ou filial local",
-				"- **git-push** Atualizar referências remotas junto com objetos associados",
-				"- **git-range-diff** Compare dois intervalos de commit (por exemplo, duas versões de um branch)",
-				"- **git-rebase** Reaplicar commits em cima de outra dica base",
-				"- **git-reset** Redefinir o HEAD atual para o estado especificado",
-				"- **git-restore** Restaurar arquivos da árvore de trabalho",
-				"- **git-revert** Reverter alguns commits existentes",
-				"- **git-rm** Remova arquivos da árvore de trabalho e do índice",
-				"- **git-shortlog** Resuma a saída do git log",
-				"- **git-show** Mostrar vários tipos de objetos",
-				"- **git-sparse-checkout** Reduza sua árvore de trabalho a um subconjunto de arquivos rastreados",
-				"- **git-stash** Armazene as alterações em um diretório de trabalho sujo",
-				"- **git-status** Mostrar o status da árvore de trabalho",
-				"- **git-submodule** Inicialize, atualize ou inspecione submódulos",
-				"- **git-switch** Mudar de ramo",
-				"- **git-tag** Crie, liste, exclua ou verifique um objeto de tag assinado com GPG",
-				"- **git-worktree** Gerenciar múltiplas árvores de trabalho",
-				"- **gitk** O navegador do repositório Git",
-				"- **scalar** Uma ferramenta para gerenciar grandes repositórios Git\n",
-				"**Comandos Auxiliares (Principais comandos)**\n",
-				"- **git-config** Obtenha e defina repositório ou opções globais",
-				"- **git-fast-export** Exportador de dados Git",
-				"- **git-fast-import** Back-end para importadores rápidos de dados Git",
-				"- **git-filter-branch** Reescrever ramificações",
-				"- **git-mergetool** Execute ferramentas de resolução de conflitos de mesclagem para resolver conflitos de mesclagem",
-				"- **git-pack-refs** Pack heads e tags para acesso eficiente ao repositório",
-				"- **git-prune** Remover todos os objetos inacessíveis do banco de dados de objetos",
-				"- **git-reflog** Gerenciar informações de reflog",
-				"- **git-remote** Gerenciar conjunto de repositórios rastreados",
-				"- **git-repack** Empacotar objetos descompactados em um repositório",
-				"- **git-replace** Crie, liste e exclua referências para substituir objetos",
-				"- **git-annotate** Anote linhas de arquivo com informações de commit",
-				"- **git-blame** Mostrar qual revisão e autor modificou pela última vez cada linha de um arquivo",
-				"- **git-bugreport** Coletar informações para o usuário registrar um relatório de bug",
-				"- **git-count-objects** Conte o número de objetos descompactados e seu consumo de disco",
-				"- **git-diagnose** Gere um arquivo zip de informações de diagnóstico",
-				"- **git-difftool** Mostrar alterações usando ferramentas de comparação comuns",
-				"- **git-fsck Verifica a conectividade e validade dos objetos no banco de dados",
-				"- **git-help** Exibir informações de ajuda sobre o Git",
-				"- **git-instaweb** Navegue instantaneamente em seu repositório de trabalho no gitweb",
-				"- **git-merge-tree** Execute a mesclagem sem tocar no índice ou na árvore de trabalho",
-				"- **git-rerere** Reutilizar resolução gravada de mesclagens conflitantes",
-				"- **git-show-branch** Mostrar filiais e seus commits",
-				"- **git-verify-commit** Verifique a assinatura GPG dos commits",
-				"- **git-verify-tag** Verifique a assinatura GPG das tags",
-				"- **git-version** Exibir informações de versão sobre o Git",
-				"- **git-whatchanged** Mostrar logs com a diferença que cada commit apresenta",
-				"- **gitweb** Interface web Git (frontend web para repositórios Git)\n",
-				"**Interagindo com outras pessoas**\n",
-				"Esses comandos servem para interagir com SCM estrangeiros e com outras pessoas via patch por e-mail.\n",
-				"- **git-archimport** Importe um repositório GNU Arch para o Git",
-				"- **git-cvsexportcommit** Exporte um único commit para um checkout CVS",
-				"- **git-cvsimport** Salve seus dados de outro SCM que as pessoas adoram odiar",
-				"- **git-cvsserver** Um emulador de servidor CVS para Git",
-				"- **git-imap-send** Envie uma coleção de patches do stdin para uma pasta IMAP",
-				"- **git-p4** Importar e enviar para repositórios Perforce",
-				"- **git-quiltimport** Aplica um patchset de quilt no branch atual",
-				"- **git-request-pull** Gera um resumo das alterações pendentes",
-				"- **git-send-email** Envie uma coleção de patches como e-mails",
-				"- **git-svn** Operação bidirecional entre um repositório Subversion e Git\n",
-				"**Redefinir, restaurar e reverter**\n",
-				"- **git-revert** trata de fazer um novo commit que reverte as alterações feitas por outros commits.",
-				"- **git-restore** trata de restaurar arquivos na árvore de trabalho a partir do índice ou de outro commit. Este comando não atualiza seu branch. O comando também pode ser usado para restaurar arquivos no índice de outro commit.",
-				"- **git-reset** trata de atualizar seu branch, movendo a dica para adicionar ou remover commits do branch. Esta operação altera o histórico de commits. git resettambém pode ser usado para restaurar o índice, sobrepondo-se ao git restore.",
-				"```",
+				"git am [patch]"
 			],
-			"description": ""
+			"description": "Aplicar uma série de patches de uma caixa de correio"
 		},
-	/*****************************************************************************************/
-	//																Eletron codigo
-	/*****************************************************************************************/
+		"git                                                                                                                                                                       ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-archive",
+			"body": [
+				"git archive --format=tar --output=arquivo.tar [ramo]"
+			],
+			"description": "Crie um arquivo de arquivos de uma árvore nomeada"
+		},
+		"git                                                                                                                                                                      ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-bisect",
+			"body": [
+				"git bisect start",
+				"git bisect good [commit-id]",
+				"git bisect bad [commit-id]"
+			],
+			"description": "Use a pesquisa binária para encontrar o commit que introduziu um bug"
+		},
+		"git                                                                                                                                                                     ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-branch",
+			"body": [
+				"git branch",
+				"git branch [novo-ramo]",
+				"git branch -d [ramo]"
+			],
+			"description": "Listar, criar ou excluir ramificações"
+		},
+		"git                                                                                                                                                                    ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-bundle",
+			"body": [
+				"git bundle create [arquivo.bundle] [ramo]",
+				"git bundle verify [arquivo.bundle]"
+			],
+			"description": "Mover objetos e referências por arquivo"
+		},
+		"git                                                                                                                                                                   ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-checkout",
+			"body": [
+				"git checkout [ramo]",
+				"git checkout -- [arquivo]"
+			],
+			"description": "Troque de ramificação ou restaure arquivos da árvore de trabalho"
+		},
+		"git                                                                                                                                                                  ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-cherry-pick",
+			"body": [
+				"git cherry-pick [commit-id]"
+			],
+			"description": "Aplicar as alterações introduzidas por alguns commits existentes"
+		},
+		"git                                                                                                                                                                 ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-citool",
+			"body": [
+				"git citool"
+			],
+			"description": "Alternativa gráfica para git-commit"
+		},
+		"git                                                                                                                                                                ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-clean",
+			"body": [
+				"git clean -fd"
+			],
+			"description": "Remova arquivos não rastreados da árvore de trabalho"
+		},
+		"git                                                                                                                                                               ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-clone",
+			"body": [
+				"git clone [url] [diretório]"
+			],
+			"description": "Clonar um repositório em um novo diretório"
+		},
+		"git                                                                                                                                                              ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-commit",
+			"body": [
+				"git commit -m \"mensagem de commit\""
+			],
+			"description": "Registrar alterações no repositório"
+		},
+		"git                                                                                                                                                             ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-describe",
+			"body": [
+				"git describe"
+			],
+			"description": "Dê a um objeto um nome legível por humanos com base em uma referência disponível"
+		},
+		"git                                                                                                                                                            ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-diff",
+			"body": [
+				"git diff [commit-id] [commit-id]"
+			],
+			"description": "Mostrar alterações entre commits, commit e árvore de trabalho, etc."
+		},
+		"git                                                                                                                                                           ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-fetch",
+			"body": [
+				"git fetch [remote]"
+			],
+			"description": "Baixe objetos e referências de outro repositório"
+		},
+		"git                                                                                                                                                          ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-format-patch",
+			"body": [
+				"git format-patch [base]"
+			],
+			"description": "Preparar patches para envio por e-mail"
+		},
+		"git                                                                                                                                                         ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-gc",
+			"body": [
+				"git gc"
+			],
+			"description": "Limpe arquivos desnecessários e otimize o repositório local"
+		},
+		"git                                                                                                                                                        ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-grep",
+			"body": [
+				"git grep [padrão]"
+			],
+			"description": "Imprimir linhas que correspondam a um padrão"
+		},
+		"git                                                                                                                                                       ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-gui",
+			"body": [
+				"git gui"
+			],
+			"description": "Uma interface gráfica portátil para Git"
+		},
+		"git                                                                                                                                                      ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-init",
+			"body": [
+				"git init"
+			],
+			"description": "Crie um repositório Git vazio ou reinicialize um existente"
+		},
+		"git                                                                                                                                                     ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-log",
+			"body": [
+				"git log"
+			],
+			"description": "Mostrar registros de commit"
+		},
+		"git                                                                                                                                                    ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-maintenance",
+			"body": [
+				"git maintenance run"
+			],
+			"description": "Execute tarefas para otimizar os dados do repositório Git"
+		},
+		"git                                                                                                                                                   ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-merge",
+			"body": [
+				"git merge [ramo]"
+			],
+			"description": "Junte duas ou mais histórias de desenvolvimento"
+		},
+		"git                                                                                                                                                  ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-mv",
+			"body": [
+				"git mv [arquivo] [novo-arquivo]"
+			],
+			"description": "Mover ou renomear um arquivo, diretório ou link simbólico"
+		},
+		"git                                                                                                                                                 ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-notes",
+			"body": [
+				"git notes add [mensagem]"
+			],
+			"description": "Adicionar ou inspecionar notas de objeto"
+		},
+		"git                                                                                                                                                ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-pull",
+			"body": [
+				"git pull [remote] [ramo]"
+			],
+			"description": "Buscar e integrar com outro repositório ou filial local"
+		},
+		"git                                                                                                                                               ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-push",
+			"body": [
+				"git push [remote] [ramo]"
+			],
+			"description": "Atualizar referências remotas junto com objetos associados"
+		},
+		"git                                                                                                                                              ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-range-diff",
+			"body": [
+				"git range-diff [intervalo1] [intervalo2]"
+			],
+			"description": "Compare dois intervalos de commit (por exemplo, duas versões de um branch)"
+		},
+		"git                                                                                                                                             ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-rebase",
+			"body": [
+				"git rebase [base]"
+			],
+			"description": "Reaplicar commits em cima de outra dica base"
+		},
+		"git                                                                                                                                            ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-reset",
+			"body": [
+				"git reset [commit-id]"
+			],
+			"description": "Redefinir o HEAD atual para o estado especificado"
+		},
+		"git                                                                                                                                           ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-restore",
+			"body": [
+				"git restore [arquivo]"
+			],
+			"description": "Restaurar arquivos da árvore de trabalho"
+		},
+		"git                                                                                                                                          ": {
+			"scope": "markdown, plaintext",
+			"prefix": "#2 git-revert",
+			"body": [
+				"git revert [commit-id]"
+			],
+			"description": "Reverter alguns commits existentes"
+		},
+			"git                                                                                                                                         ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-rm",
+				"body": [
+					"git rm [arquivo]"
+				],
+				"description": "Remova arquivos da árvore de trabalho e do índice"
+			},
+			"git                                                                                                                                        ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-shortlog",
+				"body": [
+					"git shortlog"
+				],
+				"description": "Resuma a saída do git log"
+			},
+			"git                                                                                                                                       ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-show",
+				"body": [
+					"git show [objeto]"
+				],
+				"description": "Mostrar vários tipos de objetos"
+			},
+			"git                                                                                                                                      ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-sparse-checkout",
+				"body": [
+					"git sparse-checkout init --cone",
+					"git sparse-checkout set [pasta]"
+				],
+				"description": "Reduza sua árvore de trabalho a um subconjunto de arquivos rastreados"
+			},
+			"git                                                                                                                                     ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-stash",
+				"body": [
+					"git stash",
+					"git stash apply"
+				],
+				"description": "Armazene as alterações em um diretório de trabalho sujo"
+			},
+			"git                                                                                                                                    ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-status",
+				"body": [
+					"git status"
+				],
+				"description": "Mostrar o status da árvore de trabalho"
+			},
+			"git                                                                                                                                   ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-submodule",
+				"body": [
+					"git submodule add [url] [pasta]",
+					"git submodule update --init --recursive"
+				],
+				"description": "Inicialize, atualize ou inspecione submódulos"
+			},
+			"git                                                                                                                                  ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-switch",
+				"body": [
+					"git switch [ramo]"
+				],
+				"description": "Mudar de ramo"
+			},
+			"git                                                                                                                                 ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-tag",
+				"body": [
+					"git tag -a [tag] -m \"mensagem\"",
+					"git tag -d [tag]",
+					"git push origin --tags"
+				],
+				"description": "Crie, liste, exclua ou verifique um objeto de tag assinado com GPG"
+			},
+			"git                                                                                                                               ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-worktree",
+				"body": [
+					"git worktree add [pasta] [ramo]",
+					"git worktree remove [pasta]"
+				],
+				"description": "Gerenciar múltiplas árvores de trabalho"
+			},
+			"git                                                                                                                                ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 gitk",
+				"body": [
+					"gitk"
+				],
+				"description": "O navegador do repositório Git"
+			},
+			"git                                                                                                                              ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 scalar",
+				"body": [
+					"scalar register",
+					"scalar clone [url]"
+				],
+				"description": "Uma ferramenta para gerenciar grandes repositórios Git"
+			},
+			"git                                                                                                                             ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-config",
+				"body": [
+					"git config --global [nome] [valor]"
+				],
+				"description": "Obtenha e defina repositório ou opções globais"
+			},
+			"git                                                                                                                           ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-fast-export",
+				"body": [
+					"git fast-export [ramo]"
+				],
+				"description": "Exportador de dados Git"
+			},
+			"git                                                                                                                            ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-fast-import",
+				"body": [
+					"git fast-import"
+				],
+				"description": "Back-end para importadores rápidos de dados Git"
+			},
+			"git                                                                                                                          ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-filter-branch",
+				"body": [
+					"git filter-branch --tree-filter '[comando]' HEAD"
+				],
+				"description": "Reescrever ramificações"
+			},
+			"git                                                                                                                         ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-mergetool",
+				"body": [
+					"git mergetool"
+				],
+				"description": "Execute ferramentas de resolução de conflitos de mesclagem para resolver conflitos de mesclagem"
+			},
+			"git                                                                                                                        ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-pack-refs",
+				"body": [
+					"git pack-refs --all"
+				],
+				"description": "Pack heads e tags para acesso eficiente ao repositório"
+			},
+	
+				"git                                                                                                                       ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-prune",
+					"body": [
+						"git prune"
+					],
+					"description": "Remover todos os objetos inacessíveis do banco de dados de objetos"
+				},
+				"git                                                                                                                      ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-reflog",
+					"body": [
+						"git reflog"
+					],
+					"description": "Gerenciar informações de reflog"
+				},
+				"git                                                                                                                     ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-remote",
+					"body": [
+						"git remote",
+						"git remote add [nome] [url]"
+					],
+					"description": "Gerenciar conjunto de repositórios rastreados"
+				},
+				"git                                                                                                                    ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-repack",
+					"body": [
+						"git repack -a -d -l"
+					],
+					"description": "Empacotar objetos descompactados em um repositório"
+				},
+				"git                                                                                                                   ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-replace",
+					"body": [
+						"git replace [objeto-antigo] [objeto-novo]"
+					],
+					"description": "Crie, liste e exclua referências para substituir objetos"
+				},
+				"git                                                                                                                  ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-annotate",
+					"body": [
+						"git annotate [arquivo]"
+					],
+					"description": "Anote linhas de arquivo com informações de commit"
+				},
+				"git                                                                                                                 ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-blame",
+					"body": [
+						"git blame [arquivo]"
+					],
+					"description": "Mostrar qual revisão e autor modificou pela última vez cada linha de um arquivo"
+				},
+				"git                                                                                                                ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-bugreport",
+					"body": [
+						"git bugreport"
+					],
+					"description": "Coletar informações para o usuário registrar um relatório de bug"
+				},
+				"git                                                                                                               ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-count-objects",
+					"body": [
+						"git count-objects"
+					],
+					"description": "Conte o número de objetos descompactados e seu consumo de disco"
+				},
+				"git                                                                                                              ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-diagnose",
+					"body": [
+						"git diagnose"
+					],
+					"description": "Gere um arquivo zip de informações de diagnóstico"
+				},
+				"git                                                                                                             ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-difftool",
+					"body": [
+						"git difftool"
+					],
+					"description": "Mostrar alterações usando ferramentas de comparação comuns"
+				},
+				"git                                                                                                            ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-fsck",
+					"body": [
+						"git fsck"
+					],
+					"description": "Verifica a conectividade e validade dos objetos no banco de dados"
+				},
+				"git                                                                                                           ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-help",
+					"body": [
+						"git help [comando]"
+					],
+					"description": "Exibir informações de ajuda sobre o Git"
+				},
+	
+			"git                                                                                                          ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-instaweb",
+					"body": [
+							"Navegar instantaneamente em seu repositório de trabalho no gitweb",
+							"```bash",
+							"git instaweb",
+							"```"
+					],
+					"description": "Navegue instantaneamente em seu repositório de trabalho no gitweb"
+			},
+			"git                                                                                                         ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-merge-tree",
+					"body": [
+							"Execute a mesclagem sem tocar no índice ou na árvore de trabalho",
+							"```bash",
+							"git merge-tree <base> <branch1> <branch2>",
+							"```"
+					],
+					"description": "Execute a mesclagem sem tocar no índice ou na árvore de trabalho"
+			},
+			"git                                                                                                        ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-rerere",
+					"body": [
+							"Reutilizar resolução gravada de mesclagens conflitantes",
+							"```bash",
+							"git rerere",
+							"```"
+					],
+					"description": "Reutilizar resolução gravada de mesclagens conflitantes"
+			},
+			"git                                                                                                       ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-show-branch",
+					"body": [
+							"Mostrar filiais e seus commits",
+							"```bash",
+							"git show-branch",
+							"```"
+					],
+					"description": "Mostrar filiais e seus commits"
+			},
+			"git                                                                                                      ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-verify-commit",
+					"body": [
+							"Verifique a assinatura GPG dos commits",
+							"```bash",
+							"git verify-commit <commit>",
+							"```"
+					],
+					"description": "Verifique a assinatura GPG dos commits"
+			},
+			"git                                                                                                     ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-verify-tag",
+					"body": [
+							"Verifique a assinatura GPG das tags",
+							"```bash",
+							"git verify-tag <tag>",
+							"```"
+					],
+					"description": "Verifique a assinatura GPG das tags"
+			},
+			"git                                                                                                    ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-version",
+					"body": [
+							"Exibir informações de versão sobre o Git",
+							"```bash",
+							"git version",
+							"```"
+					],
+					"description": "Exibir informações de versão sobre o Git"
+			},
+			"git                                                                                                   ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-whatchanged",
+					"body": [
+							"Mostrar logs com a diferença que cada commit apresenta",
+							"```bash",
+							"git whatchanged",
+							"```"
+					],
+					"description": "Mostrar logs com a diferença que cada commit apresenta"
+			},
+			"git                                                                                                  ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 gitweb",
+					"body": [
+							"Interface web Git (frontend web para repositórios Git)",
+							"```bash",
+							"gitweb",
+							"```"
+					],
+					"description": "Interface web Git (frontend web para repositórios Git)"
+			},
+			"git                                                                                                 ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-archimport",
+					"body": [
+							"Importe um repositório GNU Arch para o Git",
+							"```bash",
+							"git archimport",
+							"```"
+					],
+					"description": "Importe um repositório GNU Arch para o Git"
+			},
+			"git                                                                                                ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-cvsexportcommit",
+					"body": [
+							"Exporte um único commit para um checkout CVS",
+							"```bash",
+							"git cvsexportcommit -c <commit>",
+							"```"
+					],
+					"description": "Exporte um único commit para um checkout CVS"
+			},
+			"git                                                                                               ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-cvsimport",
+					"body": [
+							"Salve seus dados de outro SCM que as pessoas adoram odiar",
+							"```bash",
+							"git cvsimport",
+							"```"
+					],
+					"description": "Salve seus dados de outro SCM que as pessoas adoram odiar"
+			},
+			"git                                                                                              ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-cvsserver",
+					"body": [
+							"Um emulador de servidor CVS para Git",
+							"```bash",
+							"git cvsserver",
+							"```"
+					],
+					"description": "Um emulador de servidor CVS para Git"
+			},
+			"git                                                                                            ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-imap-send",
+					"body": [
+							"Envie uma coleção de patches do stdin para uma pasta IMAP",
+							"```bash",
+							"git imap-send",
+							"```"
+					],
+					"description": "Envie uma coleção de patches do stdin para uma pasta IMAP"
+			},
+			"git                                                                                             ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-p4",
+					"body": [
+							"Importar e enviar para repositórios Perforce",
+							"```bash",
+							"git p4",
+							"```"
+					],
+					"description": "Importar e enviar para repositórios Perforce"
+			},
+			"git                                                                                           ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-quiltimport",
+					"body": [
+							"Aplica um patchset de quilt no branch atual",
+							"```bash",
+							"git quiltimport",
+							"```"
+					],
+					"description": "Aplica um patchset de quilt no branch atual"
+			},
+			"git                                                                                          ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-request-pull",
+					"body": [
+							"Gera um resumo das alterações pendentes",
+							"```bash",
+							"git request-pull",
+							"```"
+					],
+					"description": "Gera um resumo das alterações pendentes"
+			},
+			"git                                                                                         ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-send-email",
+					"body": [
+							"Envie uma coleção de patches como e-mails",
+							"```bash",
+							"git send-email",
+							"```"
+					],
+					"description": "Envie uma coleção de patches como e-mails"
+			},
+			"git                                                                                        ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-svn",
+					"body": [
+							"Operação bidirecional entre um repositório Subversion e Git",
+							"```bash",
+							"git svn",
+							"```"
+					],
+					"description": "Operação bidirecional entre um repositório Subversion e Git"
+			},
+			"git                                                                                       ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-revert",
+					"body": [
+							"Fazer um novo commit que reverte as alterações feitas por outros commits",
+							"```bash",
+							"git revert <commit>",
+							"```"
+					],
+					"description": "Fazer um novo commit que reverte as alterações feitas por outros commits"
+			},
+			"git                                                                                      ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-restore",
+					"body": [
+							"Restaurar arquivos na árvore de trabalho a partir do índice ou de outro commit",
+							"```bash",
+							"git restore <file>",
+							"```"
+					],
+					"description": "Restaurar arquivos na árvore de trabalho a partir do índice ou de outro commit"
+			},
+			"git                                                                                     ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-reset",
+					"body": [
+							"Atualizar seu branch, movendo a dica para adicionar ou remover commits do branch",
+							"```bash",
+							"git reset <options> <commit>",
+							"```"
+					],
+					"description": "Atualizar seu branch, movendo a dica para adicionar ou remover commits do branch"
+			},
+	
+			"git                                                                                    ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-add",
+					"body": [
+							"Adicione o conteúdo do arquivo ao índice",
+							"```bash",
+							"git add <file>",
+							"```"
+					],
+					"description": "Adicione o conteúdo do arquivo ao índice"
+			},
+			"git                                                                                   ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-am",
+					"body": [
+							"Aplicar uma série de patches de uma caixa de correio",
+							"```bash",
+							"git am <patch>",
+							"```"
+					],
+					"description": "Aplicar uma série de patches de uma caixa de correio"
+			},
+			"git                                                                                  ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-archive",
+					"body": [
+							"Crie um arquivo de arquivos de uma árvore nomeada",
+							"```bash",
+							"git archive --format=tar <commit> -o <output-file>",
+							"```"
+					],
+					"description": "Crie um arquivo de arquivos de uma árvore nomeada"
+			},
+			"git                                                                                 ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-bisect",
+					"body": [
+							"Use a pesquisa binária para encontrar o commit que introduziu um bug",
+							"```bash",
+							"git bisect start",
+							"git bisect bad",
+							"git bisect good <commit>",
+							"```"
+					],
+					"description": "Use a pesquisa binária para encontrar o commit que introduziu um bug"
+			},
+			"git                                                                                ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-branch",
+					"body": [
+							"Listar, criar ou excluir ramificações",
+							"```bash",
+							"git branch",
+							"```"
+					],
+					"description": "Listar, criar ou excluir ramificações"
+			},
+			"git                                                                               ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-bundle",
+					"body": [
+							"Mover objetos e referências por arquivo",
+							"```bash",
+							"git bundle create <file> <branch>",
+							"```"
+					],
+					"description": "Mover objetos e referências por arquivo"
+			},
+			"git                                                                              ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-checkout",
+					"body": [
+							"Troque de ramificação ou restaure arquivos da árvore de trabalho",
+							"```bash",
+							"git checkout <branch>",
+							"```"
+					],
+					"description": "Troque de ramificação ou restaure arquivos da árvore de trabalho"
+			},
+			"git                                                                             ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-cherry-pick",
+					"body": [
+							"Aplicar as alterações introduzidas por alguns commits existentes",
+							"```bash",
+							"git cherry-pick <commit>",
+							"```"
+					],
+					"description": "Aplicar as alterações introduzidas por alguns commits existentes"
+			},
+			"git                                                                            ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-citool",
+					"body": [
+							"Alternativa gráfica para git-commit",
+							"```bash",
+							"git citool",
+							"```"
+					],
+					"description": "Alternativa gráfica para git-commit"
+			},
+			"git                                                                           ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-clean",
+					"body": [
+							"Remova arquivos não rastreados da árvore de trabalho",
+							"```bash",
+							"git clean -f",
+							"```"
+					],
+					"description": "Remova arquivos não rastreados da árvore de trabalho"
+			},
+			"git                                                                          ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-clone",
+					"body": [
+							"Clonar um repositório em um novo diretório",
+							"```bash",
+							"git clone <repository>",
+							"```"
+					],
+					"description": "Clonar um repositório em um novo diretório"
+			},
+			"git                                                                         ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-commit",
+					"body": [
+							"Registrar alterações no repositório",
+							"```bash",
+							"git commit -m \"mensagem do commit\"",
+							"```"
+					],
+					"description": "Registrar alterações no repositório"
+			},
+			"git                                                                       ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-describe",
+					"body": [
+							"Dê a um objeto um nome legível por humanos com base em uma referência disponível",
+							"```bash",
+							"git describe <options>",
+							"```"
+					],
+					"description": "Dê a um objeto um nome legível por humanos com base em uma referência disponível"
+			},
+			"git                                                                        ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-diff",
+					"body": [
+							"Mostrar alterações entre commits, commit e árvore de trabalho, etc.",
+							"```bash",
+							"git diff <options>",
+							"```"
+					],
+					"description": "Mostrar alterações entre commits, commit e árvore de trabalho, etc."
+			},
+			"git                                                                      ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-fetch",
+					"body": [
+							"Baixe objetos e referências de outro repositório",
+							"```bash",
+							"git fetch <remote>",
+							"```"
+					],
+					"description": "Baixe objetos e referências de outro repositório"
+			},
+			"git                                                                     ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-format-patch",
+					"body": [
+							"Preparar patches para envio por e-mail",
+							"```bash",
+							"git format-patch <options>",
+							"```"
+					],
+					"description": "Preparar patches para envio por e-mail"
+			},
+			"git                                                                    ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-gc",
+					"body": [
+							"Limpe arquivos desnecessários e otimize o repositório local",
+							"```bash",
+							"git gc",
+							"```"
+					],
+					"description": "Limpe arquivos desnecessários e otimize o repositório local"
+			},
+			"git                                                                   ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-grep",
+					"body": [
+							"Imprimir linhas que correspondam a um padrão",
+							"```bash",
+							"git grep <pattern>",
+							"```"
+					],
+					"description": "Imprimir linhas que correspondam a um padrão"
+			},
+			"git                                                                  ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-gui",
+					"body": [
+							"Uma interface gráfica portátil para Git",
+							"```bash",
+							"git gui",
+							"```"
+					],
+					"description": "Uma interface gráfica portátil para Git"
+			},
+			"git                                                                 ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-init",
+					"body": [
+							"Crie um repositório Git vazio ou reinicialize um existente",
+							"```bash",
+							"git init",
+							"```"
+					],
+					"description": "Crie um repositório Git vazio ou reinicialize um existente"
+			},
+			"git                                                                ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-log",
+					"body": [
+							"Mostrar registros de commit",
+							"```bash",
+							"git log",
+							"```"
+					],
+					"description": "Mostrar registros de commit"
+			},
+			"git                                                               ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-maintenance",
+				"body": [
+						"Execute tarefas para otimizar os dados do repositório Git",
+						"```bash",
+						"git maintenance run",
+						"```"
+				],
+				"description": "Execute tarefas para otimizar os dados do repositório Git"
+		},
+	
+			"git                                                              ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-merge",
+				"body": [
+					"git merge <branch>"
+				],
+				"description": "Junte duas ou mais histórias de desenvolvimento"
+			},
+			"git                                                             ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-mv",
+				"body": [
+					"git mv <source> <destination>"
+				],
+				"description": "Mover ou renomear um arquivo, diretório ou link simbólico"
+			},
+			"git                                                            ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-notes",
+				"body": [
+					"git notes add -m \"<message>\""
+				],
+				"description": "Adicionar ou inspecionar notas de objeto"
+			},
+			"git                                                           ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-pull",
+				"body": [
+					"git pull <remote> <branch>"
+				],
+				"description": "Buscar e integrar com outro repositório ou filial local"
+			},
+			"git                                                          ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-push",
+				"body": [
+					"git push <remote> <branch>"
+				],
+				"description": "Atualizar referências remotas junto com objetos associados"
+			},
+			"git                                                         ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-range-diff",
+				"body": [
+					"git range-diff <base-branch> <compare-branch>"
+				],
+				"description": "Compare dois intervalos de commit (por exemplo, duas versões de um branch)"
+			},
+			"git                                                        ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-rebase",
+				"body": [
+					"git rebase <branch>"
+				],
+				"description": "Reaplicar commits em cima de outra dica base"
+			},
+			"git                                                     ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-reset",
+				"body": [
+					"git reset <commit>"
+				],
+				"description": "Redefinir o HEAD atual para o estado especificado"
+			},
+			"git                                                       ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-restore",
+				"body": [
+					"git restore <file>"
+				],
+				"description": "Restaurar arquivos da árvore de trabalho"
+			},
+			"git                                                      ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-revert",
+				"body": [
+					"git revert <commit>"
+				],
+				"description": "Reverter alguns commits existentes"
+			},
+			"git                                                    ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-rm",
+				"body": [
+					"git rm <file>"
+				],
+				"description": "Remova arquivos da árvore de trabalho e do índice"
+			},
+			"git                                                   ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-shortlog",
+				"body": [
+					"git shortlog"
+				],
+				"description": "Resuma a saída do git log"
+			},
+			"git                                                  ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-show",
+				"body": [
+					"git show <object>"
+				],
+				"description": "Mostrar vários tipos de objetos"
+			},
+			"git                                                 ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-sparse-checkout",
+				"body": [
+					"git sparse-checkout init --cone",
+					"git sparse-checkout set <directory>"
+				],
+				"description": "Reduza sua árvore de trabalho a um subconjunto de arquivos rastreados"
+			},
+			"git                                                ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-stash",
+				"body": [
+					"git stash save \"<message>\""
+				],
+				"description": "Armazene as alterações em um diretório de trabalho sujo"
+			},
+			"git                                               ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-status",
+				"body": [
+					"git status"
+				],
+				"description": "Mostrar o status da árvore de trabalho"
+			},
+			"git                                              ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-submodule",
+				"body": [
+					"git submodule update --init --recursive"
+				],
+				"description": "Inicialize, atualize ou inspecione submódulos"
+			},
+			"git                                            ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-switch",
+				"body": [
+					"git switch <branch>"
+				],
+				"description": "Mudar de ramo"
+			},
+			"git                                             ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-tag",
+				"body": [
+					"git tag -a <tag> -m \"<message>\""
+				],
+				"description": "Crie, liste, exclua ou verifique um objeto de tag assinado com GPG"
+			},
+			"git                                           ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 git-worktree",
+				"body": [
+					"git worktree add <path> <branch>"
+				],
+				"description": "Gerenciar múltiplas árvores de trabalho"
+			},
+			"git                                          ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 gitk",
+				"body": [
+					"gitk"
+				],
+				"description": "O navegador do repositório Git"
+			},
+			"git                                        ": {
+				"scope": "markdown, plaintext",
+				"prefix": "#2 scalar",
+				"body": [
+					"scalar register"
+				],
+				"description": "Uma ferramenta para gerenciar grandes repositórios Git"
+			},
+				"git                                         ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-config",
+					"body": [
+						"git config --global user.name \"<name>\"",
+						"git config --global user.email \"<email>\""
+					],
+					"description": "Obtenha e defina repositório ou opções globais"
+				},
+				"git                                     ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-fast-export",
+					"body": [
+						"git fast-export <revision>"
+					],
+					"description": "Exportador de dados Git"
+				},
+				"git                                       ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-fast-import",
+					"body": [
+						"git fast-import <data>"
+					],
+					"description": "Back-end para importadores rápidos de dados Git"
+				},
+				"git                                      ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-filter-branch",
+					"body": [
+						"git filter-branch --tree-filter '<command>' HEAD"
+					],
+					"description": "Reescrever ramificações"
+				},
+				"git                                    ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-mergetool",
+					"body": [
+						"git mergetool"
+					],
+					"description": "Execute ferramentas de resolução de conflitos de mesclagem para resolver conflitos de mesclagem"
+				},
+				"git                                   ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-pack-refs",
+					"body": [
+						"git pack-refs --all"
+					],
+					"description": "Pack heads e tags para acesso eficiente ao repositório"
+				},
+				"git                                  ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-prune",
+					"body": [
+						"git prune"
+					],
+					"description": "Remover todos os objetos inacessíveis do banco de dados de objetos"
+				},
+				"git                                 ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-reflog",
+					"body": [
+						"git reflog"
+					],
+					"description": "Gerenciar informações de reflog"
+				},
+				"git                                ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-remote",
+					"body": [
+						"git remote add <name> <url>"
+					],
+					"description": "Gerenciar conjunto de repositórios rastreados"
+				},
+				"git                               ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-repack",
+					"body": [
+						"git repack -a -d"
+					],
+					"description": "Empacotar objetos descompactados em um repositório"
+				},
+				"git                              ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-replace",
+					"body": [
+						"git replace <object> <replacement>"
+					],
+					"description": "Crie, liste e exclua referências para substituir objetos"
+				},
+				"git                             ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-annotate",
+					"body": [
+						"git annotate <file>"
+					],
+					"description": "Anote linhas de arquivo com informações de commit"
+				},
+				"git                            ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-blame",
+					"body": [
+						"git blame <file>"
+					],
+					"description": "Mostrar qual revisão e autor modificou pela última vez cada linha de um arquivo"
+				},
+				"git                           ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-bugreport",
+					"body": [
+						"git bugreport"
+					],
+					"description": "Coletar informações para o usuário registrar um relatório de bug"
+				},
+				"git                          ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-count-objects",
+					"body": [
+						"git count-objects -v"
+					],
+					"description": "Conte o número de objetos descompactados e seu consumo de disco"
+				},
+				"git                         ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-diagnose",
+					"body": [
+						"git diagnose"
+					],
+					"description": "Gere um arquivo zip de informações de diagnóstico"
+				},
+				"git                        ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-difftool",
+					"body": [
+						"git difftool <commit>"
+					],
+					"description": "Mostrar alterações usando ferramentas de comparação comuns"
+				},
+				"git                       ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-fsck",
+					"body": [
+						"git fsck"
+					],
+					"description": "Verifica a conectividade e validade dos objetos no banco de dados"
+				},
+				"git                      ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-help",
+					"body": [
+						"git help <command>"
+					],
+					"description": "Exibir informações de ajuda sobre o Git"
+				},
+				"git                     ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-instaweb",
+					"body": [
+						"git instaweb"
+					],
+					"description": "Navegue instantaneamente em seu repositório de trabalho no gitweb"
+				},
+				"git                    ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-merge-tree",
+					"body": [
+						"git merge-tree <base> <branch1> <branch2>"
+					],
+					"description": "Execute a mesclagem sem tocar no índice ou na árvore de trabalho"
+				},
+				"git                   ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-rerere",
+					"body": [
+						"git rerere"
+					],
+					"description": "Reutilizar resolução gravada de mesclagens conflitantes"
+				},
+				"git                  ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-show-branch",
+					"body": [
+						"git show-branch"
+					],
+					"description": "Mostrar filiais e seus commits"
+				},
+				"git                 ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-verify-commit",
+					"body": [
+						"git verify-commit <commit>"
+					],
+					"description": "Verifique a assinatura GPG dos commits"
+				},
+				"git                ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-verify-tag",
+					"body": [
+						"git verify-tag <tag>"
+					],
+					"description": "Verifique a assinatura GPG das tags"
+				},
+				"git               ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-version",
+					"body": [
+						"git version"
+					],
+					"description": "Exibir informações de versão sobre o Git"
+				},
+				"git              ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-whatchanged",
+					"body": [
+						"git whatchanged"
+					],
+					"description": "Mostrar logs com a diferença que cada commit apresenta"
+				},
+				"git             ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 gitweb",
+					"body": [
+						"gitweb"
+					],
+					"description": "Interface web Git (frontend web para repositórios Git)"
+				},
+				"git            ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-archimport",
+					"body": [
+						"git archimport <arch-repository>"
+					],
+					"description": "Importe um repositório GNU Arch para o Git"
+				},
+				"git          ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-cvsexportcommit",
+					"body": [
+						"git cvsexportcommit -c <CVS-branch> -r <commit>"
+					],
+					"description": "Exporte um único commit para um checkout CVS"
+				},
+				"git           ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-cvsimport",
+					"body": [
+						"git cvsimport -C <git-repo> -r cvs <cvs-repo>"
+					],
+					"description": "Salve seus dados de outro SCM que as pessoas adoram odiar"
+				},
+				"git         ": {
+					"scope": "markdown, plaintext",
+					"prefix": "#2 git-cvsserver",
+					"body": [
+						"git cvsserver"
+					],
+					"description": "Um emulador de servidor CVS para Git"
+				},
+					"git        ": {
+						"scope": "markdown, plaintext",
+						"prefix": "#2 git-imap-send",
+						"body": [
+							"git imap-send"
+						],
+						"description": "Envie uma coleção de patches do stdin para uma pasta IMAP"
+					},
+					"git       ": {
+						"scope": "markdown, plaintext",
+						"prefix": "#2 git-p4",
+						"body": [
+							"git p4 clone //depot/path/project //local/path/project"
+						],
+						"description": "Importar e enviar para repositórios Perforce"
+					},
+					"git      ": {
+						"scope": "markdown, plaintext",
+						"prefix": "#2 git-quiltimport",
+						"body": [
+							"git quiltimport <quilt-patchset>"
+						],
+						"description": "Aplica um patchset de quilt no branch atual"
+					},
+					"git     ": {
+						"scope": "markdown, plaintext",
+						"prefix": "#2 git-request-pull",
+						"body": [
+							"git request-pull <start> <url> <end>"
+						],
+						"description": "Gera um resumo das alterações pendentes"
+					},
+					"git   ": {
+						"scope": "markdown, plaintext",
+						"prefix": "#2 git-send-email",
+						"body": [
+							"git send-email --to=<email> <patch>"
+						],
+						"description": "Envie uma coleção de patches como e-mails"
+					},
+					"git    ": {
+						"scope": "markdown, plaintext",
+						"prefix": "#2 git-svn",
+						"body": [
+							"git svn clone <svn-repo-url>"
+						],
+						"description": "Operação bidirecional entre um repositório Subversion e Git"
+					},
+					"git  ": {
+						"scope": "markdown, plaintext",
+						"prefix": "#2 git-revert",
+						"body": [
+							"git revert <commit>"
+						],
+						"description": "Trata de fazer um novo commit que reverte as alterações feitas por outros commits."
+					},
+					"git ": {
+						"scope": "markdown, plaintext",
+						"prefix": "#2 git-restore",
+						"body": [
+							"git restore <file>"
+						],
+						"description": "Trata de restaurar arquivos na árvore de trabalho a partir do índice ou de outro commit. Este comando não atualiza seu branch. O comando também pode ser usado para restaurar arquivos no índice de outro commit."
+					},
+					"git": {
+						"scope": "markdown, plaintext",
+						"prefix": "#2 git-reset",
+						"body": [
+							"git reset <commit>"
+						],
+						"description": "Trata de atualizar seu branch, movendo a dica para adicionar ou remover commits do branch. Esta operação altera o histórico de commits. git reset também pode ser usado para restaurar o índice, sobrepondo-se ao git restore."
+					},
+				
+	/********************************* Eletron codigo ********************************************************/
 		"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ": {
 			"scope": "javascript",
 			"prefix": "_codigo eletron 1.1",
@@ -10712,9 +12106,7 @@
 						],
 		"description": ""
 		},*/
-	/***************************************************************************************************/
-	//																Eletron Library
-	/***************************************************************************************************/
+	/********************************* Eletron Library *******************************************************/
 		"                                    ": {
 			"scope": "javascript",
 			"prefix": "#0",
@@ -10771,137 +12163,145 @@
 						],
 			"description": ""
 		},*/
-	/*****************************************************************************************/
-	//																Sequelize codigo
-	/*****************************************************************************************/
-		"                                      ": {
+	/********************************* Sequelize codigo ******************************************************/
+		"0                                                            ": {
+		"scope": "javascript",
+		"prefix": "_Sequelize 1.0",
+								 "body": [
+									"1 Codigo de conexao com o banco de dados\r\n2 Codigo de conexao com o banco de dados configurando logging\r\n3 Definir uma tabela\r\n4 Definir mais de uma tabela\r\n5 Outra forma de declarar um model extendendo de Model, e tambem o erro que ocorre se ocultarmos modelName\r\n6 Outras opções para o sequelize define, interropendo pluralização\r\n7 Extends model com opções, nesse caso interropendo pluralização\r\n8 Definindo o nome da tabela para anular o 'User'\r\n9 Usando sync função para sincronizar\r\n10 Campo com defaultValue\r\n11 Usando build e save\r\n12 Usando User.Create\r\n13 Atualizando um campo e depois usando save\r\n14 Usando update e save\r\n15 Usando Destroy\r\n16 Usando reload"
+								],
+		"description": ""
+		},
+	
+		"1                                      ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 1.1",
+			"prefix": "_Sequelize 1.1",
 			"body": [
 				"const { Sequelize } = require('sequelize');\r\n\r\n// Option 3: Passing parameters separately (other dialects)\r\nconst sequelize = new Sequelize('firstdatabase', 'root', '1234', {\r\n  host: 'localhost',\r\n  dialect: 'mysql',\r\n  port: 3000,\r\n});\r\n\r\n(async () => {\r\n  try {\r\n    await sequelize.authenticate();\r\n    console.log('Connection has been established successfully.');\r\n  } catch (error) {\r\n    console.error('error:', error);\r\n  }\r\n})();"
 			],
 			"description": "Codigo de conexao com o banco de dados"
 		},
-		"                                       ": {
+		"2                                       ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 1.2",
+			"prefix": "_Sequelize 1.2",
 			"body": [
 				"const { Sequelize } = require('sequelize');\r\n\r\n// Option 3: Passing parameters separately (other dialects)\r\nconst sequelize = new Sequelize('firstdatabase', 'root', '1234', {\r\n  host: 'localhost',\r\n  dialect: 'mysql',\r\n  port: 3000,\r\n  logging: false\r\n});\r\n\r\n(async () => {\r\n  try {\r\n    await sequelize.authenticate();\r\n    console.log('Connection has been established successfully.');\r\n  } catch (error) {\r\n    console.error('error:', error);\r\n  }\r\n})();"
 			],
 			"description": "Codigo de conexao com o banco de dados configurando logging"
 		},
-		"                                        ": {
+		"3                                        ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 1.3",
+			"prefix": "_Sequelize 1.3",
 			"body": [
 				"const { Sequelize, DataTypes } = require('sequelize');\r\nconst sequelize = new Sequelize('nome_do_banco', 'nome_do_usuario', 'senha_do_usuario', {\r\n  host: 'localhost',\r\n  dialect: 'mysql',\r\n});\r\n\r\nconst User = sequelize.define(\r\n  'User',\r\n  {\r\n    // Model attributes are defined here\r\n    firstName: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n    lastName: {\r\n      type: DataTypes.STRING,\r\n      // allowNull defaults to true\r\n    },\r\n  },\r\n  {\r\n    // Other model options go here\r\n  },\r\n);\r\n\r\n// `sequelize.define` also returns the model\r\nconsole.log(User === sequelize.models.User); // true\r\n\r\n\r\n(async () => {\r\n  try {\r\n    await sequelize.sync({ force: true }); // Sincroniza o modelo com o banco de dados\r\n    console.log('Modelo sincronizado com o banco de dados.');\r\n  } catch (error) {\r\n    console.error('Erro ao sincronizar modelo:', error);\r\n  } finally {\r\n    await sequelize.close(); // Fecha a conexão com o banco de dados\r\n  }\r\n})();"
 			],
 			"description": "Definir uma tabela"
 		},
-		"                                         ": {
+		"4                                        ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 1.4",
+			"prefix": "_Sequelize 1.4",
 			"body": [
 				"const { Sequelize, DataTypes } = require('sequelize');\r\nconst sequelize = new Sequelize('nome_do_banco', 'nome_do_usuario', 'senha_do_usuario', {\r\n  host: 'localhost',\r\n  dialect: 'mysql',\r\n});\r\n\r\nconst User = sequelize.define(\r\n  'User',\r\n  {\r\n    // Atributos do modelo User são definidos aqui\r\n    firstName: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n    lastName: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n  },\r\n  {\r\n    // Outras opções do modelo User vão aqui\r\n  },\r\n);\r\n\r\nconst Address = sequelize.define(\r\n  'Address',\r\n  {\r\n    // Atributos do modelo Address são definidos aqui\r\n    street: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n    city: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n    state: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n    zipCode: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n  },\r\n  {\r\n    // Outras opções do modelo Address vão aqui\r\n  },\r\n);\r\n\r\n// `sequelize.define` também retorna os modelos\r\nconsole.log(User === sequelize.models.User); // true\r\nconsole.log(Address === sequelize.models.Address); // true\r\n\r\n(async () => {\r\n  try {\r\n    await sequelize.sync({ force: true }); // Sincroniza os modelos com o banco de dados\r\n    console.log('Modelos sincronizados com o banco de dados.');\r\n  } catch (error) {\r\n    console.error('Erro ao sincronizar modelos:', error);\r\n  } finally {\r\n    await sequelize.close(); // Fecha a conexão com o banco de dados\r\n  }\r\n})();"
 			],
 			"description": "Definir mais de uma tabela"
 		},
-		"                                           ": {
+		"5                                           ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 1.5",
+			"prefix": "_Sequelize 1.5",
 			"body": [
 				"const { Sequelize, DataTypes, Model } = require('sequelize');\r\nconst sequelize = new Sequelize('sqlite::memory:');\r\n\r\nclass User extends Model {}\r\n\r\nUser.init(\r\n  {\r\n    // Model attributes are defined here\r\n    firstName: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n    lastName: {\r\n      type: DataTypes.STRING,\r\n      // allowNull defaults to true\r\n    },\r\n  },\r\n  {\r\n    // Other model options go here\r\n    sequelize, // We need to pass the connection instance\r\n    // modelName: 'User', // If we hide modelName, Sequelize will generate a default name\r\n  },\r\n);\r\n\r\n// the defined model is the class itself\r\nconsole.log(User === sequelize.models.User); // false"
 			],
 			"description": "Outra forma de declarar um model extendendo de Model, e tambem o erro que ocorre se ocultarmos modelName"
 		},
-		"                                                  ": {
+		"6                                                  ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 1.6",
+			"prefix": "_Sequelize 1.6",
 			"body": [
 				"const { Sequelize, DataTypes } = require('sequelize');\r\nconst sequelize = new Sequelize('nome_do_banco', 'nome_do_usuario', 'senha_do_usuario', {\r\n  host: 'localhost',\r\n  dialect: 'mysql',\r\n});\r\n\r\nconst User = sequelize.define(\r\n  'User',\r\n  {\r\n    // Atributos do modelo User são definidos aqui\r\n    firstName: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n    lastName: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n  },\r\n  {\r\n    // Outras opções do modelo User vão aqui\r\n    freezeTableName: true, // Impede que o Sequelize altere o nome da tabela\r\n  },\r\n);\r\n\r\n(async () => {\r\n  try {\r\n    await sequelize.sync({ force: true }); // Sincroniza o modelo com o banco de dados\r\n    console.log('Modelo sincronizado com o banco de dados.');\r\n  } catch (error) {\r\n    console.error('Erro ao sincronizar modelo:', error);\r\n  } finally {\r\n    await sequelize.close(); // Fecha a conexão com o banco de dados\r\n  }\r\n})();"
 			],
 			"description": "Outras opções para o sequelize define, interropendo pluralização"
 		},
-		"                                            ": {
+		"7                                            ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 1.7",
+			"prefix": "_Sequelize 1.7",
 			"body": [
 				"const { Sequelize, DataTypes, Model } = require('sequelize');\r\nconst sequelize = new Sequelize('nome_do_banco', 'nome_do_usuario', 'senha_do_usuario', {\r\n  host: 'localhost',\r\n  dialect: 'mysql',\r\n});\r\n\r\nclass User extends Model {}\r\n\r\nUser.init(\r\n  {\r\n    // Atributos do modelo User são definidos aqui\r\n    firstName: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n    lastName: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n  },\r\n  {\r\n    // Outras opções do modelo User vão aqui\r\n    sequelize, // Passamos a instância de conexão\r\n    modelName: 'User', // Nome do modelo\r\n    freezeTableName: true, // Impede que o Sequelize altere o nome da tabela\r\n  },\r\n);\r\n\r\n(async () => {\r\n  try {\r\n    await sequelize.sync({ force: true }); // Sincroniza o modelo com o banco de dados\r\n    console.log('Modelo sincronizado com o banco de dados.');\r\n  } catch (error) {\r\n    console.error('Erro ao sincronizar modelo:', error);\r\n  } finally {\r\n    await sequelize.close(); // Fecha a conexão com o banco de dados\r\n  }\r\n})();"
 			],
 			"description": "Extends model com opções, nesse caso interropendo pluralização"
 		},
-		"                                                   ": {
+		"8                                                   ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 1.8",
+			"prefix": "_Sequelize 1.8",
 			"body": [
 				"const User = sequelize.define(\r\n  'User',\r\n  {\r\n    // ... (atributos)\r\n  },\r\n  {\r\n    tableName: 'Employees',\r\n  },\r\n);"
 			],
 			"description": "Definindo o nome da tabela para anular o 'User'"
 		},
-		"                                                    ": {
+		"9                                                    ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 1.9",
+			"prefix": "_Sequelize 1.9",
 			"body": [
 				"const { Sequelize, DataTypes } = require('sequelize');\r\nconst sequelize = new Sequelize('nome_do_banco', 'nome_do_usuario', 'senha_do_usuario', {\r\n  host: 'localhost',\r\n  dialect: 'mysql',\r\n});\r\n\r\nconst User = sequelize.define(\r\n  'User',\r\n  {\r\n    firstName: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n    lastName: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n  },\r\n  {\r\n    tableName: 'Employees', // Nome da tabela no banco de dados será 'Employees'\r\n  },\r\n);\r\n\r\n(async () => {\r\n  try {\r\n    await sequelize.sync({ force: true }); // Sincroniza o modelo com o banco de dados\r\n    console.log('All models were synchronized successfully.');\r\n  } catch (error) {\r\n    console.error('Error synchronizing models:', error);\r\n  } finally {\r\n    await sequelize.close(); // Fecha a conexão com o banco de dados\r\n  }\r\n})();"
 			],
 			"description": "Usando sync função para sincronizar"
 		},
-		"                                                     ": {
+		"10                                                     ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 2.1",
+			"prefix": "_Sequelize 2.1",
 			"body": [
 				"sequelize.define('User', {\r\n  name: {\r\n    type: DataTypes.STRING,\r\n    defaultValue: 'John Doe',\r\n  },\r\n});"
 			],
 			"description": "Campo com defaultValue"
 		},
-		"                                                      ": {
+		"11                                                      ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 2.2",
+			"prefix": "_Sequelize 2.2",
 			"body": [
 				"const { Sequelize, DataTypes } = require('sequelize');\r\nconst sequelize = new Sequelize('nome_do_banco', 'nome_do_usuario', 'senha_do_usuario', {\r\n  host: 'localhost',\r\n  dialect: 'mysql',\r\n});\r\n\r\nconst User = sequelize.define(\r\n  'User',\r\n  {\r\n    name: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n  },\r\n  {\r\n    tableName: 'Employees', // Nome da tabela no banco de dados será 'Employees'\r\n  },\r\n);\r\n\r\n(async () => {\r\n  try {\r\n    await sequelize.sync({ force: true }); // Sincroniza o modelo com o banco de dados\r\n\r\n    // Cria uma instância de User usando User.build\r\n    const jane = User.build({ name: 'Jane' });\r\n    console.log(jane instanceof User); // true\r\n    console.log(jane.name); // \"Jane\"\r\n\r\n    // Salva jane no banco de dados\r\n    await jane.save();\r\n    console.log('Jane was saved to the database!');\r\n  } catch (error) {\r\n    console.error('Error synchronizing models:', error);\r\n  } finally {\r\n    await sequelize.close(); // Fecha a conexão com o banco de dados\r\n  }\r\n})();"
 			],
 			"description": "Usando build e save"
 		},
-		"                                                           ": {
+		"12                                                           ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 2.3",
+			"prefix": "_Sequelize 2.3",
 			"body": [
 				"const { Sequelize, DataTypes } = require('sequelize');\r\nconst sequelize = new Sequelize('nome_do_banco', 'nome_do_usuario', 'senha_do_usuario', {\r\n  host: 'localhost',\r\n  dialect: 'mysql',\r\n});\r\n\r\nconst User = sequelize.define(\r\n  'User',\r\n  {\r\n    name: {\r\n      type: DataTypes.STRING,\r\n      allowNull: false,\r\n    },\r\n  },\r\n  {\r\n    tableName: 'Employees', // Nome da tabela no banco de dados será 'Employees'\r\n  },\r\n);\r\n\r\n(async () => {\r\n  try {\r\n    await sequelize.sync({ force: true }); // Sincroniza o modelo com o banco de dados\r\n\r\n    // Cria e salva uma instância de User usando User.create\r\n    const jane = await User.create({ name: 'Jane' });\r\n    console.log(jane instanceof User); // true\r\n    console.log(jane.name); // \"Jane\"\r\n\r\n    console.log('Jane exists in the database now!');\r\n  } catch (error) {\r\n    console.error('Error synchronizing models:', error);\r\n  } finally {\r\n    await sequelize.close(); // Fecha a conexão com o banco de dados\r\n  }\r\n})();"
 			],
 			"description": "Usando User.Create"
 		},
-		"                                                            ": {
+		"13                                                            ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 2.4",
+			"prefix": "_Sequelize 2.4",
 			"body": [
 				"const jane = await User.create({ name: 'Jane' });\r\nconsole.log(jane.name); // \"Jane\"\r\njane.name = 'Ada';\r\n// the name is still \"Jane\" in the database\r\nawait jane.save();\r\n// Now the name was updated to \"Ada\" in the database!"
 			],
 			"description": "Atualizando um campo e depois usando save"
 		},
-		"                                                             ": {
+		"14                                                             ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 2.5",
+			"prefix": "_Sequelize 2.5",
 			"body": [
 				"const jane = await User.create({ name: 'Jane' });\r\njane.favoriteColor = 'blue';\r\nawait jane.update({ name: 'Ada' });\r\n// The database now has \\\"Ada\\\" for name, but still has the default \\\"green\\\" for favorite color\r\nawait jane.save();\r\n// Now the database has \\\"Ada\\\" for name and \\\"blue\\\" for favorite color"
 			],
 			"description": "Usando update e save"
 		},
-		"                                                              ": {
+		"15                                                              ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 2.6",
+			"prefix": "_Sequelize 2.6",
 			"body": [
 				"const jane = await User.create({ name: 'Jane' });\r\nconsole.log(jane.name); // \"Jane\"\r\nawait jane.destroy();\r\n// Now this entry was removed from the database"
 			],
 			"description": "Usando Destroy"
 		},
-		"                                                                       ": {
+		"16                                                                       ": {
 			"scope": "javascript",
-			"prefix": "_sequelize 2.7",
+			"prefix": "_Sequelize 2.7",
 			"body": [
 				"const jane = await User.create({ name: 'Jane' });\r\nconsole.log(jane.name); // \"Jane\"\r\njane.name = 'Ada';\r\n// the name is still \"Jane\" in the database\r\nawait jane.reload();\r\nconsole.log(jane.name); // \"Jane\""
 			],
 			"description": "Usando reload"
 		},
+	
 		/*"                                                            ": {
 		"scope": "javascript",
 		"prefix": "#4 sequelize",
@@ -10944,11 +12344,6 @@
 								],
 		"description": ""
 		},*/
-		/*"                                                            ": {
-		"scope": "javascript",
-		"prefix": "#4 sequelize",
-								 "body": [
-								],
-		"description": ""
-		},*/
+	
+	
 	}
