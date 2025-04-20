@@ -1,0 +1,10 @@
+.mascara {
+  width: 300px;
+  height: 300px;
+  background-image: url('fundo.jpg'); /* Coloque uma imagem de fundo */
+  
+  mask-image: url('mascara.png'); /* Use uma máscara PNG */
+  mask-position: center; /* Centraliza a máscara */
+  mask-repeat: no-repeat;
+  mask-size: contain; /* Ajusta a máscara ao elemento */
+}
