@@ -1,13 +1,10 @@
-class Teste{
-  constructor(){
-    this.func = function(){
-      console.log("Teste func");
-    }
-
-    this.a = arguments[0];
-  }
+var obj = {
+  name: "jairo",
+  age: 23,
+  city: "santo domingo",
+  country: "rd",
 }
 
-var obj = new Teste("vrum");
-obj.func(); // Teste func
-console.log(obj.a) // undefined
+for(var i in obj){
+  console.log(obj[i]);
+}
