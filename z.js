@@ -1,10 +1,3 @@
-var obj = {
-  name: "jairo",
-  age: 23,
-  city: "santo domingo",
-  country: "rd",
-}
+const matriz = [[2,200], [3233,222]];
 
-for(var i in obj){
-  console.log(obj[i]);
-}
+console.log(matriz[0][0]);
